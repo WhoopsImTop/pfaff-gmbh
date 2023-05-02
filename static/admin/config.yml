@@ -1,0 +1,154 @@
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: true
+
+locale: de
+
+i18n:
+  # Required and can be one of multiple_folders, multiple_files or single_file
+  # multiple_folders - persists files in `<folder>/<locale>/<slug>.<extension>`
+  # multiple_files - persists files in `<folder>/<slug>.<locale>.<extension>`
+  # single_file - persists a single file in `<folder>/<slug>.<extension>`
+  structure: multiple_folders
+
+  # Required - a list of locales to show in the editor UI
+  locales: [de, en]
+
+  # Optional, defaults to the first item in locales.
+  # The locale to be used for fields validation and as a baseline for the entry.
+  default_locale: de
+
+  # Optional, defaults to true
+  # When true, new entries will be created with all locales pre-filled with the value of the default locale.
+  # When false, new entries will be created with no values.
+  default_missing_locale_values: true
+
+
+collections:
+  - name: "wichtig"
+    label: "Datenschutz & CO."
+    format: "frontmatter"
+    extension: 'md'
+    folder: "content/wichtig"
+    create: true
+    sortable_fields: ["title"]
+    i18n: true
+    editor:
+      preview: false
+    fields:
+      - { label: "Seitentitel", name: "siteTitle", widget: "string", i18n: true }
+      - label: "Landing Slider"
+        name: "landingSlider"
+        widget: "list"
+        i18n: true
+        fields:
+          - {label: Titel, name: landingTitle, widget: string }
+          - label: Bild/er
+            name: landingImage
+            widget: image
+            required: false
+            i18n: true
+          - label: "Verknüpfte Produkte"
+            name: "landingProducts"
+            widget: "relation"
+            collection: "produkte"
+            multiple: true
+            value_field: [ "title", "slug", "image", "category" ]
+            search_fields: ["title"]
+            display_fields: ["title"]
+            i18n: true
+
+      - label: "Seiteninhalt"
+        name: "contentblock"
+        widget: "list"
+        i18n: true
+        fields:
+          - {label: "Überschrift", name: "contentTitle", widget: "string", required: false, i18n: true }
+          - {label: "Textinhalt", name: "contentText", widget: "markdown", required: false, i18n: true }
+          
+          - label: "Blöcke"
+            name: "blocks"
+            widget: "list"
+            i18n: true
+            fields:
+              - {label: "Kategorie", name: "blockCategory", widget: "string", required: false, i18n: true }
+              - {label: "Überschrift", name: "blockTitle", widget: "string", required: false, i18n: true }
+              - label: "Bild/er"
+                name: "blockImage"
+                widget: "image"
+                required: false
+                i18n: true
+              - label: "Link"
+                name: "blockLink"
+                widget: "relation"
+                required: false
+                i18n: true 
+                collection: "seiten"
+                value_field: [ "title", "slug" ]
+                search_fields: ["title"]
+                display_fields: ["title"]
+
+          - label: "Product Vorschau"
+            name: "productPreview"
+            widget: "object"
+            i18n: true
+            fields:
+              - label: "Produkt"
+                name: "product"
+                widget: "relation"
+                required: false
+                i18n: true 
+                collection: "produkte"
+                value_field: [ "title", "slug", "image", "category" ]
+                search_fields: ["title"]
+                display_fields: ["title"]
+              - label: "Bild/er"
+                name: "productImage"
+                widget: "image"
+                required: false
+                i18n: true
+              - label: "Titel"
+                name: "productTitle"
+                widget: "string"
+                required: false
+                i18n: true
+              - label: "Beschreibung"
+                name: "productDescription"
+                widget: "markdown"
+                required: false
+                i18n: true
+              - label: "Zitat"
+                name: "productQuote"
+                widget: "string"
+                required: false
+                i18n: true
+
+          - label: "Karten"
+            name: "cards"
+            widget: "list"
+            i18n: true
+            fields:
+              - {label: "Überschrift", name: "cardTitle", widget: "string", required: false, i18n: true }
+              - {label: "Textinhalt", name: "cardText", widget: "markdown", required: false, i18n: true }
+              - label: "Bild/er"
+                name: "cardImage"
+                widget: "image"
+                required: false
+                i18n: true
+              - label: "Link"
+                name: "cardLink"
+                widget: "relation"
+                required: false
+                i18n: true 
+                collection: "seiten"
+                value_field: [ "title", "slug" ]
+                search_fields: ["title"]
+                display_fields: ["title"]
+
+          - label: "Aktuelle News"
+            name: "news"
+            widget: "boolean"
+            i18n: true
+            default: false

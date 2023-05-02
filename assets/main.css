@@ -1,0 +1,56 @@
+:root {
+  --content-max-width: 1440px;
+  --content-padding: 0 20px;
+  --primary-color: #08509D;
+}
+
+.desktop-logo {
+    display: block;
+}
+
+.mobile-logo {
+    display: none;
+}
+
+.content-container {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding: var(--content-padding);
+  width: 100%;
+}
+
+.navigation-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #D43E35;
+    z-index: 100;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 90px;
+}
+
+.navigation-bar svg {
+    height: 45px;
+    width: auto;
+}
+
+.link-container {
+  display: flex;
+  align-items: flex-end;
+}
+
+.link-container a {
+  margin-left: 20px;
+  font-size: 18px;
+  line-height: normal;
+  font-weight: 500;
+  color: #08509D;
+  text-decoration: none;
+}
+
+.burger {
+  display: none;
+}
