@@ -1,0 +1,7 @@
+---
+siteTitle: Qualität
+menuOrder: 3
+hideInMenu: false
+contentblock:
+  - news: false
+---

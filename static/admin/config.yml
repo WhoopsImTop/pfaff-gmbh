@@ -26,25 +26,40 @@ i18n:
   default_missing_locale_values: true
 
 
+media_folder: static/
+public_folder: /
+
 collections:
-  - name: "wichtig"
-    label: "Datenschutz & CO."
+  - name: "seiten"
+    label: "Seiten"
     format: "frontmatter"
     extension: 'md'
-    folder: "content/wichtig"
+    folder: "content/seiten"
     create: true
     sortable_fields: ["title"]
+    slug: "{{fields.siteTitle}}"
     i18n: true
     editor:
       preview: false
     fields:
       - { label: "Seitentitel", name: "siteTitle", widget: "string", i18n: true }
+      - { label: "Menüreihenfolge", name: "menuOrder", widget: "number", i18n: true }
+      - { label: "im Menü verstecken", name: "hideInMenu", widget: "boolean", default: false, required: false, i18n: true }
       - label: "Landing Slider"
         name: "landingSlider"
         widget: "list"
         i18n: true
         fields:
           - {label: Titel, name: landingTitle, widget: string }
+          - label: Titel Position
+            name: landingTitlePosition
+            widget: select
+            options:
+              - { label: "Links Oben", value: "top-left" }
+              - { label: "Rechts Oben", value: "top-right" }
+              - { label: "Mitte", value: "center" }
+              - { label: "Links Unten", value: "bottom-left" }
+              - { label: "Rechts Unten", value: "bottom-right" }
           - label: Bild/er
             name: landingImage
             widget: image
@@ -55,9 +70,10 @@ collections:
             widget: "relation"
             collection: "produkte"
             multiple: true
-            value_field: [ "title", "slug", "image", "category" ]
-            search_fields: ["title"]
-            display_fields: ["title"]
+            required: false
+            value_field: "{{slug}}"
+            search_fields: ["productTitle"]
+            display_fields: ["productTitle"]
             i18n: true
 
       - label: "Seiteninhalt"
@@ -72,6 +88,7 @@ collections:
             name: "blocks"
             widget: "list"
             i18n: true
+            required: false
             fields:
               - {label: "Kategorie", name: "blockCategory", widget: "string", required: false, i18n: true }
               - {label: "Überschrift", name: "blockTitle", widget: "string", required: false, i18n: true }
@@ -86,7 +103,7 @@ collections:
                 required: false
                 i18n: true 
                 collection: "seiten"
-                value_field: [ "title", "slug" ]
+                value_field: "title"
                 search_fields: ["title"]
                 display_fields: ["title"]
 
@@ -101,9 +118,9 @@ collections:
                 required: false
                 i18n: true 
                 collection: "produkte"
-                value_field: [ "title", "slug", "image", "category" ]
-                search_fields: ["title"]
-                display_fields: ["title"]
+                value_field: "{{slug}}"
+                search_fields: ["productTitle"]
+                display_fields: ["productTitle"]
               - label: "Bild/er"
                 name: "productImage"
                 widget: "image"
@@ -143,7 +160,7 @@ collections:
                 required: false
                 i18n: true 
                 collection: "seiten"
-                value_field: [ "title", "slug" ]
+                value_field: "title"
                 search_fields: ["title"]
                 display_fields: ["title"]
 
@@ -152,3 +169,106 @@ collections:
             widget: "boolean"
             i18n: true
             default: false
+
+  - name: "produkte"
+    label: "Produkte"
+    format: "frontmatter"
+    extension: 'md'
+    folder: "content/produkte"
+    create: true
+    sortable_fields: ["title"]
+    slug: "{{fields.productTitle}}"
+    i18n: true
+    editor:
+      preview: false
+    fields:
+      - { label: "Produktname", name: "productTitle", widget: "string", i18n: true }
+      - { label: "Produktbeschreibung", name: "productDescription", widget: "markdown", i18n: true }
+      - {label: "Produktbild", name: "productImage", widget: "image", required: false, i18n: true }
+      - label: "Produktkategorien"
+        name: "productCategories"
+        widget: "relation"
+        collection: "kategorien"
+        multiple: true
+        value_field: "productCategoryTitle"
+        search_fields: ["productCategoryTitle"]
+        display_fields: ["productCategoryTitle"]
+        required: false
+        i18n: true
+      - label: "Produktmerkmale"
+        name: "productFeatures"
+        widget: "list"
+        i18n: true
+        required: false
+        fields:
+          - {label: "Überschrift", name: "featureTitle", widget: "string", required: false, i18n: true }
+          - {label: "Textinhalt", name: "featureText", widget: "string", required: false, i18n: true }
+      - label: "Bildgallerie"
+        name: "productGallery"
+        widget: "list"
+        i18n: true
+        required: false
+        fields:
+          - label: "Bild/er"
+            name: "productGalleryImage"
+            widget: "image"
+            required: false
+            i18n: true
+          - {label: "Bildunterschrift", name: "productGalleryCaption", widget: "string", required: false, i18n: true }
+
+  - name: "kategorien"
+    label: "Produktkategorien"
+    format: "frontmatter"
+    extension: 'md'
+    folder: "content/kategorien"
+    create: true
+    slug: "{{fields.productCategoryTitle}}"
+    sortable_fields: ["productCategoryTitle"]
+    i18n: true
+    editor:
+      preview: false
+    fields:
+      - { label: "Kategoriename", name: "productCategoryTitle", widget: "string", i18n: true }
+      - { label: "Kategoriebeschreibung", name: "productCategoryDescription", widget: "markdown", i18n: true, required: false }
+
+  - name: "blog"
+    label: "Blog & News"
+    format: "frontmatter"
+    extension: 'md'
+    folder: "content/blog"
+    slug: "{{fields.title}}"
+    create: true
+    sortable_fields: ["title"]
+    i18n: true
+    editor:
+      preview: false
+    fields:
+      - { label: "Titel", name: "title", widget: "string", i18n: true }
+      - { label: "Beschreibung", name: "description", widget: "markdown", i18n: true }
+      - { label: "Datum", name: "date", widget: "datetime", format: "YYYY-MM-DD", i18n: true }
+      - { label: "Autor", name: "author", widget: "string", i18n: true }
+      - { label: "Bild", name: "image", widget: "image", required: false, i18n: true }
+      - { label: "Inhalt", name: "body", widget: "markdown", i18n: true }
+      - label: "Kategorien"
+        name: "categories"
+        widget: "relation"
+        collection: "blogkategorien"
+        multiple: true
+        value_field: "title"
+        search_fields: ["title"]
+        display_fields: ["title"]
+        i18n: true
+      
+  - name: "blogkategorien"
+    label: "Blogkategorien"
+    format: "frontmatter"
+    extension: 'md'
+    folder: "content/blogkategorien"
+    create: true
+    sortable_fields: ["categoryTitle"]
+    i18n: true
+    editor:
+      preview: false
+    fields:
+      - { label: "Kategoriename", name: "categoryTitle", widget: "string", i18n: true }
+      - { label: "Kategoriebeschreibung", name: "categoryDescription", widget: "markdown", i18n: true }

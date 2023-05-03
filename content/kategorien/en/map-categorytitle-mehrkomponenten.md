@@ -1,0 +1,3 @@
+---
+productCategoryTitle: multi-component
+---

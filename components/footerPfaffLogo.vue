@@ -1,0 +1,42 @@
+<template>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="64.407"
+    height="64.38"
+    viewBox="0 0 64.407 64.38"
+  >
+    <g id="Gruppe_35" data-name="Gruppe 35" transform="translate(-98.31)">
+      <path
+        id="Pfad_10"
+        data-name="Pfad 10"
+        d="M323.925,26.86V0H314.9V26.864a19.025,19.025,0,1,0,9.027,0Z"
+        transform="translate(-202.07)"
+        fill="#00509d"
+        fill-rule="evenodd"
+      />
+      <path
+        id="Pfad_11"
+        data-name="Pfad 11"
+        d="M366.045,37.367l-6.307-6.307L336.684,54.091a13.517,13.517,0,1,0,6.281,6.333l23.08-23.057Z"
+        transform="translate(-213.422 -20.895)"
+        fill="#b4b4b4"
+        fill-rule="evenodd"
+      />
+      <path
+        id="Pfad_12"
+        data-name="Pfad 12"
+        d="M387.407,117.568H348.682a8.011,8.011,0,1,0-.016,8.974H387.41v-8.977Z"
+        transform="translate(-224.693 -76.71)"
+        fill="#1d9dd9"
+        fill-rule="evenodd"
+      />
+    </g>
+  </svg>
+</template>
+
+<script>
+export default {}
+</script>
+
+<style>
+</style>

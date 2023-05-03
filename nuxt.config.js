@@ -7,7 +7,8 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Pfaff GmbH - Ihr Partner für die Entwicklung und Fertigung von Kunststoffteilen',
+    title:
+      'Pfaff GmbH - Ihr Partner für die Entwicklung und Fertigung von Kunststoffteilen',
     htmlAttrs: {
       lang: 'de',
     },
@@ -21,11 +22,7 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [
-    '~/assets/font',
-    '~/assets/main',
-    '~/assets/main_mobile'
-  ],
+  css: ['~/assets/font', '~/assets/main', '~/assets/main_mobile'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
@@ -39,6 +36,32 @@ export default {
     '@nuxtjs/eslint-module',
   ],
 
+  i18n: {
+    locales: ['de', 'en'],
+    defaultLocale: 'de',
+    strategy: 'prefix_except_default',
+    detectBrowserLanguage: false,
+    vueI18nLoader: true,
+    skipSettingLocaleOnNavigate: true,
+  },
+
+  'nuxt-compress': {
+    gzip: {
+      threshold: 8192,
+    },
+    brotli: {
+      threshold: 8192,
+    },
+  },
+
+  markdownit: {
+    runtime: true, // Support `$md()`
+    preset: 'default',
+    linkify: true,
+    breaks: true,
+    html: true,
+  },
+
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/bootstrap
@@ -47,6 +70,8 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    '@nuxtjs/markdownit',
+    '@nuxtjs/i18n',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -56,7 +81,9 @@ export default {
   },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
-  content: {},
+  content: {
+    path: 'content',
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
