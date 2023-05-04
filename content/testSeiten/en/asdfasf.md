@@ -1,4 +1,0 @@
----
-hideInMenu: false
-landingSlider: []
----

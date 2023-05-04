@@ -9,4 +9,5 @@ competenceDescription: In addition to standard materials such as **PE** or
 competenceButtonFile: /pfaff-gmbh_materialien_web.pdf
 competenceSideInfo:
   - image: /granulatberg-768x524-1.jpeg
+competenceImage: /granulatberg-768x524-1.jpeg
 ---

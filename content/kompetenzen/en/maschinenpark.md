@@ -16,4 +16,5 @@ competenceButtonText: PDF machinery
 competenceButtonFile: /pfaff-gmbh_maschinenpark_web.pdf
 competenceSideInfo:
   - image: /pfaff-gmbh_spritzguss-768x424-1.jpeg
+competenceImage: /pfaff-gmbh_spritzguss-768x424-1.jpeg
 ---

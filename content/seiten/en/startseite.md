@@ -2,14 +2,17 @@
 siteTitle: Landing
 menuOrder: 0
 hideInMenu: true
-landingSlider:
-  - landingTitle: Top quality <br> and ready to use.
-    landingImage: /preview-pfaff-miniatur-laster.png
-    landingProducts:
-      - implantatschraube
-    landingTitlePosition: top-left
-contentblock:
-  - news: false
+components:
+  - type: slider
+    slide:
+      - landingTitle: Top quality <br> and ready to use.
+        landingImage: /preview-pfaff-miniatur-laster.png
+        landingProducts:
+          - implantatschraube
+          - prismaschlitten
+        landingTitlePosition: top-left
+  - type: contentblock
+    contentTitle: High-tech plastic parts
     contentText: Pfaff GmbH, based in Waldkirch near Freiburg, was founded in 1992
       by Mr. Adolf Pfaff and is an owner-managed company. In 2018 the management
       was taken over by daughter Corinna Pfaff. Her husband Andreas Buff is the
@@ -18,9 +21,8 @@ contentblock:
       fast and direct communication channels as well as a high degree of
       flexibility. State-of-the-art design and manufacturing technology enables
       us to meet particularly high demands on materials, tools and machines.
-    contentTitle: High-tech plastic parts
-  - news: false
-    blocks:
+  - type: blocks
+    block:
       - blockCategory: examples
         blockTitle: Products & Sectors
         blockImage: /massageball-bepanthen_pfaff_teaser.jpeg
@@ -39,18 +41,17 @@ contentblock:
       - blockCategory: Ready To Use
         blockTitle: complete solutions
         blockImage: /pfaff_komplettloesung_teaser.jpeg
-  - news: false
-    productPreview:
-      productTitle: tradition and precision
-      productImage: /pfaff-miniatur-bruecke.png
-      productDescription: '"Since 1992 we have been developing in our family business
-        in the Black Forest exclusively with modern materials and innovative
-        technology and guarantee the highest quality."'
-      productQuote: Corinna Pfaff, CEO Pfaff GmbH
-      product: prismaschlitten
-  - news: false
-    contentTitle: Topics around Pfaff GmbH
-    cards:
+  - type: productPreview
+    productTitle: tradition and precision
+    productImage: /pfaff-miniatur-bruecke.png
+    productDescription: '"Since 1992 we have been developing in our family business
+      in the Black Forest exclusively with modern materials and innovative
+      technology and guarantee the highest quality."'
+    productQuote: Corinna Pfaff, CEO Pfaff GmbH
+    product: prismaschlitten
+  - type: cards
+    cardsTitle: Topics around Pfaff GmbH
+    card:
       - cardTitle: News
         cardText: Here you will find everything about die Pfaff GmbH.
       - cardTitle: Career
@@ -58,4 +59,6 @@ contentblock:
           unsolicited applications.
       - cardText: Get to know us and our history.
         cardTitle: History
+  - type: news
+    embedNews: false
 ---

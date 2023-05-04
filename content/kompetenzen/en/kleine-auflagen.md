@@ -12,4 +12,5 @@ competenceDescription: In addition to the series production of plastic parts for
   manufactured using the 3D process. This enables us to offer a real and
   cost-effective alternative to classic injection molding.
 competenceImage: /pfaff-gmbh_kunststoffeinsatz1-768x512-1.jpeg
+competenceImageDescription: plastic insert
 ---

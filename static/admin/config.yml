@@ -45,71 +45,118 @@ collections:
       - { label: "Seitentitel", name: "siteTitle", widget: "string", i18n: true }
       - { label: "Menüreihenfolge", name: "menuOrder", widget: "number", i18n: true }
       - { label: "im Menü verstecken", name: "hideInMenu", widget: "boolean", default: false, required: false, i18n: true }
-      - label: "Landing Slider"
-        name: "landingSlider"
+      - label: "Seiten Komponenten"
+        name: "components"
         widget: "list"
         i18n: true
-        fields:
-          - {label: Titel, name: landingTitle, widget: string }
-          - label: Titel Position
-            name: landingTitlePosition
-            widget: select
-            options:
-              - { label: "Links Oben", value: "top-left" }
-              - { label: "Rechts Oben", value: "top-right" }
-              - { label: "Mitte", value: "center" }
-              - { label: "Links Unten", value: "bottom-left" }
-              - { label: "Rechts Unten", value: "bottom-right" }
-          - label: Bild/er
-            name: landingImage
-            widget: image
-            required: false
-            i18n: true
-          - label: "Verknüpfte Produkte"
-            name: "landingProducts"
-            widget: "relation"
-            collection: "produkte"
-            multiple: true
-            required: false
-            value_field: "{{slug}}"
-            search_fields: ["productTitle"]
-            display_fields: ["productTitle"]
-            i18n: true
+        types:
+          - label: "Slider mit Produkten"
+            name: "slider"
+            widget: "object"
+            summary: "{{fields.landingTitle}}"
+            fields:
+              - label: "Slide"
+                name: "slide"
+                widget: "list"
+                summary: "{{fields.landingTitle}}"
+                i18n: true
+                fields:
+                  - {label: Titel, name: landingTitle, widget: string }
+                  - label: Titel Position
+                    name: landingTitlePosition
+                    widget: select
+                    options:
+                      - { label: "Links Oben", value: "top-left" }
+                      - { label: "Rechts Oben", value: "top-right" }
+                      - { label: "Mitte", value: "center" }
+                      - { label: "Links Unten", value: "bottom-left" }
+                      - { label: "Rechts Unten", value: "bottom-right" }
+                  - label: Bild/er
+                    name: landingImage
+                    widget: image
+                    required: false
+                    i18n: true
+                  - label: "Verknüpfte Produkte"
+                    name: "landingProducts"
+                    widget: "relation"
+                    collection: "produkte"
+                    multiple: true
+                    required: false
+                    i18n: duplicate 
+                    value_field: "{{slug}}"
+                    search_fields: ["productTitle"]
+                    display_fields: ["productTitle"]
+                  - label: "Produkt Marker Position"
+                    name: landingProductMarkerPosition
+                    widget: list
+                    required: false
+                    i18n: true
+                    fields:
+                      - { label: "Unten", name: "bottom", widget: "number", required: false, i18n: true }
+                      - { label: "links", name: "left", widget: "number", required: false, i18n: true }
 
-      - label: "Seiteninhalt"
-        name: "contentblock"
-        widget: "list"
-        i18n: true
-        fields:
-          - {label: "Überschrift", name: "contentTitle", widget: "string", required: false, i18n: true }
-          - {label: "Textinhalt", name: "contentText", widget: "markdown", required: false, i18n: true }
+          - label: "Textblock"
+            name: "contentblock"
+            widget: "list"
+            i18n: true
+            summary: "{{fields.contentTitle}}"
+            fields:
+              - {label: "Überschrift", name: "contentTitle", widget: "string", required: false, i18n: true }
+              - {label: "Textinhalt", name: "contentText", widget: "markdown", required: false, i18n: true }
           
           - label: "Blöcke"
             name: "blocks"
-            widget: "list"
+            widget: "object"
+            summary: "{{fields.blockCategory}}"
             i18n: true
             required: false
             fields:
-              - {label: "Kategorie", name: "blockCategory", widget: "string", required: false, i18n: true }
-              - {label: "Überschrift", name: "blockTitle", widget: "string", required: false, i18n: true }
-              - label: "Bild/er"
-                name: "blockImage"
-                widget: "image"
-                required: false
+              - label: "Block"
+                name: "block"
+                widget: "list"
+                summary: "{{fields.blockCategory}}"
                 i18n: true
-              - label: "Link"
-                name: "blockLink"
-                widget: "relation"
                 required: false
-                i18n: true 
-                collection: "seiten"
-                value_field: "title"
-                search_fields: ["title"]
-                display_fields: ["title"]
+                fields:
+                  - {label: "Kategorie", name: "blockCategory", widget: "string", required: false, i18n: true }
+                  - {label: "Überschrift", name: "blockTitle", widget: "string", required: false, i18n: true }
+                  - label: "Bild/er"
+                    name: "blockImage"
+                    widget: "image"
+                    required: false
+                    i18n: true
+                  - label: "Link"
+                    name: "blockLink"
+                    widget: "relation"
+                    required: false
+                    i18n: duplicate 
+                    collection: "seiten"
+                    value_field: "{{slug}}"
+                    search_fields: ["siteTitle"]
+                    display_fields: ["siteTitle"]
+          
+          - label: "Kompetenzblöcke"
+            name: "competenciesBlocks"
+            widget: "object"
+            i18n: true
+            required: false
+            fields:
+              - { label: "Titel", name: "title", widget: "string", required: false, i18n: true }
+              - label: "Kompetenzen"
+                name: "competencies"
+                widget: "relation"
+                collection: 'kompetenzen'
+                required: false
+                multiple: true
+                i18n: duplicate 
+                value_field: "{{slug}}"
+                search_fields: ["competenceName"]
+                display_fields: ["competenceName"]
 
           - label: "Product Vorschau"
             name: "productPreview"
             widget: "object"
+            summary: "{{fields.product}}"
             i18n: true
             fields:
               - label: "Produkt"
@@ -144,31 +191,107 @@ collections:
 
           - label: "Karten"
             name: "cards"
-            widget: "list"
+            widget: "object"
+            summary: "{{fields.cardsTitle}}"
             i18n: true
             fields:
-              - {label: "Überschrift", name: "cardTitle", widget: "string", required: false, i18n: true }
-              - {label: "Textinhalt", name: "cardText", widget: "markdown", required: false, i18n: true }
-              - label: "Bild/er"
-                name: "cardImage"
-                widget: "image"
-                required: false
+              - { label: "Überschrift", name: "cardsTitle", widget: "string", required: false, i18n: true }
+              - label: "Karte"
+                name: "card"
+                widget: "list"
+                summary: "{{fields.cardTitle}}"
                 i18n: true
-              - label: "Link"
-                name: "cardLink"
+                fields:
+                  - {label: "Überschrift", name: "cardTitle", widget: "string", required: false, i18n: true }
+                  - {label: "Textinhalt", name: "cardText", widget: "markdown", required: false, i18n: true }
+                  - label: "Bild/er"
+                    name: "cardImage"
+                    widget: "image"
+                    required: false
+                    i18n: true
+                  - label: "Link"
+                    name: "cardLink"
+                    widget: "relation"
+                    required: false
+                    i18n: duplicate 
+                    collection: "seiten"
+                    value_field: "{{slug}}"
+                    search_fields: ["siteTitle"]
+                    display_fields: ["siteTitle"]
+
+          - label: "News"
+            name: "news"
+            widget: "object"
+            summary: "{{fields.news}}"
+            i18n: true
+            fields:
+              - label: "Aktuelle News einbinden"
+                name: "embedNews"
+                widget: "boolean"
+                i18n: true
+                default: false
+              - label: "News Kategorien"
+                name: "newsCategories"
                 widget: "relation"
                 required: false
                 i18n: true 
-                collection: "seiten"
-                value_field: "title"
-                search_fields: ["title"]
-                display_fields: ["title"]
+                collection: "category"
+                value_field: "{{slug}}"
+                search_fields: ["categoryTitle"]
+                display_fields: ["categoryTitle"]
 
-          - label: "Aktuelle News"
-            name: "news"
-            widget: "boolean"
+          - label: "Reihe"
+            name: "row"
+            widget: "object"
+            summary: "{{fields.textImageBlockTitle}}"
             i18n: true
-            default: false
+            fields:
+              - label: "Komponente"
+                name: "component"
+                widget: "list"
+                i18n: true
+                types:
+                  - label: "Bild"
+                    name: "image"
+                    widget: "object"
+                    fields:
+                      - { label: "Bild", name: "image", widget: "image", requried: false, i18n: true }
+                      - { label: "Bildunterschrift", name: "imageAltText", required: false, i18n: true }
+                  - label: "Button"
+                    name: "button"
+                    widget: "object"
+                    fields:
+                      - { label: "Button Text", name: "buttonText", widget: "string", required: false, i18n: true }
+                      - { label: "Button Link", name: "buttonLink", widget: "string", required: false, i18n: true }
+                      - { label: "Button Download", name: "buttonDownloadLink", widget: "file", required: false, i18n: true }
+                  - label: "Kacheln"
+                    name: "cards"
+                    widget: "object"
+                    fields:
+                      - label: "Kacheln"
+                        name: "competencies"
+                        widget: "relation"
+                        collection: 'kompetenzen'
+                        required: false
+                        multiple: true
+                        i18n: duplicate
+                        value_field: "{{slug}}"
+                        search_fields: ["competenceName"]
+                        display_fields: ["competenceName"]
+                  - label: "Text"
+                    name: "text"
+                    widget: "object"
+                    fields:
+                      - { label: "Kleine Überschrift", name: "smallHeadline", widget: "string", i18n: true, required: false }
+                      - { label: "Überschrift", name: "headline", widget: "string", i18n: true, required: false }
+                      - { label: "Text", name: "text", widget: "markdown", i18n: true, required: false }
+                      - label: "Button"
+                        name: "button"
+                        widget: "object"
+                        fields:
+                          - { label: "Button Text", name: "buttonText", widget: "string", required: false, i18n: true }
+                          - { label: "Button Link", name: "buttonLink", widget: "string", required: false, i18n: true }
+                          - { label: "Button Download", name: "buttonDownloadLink", widget: "file", required: false, i18n: true }
 
   - name: "kompetenzen"
     label: "Kompetenzen"
@@ -187,65 +310,43 @@ collections:
       - { label: "Kompetenztitel", name: "competenceTitle", widget: "string", i18n: true}
       - { label: "Kompetenzbeschreibung", name: "competenceDescription", widget: "markdown", i18n: true }
       - { label: "Kompetenzbild", name: "competenceImage", widget: "image", required: false, i18n: true }
-      - label: "Button Text"
-        name: "competenceButtonText"
-        widget: "string"
-        i18n: true
-        required: false
-      - label: "Button Link"
-        name: "competenceButtonLink"
-        widget: "relation"
-        required: false
-        i18n: true 
-        collection: "seiten"
-        value_field: "{{slug}}"
-        search_fields: ["siteTitle"]
-        display_fields: ["siteTitle"]
-      - label: "Button Externer Link"
-        name: "competenceButtonExternalLink"
-        widget: "string"
-        required: false
-        i18n: true
-      - label: "Button Datei"
-        name: "competenceButtonFile"
-        widget: "file"
-        required: false
-        i18n: true
-      - label: "Bild oder Button"
-        name: "competenceSideInfo"
+      - { label: "Bildunterschrift", name: "competenceImageDescription", widget: "string", required: false, i18n: true}
+      - label: "Seiten Inhalt"
+        name: "pageContent"
         widget: "list"
-        required: false
         i18n: true
-        fields:
-          - label: "Bild"
-            name: "image"
-            widget: "image"
-            required: false
+        required: false
+        types:
+          - label: "Reihe"
+            name: "row"
+            widget: "object"
+            summary: "{{fields.textImageBlockTitle}}"
             i18n: true
-          - label: "Button Text"
-            name: "buttonText"
-            widget: "string"
-            i18n: true
-            required: false
-          - label: "Button Link"
-            name: "buttonLink"
-            widget: "relation"
-            required: false
-            i18n: true 
-            collection: "seiten"
-            value_field: "{{slug}}"
-            search_fields: ["siteTitle"]
-            display_fields: ["siteTitle"]
-          - label: "Button Externer Link"
-            name: "buttonExternalLink"
-            widget: "string"
-            required: false
-            i18n: true
-          - label: "Button Datei Download"
-            name: "buttonFileDownload"
-            widget: "file"
-            required: false
-            i18n: true
+            fields:
+              - label: "Komponente"
+                name: "component"
+                widget: "list"
+                i18n: true
+                types:
+                  - label: "Bild"
+                    name: "image"
+                    widget: "object"
+                    fields:
+                      - { label: "Bild", name: "image", widget: "image", requried: false, i18n: true }
+                      - { label: "Bildunterschrift", name: "imageAltText", required: false, i18n: true }
+                  - label: "Button"
+                    name: "button"
+                    widget: "object"
+                    fields:
+                      - { label: "Button Text", name: "buttonText", widget: "string", required: false, i18n: true }
+                      - { label: "Button Link", name: "buttonLink", widget: "string", required: false, i18n: true }
+                      - { label: "Button Download", name: "buttonDownloadLink", widget: "file", required: false, i18n: true }
+                  - label: "Text"
+                    name: "text"
+                    widget: "object"
+                    fields:
+                      - { label: "Überschrift", name: "headline", widget: "string", i18n: true, required: false }
+                      - { label: "Text", name: "text", widget: "markdown", i18n: true, required: false }
           
   - name: "qualitaeten"
     label: "Qualitäten"
@@ -394,55 +495,3 @@ collections:
     fields:
       - { label: "Kategoriename", name: "categoryTitle", widget: "string", i18n: true }
       - { label: "Kategoriebeschreibung", name: "categoryDescription", widget: "markdown", i18n: true }
-
-
-  - name: "testseiten"
-    label: "Testseiten"
-    format: "frontmatter"
-    extension: 'md'
-    folder: "content/testSeiten"
-    create: true
-    sortable_fields: ["title"]
-    slug: "{{fields.siteTitle}}"
-    i18n: true
-    editor:
-      preview: false
-    fields:
-      - { label: "Seitentitel", name: "siteTitle", widget: "string", i18n: true }
-      - { label: "Menüreihenfolge", name: "menuOrder", widget: "number", i18n: true }
-      - { label: "im Menü verstecken", name: "hideInMenu", widget: "boolean", default: false, required: false, i18n: true }
-      - label: "Landing Slider"
-        name: "landingSlider"
-        widget: "list"
-        i18n: true
-        types:
-          - label: "Slider"
-            name: "slider"
-            widget: "object"
-            summary: "{{fields.sliderTitle}}"
-            fields:
-              - {label: Titel, name: landingTitle, widget: string }
-              - label: Titel Position
-                name: landingTitlePosition
-                widget: select
-                options:
-                  - { label: "Links Oben", value: "top-left" }
-                  - { label: "Rechts Oben", value: "top-right" }
-                  - { label: "Mitte", value: "center" }
-                  - { label: "Links Unten", value: "bottom-left" }
-                  - { label: "Rechts Unten", value: "bottom-right" }
-              - label: Bild/er
-                name: landingImage
-                widget: image
-                required: false
-                i18n: true
-              - label: "Verknüpfte Produkte"
-                name: "landingProducts"
-                widget: "relation"
-                collection: "produkte"
-                multiple: true
-                required: false
-                value_field: "{{slug}}"
-                search_fields: ["productTitle"]
-                display_fields: ["productTitle"]
-                i18n: true

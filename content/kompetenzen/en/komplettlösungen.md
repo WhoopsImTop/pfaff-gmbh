@@ -1,5 +1,9 @@
 ---
+competenceButtonText: Get in Contact with us
 competenceName: complete solutions
+competenceImageDescription: Plastic drill from Peek
+competenceSideInfo:
+  - image: /selbstlimitierender-dentalbohrer_peek_pfaff-768x733-1.jpeg
 competencePosition: 2
 competenceTitle: Components ready to use
 competenceDescription: We see ourselves not only as an injection moulder, but
@@ -9,8 +13,6 @@ competenceDescription: We see ourselves not only as an injection moulder, but
   printing, assembly etc. can be taken over by us. In some cases, we also
   deliver products “ready to use”, so that they can be sold directly without any
   further work steps.
-competenceButtonText: Get in Contact with us
+competenceImage: /pfaff_komplettloesung_teaser.jpeg
 competenceButtonLink: kontakt
-competenceSideInfo:
-  - image: /selbstlimitierender-dentalbohrer_peek_pfaff-768x733-1.jpeg
 ---

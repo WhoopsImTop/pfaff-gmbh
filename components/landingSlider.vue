@@ -10,12 +10,21 @@
         :class="slide.landingTitlePosition"
         v-html="slide.landingTitle"
       ></h1>
-      <img
-        :src="slide.landingImage"
-        :alt="slide.landingTitle"
-        class="slide-image"
-      />
-      <productSlider :productSlugProp="slide.landingProducts" />
+      <div class="slide-image">
+        <div
+          v-for="(marker, index) in slide.landingProductMarkerPosition"
+          :key="index"
+          class="marker"
+          :style="'bottom:' + marker.bottom + '%; left:' + marker.left + '%'"
+          @mouseover="highlightConnectedProduct(slide.landingProducts, index)"
+          @mouseout="highlightConnectedProduct(slide.landingProducts, index)"
+        >
+          <div class="ping-marker"></div>
+          <div class="inner-cricle"></div>
+        </div>
+        <img :src="slide.landingImage" :alt="slide.landingTitle" />
+      </div>
+      <productSlider v-if="slide.landingProducts" :productSlugProp="slide.landingProducts" />
     </div>
   </div>
 </template>
@@ -25,6 +34,15 @@ import productSlider from './productSlider.vue'
 export default {
   components: { productSlider },
   props: ['slideData'],
+  methods: {
+    highlightConnectedProduct(data, index) {
+      if(!Array.isArray(data)) {
+        data = [data]
+      }
+      const id = data[index]
+      document.getElementById(id).classList.toggle('highlighted')
+    },
+  },
 }
 </script>
 
@@ -42,13 +60,59 @@ export default {
 
 .slide-title {
   position: absolute;
+  z-index: 2;
 }
 
-img.slide-image {
+.slide-image {
+  position: relative;
+}
+
+.slide-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: -1;
+}
+
+.marker {
+  background: var(--primary-light-color);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+}
+
+.ping-marker {
+  background: var(--primary-color);
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  bottom: 7.5px;
+  left: 7.5px;
+  animation: ping 2s infinite cubic-bezier(0, 0, 0.2, 1);
+}
+
+.inner-cricle {
+  background: var(--primary-color);
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  bottom: 7.5px;
+  left: 7.5px;
+}
+
+@keyframes ping {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
 }
 
 .top-left {

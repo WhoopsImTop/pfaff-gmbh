@@ -1,5 +1,9 @@
 <template>
-  <nuxt-link :to="'produktbeispiele/' + product.slug" class="product">
+  <nuxt-link
+    :id="product.slug.toLowerCase()"
+    :to="'produktbeispiele/' + product.slug"
+    class="product"
+  >
     <div
       class="product-image"
       :style="'background-image: url(' + product.productImage + ')'"
@@ -46,6 +50,11 @@ export default {
   transition: all 0.3s ease-in-out;
 }
 
+.highlighted {
+  transform: translateY(-5px);
+  transition: all 0.3s ease-in-out;
+}
+
 .product:last-child {
   margin-right: 0px;
 }
@@ -60,6 +69,11 @@ export default {
   color: var(--darker-gray-color);
   font-size: 15px;
   text-transform: uppercase;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  max-width: 250px;
+  white-space: nowrap;
 }
 
 .product-image {
@@ -72,6 +86,7 @@ export default {
 
 .product-name {
   padding: 10px 20px;
+  max-width: 300px;
 }
 
 .product-name h3 {
@@ -79,6 +94,7 @@ export default {
   margin-bottom: 0px;
   overflow: hidden;
   text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 @media (max-width: 795px) {

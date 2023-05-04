@@ -1,7 +1,6 @@
 <template>
   <div>
-    <landing-slider :slideData="landing.landingSlider" />
-    <component-renderer :components="landing.contentblock" />
+    <component-renderer v-for="(component, index) in landing.components" :key="index" :component="component" />
   </div>
 </template>
 

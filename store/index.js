@@ -1,7 +1,8 @@
 export const state = () => ({
     produkte: [],
     seiten: [],
-    kategorien: []
+    kategorien: [],
+    kompetenzen: []
 })
 
 export const mutations = {
@@ -15,6 +16,9 @@ export const mutations = {
     },
     setKategorien(state, kategorien) {
         state.kategorien = kategorien
+    },
+    setKompetenzen(state, kompetenzen) {
+        state.kompetenzen = kompetenzen
     }
 }
 
@@ -23,9 +27,11 @@ export const actions = {
         const produkte = await this.$content("produkte/" + this.$i18n.locale).fetch();
         const seiten = await this.$content("seiten/" + this.$i18n.locale).fetch();
         const kategorien = await this.$content("kategorien/" + this.$i18n.locale).fetch();
+        const kompetenzen = await this.$content("kompetenzen/" + this.$i18n.locale).fetch();
         commit('setProdukte', produkte)
         commit('setSeiten', seiten)
         commit('setKategorien', kategorien)
+        commit('setKompetenzen', kompetenzen)
     }
 }
 
@@ -33,4 +39,5 @@ export const getters = {
     getProdukte: state => state.produkte,
     getSeiten: state => state.seiten,
     getKategorien: state => state.kategorien,
+    getKompetenzen: state => state.kompetenzen
 }
