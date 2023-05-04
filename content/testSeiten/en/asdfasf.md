@@ -1,0 +1,4 @@
+---
+hideInMenu: false
+landingSlider: []
+---

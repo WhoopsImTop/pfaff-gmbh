@@ -170,6 +170,128 @@ collections:
             i18n: true
             default: false
 
+  - name: "kompetenzen"
+    label: "Kompetenzen"
+    format: "frontmatter"
+    extension: 'md'
+    folder: "content/kompetenzen"
+    create: true
+    sortable_fields: ["title"]
+    slug: "{{fields.competenceName}}"
+    i18n: true
+    editor:
+      preview: false
+    fields:
+      - { label: "Kompetzenzname", name: "competenceName", widget: "string", i18n: true, hint: "Bspw: Spritzguss, Insertteile ..." }
+      - { label: "Kompezenzposition", name: "competencePosition", widget: "number", i18n: true}
+      - { label: "Kompetenztitel", name: "competenceTitle", widget: "string", i18n: true}
+      - { label: "Kompetenzbeschreibung", name: "competenceDescription", widget: "markdown", i18n: true }
+      - { label: "Kompetenzbild", name: "competenceImage", widget: "image", required: false, i18n: true }
+      - label: "Button Text"
+        name: "competenceButtonText"
+        widget: "string"
+        i18n: true
+        required: false
+      - label: "Button Link"
+        name: "competenceButtonLink"
+        widget: "relation"
+        required: false
+        i18n: true 
+        collection: "seiten"
+        value_field: "{{slug}}"
+        search_fields: ["siteTitle"]
+        display_fields: ["siteTitle"]
+      - label: "Button Externer Link"
+        name: "competenceButtonExternalLink"
+        widget: "string"
+        required: false
+        i18n: true
+      - label: "Button Datei"
+        name: "competenceButtonFile"
+        widget: "file"
+        required: false
+        i18n: true
+      - label: "Bild oder Button"
+        name: "competenceSideInfo"
+        widget: "list"
+        required: false
+        i18n: true
+        fields:
+          - label: "Bild"
+            name: "image"
+            widget: "image"
+            required: false
+            i18n: true
+          - label: "Button Text"
+            name: "buttonText"
+            widget: "string"
+            i18n: true
+            required: false
+          - label: "Button Link"
+            name: "buttonLink"
+            widget: "relation"
+            required: false
+            i18n: true 
+            collection: "seiten"
+            value_field: "{{slug}}"
+            search_fields: ["siteTitle"]
+            display_fields: ["siteTitle"]
+          - label: "Button Externer Link"
+            name: "buttonExternalLink"
+            widget: "string"
+            required: false
+            i18n: true
+          - label: "Button Datei Download"
+            name: "buttonFileDownload"
+            widget: "file"
+            required: false
+            i18n: true
+          
+  - name: "qualitaeten"
+    label: "Qualitäten"
+    format: "frontmatter"
+    extension: 'md'
+    folder: "content/qualitaeten"
+    create: true
+    sortable_fields: ["title"]
+    slug: "{{fields.qualityName}}"
+    i18n: true
+    editor:
+      preview: false
+    fields:
+      - { label: "Qualitätsname", name: "qualityName", widget: "string", i18n: true, hint: "Bspw: ISO 9001:2015, ISO 14001:2015 ..." }
+      - { label: "Qualitätstitel", name: "qualityTitle", widget: "string", i18n: true}
+      - label: "Inhalt"
+        name: "content"
+        widget: "list"
+        i18n: true
+        fields:
+          - { label: "Qualitätstext", name: "qualitytext", widget: "markdown", i18n: true }
+          - label: "Bild/er"
+            name: "qualityImage"
+            widget: "image"
+            required: false
+            i18n: true
+          - label: "Button Text"
+            name: "qualityButtonText"
+            widget: "string"
+            i18n: true
+            required: false
+          - label: "Button"
+            name: "qualityButton"
+            widget: "relation"
+            required: false
+            i18n: true 
+            collection: "seiten"
+            value_field: "{{slug}}"
+            search_fields: ["siteTitle"]
+            display_fields: ["siteTitle"]
+          - label: "Button Externer Link"
+            name: "qualityButtonExternalLink"
+            widget: "string"
+            required: false
+            i18n: true
+
   - name: "produkte"
     label: "Produkte"
     format: "frontmatter"
@@ -272,3 +394,55 @@ collections:
     fields:
       - { label: "Kategoriename", name: "categoryTitle", widget: "string", i18n: true }
       - { label: "Kategoriebeschreibung", name: "categoryDescription", widget: "markdown", i18n: true }
+
+
+  - name: "testseiten"
+    label: "Testseiten"
+    format: "frontmatter"
+    extension: 'md'
+    folder: "content/testSeiten"
+    create: true
+    sortable_fields: ["title"]
+    slug: "{{fields.siteTitle}}"
+    i18n: true
+    editor:
+      preview: false
+    fields:
+      - { label: "Seitentitel", name: "siteTitle", widget: "string", i18n: true }
+      - { label: "Menüreihenfolge", name: "menuOrder", widget: "number", i18n: true }
+      - { label: "im Menü verstecken", name: "hideInMenu", widget: "boolean", default: false, required: false, i18n: true }
+      - label: "Landing Slider"
+        name: "landingSlider"
+        widget: "list"
+        i18n: true
+        types:
+          - label: "Slider"
+            name: "slider"
+            widget: "object"
+            summary: "{{fields.sliderTitle}}"
+            fields:
+              - {label: Titel, name: landingTitle, widget: string }
+              - label: Titel Position
+                name: landingTitlePosition
+                widget: select
+                options:
+                  - { label: "Links Oben", value: "top-left" }
+                  - { label: "Rechts Oben", value: "top-right" }
+                  - { label: "Mitte", value: "center" }
+                  - { label: "Links Unten", value: "bottom-left" }
+                  - { label: "Rechts Unten", value: "bottom-right" }
+              - label: Bild/er
+                name: landingImage
+                widget: image
+                required: false
+                i18n: true
+              - label: "Verknüpfte Produkte"
+                name: "landingProducts"
+                widget: "relation"
+                collection: "produkte"
+                multiple: true
+                required: false
+                value_field: "{{slug}}"
+                search_fields: ["productTitle"]
+                display_fields: ["productTitle"]
+                i18n: true
