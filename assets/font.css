@@ -247,6 +247,15 @@ a {
   font-weight: 400;
 }
 
+span.smallHeadline {
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--darker-gray-color);
+  text-transform: uppercase;
+  margin-bottom: 10px !important;
+  display: inline-block
+}
+
 h1 {
   font-size: 48px;
   line-height: 50px;

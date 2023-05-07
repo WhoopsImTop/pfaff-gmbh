@@ -1,0 +1,14 @@
+---
+title: "KunststoffXtra: Optische und taktile Messung von Präzisionsteilen"
+date: "2016-05-01T14:22:00"
+excerpt: "Zahntechnische Instrumente. Aus Hochleistungspolymeren wie PEEK lassen sich Instrumententeile herstellen, deren Eigenschaften wenig von aus Metall gefertigten Produkten abweichen. Das erfordert allerdings besonderes Fertigungs-Know-how, wie … 
+
+[WeiterlesenKunststoffXtra: Optische und taktile Messung von Präzisionsteilen](https://pfaffgmbh.com/kunststoffxtra-kunststofftechnik-plus-entwicklungskompetenz/#more-692 "KunststoffXtra: Optische und taktile Messung von Präzisionsteilen")"
+categories:
+  - Fachbeiträge
+---
+**Zahntechnische Instrumente.**
+
+Aus Hochleistungspolymeren wie PEEK lassen sich Instrumententeile herstellen, deren Eigenschaften wenig von aus Metall gefertigten Produkten abweichen. Das erfordert allerdings besonderes Fertigungs-Know-how, wie ein Beispiel aus der zahnärztlichen Anwendung zeigt.
+
+[Den gesamten Artikel aus der Medizin und Technik als PDF](https://pfaffgmbh.com/downloads/Kunststoffxtra-Anzeige-Messtechnik-01-05-2016.pdf)
