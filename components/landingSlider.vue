@@ -24,19 +24,54 @@
         </div>
         <img :src="slide.landingImage" :alt="slide.landingTitle" />
       </div>
-      <productSlider v-if="slide.landingProducts" :productSlugProp="slide.landingProducts" />
+      <productSlider
+        v-if="slide.landingProducts"
+        :productSlugProp="slide.landingProducts"
+      />
     </div>
   </div>
 </template>
 
 <script>
+import { gsap } from 'gsap'
 import productSlider from './productSlider.vue'
 export default {
   components: { productSlider },
   props: ['slideData'],
+  mounted() {
+    const tl = gsap.timeline()
+    tl.from('.slide-title', {
+      duration: 1,
+      y: 100,
+      opacity: 0,
+      ease: 'power4.out',
+    })
+      .from(
+        '.marker',
+        {
+          duration: 1,
+          y: 100,
+          opacity: 0,
+          stagger: 0.2,
+          ease: 'power4.out',
+        },
+        '-=0.5'
+      )
+      .from(
+        '.product-slider',
+        {
+          duration: 1,
+          y: 100,
+          opacity: 0,
+          stagger: 0.5,
+          ease: 'power4.out',
+        },
+        '-=0.5'
+      )
+  },
   methods: {
     highlightConnectedProduct(data, index) {
-      if(!Array.isArray(data)) {
+      if (!Array.isArray(data)) {
         data = [data]
       }
       const id = data[index]
@@ -74,7 +109,6 @@ export default {
 }
 
 .marker {
-  background: var(--primary-light-color);
   width: 30px;
   height: 30px;
   border-radius: 50%;
