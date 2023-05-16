@@ -16,27 +16,23 @@ components:
   - type: contentblock
     contentTitle: Pfaff GmbH. Wo Kunststoff Karriere macht.
     contentText: >-
-      Seit unserer Gründung im Jahr 1991 sind wir spezialisiert auf die
-      Herstellung hochwertiger Kunststoffartikel für eine Vielzahl von
-      Industriezweigen. Unser Unternehmen mit Sitz in Waldkirch-Kollnau hat sich
-      insbesondere in den Bereichen Medizin- und Dentaltechnik, Mess- und
-      Regelungstechnik, Ventil- und Fluidtechnik sowie Sensorik einen Namen
-      gemacht.
+      Seit 1991 sind wir die Experten für hochwertige Kunststoffartikel in den
+      Branchen Medizin- und Dentaltechnik, Mess- und Regelungstechnik, Ventil-
+      und Fluidtechnik sowie Sensorik. Mit innovativen Technologien und
+      erstklassigen Materialien, darunter Hochleistungskunststoffe wie Peek und
+      PPS, garantieren wir unseren Kunden herausragende Qualität und
+      wirtschaftliche Herstellung. Als inhabergeführtes Unternehmen bieten wir
+      direkte Kommunikation, flexible Lösungen, kurze Lieferzeiten und faire
+      Preise.
 
 
-      Um den hohen Ansprüchen unserer Kunden gerecht zu werden, setzen wir auf innovative Technologien und nutzen eine breite Palette von Materialien, darunter auch Hochleistungskunststoffe wie Peek oder PPS. Unser moderner Maschinenpark und qualifiziertes Personal gewährleisten nicht nur eine herausragende Qualität unserer Produkte, sondern ermöglichen auch eine wirtschaftliche Herstellung. Dies wird durch unser zertifiziertes Managementsystem nach ISO 9001 und ISO 13485 unterstrichen.
+      Unsere CEO, Corinna Pfaff, betont: *"Schnelle und transparente Kommunikation sowie maßgeschneiderte Lösungen sind unsere Stärken."*
 
 
-      Als inhabergeführtes Unternehmen legen wir großen Wert auf direkte Kommunikationswege, Flexibilität, kurze Lieferzeiten und faire Preise. Wir schätzen den persönlichen Kontakt zu unseren Kunden und streben eine enge Zusammenarbeit an.
+      Vertrauen, Respekt und Nachhaltigkeit prägen unsere Zusammenarbeit mit Kunden, Lieferanten und Mitarbeitern. Entdecken Sie unsere Möglichkeiten und kontaktieren Sie uns für langfristige Partnerschaften.
 
 
-      Unsere CEO, Corinna Pfaff, betont: "Unsere Stärke liegt in der schnellen und transparenten Kommunikation sowie in maßgeschneiderten Lösungen."
-
-
-      Wir pflegen eine Kultur des Vertrauens und des Respekts gegenüber unseren Kunden, Lieferanten und Mitarbeitenden. Wir sind uns der Verantwortung gegenüber der Umwelt bewusst und handeln nachhaltig. Der Schutz unserer Umwelt und ein effizienter Umgang mit Ressourcen sind für uns von zentraler Bedeutung.
-
-
-      Entdecken Sie die Möglichkeiten, die wir Ihnen bieten, und nehmen Sie Kontakt mit uns auf. Wir freuen uns darauf, Ihre Anforderungen zu erfüllen und langfristige Partnerschaften aufzubauen.
+      Wir freuen uns darauf, Ihre Anforderungen zu erfüllen.
   - type: blocks
     block:
       - blockCategory: Verblüffendee Beispiele
