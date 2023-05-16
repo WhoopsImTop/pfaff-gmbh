@@ -1,8 +1,8 @@
 ---
 title: "Ausbildungslotsen der Wabe begleiten Schüler bei Betriebsbesichtigungen"
-date: "2017-06-30T14:05:00"
-excerpt: ""
-categories:
-  - Pressemitteilungen
+date: 2017-06-30T14:05:00
+category:
+  - pressemitteilungen
+content:   
 ---
-![](https://pfaffgmbh.com/wp-content/uploads/Ausbildungslotse-1024x768.jpg)
+![](/Ausbildungslotse-1024x768.jpg)

@@ -1,8 +1,9 @@
 :root {
   --content-max-width: 1440px;
-  --content-padding: 0 20px;
+  --content-padding: 0 50px;
   --primary-color: #08509d;
-  --primary-light-color: #cee1f5;
+  --primary-red-color: #d43e35;
+  --primary-light-color: #edf5f8;
   --light-gray-color: #efefef;
   --darker-gray-color: #aaaaaa;
 }
@@ -52,8 +53,6 @@
 
 .link-container a {
   margin-left: 25px;
-  color: #08509d;
-  text-decoration: none;
 }
 
 .burger {
@@ -109,6 +108,12 @@
   background-color: var(--light-gray-color);
   border: none;
   text-decoration: none;
+  color: #000000;
+}
+
+.pf-card:hover {
+  text-decoration: none;
+  color: #000000;
 }
 
 .card-image {
@@ -145,6 +150,16 @@
   transition: 0.3s ease-in-out;
 }
 
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(335px, calc(100% / 3 - 10px))
+  );
+  grid-template-rows: auto;
+  grid-gap: 10px;
+}
+
 .pf-card:hover .card-content::after {
   transform: translateY(-5px);
   transition: 0.3s ease-in-out;
@@ -177,8 +192,87 @@
   color: #ffffff;
 }
 
+/* Row Component */
+.content-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.newsletter-email-input {
+  width: 100% !important;
+}
+
+/* Block Renderer */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(335px, calc(100% / 3 - 10px))
+  );
+  grid-template-rows: auto;
+  grid-gap: 10px;
+  margin: 0 auto;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  transition: .3s ease-in-out;
+}
+
+.product-card:hover {
+  cursor: pointer;
+  box-shadow: 0px 10px 20px var(--primary-light-color);
+  transform: translateY(-3px);
+  transition: .3s ease-in-out;
+}
+
+.product-card-image {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-card-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.product-card-content {
+  padding: 20px;
+}
+
+.product-category {
+  color: var(--primary-color);
+  font-size: 14px;
+  text-transform: uppercase;
+  background-color: var(--primary-light-color);
+  padding: 5px;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+
+
 @media (max-width: 1000px) {
   .content-container {
     margin: 130px auto;
+  }
+}
+
+@media (max-width: 1200px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(335px, calc(100% / 2 - 10px))
+    );
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    margin: 0 auto;
   }
 }

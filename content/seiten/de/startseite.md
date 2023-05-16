@@ -57,12 +57,15 @@ components:
     cardsTitle: Themen rund um Pfaff GmbH
     card:
       - cardTitle: Neuigkeiten
-        cardText: Hier finden Sie alles rund um die die   Pfaff GmbH.
+        cardText: Hier finden Sie alles rund um die Pfaff GmbH.
+        cardLink: news-medien
       - cardTitle: Karriere
         cardText: Hier finden Sie all unsere Stellenangebote und die Möglichkeit der
           Inititativberwerbung.
+        cardLink: news-medien
       - cardTitle: Historie
         cardText: Lernen Sie uns und unsere Geschichte kennen.
+        cardLink: news-medien
   - type: news
     embedNews: false
 ---

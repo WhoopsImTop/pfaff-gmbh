@@ -35,17 +35,48 @@ axios
   .then(function (response) {
     const posts = response.data
     posts.forEach((post) => {
+      //download the images from the content and save them to static/images
+      const regex = /<img.*?src="(.*?)"/g
+      let match
+      while ((match = regex.exec(post.content.rendered))) {
+        const url = match[1]
+        const filename = url.split('/').pop()
+        axios({
+          method: 'get',
+          url: url,
+          responseType: 'stream',
+        }).then(function (response) {
+          response.data.pipe(fs.createWriteStream('static/' + filename))
+        })
+      }
+
+      //replace image urls in content with relative urls
+      post.content.rendered = post.content.rendered.replace(
+        /https:\/\/pfaffgmbh.com\/wp-content\/uploads\//g,
+        '/'
+      )
+
+      //remove all html tags from excerpt
+      post.excerpt.rendered = post.excerpt.rendered.replace(/<[^>]*>/g, '')
+      //shorten the excerpt to 200 characters
+      post.excerpt.rendered = post.excerpt.rendered.substring(0, 200)
+
       const filename = post.slug + '.md'
       let content = '---\n'
       content += 'title: "' + post.title.rendered + '"\n'
-      content += 'date: "' + post.date + '"\n'
+      content += 'date: ' + post.date + '\n'
+      content += 'category:\n'
+      post.categories.forEach((category) => {
+        const cat = Categories.find((cat) => cat.id === category)
+        content += '  - ' + cat.slug + '\n'
+      })
       content +=
-        'excerpt: "' + NodeHtmlMarkdown.translate(post.excerpt.rendered) + '"\n'
-      content += 'categories:\n'
-        post.categories.forEach((category) => {
-            const cat = Categories.find((cat) => cat.id === category)
-            content += '  - ' + cat.name + '\n'
-        })
+        'content: ' +
+        post.content.rendered
+          .replace(/(&nbsp;|<([^>]+)>)/ig, '')
+          .replace(/(?:\r\n|\r|\n)/g, ' ')
+          .replace(/(?:\\r\\n|\\r|\\n)/g, ' ') +
+        '\n'
       content += '---\n'
       content += NodeHtmlMarkdown.translate(post.content.rendered)
       fs.writeFileSync('content/blog/de/' + filename, content)

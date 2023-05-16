@@ -1,8 +1,8 @@
 <template>
   <div class="preview-container">
     <div class="preview-text-container">
-      <h3>{{ components.productTitle }}</h3>
-      <p>{{ components.productDescription }}</p>
+      <h2>{{ components.productTitle }}</h2>
+      <p class="marketing-text">{{ components.productDescription }}</p>
       <span class="quote">{{ components.productQuote }}</span>
     </div>
     <div class="preview-image-container">
@@ -19,9 +19,6 @@ import productSlider from './productSlider.vue'
 export default {
   components: { productSlider },
   props: ['components'],
-  created() {
-    console.log(this.components)
-  },
 }
 </script>
 

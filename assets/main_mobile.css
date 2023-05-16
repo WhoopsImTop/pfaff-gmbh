@@ -1,4 +1,9 @@
 @media (max-width: 1000px) {
+
+  :root {
+    --content-padding: 20px;
+  }
+
   .desktop-logo {
     display: none;
   }
@@ -55,5 +60,24 @@
     display: flex;
     padding-top: 50px !important;
     padding: var(--content-padding);
+  }
+}
+
+@media (max-width: 800px) {
+  .card-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(
+      auto-fill,
+      100%
+    );
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    margin: 0 auto;
   }
 }

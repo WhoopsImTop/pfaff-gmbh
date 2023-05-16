@@ -4,6 +4,7 @@
       <text-component v-if="component.type == 'contentblock'" :component="component" />
       <block-renderer v-if="component.type == 'blocks'" :blocks="component.block" />
       <product-preview v-if="component.type == 'productPreview'" :components="component" />
+      <article-component v-if="component.type == 'news'" :component="component" />
       <card-component v-if="component.type == 'cards'" :component="component" />
       <component-blocks v-if="component.type == 'competenciesBlocks'" :component="component" />
       <row-component v-if="component.type == 'row'" :component="component" />

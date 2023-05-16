@@ -1,16 +1,14 @@
 ---
 title: "Girl&#8217;s Day 2023 &#8211; Wir machen mit!"
-date: "2023-03-13T10:20:54"
-excerpt: "Wir machen mit! Zwei Mädchen bekommen beim #GirlsDay am 27.04.2023 die Chance, bei uns in den #Beruf der #Verfahrensmechanikerin einzutauchen. Wir zeigen Euch, warum es in diesem #Job Überschneidungen zu den Aufgaben einer #Köchin gibt. … 
-
-[WeiterlesenGirl’s Day 2023 – Wir machen mit!](https://pfaffgmbh.com/girls-day-2023-wir-machen-mit/#more-1146 "Girl’s Day 2023 – Wir machen mit!")"
-categories:
-  - Allgemeine News
+date: 2023-03-13T10:20:54
+category:
+  - allgemeine-news
+content:  Wir machen mit! Zwei Mädchen bekommen beim#GirlsDayam 27.04.2023 die Chance, bei uns in den#Berufder#Verfahrensmechanikerineinzutauchen. Wir zeigen Euch, warum es in diesem#JobÜberschneidungen zu den Aufgaben einer#Köchingibt. Außerdem erfahrt Ihr, wie Ihr die Stoffe der Zukunft mischt, um Menschen in Europa regional mit lebenswichtigen Produkten zu versorgen. Interessiert?    Dann meldet Euch gleich hier an:http://bitly.ws/Bxey        #Medizintechnik#Kunststoffspritzguss#Spritzgießtechnik#Mechanik#Elektronik#Kunststoff#Zukunft#Mädchentag#Ladiesfirst#Kunststoffkarriere#Innovation 
 ---
 Wir machen mit! Zwei Mädchen bekommen beim [#GirlsDay](https://www.linkedin.com/feed/hashtag/?keywords=girlsday&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7040967640995012608) am 27.04.2023 die Chance, bei uns in den [#Beruf](https://www.linkedin.com/feed/hashtag/?keywords=beruf&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7040967640995012608) der [#Verfahrensmechanikerin](https://www.linkedin.com/feed/hashtag/?keywords=verfahrensmechanikerin&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7040967640995012608) einzutauchen. Wir zeigen Euch, warum es in diesem [#Job](https://www.linkedin.com/feed/hashtag/?keywords=job&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7040967640995012608) Überschneidungen zu den Aufgaben einer [#Köchin](https://www.linkedin.com/feed/hashtag/?keywords=k%C3%B6chin&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7040967640995012608) gibt. Außerdem erfahrt Ihr, wie Ihr die Stoffe der Zukunft mischt, um Menschen in Europa regional mit lebenswichtigen Produkten zu versorgen. Interessiert?
 
 Dann meldet Euch gleich hier an: <http://bitly.ws/Bxey>
 
-![](https://pfaffgmbh.com/wp-content/uploads/22159_ced1ee8d0525300.jpg)
+![](/22159_ced1ee8d0525300.jpg)
 
 [#Medizintechnik](https://www.linkedin.com/feed/hashtag/?keywords=medizintechnik&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7040967640995012608)[#Kunststoffspritzguss](https://www.linkedin.com/feed/hashtag/?keywords=kunststoffspritzguss&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7040967640995012608)[#Spritzgießtechnik](https://www.linkedin.com/feed/hashtag/?keywords=spritzgiesstechnik&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7040967640995012608)[#Mechanik](https://www.linkedin.com/feed/hashtag/?keywords=mechanik&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7040967640995012608)[#Elektronik](https://www.linkedin.com/feed/hashtag/?keywords=elektronik&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7040967640995012608)[#Kunststoff](https://www.linkedin.com/feed/hashtag/?keywords=kunststoff&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7040967640995012608)[#Zukunft](https://www.linkedin.com/feed/hashtag/?keywords=zukunft&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7040967640995012608)[#Mädchentag](https://www.linkedin.com/feed/hashtag/?keywords=m%C3%A4dchentag&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7040967640995012608)[#Ladiesfirst](https://www.linkedin.com/feed/hashtag/?keywords=ladiesfirst&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7040967640995012608)[#Kunststoffkarriere](https://www.linkedin.com/feed/hashtag/?keywords=kunststoffkarriere&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7040967640995012608)[#Innovation](https://www.linkedin.com/feed/hashtag/?keywords=innovation&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7040967640995012608)

@@ -1,11 +1,11 @@
 ---
 title: "Preise, die belohnen und ermuntern"
-date: "2007-04-14T14:45:00"
-excerpt: "Innovationspreise. Die Wirtschaftsregion Freiburg vergibt den Innovationspreis. Erster Platz geht an Adolf Pfaff für seinen Zahn-Wurzelstift."
-categories:
-  - Pressemitteilungen
+date: 2007-04-14T14:45:00
+category:
+  - pressemitteilungen
+content:      Innovationspreise.    Die Wirtschaftsregion Freiburg vergibt den Innovationspreis. Erster Platz geht an Adolf Pfaff für seinen Zahn-Wurzelstift. 
 ---
-![](https://pfaffgmbh.com/wp-content/uploads/Wurzelstift_2007-724x1024.jpg)
+![](/Wurzelstift_2007-724x1024.jpg)
 
 **Innovationspreise.**
 

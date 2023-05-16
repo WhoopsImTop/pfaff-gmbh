@@ -117,22 +117,22 @@ export default {
 
 .top-left {
   top: 150px;
-  left: 20px;
+  left: 50px;
 }
 
 .top-right {
   top: 150px;
-  right: 20px;
+  right: 50px;
 }
 
 .bottom-left {
   bottom: 150px;
-  left: 20px;
+  left: 50px;
 }
 
 .bottom-right {
   bottom: 150px;
-  right: 20px;
+  right: 50px;
 }
 
 .center {

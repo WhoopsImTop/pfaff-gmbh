@@ -2,8 +2,9 @@
   <div class="content-container text-container">
     <h2>{{ component.cardsTitle }}</h2>
     <div class="card-container">
-      <div
+      <nuxt-link
         v-for="(card, index) in component.card"
+        :to="'/' + card.cardLink"
         :key="index"
         class="pf-card"
       >
@@ -14,7 +15,7 @@
           <h3 style="margin-top: 10px">{{ card.cardTitle }}</h3>
           <p>{{ card.cardText }}</p>
         </div>
-      </div>
+      </nuxt-link>
     </div>
   </div>
 </template>
@@ -26,13 +27,4 @@ export default {
 </script>
 
 <style>
-.card-container {
-  display: grid;
-  grid-template-columns: repeat(
-    auto-fill,
-    minmax(335px, calc(100% / 3 - 10px))
-  );
-  grid-template-rows: auto;
-  grid-gap: 10px;
-}
 </style>

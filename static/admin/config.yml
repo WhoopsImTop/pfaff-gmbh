@@ -292,6 +292,11 @@ collections:
                           - { label: "Button Text", name: "buttonText", widget: "string", required: false, i18n: true }
                           - { label: "Button Link", name: "buttonLink", widget: "string", required: false, i18n: true }
                           - { label: "Button Download", name: "buttonDownloadLink", widget: "file", required: false, i18n: true }
+                  - label: "Kooparationsformular"
+                    name: "cooperationForm"
+                    widget: "object"
+                    fields:
+                      - { label: "Formular einbinden", name: "embedForm", widget: "boolean", i18n: true, required: false }
 
   - name: "kompetenzen"
     label: "Kompetenzen"
@@ -347,6 +352,11 @@ collections:
                     fields:
                       - { label: "Überschrift", name: "headline", widget: "string", i18n: true, required: false }
                       - { label: "Text", name: "text", widget: "markdown", i18n: true, required: false }
+                  - label: "Kooparationsformular"
+                    name: "cooperationForm"
+                    widget: "object"
+                    fields:
+                      - { label: "Formular einbinden", name: "embedForm", widget: "boolean", i18n: true, required: false }
           
   - name: "qualitaeten"
     label: "Qualitäten"
@@ -467,20 +477,20 @@ collections:
       preview: false
     fields:
       - { label: "Titel", name: "title", widget: "string", i18n: true }
-      - { label: "Beschreibung", name: "description", widget: "markdown", i18n: true }
-      - { label: "Datum", name: "date", widget: "datetime", format: "YYYY-MM-DD", i18n: true }
-      - { label: "Autor", name: "author", widget: "string", i18n: true }
+      - { label: "Beschreibung", name: "excerpt", widget: "markdown", i18n: true, required: false }
+      - { label: "Datum", name: "date", widget: "datetime", i18n: true, required: false }
+      - { label: "Autor", name: "author", widget: "string", i18n: true, required: false }
       - { label: "Bild", name: "image", widget: "image", required: false, i18n: true }
-      - { label: "Inhalt", name: "body", widget: "markdown", i18n: true }
+      - { label: "Inhalt", name: "body", widget: "markdown", i18n: true, required: false }
       - label: "Kategorien"
         name: "categories"
         widget: "relation"
         collection: "blogkategorien"
-        multiple: true
-        value_field: "title"
-        search_fields: ["title"]
-        display_fields: ["title"]
+        value_field: "{{slug}}"
+        search_fields: ["categoryTitle"]
+        display_fields: ["categoryTitle"]
         i18n: true
+        required: false
       
   - name: "blogkategorien"
     label: "Blogkategorien"
@@ -489,9 +499,10 @@ collections:
     folder: "content/blogkategorien"
     create: true
     sortable_fields: ["categoryTitle"]
+    slug: "{{fields.categoryTitle}}"
     i18n: true
     editor:
       preview: false
     fields:
       - { label: "Kategoriename", name: "categoryTitle", widget: "string", i18n: true }
-      - { label: "Kategoriebeschreibung", name: "categoryDescription", widget: "markdown", i18n: true }
+      - { label: "Kategoriebeschreibung", name: "categoryDescription", widget: "markdown", required: false, i18n: true }

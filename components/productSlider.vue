@@ -50,7 +50,7 @@ export default {
   flex-direction: column;
   position: absolute;
   bottom: 50px;
-  right: 20px;
+  right: 50px;
 }
 
 .product-slider {
@@ -61,7 +61,7 @@ export default {
 }
 
 .small-title {
-  text-align: right;
+  display: none;
 }
 
 .small-title.left {
@@ -81,6 +81,7 @@ export default {
 
   .small-title {
     text-align: left;
+    display: block;
   }
 }
 </style>
