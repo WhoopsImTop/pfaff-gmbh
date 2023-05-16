@@ -2,7 +2,8 @@
   <div class="article-column article-background">
     <h1 style="margin-bottom: 10px">{{ news[0].title }}</h1>
     <div class="information-row">
-      {{ kategorie[0].categoryTitle }} || {{
+      {{ kategorie[0] ? kategorie[0].categoryTitle + ' || ' : '' }}
+      {{
         new Date(news[0].date).toLocaleDateString('DE-de', {
           year: 'numeric',
           month: 'long',
@@ -30,7 +31,7 @@ export default {
     const kategorie = await $content('blogkategorien/' + app.i18n.locale)
       .where({ slug: news[0].category[0] })
       .fetch()
-    return { news, kategorie}
+    return { news, kategorie }
   },
 
   head() {
@@ -51,7 +52,7 @@ export default {
 <style>
 .article-background {
   background-color: #ffffff;
-  padding: 20px;
+  padding: 40px;
 }
 
 .information-row {

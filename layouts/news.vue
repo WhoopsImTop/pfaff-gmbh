@@ -1,7 +1,7 @@
 <template>
   <div class="light-bg">
     <navbar-component />
-    <div class="content-container">
+    <div class="content-container" style="margin: 100px auto">
       <div class="grid-4">
         <nuxt class="article-container" />
         <div class="sidebar">
@@ -56,8 +56,8 @@ export default {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
   grid-template-areas: 'header header header header sidebar sidebar';
-  grid-gap: 16px;
-  padding: 16px;
+  grid-gap: 40px;
+  padding: 40px;
   color: #444;
 }
 
@@ -70,9 +70,9 @@ export default {
 .sidebar-content {
   display: flex;
   flex-direction: column;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
   background-color: #ffffff;
-  padding: 20px;
+  padding: 40px;
 }
 
 .scrollable_container {

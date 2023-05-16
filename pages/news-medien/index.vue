@@ -5,7 +5,7 @@
       :key="index"
       class="article"
     >
-      <div class="article-image">
+      <div v-if="article.image" class="article-image">
         <img :src="article.image" />
       </div>
       <div class="article-content">

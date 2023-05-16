@@ -5,7 +5,7 @@
       :key="index"
       class="article"
     >
-      <div class="article-image">
+      <div v-if="article.image" class="article-image">
         <img :src="article.image" />
       </div>
       <div class="article-content">
@@ -63,9 +63,9 @@ export default {
 }
 
 .article {
-  padding: 20px;
+  padding: 40px;
   background-color: #ffffff;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   display: flex;
   align-items: center;
 }

@@ -44,6 +44,11 @@ export default {
       email: null,
     }
   },
+  methods: {
+    submitForm() {
+      console.log("form Submission")
+    },
+  },
 }
 </script>
 

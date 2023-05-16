@@ -3,17 +3,32 @@
     <div class="image-container">
       <img :src="seite.productImage" :alt="seite.productTitle" />
     </div>
-    <div class="portfolio-single content-container text-container">
-      <div class="portfolio-items-categories">
-        <span
-          v-for="(category, index) in seite.productCategories"
-          :key="index"
-          class="product-category"
-          >{{ category }}</span
-        >
+    <div class="portfolio-single content-container">
+      <div class="content text-container">
+        <div class="portfolio-items-categories">
+          <span
+            v-for="(category, index) in seite.productCategories"
+            :key="index"
+            class="product-category"
+            >{{ category }}</span
+          >
+        </div>
+        <h1>{{ seite.productTitle }}</h1>
+        <p v-html="$md.render(seite.productDescription)"></p>
       </div>
-      <h1>{{ seite.productTitle }}</h1>
-      <p>{{ seite.productDescription }}</p>
+      <div class="zusatzinformationen">
+        <h3>zusatzinformationen</h3>
+        <div class="info-container">
+          <div
+            class="info"
+            v-for="(info, index) in seite.productFeatures"
+            :key="index"
+          >
+            <strong>{{ info.featureTitle }}</strong>
+            <p>{{ info.featureText }}</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -41,6 +56,23 @@ export default {
 
 .portfolio-single.content-container {
   margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+}
+
+.zusatzinformationen {
+  grid-column: 3 / 4;
+}
+
+.info-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.content.text-container {
+  grid-column: 1 / 3;
 }
 
 .image-container img {
