@@ -241,7 +241,7 @@ p {
   font-weight: 400;
 }
 
-.marketing-text {
+.marketing-text, .marketing-text p {
   font-size: 25px;
   line-height: 50px;
   font-weight: 400;
@@ -308,6 +308,7 @@ h4 {
   font-weight: 600;
   color: var(--primary-color);
   text-transform: uppercase;
+  margin-bottom: 15px;
 }
 
 h5 {

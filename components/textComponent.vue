@@ -1,7 +1,7 @@
 <template>
   <div class="content-container text-container">
     <h2>{{ component.contentTitle }}</h2>
-    <p class="marketing-text">{{ component.contentText }}</p>
+    <p class="marketing-text" v-html="$md.render(component.contentText)"></p>
   </div>
 </template>
 

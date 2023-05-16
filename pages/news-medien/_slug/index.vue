@@ -1,7 +1,7 @@
 <template>
   <div class="article-column">
     <div
-      v-for="(article, index) in $store.state.news"
+      v-for="(article, index) in news"
       :key="index"
       class="article"
     >
@@ -40,6 +40,18 @@ export default {
   async asyncData({ $content, app, store: { dispatch } }) {
     await dispatch('nuxtServerInit')
   },
+  computed: {
+    news() {
+      let slug = this.$route.params.slug.toLowerCase().split(' ').join('-');
+      slug = slug.replace(/ä/g, 'ae');
+      slug = slug.replace(/ü/g, 'ue');
+      slug = slug.replace(/ö/g, 'oe');
+      slug = slug.replace(/ß/g, 'ss');
+      return this.$store.state.news.filter(
+        (news) => news.category.includes(slug),
+      )
+    },
+  },
 }
 </script>
 
@@ -53,7 +65,7 @@ export default {
 .article {
   padding: 20px;
   background-color: #ffffff;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
   display: flex;
   align-items: center;
 }
