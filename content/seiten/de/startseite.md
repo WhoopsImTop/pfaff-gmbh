@@ -5,26 +5,31 @@ hideInMenu: true
 components:
   - type: slider
     slide:
-      - landingTitle: Spitzenqualität und <br> sofort einsatzbereit.
+      - landingTitle: High-Tech-Kunststoffprodukte.<br>Sofort einsatzbereit.
         landingImage: /preview-pfaff-miniatur-laster.png
         landingProducts:
           - implantatschraube
-          - prismaschlitten
         landingTitlePosition: top-left
         landingProductMarkerPosition:
           - bottom: 36
             left: 16
   - type: contentblock
-    contentTitle: High-Tech-Teile aus Kunststoff
-    contentText: Die Pfaff GmbH mit Sitz in Waldkirch bei Freiburg wurde 1992 von
-      Herrn Adolf Pfaff gegründet und ist ein inhabergeführtes Unternehmen. 2018
-      wurde die Geschäftsführung von Tochter Corinna Pfaff übernommen. Ihr
-      Ehemann Andreas Buff ist technischer Leiter des Betriebs, Prokurist und
-      der kreative Kopf des Unternehmens. Eine übersichtliche Betriebsgröße und
-      ein Team von Fachleuten garantieren schnelle und direkte
-      Kommunikationswege sowie ein großes Maß an Flexibilität. Modernste
-      Konstruktions- und Herstellungstechnik versetzt uns in die Lage, besonders
-      hohen Ansprüchen an Material, Werkzeugen und Maschinen gerecht zu werden.
+    contentTitle: Wo Kunststoff Karriere macht.
+    contentText: >-
+      Die Pfaff GmbH in Waldkirch-Kollnau beschäftigt sich seit der Gründung im
+      Jahre 1991 mit der Herstellung von technisch anspruchsvollen
+      Kunststoffartikeln für die Medizin- und Dentaltechnik, Mess- und
+      Regelungstechnik, Ventil- und Fluidtechnik, Sensorik und weitere
+      zukunftsträchtige Industriebranchen.
+
+
+      Dabei kommen verschiedenste Materialien zum Einsatz, auch Hochleistungskunststoffe wie Peek oder PPS werden verarbeitet. Ein moderner Maschinenpark, qualifiziertes Personal und ein nach ISO 9001 und ISO 13485 zertifiziertes Managementsystem gewährleisten den Kunden hervorragende Qualität bei wirtschaftlicher Herstellung.
+
+
+      *„Als kleines inhabergeführtes Unternehmen bieten wir schnelle und direkte Kommunikationswege, flexible Lösungsansätze, kurze Lieferzeiten und faire Preise“ Corinna Pfaff, CEO*
+
+
+      Bei der Zusammenarbeit mit unseren Kunden, Lieferanten und Mitarbeitenden legen wir höchsten Wert auf einen vertrauensvollen und respektvollen Umgang miteinander. Im Vordergrund unseres täglichen Handelns stehen dabei auch der Schutz unserer Umwelt und ein bewusster Umgang mit Ressourcen.
   - type: blocks
     block:
       - blockCategory: Verblüffendee Beispiele
