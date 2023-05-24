@@ -9,7 +9,9 @@ components:
     slide:
       - landingTitle: Familienunternehmen im Schwarzwald
         landingTitlePosition: top-left
-        landingImage: /preview-pfaff-miniatur-laster.png
+        landingImage: /pfaff-miniatur-wanderer-1-.jpg
+        landingProducts:
+          - massageball-für-bepanthen-narbengel
   - type: row
     component:
       - type: text

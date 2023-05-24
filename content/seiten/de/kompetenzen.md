@@ -12,9 +12,15 @@ components:
         landingImage: /preview-pfaff-miniatur-bollenhutmaidli-bub-sammlung.jpg
         landingProducts:
           - getriebekappe-fuer-motorensteuerungssensor
+          - massageball-für-bepanthen-narbengel
+          - umspritzte-stimulationssonden-und-nadelelektroden-für-die-neurochirurgie
         landingProductMarkerPosition:
           - left: 90
             bottom: 40
+          - bottom: 40
+            left: 65
+          - bottom: 22
+            left: 60
   - type: row
     component:
       - type: text

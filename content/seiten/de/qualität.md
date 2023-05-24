@@ -9,8 +9,9 @@ components:
     slide:
       - landingTitle: Qualität
         landingTitlePosition: top-left
-        landingImage: /preview-pfaff-miniatur-bollenhutmaidli-bub-sammlung.jpg
-        landingProducts: []
+        landingImage: /pfaff-miniatur-guckloch-1-.jpg
+        landingProducts:
+          - getriebekappe-fuer-motorensteuerungssensor
   - type: row
     component:
       - type: text

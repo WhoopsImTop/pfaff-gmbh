@@ -14,13 +14,13 @@ components:
           - bottom: 36
             left: 16
       - landingTitle: High-Tech-Kunststoffprodukte.<br>Sofort einsatzbereit.
-        landingImage: /preview-pfaff-miniatur-laster.png
+        landingImage: /pfaff-miniatur-guckloch-1-.jpg
         landingProducts:
-          - implantatschraube
+          - getriebekappe-fuer-motorensteuerungssensor
         landingTitlePosition: top-left
         landingProductMarkerPosition:
           - bottom: 36
-            left: 16
+            left: 24
   - type: contentblock
     contentTitle: Pfaff GmbH. Wo Kunststoff Karriere macht.
     contentText: >-
