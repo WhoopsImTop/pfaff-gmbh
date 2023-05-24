@@ -133,7 +133,7 @@ export default {
 <style>
 .landing-slider {
   width: 100%;
-  height: calc(100vh - 100px);
+  height: calc(100% - 100px);
   margin-bottom: 150px;
   display: flex;
   flex-wrap: nowrap;
