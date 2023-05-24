@@ -5,17 +5,18 @@
     >
       <nuxt-link to="/"><pfaff-logo /></nuxt-link>
       <div
-        class="link-container"
+        class="link-container-background"
         :class="burgerActive ? 'burger-active' : ''"
-        @click="burgerActive = false"
       >
-        <nuxt-link
-          v-for="link in $store.state.seiten"
-          :key="link.slug"
-          :to="'/' + link.slug"
-        >
-          {{ link.siteTitle }}
-        </nuxt-link>
+        <div class="link-container content-container">
+          <nuxt-link
+            v-for="link in $store.state.seiten"
+            :key="link.slug"
+            :to="'/' + link.slug"
+          >
+            {{ link.siteTitle }}
+          </nuxt-link>
+        </div>
       </div>
       <div
         class="burger"
@@ -38,6 +39,11 @@ export default {
     return {
       burgerActive: false,
     }
+  },
+  watch: {
+    $route(to, from) {
+      this.burgerActive = false
+    },
   },
 }
 </script>

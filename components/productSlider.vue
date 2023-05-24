@@ -24,7 +24,6 @@ export default {
     }
   },
   beforeMount() {
-    console.log(typeof this.productSlug)
     if (typeof this.productSlug === 'string') {
       for (let i = 0; i < this.$store.state.produkte.length; i++) {
           if (this.$store.state.produkte[i].slug === this.productSlug) {
@@ -40,6 +39,8 @@ export default {
         }
       }
     }
+  },
+  mounted() {
   },
 }
 </script>

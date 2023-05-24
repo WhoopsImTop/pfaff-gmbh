@@ -1,21 +1,26 @@
 <template>
   <div class="article-column article-background">
-    <h1 style="margin-bottom: 10px">{{ news[0].title }}</h1>
-    <div class="information-row">
-      {{ kategorie[0] ? kategorie[0].categoryTitle + ' || ' : '' }}
-      {{
-        new Date(news[0].date).toLocaleDateString('DE-de', {
-          year: 'numeric',
-          month: 'long',
-          day: 'numeric',
-        }) ||
-        new Date(news[0].createdAt).toLocaleDateString('DE-de', {
-          year: 'numeric',
-          month: 'long',
-          day: 'numeric',
-        })
-      }}
+    <div class="article-informations">
+      <span class="article-information"
+        >Geschrieben am:
+        {{
+          new Date(news[0].date).toLocaleDateString('DE-de', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric',
+          }) ||
+          new Date(news[0].createdAt).toLocaleDateString('DE-de', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric',
+          })
+        }}</span
+      >
+      <span class="article-information" v-if="kategorie[0]">{{
+        kategorie[0] ? kategorie[0].categoryTitle : ''
+      }}</span>
     </div>
+    <h1 style="margin-bottom: 10px">{{ news[0].title }}</h1>
     <nuxt-content class="blog-content" :document="news[0]" />
   </div>
 </template>
@@ -50,17 +55,4 @@ export default {
 </script>
 
 <style>
-.article-background {
-  background-color: #ffffff;
-  padding: 40px;
-}
-
-.information-row {
-  margin-bottom: 20px;
-}
-
-.blog-content img {
-  width: 100%;
-  height: auto;
-}
 </style>

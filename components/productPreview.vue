@@ -1,24 +1,51 @@
 <template>
   <div class="preview-container">
     <div class="preview-text-container">
-      <h2>{{ components.productTitle }}</h2>
-      <p class="marketing-text">{{ components.productDescription }}</p>
+      <h2 class="preview-title">{{ components.productTitle }}</h2>
+      <p class="preview-text marketing-text">
+        {{ components.productDescription }}
+      </p>
       <span class="quote">{{ components.productQuote }}</span>
     </div>
     <div class="preview-image-container">
       <img :src="components.productImage" :alt="components.productTitle" />
     </div>
     <div class="preview-slide-container" v-if="components.product">
-      <product-slider :productSlugProp="components.product" :titlePosition="'left'" />
+      <product-slider
+        :productSlugProp="components.product"
+        :titlePosition="'left'"
+      />
     </div>
   </div>
 </template>
 
 <script>
+import { gsap } from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import productSlider from './productSlider.vue'
 export default {
   components: { productSlider },
   props: ['components'],
+  mounted() {
+    gsap.registerPlugin(ScrollTrigger)
+    gsap.fromTo(
+      '.preview-title',
+      {
+        opacity: 0,
+        y: 100,
+      },
+      {
+        opacity: 1,
+        y: 0,
+        duration: 0.5,
+        scrollTrigger: {
+          trigger: '.preview-container',
+          start: 'top 0%',
+          offset: 300,
+        },
+      }
+    )
+  },
 }
 </script>
 
@@ -64,7 +91,7 @@ export default {
 }
 
 .quote {
-    font-style: italic;
+  font-style: italic;
 }
 
 @media (max-width: 1000px) {

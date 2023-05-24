@@ -239,11 +239,12 @@ p {
   font-size: 18px;
   line-height: 30px;
   font-weight: 400;
+  word-wrap: break-word;
 }
 
 .marketing-text, .marketing-text p {
-  font-size: 25px;
-  line-height: 50px;
+  font-size: 22px;
+  line-height: 45px;
   font-weight: 400;
 }
 
@@ -298,7 +299,6 @@ h3 {
   line-height: 40px;
   font-weight: 600;
   color: var(--primary-color);
-  text-transform: uppercase;
   margin-bottom: 20px;
 }
 

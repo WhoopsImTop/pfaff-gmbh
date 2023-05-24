@@ -19,6 +19,19 @@ export default {
     return { landing }
   },
 
+  head() {
+    return {
+      title: "Pfaff GmbH - Wo Kunststoff Karriere macht. - ISO zertifiziert",
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: "High-Tech-Kunststoff-Teile. Pfaff entwickelt mit modernen Materialien, innovativer Technik und garantieren zertifizierte Qualität unter Reinraumbedingungen.",
+        },
+      ],
+    }
+  },
+
   data() {
     return {}
   },

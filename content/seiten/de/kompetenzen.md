@@ -1,5 +1,5 @@
 ---
-siteTitle: Kompetenzen
+siteTitle: "Kompetenzen "
 menuOrder: 2
 hideInMenu: false
 contentblock:
@@ -33,10 +33,10 @@ components:
         smallHeadline: Spritzguss
       - type: cards
         competencies:
-          - komplettlösungen
-          - materialien
-          - raumfertigung
-          - maschinenpark
+          - wo-andere-aufhören-fangen-wir-erst-an
+          - umspritzen-von-sensiblen-bauteilen
+          - unsere-jahrelange-stärke
+          - farben-materialienmix
   - type: competenciesBlocks
     competencies:
       - komplettlösungen

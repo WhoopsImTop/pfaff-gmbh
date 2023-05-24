@@ -36,19 +36,8 @@ components:
         image: /andreas-buff_corinna-pfaff-768x548-1.jpg
   - type: row
     component:
-      - type: text
-        smallHeadline: Partner
-        headline: Erfolgreiche Kooperationen
-        text: >-
-          Erfolgreiche Kooperationen mit unseren Partnerunternehmen aus
-          Forschung und Praxis sind für uns besonders wichtig.
-
-
-          Geben Sie uns Ihre E-Mailadresse an und Sie können eine komplette Referenzliste als PDF downloaden. Gerne lassen wir Ihnen, wenn Sie einverstanden sind, weitere Informationen zukommen.
-      - type: cooperationForm
-        embedForm: true
-  - type: row
-    component:
+      - type: image
+        image: /pfaff_gmbh-karriere-job-bewerbung-683x1024.jpg
       - type: text
         smallHeadline: Karriere
         headline: Azubi oder Mitarbeiter werden
@@ -61,8 +50,6 @@ components:
 
           An dieser Stelle finden Sie – falls vorhanden – offene Stellen. Wir freuen uns aber auch auf Ihre Initiativ-Bewerbung!
         button:
-          buttonLink: /thema/stellenausschreibungen
+          buttonLink: news-medien/stellenausschreibungen
           buttonText: Stellenausschreibungen
-      - type: image
-        image: /pfaff_gmbh-karriere-job-bewerbung-683x1024.jpg
 ---

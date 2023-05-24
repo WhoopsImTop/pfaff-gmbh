@@ -19,6 +19,19 @@
       return { landing }
     },
   
+    head() {
+      return {
+        title: "Pfaff GmbH | Kompetenzen",
+        meta: [
+          {
+            hid: 'description',
+            name: 'description',
+            content: "Pfaff entwickelt mit modernen Materialien, innovativer Technik und garantieren zertifizierte Qualität unter Reinraumbedingungen.",
+          },
+        ],
+      }
+    },
+    
     data() {
       return {}
     },

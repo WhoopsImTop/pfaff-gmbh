@@ -13,6 +13,14 @@ components:
         landingProductMarkerPosition:
           - bottom: 36
             left: 16
+      - landingTitle: High-Tech-Kunststoffprodukte.<br>Sofort einsatzbereit.
+        landingImage: /preview-pfaff-miniatur-laster.png
+        landingProducts:
+          - implantatschraube
+        landingTitlePosition: top-left
+        landingProductMarkerPosition:
+          - bottom: 36
+            left: 16
   - type: contentblock
     contentTitle: Pfaff GmbH. Wo Kunststoff Karriere macht.
     contentText: >-
@@ -38,21 +46,27 @@ components:
       - blockCategory: Verblüffendee Beispiele
         blockTitle: Produkte & Branchen
         blockImage: /massageball-bepanthen_pfaff_teaser.jpeg
+        blockLink: produktbeispiele
       - blockCategory: Natürliche Qualität
         blockTitle: Zertifizierung
         blockImage: /iso-9001-13485_teaser.jpeg
+        blockLink: qualität
       - blockCategory: Übergreifendes Knowhow
         blockTitle: Kompetenzen
         blockImage: /pfaff-kompetenzen_teaser.jpeg
+        blockLink: kompetenzen
       - blockCategory: "#Zukunft"
         blockTitle: Nachhaltigkeit
         blockImage: /pfaff-projektmanagement_teaser.jpeg
+        blockLink: unternehmen
       - blockCategory: Markteinführung, Versuche
         blockTitle: Kleinauflagen
         blockImage: /pfaff_kleine-auflagen_teaser.jpeg
+        blockLink: kompetenzen
       - blockCategory: Ready To Use
         blockTitle: Komplettlösungen
         blockImage: /pfaff_komplettloesung_teaser.jpeg
+        blockLink: kompetenzen
   - type: productPreview
     productImage: /pfaff-miniatur-bruecke.png
     productTitle: Tradition und Präzision

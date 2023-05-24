@@ -42,12 +42,12 @@ export default {
   flex-direction: row;
   align-items: center;
   margin-right: 20px;
-  border-radius: 5px;
   overflow: hidden;
   box-shadow: 0px 10px 20px #35353516;
   text-decoration: none;
   background-color: #ffffff;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;  
+  border-radius: 4px;
 }
 
 .highlighted {

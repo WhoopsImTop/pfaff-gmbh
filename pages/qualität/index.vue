@@ -18,6 +18,19 @@
       await dispatch('nuxtServerInit')
       return { landing }
     },
+
+    head() {
+      return {
+        title: "Pfaff GmbH | Qualität",
+        meta: [
+          {
+            hid: 'description',
+            name: 'description',
+            content: "Hervorragende Qualität bei wirtschaftlicher Produktion verstehen wir als Selbstverständlichkeit. Seit 2006 sind wir nach der ISO-Norm 9001 zertifiziert. Seit 2011 bieten wir unseren Kunden im Medizinbereich zusätzlich eine Qualitätssicherung nach ISO 13485.",
+          },
+        ],
+      }
+    },
   
     data() {
       return {}

@@ -18,6 +18,19 @@
       await dispatch('nuxtServerInit')
       return { landing }
     },
+
+    head() {
+      return {
+        title: "Pfaff GmbH | Kontakt",
+        meta: [
+          {
+            hid: 'description',
+            name: 'description',
+            content: "Sie haben Fragen zu unseren Produkten oder Dienstleistungen? Wir freuen uns auf Ihre Kontaktaufnahme.",
+          },
+        ],
+      }
+    },
   
     data() {
       return {}

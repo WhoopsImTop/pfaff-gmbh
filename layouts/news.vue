@@ -46,7 +46,6 @@ export default {
   
 <style>
 .light-bg {
-  background-color: var(--primary-light-color);
   display: flex;
   flex-direction: column;
 }
@@ -71,7 +70,7 @@ export default {
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
-  background-color: #ffffff;
+  background-color: var(--light-gray-color);
   padding: 40px;
 }
 

@@ -63,6 +63,20 @@ export default {
     }
   },
 
+  head() {
+    return {
+      title: 'Pfaff GmbH | Produktbeispiele',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'Produktbeispiele der Pfaff GmbH. Wir entwickeln mit modernen Materialien, innovativer Technik und garantieren zertifizierte Qualität unter Reinraumbedingungen.',
+        },
+      ],
+    }
+  },
+
   computed: {
     filteredProdukte() {
       if (this.activeFilterBtn === 'alle') {
@@ -124,20 +138,19 @@ export default {
 .portfolio-item::after {
   content: '';
   position: absolute;
-  bottom: 20px;
-  right: -5px;
+  bottom: -5px;
+  left: 20px;
   background-image: url('/arrow.svg');
   background-repeat: no-repeat;
   background-size: 40px;
   background-position: center;
   width: 40px;
   height: 40px;
-  transform: rotate(-90deg);
   transition: .3s ease-in-out;
 }
 
 .portfolio-item:hover::after {
-  right: 0px;
+  bottom: 0px;
   transition: .3s ease-in-out;
 }
 
@@ -157,22 +170,13 @@ export default {
   object-fit: cover;
 }
 
-.product-category {
-  color: var(--primary-color);
-  font-size: 12px;
-  text-transform: uppercase;
-  background-color: var(--primary-light-color);
-  padding: 5px;
-  border-radius: 2px;
-  margin-right: 5px;
-}
-
 .portfolio-content {
   display: flex;
   flex-direction: column;
   padding: 20px 20px 50px 20px;
   overflow: hidden;
   flex-grow: 1;
+  word-wrap: break-word;
 }
 @media (max-width: 1000px) {
   .filter-btn {

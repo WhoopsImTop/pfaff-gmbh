@@ -12,7 +12,7 @@
         </div>
         <div class="card-content">
           <span class="product-category">{{ card.competenceName }}</span>
-          <h4 style="margin-top: 10px">{{ card.competenceTitle }}</h4>
+          <h5 style="margin-top: 10px">{{ card.competenceTitle }}</h5>
           <!-- <p>{{ card.competenceDescription.slice(0, 50) }}</p> -->
         </div>
       </nuxt-link>
@@ -54,13 +54,13 @@ export default {
 
 .small-card-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, calc(50% - 10px)));
+  grid-template-columns: repeat(auto-fit, minmax(315px, calc(50% - 10px)));
   grid-gap: 10px;
 }
 
 .small-card-image {
   width: 100%;
-  height: 150px;
+  height: 170px;
 }
 
 .small-card-image img {

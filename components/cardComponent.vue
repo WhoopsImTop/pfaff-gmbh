@@ -21,8 +21,32 @@
 </template>
 
 <script>
+import { gsap } from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
 export default {
   props: ['component'],
+  mounted() {
+    gsap.registerPlugin(ScrollTrigger)
+    gsap.fromTo(
+      '.pf-card',
+      {
+        opacity: 0,
+        y: 100,
+      },
+      {
+        opacity: 1,
+        y: 0,
+        duration: .3,
+        delay: (index) => index * 0.25,
+        scrollTrigger: {
+          trigger: '.card-container',
+          start: 'top 80%',
+          end: 'bottom 10%',
+          toggleActions: 'play none none reverse',
+        },
+      }
+    )
+  },
 }
 </script>
 

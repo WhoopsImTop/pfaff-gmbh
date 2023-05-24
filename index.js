@@ -8,6 +8,7 @@ const {
   NodeHtmlMarkdown,
   NodeHtmlMarkdownOptions,
 } = require('node-html-markdown')
+const { StringDecoder } = require('node:string_decoder');
 
 const categoryUrl =
   'https://pfaffgmbh.com/wp-json/wp/v2/categories?per_page=100'
@@ -61,9 +62,11 @@ axios
       //shorten the excerpt to 200 characters
       post.excerpt.rendered = post.excerpt.rendered.substring(0, 200)
 
+      const decoder = new StringDecoder('utf8');
+
       const filename = post.slug + '.md'
       let content = '---\n'
-      content += 'title: "' + post.title.rendered + '"\n'
+      content += 'title: "' + decoder.write(post.title.rendered) + '"\n'
       content += 'date: ' + post.date + '\n'
       content += 'category:\n'
       post.categories.forEach((category) => {
@@ -78,7 +81,7 @@ axios
           .replace(/(?:\\r\\n|\\r|\\n)/g, ' ') +
         '\n'
       content += '---\n'
-      content += NodeHtmlMarkdown.translate(post.content.rendered)
+      content += decoder.write(post.content.rendered)
       fs.writeFileSync('content/blog/de/' + filename, content)
       console.log('wrote ' + filename)
     })

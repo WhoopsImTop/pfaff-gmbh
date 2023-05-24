@@ -8,6 +8,7 @@
       <card-component v-if="component.type == 'cards'" :component="component" />
       <component-blocks v-if="component.type == 'competenciesBlocks'" :component="component" />
       <row-component v-if="component.type == 'row'" :component="component" />
+      <team-component v-if="component.type == 'team'" :component="component" />
   </div>
 </template>
 

@@ -5,9 +5,13 @@ category:
   - fachbeitraege
 content:  Voll integrierter Prozess einschließlich komplexem Handling.    Eine kleine Kunststoffkugel, regelmäßige kleine Noppen auf der Oberfläche, eine kleine Achse imZentrum, um die sie sich drehen kann. Diese kleine Kugel so herzustellen erfordert herstellungstechnisch einen erstaunlichen Aufwand. Warum der Spritzgießer Pfaff in Südbaden diesen Aufwand betreibt, ist schnell beantwortet. Einfache Lösungen sind zu teuer.    Den kompletten Artikel aus dem Kunststoff Magazin als PDF 
 ---
-**Voll integrierter Prozess einschließlich komplexem Handling**.
 
-Eine kleine Kunststoffkugel, regelmäßige kleine Noppen auf der Oberfläche, eine kleine Achse im  
-Zentrum, um die sie sich drehen kann. Diese kleine Kugel so herzustellen erfordert herstellungstechnisch einen erstaunlichen Aufwand. Warum der Spritzgießer Pfaff in Südbaden diesen Aufwand betreibt, ist schnell beantwortet. Einfache Lösungen sind zu teuer.
+<p><strong>Voll integrierter Prozess einschließlich komplexem Handling</strong>.</p>
 
-[Den kompletten Artikel aus dem Kunststoff Magazin als PDF](https://pfaffgmbh.com/downloads/KM%5FOktober%5F2016%5FS26-28%5Fweb.pdf)
+
+
+<p>Eine kleine Kunststoffkugel, regelmäßige kleine Noppen auf der Oberfläche, eine kleine Achse im<br>Zentrum, um die sie sich drehen kann. Diese kleine Kugel so herzustellen erfordert herstellungstechnisch einen erstaunlichen Aufwand. Warum der Spritzgießer Pfaff in Südbaden diesen Aufwand betreibt, ist schnell beantwortet. Einfache Lösungen sind zu teuer.</p>
+
+
+
+<p><a href="https://pfaffgmbh.com/downloads/KM_Oktober_2016_S26-28_web.pdf" target="_blank" rel="noreferrer noopener" aria-label=" (öffnet in neuem Tab)">Den kompletten Artikel aus dem Kunststoff Magazin als PDF</a></p>

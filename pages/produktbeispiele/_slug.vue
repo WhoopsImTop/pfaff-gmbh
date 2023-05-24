@@ -17,7 +17,7 @@
         <p v-html="$md.render(seite.productDescription)"></p>
       </div>
       <div class="zusatzinformationen">
-        <h3>zusatzinformationen</h3>
+        <h3>Zusatzinformationen</h3>
         <div class="info-container">
           <div
             class="info"
@@ -42,6 +42,19 @@ export default {
     await dispatch('nuxtServerInit')
     return { seite }
   },
+
+  head() {
+    return {
+      title: 'Pfaff GmbH | ' + this.seite.productTitle,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.seite.productDescription
+        }
+      ]
+    }
+  }
 }
 </script>
 

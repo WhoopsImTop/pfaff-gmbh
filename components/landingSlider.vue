@@ -1,9 +1,14 @@
 <template>
-  <div class="landing-slider">
+  <div
+    ref="slider"
+    class="landing-slider content-container"
+    style="margin: 0 auto"
+  >
     <div
       v-for="(slide, index) in slideData"
       :key="index"
-      class="content-container slide"
+      :style="sliderStyles"
+      class="slide"
     >
       <h1
         class="slide-title"
@@ -25,6 +30,7 @@
         <img :src="slide.landingImage" :alt="slide.landingTitle" />
       </div>
       <productSlider
+        id="productSlider"
         v-if="slide.landingProducts"
         :productSlugProp="slide.landingProducts"
       />
@@ -38,36 +44,67 @@ import productSlider from './productSlider.vue'
 export default {
   components: { productSlider },
   props: ['slideData'],
+  data() {
+    return {
+      currentSlide: 0,
+      slidesToShow: 1,
+      slideWidth: null,
+      interval: null,
+    }
+  },
+  computed: {
+    sliderStyles() {
+      return {
+        transform: `translateX(-${this.currentSlide * 100}%)`,
+      }
+    },
+  },
+  beforeMount() {
+    if (this.slideData.length > this.slidesToShow) {
+      this.interval = setInterval(() => {
+        this.nextSlide()
+      }, 8000)
+    }
+  },
   mounted() {
+    window.onblur = () => {
+      clearInterval(this.interval)
+    }
+    window.onfocus = () => {
+      if (this.slideData.length > this.slidesToShow) {
+        this.interval = setInterval(() => {
+          this.nextSlide()
+        }, 8000)
+      }
+    }
     const tl = gsap.timeline()
     tl.from('.slide-title', {
       duration: 1,
       y: 100,
       opacity: 0,
+      delay: 0.2,
       ease: 'power4.out',
     })
       .from(
-        '.marker',
-        {
-          duration: 1,
-          y: 100,
-          opacity: 0,
-          stagger: 0.2,
-          ease: 'power4.out',
-        },
-        '-=0.5'
-      )
-      .from(
-        '.product-slider',
+        '#productSlider',
         {
           duration: 1,
           y: 100,
           opacity: 0,
           stagger: 0.5,
+          delay: 0.2,
           ease: 'power4.out',
         },
         '-=0.5'
       )
+
+    this.$watch('currentSlide', () => {
+      tl.progress(0)
+      tl.pause()
+      setTimeout(() => {
+        tl.restart()
+      }, 800)
+    })
   },
   methods: {
     highlightConnectedProduct(data, index) {
@@ -76,6 +113,18 @@ export default {
       }
       const id = data[index]
       document.getElementById(id).classList.toggle('highlighted')
+    },
+    nextSlide() {
+      if (this.currentSlide < this.slideData.length - this.slidesToShow) {
+        this.currentSlide++
+      } else {
+        this.currentSlide = 0
+      }
+    },
+    prevSlide() {
+      if (this.currentSlide > 0) {
+        this.currentSlide--
+      }
     },
   },
 }
@@ -86,11 +135,16 @@ export default {
   width: 100%;
   height: calc(100vh - 100px);
   margin-bottom: 150px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
 }
 
-.content-container.slide {
+.slide {
   position: relative;
-  margin-top: 0px;
+  min-width: 100%;
+  transition: transform 0.7s ease-in-out;
+  height: 100%;
 }
 
 .slide-title {
@@ -173,6 +227,17 @@ export default {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.slide-enter-active,
+.slide-leave-active {
+  transition: all 0.5s;
+}
+
+.slide-enter,
+.slide-leave-to {
+  opacity: 0;
+  transform: translateX(30px);
 }
 
 @media (max-width: 1000px) {

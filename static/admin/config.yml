@@ -239,6 +239,29 @@ collections:
                 value_field: "{{slug}}"
                 search_fields: ["categoryTitle"]
                 display_fields: ["categoryTitle"]
+          
+          - label: "Team"
+            name: "team"
+            widget: "object"
+            summary: "{{fields.name}}"
+            i18n: true
+            fields:
+              - label: "Titel"
+                name: "title"
+                widget: "string"
+                required: false
+                i18n: true
+              - label: "Teammitglied"
+                name: "teamMember"
+                widget: "list"
+                i18n: true
+                summary: "{{fields.name}} - {{fields.position}}"
+                fields:
+                  - {label: "Name", name: "name", widget: "string", required: false, i18n: true }
+                  - {label: "Position", name: "position", widget: "string", required: false, i18n: true }
+                  - {label: "Bild", name: "image", widget: "image", required: false, i18n: true }
+                  - {label: "E-Mail", name: "email", widget: "string", required: false, i18n: true }
+                  - {label: "Telefon", name: "phone", widget: "string", required: false, i18n: true }
 
           - label: "Reihe"
             name: "row"
@@ -294,6 +317,11 @@ collections:
                           - { label: "Button Download", name: "buttonDownloadLink", widget: "file", required: false, i18n: true }
                   - label: "Kooparationsformular"
                     name: "cooperationForm"
+                    widget: "object"
+                    fields:
+                      - { label: "Formular einbinden", name: "embedForm", widget: "boolean", i18n: true, required: false }
+                  - label: "Kontaktformular"
+                    name: "contactForm"
                     widget: "object"
                     fields:
                       - { label: "Formular einbinden", name: "embedForm", widget: "boolean", i18n: true, required: false }

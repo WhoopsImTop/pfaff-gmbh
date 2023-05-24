@@ -2,7 +2,7 @@
   <div class="content-container">
     <h2 v-if="component.title">{{ component.title }}</h2>
     <div class="card-container">
-      <nuxt-link :to="'kompetenzen/' + card.slug" v-for="(card, index) in kompetenzen" :key="index" class="pf-card">
+      <nuxt-link :to="'/kompetenzen/' + card.slug" v-for="(card, index) in kompetenzen" :key="index" class="pf-card">
         <div v-if="card.competenceImage" class="card-image">
           <img :src="card.competenceImage" :alt="card.competenceName" />
         </div>

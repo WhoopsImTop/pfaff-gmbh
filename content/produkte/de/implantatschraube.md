@@ -25,16 +25,25 @@ productCategories:
   - Medizin
   - Dentaltechnik
 productFeatures:
-  - featureTitle: "M﻿aschine:"
-    featureText: Blindtext
-  - featureTitle: "R﻿einraum:"
-    featureText: Blindtext
-  - featureTitle: "Z﻿ertfizierung:"
-    featureText: Blindtext
-  - featureTitle: "M﻿aterial:"
-    featureText: Blindtext
-  - featureTitle: "K﻿unde:"
-    featureText: Blindtext
-  - featureTitle: "E﻿ntwicklung:"
-    featureText: Blindtext
+  - featureTitle: "Industriebereich:"
+    featureText: Dentaltechnik
+  - featureTitle: "Maschine:"
+    featureText: Arburg 370 A
+  - featureTitle: "Zuhaltekraft:"
+    featureText: 60 to
+  - featureTitle: "Verpackungsart:"
+    featureText: Folienbeutel
+  - featureTitle: Reinraumbedingungen?
+    featureText: Ja
+  - featureTitle: "Material:"
+    featureText: Peek
+  - featureTitle: Automatisierte Entnahme und Verpackung?
+    featureText: Ja
+  - featureTitle: "Verarbeitungstemperatur:"
+    featureText: 360° - 400°C
+  - featureTitle: Geforderte Doku (EMPB/PPAP/Validierung)?
+    featureText: Validierung
+  - featureTitle: "Anwendung:"
+    featureText: Die Implantat Schraube verschließt das Implantat während des
+      Heilungsprozesses bis der Zahn aufgeschraubt werden kann.
 ---
