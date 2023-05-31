@@ -55,10 +55,6 @@ components:
         blockTitle: Kompetenzen
         blockImage: /pfaff-kompetenzen_teaser.jpeg
         blockLink: kompetenzen
-      - blockCategory: "#Zukunft"
-        blockTitle: Nachhaltigkeit
-        blockImage: /pfaff-projektmanagement_teaser.jpeg
-        blockLink: unternehmen
       - blockCategory: Markteinführung, Versuche
         blockTitle: Kleinauflagen
         blockImage: /pfaff_kleine-auflagen_teaser.jpeg
@@ -67,6 +63,10 @@ components:
         blockTitle: Komplettlösungen
         blockImage: /pfaff_komplettloesung_teaser.jpeg
         blockLink: kompetenzen
+      - blockCategory: "#Zukunft"
+        blockTitle: Nachhaltigkeit
+        blockImage: /pfaff-projektmanagement_teaser.jpeg
+        blockLink: unternehmen
   - type: productPreview
     productImage: /pfaff-miniatur-bruecke.png
     productTitle: Tradition und Präzision
