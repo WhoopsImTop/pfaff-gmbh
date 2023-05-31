@@ -23,7 +23,7 @@
       <nuxt-link
         v-for="(produkt, index) in filteredProdukte"
         :key="index"
-        :to="'produktbeispiele/' + produkt.slug"
+        :to="'/produktbeispiele/' + produkt.slug"
         class="portfolio-item"
       >
         <div class="portfolio-image">
