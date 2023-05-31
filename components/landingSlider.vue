@@ -17,12 +17,12 @@
       ></h1>
       <div class="slide-image">
         <div
-          v-for="(marker, index) in slide.landingProductMarkerPosition"
-          :key="index"
+          v-for="(marker, i) in slide.landingProductMarkerPosition"
+          :key="i"
           class="marker"
           :style="'bottom:' + marker.bottom + '%; left:' + marker.left + '%'"
-          @mouseover="highlightConnectedProduct(slide.landingProducts, index)"
-          @mouseout="highlightConnectedProduct(slide.landingProducts, index)"
+          @mouseover="highlightConnectedProduct(slide.landingProducts, i)"
+          @mouseout="highlightConnectedProduct(slide.landingProducts, i)"
         >
           <div class="ping-marker"></div>
           <div class="inner-cricle"></div>
@@ -30,8 +30,8 @@
         <img :src="slide.landingImage" :alt="slide.landingTitle" />
       </div>
       <productSlider
-        id="productSlider"
         v-if="slide.landingProducts"
+        id="productSlider"
         :productSlugProp="slide.landingProducts"
       />
     </div>
@@ -84,19 +84,18 @@ export default {
       opacity: 0,
       delay: 0.2,
       ease: 'power4.out',
-    })
-      .from(
-        '#productSlider',
-        {
-          duration: 1,
-          y: 100,
-          opacity: 0,
-          stagger: 0.5,
-          delay: 0.2,
-          ease: 'power4.out',
-        },
-        '-=0.5'
-      )
+    }).from(
+      '#productSlider',
+      {
+        duration: 1,
+        y: 100,
+        opacity: 0,
+        stagger: 0.5,
+        delay: 0.2,
+        ease: 'power4.out',
+      },
+      '-=0.5'
+    )
 
     this.$watch('currentSlide', () => {
       tl.progress(0)
@@ -154,6 +153,20 @@ export default {
 
 .slide-image {
   position: relative;
+  width: 100%;
+  height: 900px;
+  /* Loading background */
+  background: #eee;
+  background: linear-gradient(110deg, #ececec 8%, #f5f5f5 18%, #ececec 33%);
+  background-size: cover;
+  background-size: 200% 100%;
+  animation: 1.5s shine linear infinite;
+}
+
+@keyframes shine {
+  to {
+    background-position-x: -200%;
+  }
 }
 
 .slide-image img {

@@ -2,7 +2,17 @@
   <div class="footer">
     <div class="content-container footer-content-container">
       <div class="footer-logo-container">
-        <footer-pfaff-logo class="footer-pfaff-logo" />
+        <div class="pfaff-logo">
+          <div class="dark-circle">
+            <div class="dark-stick"></div>
+          </div>
+          <div class="gray-circle">
+            <div class="gray-stick"></div>
+          </div>
+          <div class="light-circle">
+            <div class="light-stick"></div>
+          </div>
+        </div>
       </div>
       <div class="footer-content">
         <p>
@@ -47,25 +57,11 @@
       </div>
       <div class="copyright">© 2023 PFAFF GMBH | Designed with ❤️ by khri8</div>
     </div>
-
-    <div class="pfaff-logo">
-      <div class="dark-circle">
-        <div class="dark-stick"></div>
-      </div>
-      <div class="gray-circle">
-        <div class="gray-stick"></div>
-      </div>
-      <div class="light-circle">
-        <div class="light-stick"></div>
-      </div>
-    </div>
   </div>
 </template>
 
 <script>
-import footerPfaffLogo from './footerPfaffLogo.vue'
 export default {
-  components: { footerPfaffLogo },
 }
 </script>
 
@@ -79,6 +75,8 @@ export default {
   justify-content: center;
   align-items: center;
   position: relative;
+  margin-top: 10px;
+  transform: scale(.7)
 }
 
 .dark-circle {
@@ -96,7 +94,7 @@ export default {
   position: absolute;
   top: -70%;
   left: 50%;
-  transform: translateX(-53%)
+  transform: translateX(-53%);
 }
 
 .gray-circle {
@@ -115,7 +113,7 @@ export default {
   position: absolute;
   top: -130%;
   left: 50%;
-  transform: translateX(-53%)
+  transform: translateX(-53%);
 }
 
 .light-circle {
@@ -134,7 +132,7 @@ export default {
   position: absolute;
   top: -220%;
   left: 50%;
-  transform: translateX(-53%)
+  transform: translateX(-53%);
 }
 
 @keyframes rotate45 {
