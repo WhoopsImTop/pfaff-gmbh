@@ -7,7 +7,7 @@ contentblock:
 components:
   - type: slider
     slide:
-      - landingTitle: Kompetzenzen
+      - landingTitle: Kompetenzen
         landingTitlePosition: top-left
         landingImage: /preview-pfaff-miniatur-bollenhutmaidli-bub-sammlung.jpg
         landingProducts:

@@ -43,7 +43,7 @@ components:
       Wir freuen uns darauf, Ihre Anforderungen zu erfüllen.
   - type: blocks
     block:
-      - blockCategory: Verblüffendee Beispiele
+      - blockCategory: Verblüffende Produktbeispiele
         blockTitle: Produkte & Branchen
         blockImage: /massageball-bepanthen_pfaff_teaser.jpeg
         blockLink: produktbeispiele
@@ -55,13 +55,13 @@ components:
         blockTitle: Kompetenzen
         blockImage: /pfaff-kompetenzen_teaser.jpeg
         blockLink: kompetenzen
-      - blockCategory: Markteinführung, Versuche
-        blockTitle: Kleinauflagen
-        blockImage: /pfaff_kleine-auflagen_teaser.jpeg
-        blockLink: kompetenzen
       - blockCategory: Ready To Use
         blockTitle: Komplettlösungen
         blockImage: /pfaff_komplettloesung_teaser.jpeg
+        blockLink: kompetenzen
+      - blockCategory: Markteinführung, Versuche
+        blockTitle: Kleinauflagen
+        blockImage: /pfaff_kleine-auflagen_teaser.jpeg
         blockLink: kompetenzen
       - blockCategory: "#Zukunft"
         blockTitle: Nachhaltigkeit
