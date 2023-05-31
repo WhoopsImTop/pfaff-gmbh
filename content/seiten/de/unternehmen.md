@@ -52,6 +52,6 @@ components:
 
           An dieser Stelle finden Sie – falls vorhanden – offene Stellen. Wir freuen uns aber auch auf Ihre Initiativ-Bewerbung!
         button:
-          buttonLink: news-medien/stellenausschreibungen
+          buttonLink: /news-medien/stellenausschreibungen
           buttonText: Stellenausschreibungen
 ---
