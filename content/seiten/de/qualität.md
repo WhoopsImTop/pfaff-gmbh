@@ -9,9 +9,9 @@ components:
     slide:
       - landingTitle: Qualität
         landingTitlePosition: top-left
-        landingImage: /pfaff-miniatur-guckloch-1-.jpg
+        landingImage: /pfaff-miniatur-wanderer-1-.jpg
         landingProducts:
-          - getriebekappe-fuer-motorensteuerungssensor
+          - massageball-für-bepanthen-narbengel
   - type: row
     component:
       - type: text

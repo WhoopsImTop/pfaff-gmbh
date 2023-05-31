@@ -155,12 +155,10 @@ export default {
   position: relative;
   width: 100%;
   height: 900px;
-  /* Loading background */
-  background: #eee;
-  background: linear-gradient(110deg, #ececec 8%, #f5f5f5 18%, #ececec 33%);
-  background-size: cover;
-  background-size: 200% 100%;
-  animation: 1.5s shine linear infinite;
+  background-image: url('static/logo.svg');
+  background-size: 20%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 @keyframes shine {

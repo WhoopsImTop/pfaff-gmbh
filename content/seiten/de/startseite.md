@@ -83,7 +83,7 @@ components:
         cardLink: news-medien
       - cardTitle: Karriere
         cardText: Hier finden Sie all unsere Stellenangebote und die Möglichkeit der
-          Inititativberwerbung.
+          Initiativbewerbung.
         cardLink: news-medien
       - cardTitle: Historie
         cardText: Lernen Sie uns und unsere Geschichte kennen.

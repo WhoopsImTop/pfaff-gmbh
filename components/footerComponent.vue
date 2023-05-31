@@ -62,6 +62,26 @@
 
 <script>
 export default {
+  mounted() {
+    const grayCircle = document.querySelector(".gray-circle");
+    const blueCircle = document.querySelector(".dark-circle");
+    const lightCircle = document.querySelector(".light-circle");
+
+    setInterval(() => {
+      const date = new Date();
+      const seconds = date.getSeconds();
+      const minutes = date.getMinutes();
+      const hours = date.getHours();
+
+      const secondsDegrees = (seconds / 60) * 360;
+      const minutesDegrees = (minutes / 60) * 360;
+      const hoursDegrees = (hours / 12) * 360;
+
+      grayCircle.style.transform = `rotate(${secondsDegrees}deg)`;
+      blueCircle.style.transform = `rotate(${minutesDegrees}deg)`;
+      lightCircle.style.transform = `rotate(${hoursDegrees}deg)`;
+    }, 1000);
+  },
 }
 </script>
 
@@ -75,8 +95,7 @@ export default {
   justify-content: center;
   align-items: center;
   position: relative;
-  margin-top: 10px;
-  transform: scale(.7)
+  transform: scale(.7) rotate(0deg);
 }
 
 .dark-circle {
@@ -103,7 +122,6 @@ export default {
   height: 20px;
   border-radius: 50%;
   background: var(--darker-gray-color);
-  animation: rotate45 3s ease-in-out infinite;
 }
 
 .gray-stick {
@@ -121,41 +139,16 @@ export default {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background: #588dad;
-  animation: rotate90 3s ease-in-out infinite;
+  background: #1d9dd9;
 }
 
 .light-stick {
   width: 7px;
   height: 30px;
-  background: #588dad;
+  background: #1d9dd9;
   position: absolute;
   top: -220%;
   left: 50%;
   transform: translateX(-53%);
-}
-
-@keyframes rotate45 {
-  0% {
-    transform: rotate(0deg);
-  }
-  50% {
-    transform: rotate(45deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
-}
-
-@keyframes rotate90 {
-  0% {
-    transform: rotate(0deg);
-  }
-  50% {
-    transform: rotate(90deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
 }
 </style>

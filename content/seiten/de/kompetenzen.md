@@ -9,18 +9,10 @@ components:
     slide:
       - landingTitle: Kompetenzen
         landingTitlePosition: top-left
-        landingImage: /preview-pfaff-miniatur-bollenhutmaidli-bub-sammlung.jpg
+        landingImage: /preview-pfaff-miniatur-laster.png
         landingProducts:
-          - getriebekappe-fuer-motorensteuerungssensor
-          - massageball-für-bepanthen-narbengel
-          - umspritzte-stimulationssonden-und-nadelelektroden-für-die-neurochirurgie
-        landingProductMarkerPosition:
-          - left: 90
-            bottom: 40
-          - bottom: 40
-            left: 65
-          - bottom: 22
-            left: 60
+          - implantatschraube
+        landingProductMarkerPosition: []
   - type: row
     component:
       - type: text

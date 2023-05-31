@@ -1,60 +1,65 @@
 <template>
-  <div class="content-container">
-    <h1 v-html="seite.siteTitle"></h1>
-    <div class="produktfilter">
-      <button
-        id="all"
-        class="filter-btn active"
-        @click="activeFilterBtn = 'alle'"
-      >
-        Alle
-      </button>
-      <button
-        v-for="(button, index) in $store.state.kategorien"
-        :id="button.productCategoryTitle"
-        :key="index"
-        class="filter-btn"
-        @click="activeFilterBtn = button.productCategoryTitle"
-      >
-        {{ button.productCategoryTitle }}
-      </button>
-    </div>
-    <div class="portfolio-grid">
-      <nuxt-link
-        v-for="(produkt, index) in filteredProdukte"
-        :key="index"
-        :to="'/produktbeispiele/' + produkt.slug"
-        class="portfolio-item"
-      >
-        <div class="portfolio-image">
-          <img :src="produkt.productImage" :alt="produkt.productTitle" />
-        </div>
-        <div class="portfolio-content">
-          <div class="portfolio-items-categories">
-            <span
-              v-for="(category, index) in produkt.productCategories"
-              :key="index"
-              class="product-category"
-              >{{ category }}</span
-            >
+  <div>
+    <landing-slider :slideData="slides" />
+    <div class="content-container" style="margin-top: 100px">
+      <div class="produktfilter">
+        <button
+          id="all"
+          class="filter-btn active"
+          @click="activeFilterBtn = 'alle'"
+        >
+          Alle
+        </button>
+        <button
+          v-for="(button, index) in $store.state.kategorien"
+          :id="button.productCategoryTitle"
+          :key="index"
+          class="filter-btn"
+          @click="activeFilterBtn = button.productCategoryTitle"
+        >
+          {{ button.productCategoryTitle }}
+        </button>
+      </div>
+      <div class="portfolio-grid">
+        <nuxt-link
+          v-for="(produkt, index) in filteredProdukte"
+          :key="index"
+          :to="'/produktbeispiele/' + produkt.slug"
+          class="portfolio-item"
+        >
+          <div class="portfolio-image">
+            <img :src="produkt.productImage" :alt="produkt.productTitle" />
           </div>
-          <div class="portfolio-title">
-            <h4>{{ produkt.productTitle }}</h4>
+          <div class="portfolio-content">
+            <div class="portfolio-items-categories">
+              <span
+                v-for="(category, index) in produkt.productCategories"
+                :key="index"
+                class="product-category"
+                >{{ category }}</span
+              >
+            </div>
+            <div class="portfolio-title">
+              <h4>{{ produkt.productTitle }}</h4>
+            </div>
           </div>
-        </div>
-      </nuxt-link>
+        </nuxt-link>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
+import landingSlider from '~/components/landingSlider.vue'
 export default {
+  components: { landingSlider },
   async asyncData({ $content, app, store: { dispatch } }) {
     const seite = await $content(
       'seiten/' + app.i18n.locale + '/produktbeispiele'
     ).fetch()
     await dispatch('nuxtServerInit')
-    return { seite }
+    const slides = seite.components[0].slide
+    return { slides, seite }
   },
 
   data() {
@@ -146,12 +151,12 @@ export default {
   background-position: center;
   width: 40px;
   height: 40px;
-  transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .portfolio-item:hover::after {
   bottom: 0px;
-  transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .portfolio-item:hover {

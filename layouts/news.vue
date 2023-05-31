@@ -70,7 +70,6 @@ export default {
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
-  background-color: var(--light-gray-color);
   padding: 40px;
 }
 

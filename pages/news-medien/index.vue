@@ -12,6 +12,7 @@
       class="article"
     >
       <div class="article-content">
+        <h4 v-html="article.title"></h4>
         <div class="article-informations">
           <span class="article-information"
             >Geschrieben am:
@@ -22,9 +23,7 @@
           >
           <span class="article-information">{{ article.category[0] }}</span>
         </div>
-        <h4 v-html="article.title"></h4>
-
-        <p>{{ article.excerpt }}</p>
+        <p v-if="article.content">{{ article.content.length <= 200 ? article.content : article.content.slice(0, 200) + '...' }}</p>
       </div>
       <div v-if="article.image" class="article-image">
         <img :src="article.image" />

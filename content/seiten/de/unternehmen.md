@@ -9,9 +9,9 @@ components:
     slide:
       - landingTitle: Familienunternehmen im Schwarzwald
         landingTitlePosition: top-left
-        landingImage: /pfaff-miniatur-wanderer-1-.jpg
+        landingImage: /pfaff-miniatur-bruecke.png
         landingProducts:
-          - massageball-für-bepanthen-narbengel
+          - umspritzte-stimulationssonden-und-nadelelektroden-für-die-neurochirurgie
   - type: row
     component:
       - type: text
@@ -35,7 +35,7 @@ components:
           beschäftigen heute 17 Mitarbeiter und produzieren im
           Eineinhalb-Schicht-Betrieb auf einer Fläche von 700 Quadratmetern.
       - type: image
-        image: /andreas-buff_corinna-pfaff-768x548-1.jpg
+        image: /ab-cp-4.jpg
   - type: row
     component:
       - type: image
