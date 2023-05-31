@@ -97,6 +97,10 @@
   text-decoration: none;
 }
 
+.link-container .nuxt-link-exact-active {
+  color: var(--primary-red-color);
+}
+
 .link-container-background.burger-active {
   transition: all 0.3s ease-in-out;
   top: 90px;
