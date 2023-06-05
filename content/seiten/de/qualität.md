@@ -7,7 +7,7 @@ contentblock:
 components:
   - type: slider
     slide:
-      - landingTitle: Qualität
+      - landingTitle: Wir bringen Sie vertrauensvoll <br> zu Ihrem Kunststoffgipfel.
         landingTitlePosition: top-left
         landingImage: /pfaff-miniatur-wanderer-1-.jpg
         landingProducts:
