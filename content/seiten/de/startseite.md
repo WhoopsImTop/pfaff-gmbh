@@ -5,7 +5,7 @@ hideInMenu: true
 components:
   - type: slider
     slide:
-      - landingTitle: High-Tech-Kunststoffprodukte.<br>Sofort einsatzbereit.
+      - landingTitle: Ihre Kunststoffprodukte. <br> Präzise und sofort einsatzbereit.
         landingImage: /preview-pfaff-miniatur-laster.png
         landingProducts:
           - implantatschraube
@@ -13,7 +13,7 @@ components:
         landingProductMarkerPosition:
           - bottom: 36
             left: 16
-      - landingTitle: High-Tech-Kunststoffprodukte.<br>Sofort einsatzbereit.
+      - landingTitle: Schwarzwälder Präzision <br> trifft High-Tech.
         landingImage: /pfaff-miniatur-guckloch-1-.jpg
         landingProducts:
           - getriebekappe-fuer-motorensteuerungssensor
