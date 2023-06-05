@@ -7,7 +7,7 @@ contentblock:
 components:
   - type: slider
     slide:
-      - landingTitle: Familienunternehmen im Schwarzwald
+      - landingTitle: Schwarzwälder Präzision <br> ist unsere Familientradition.
         landingTitlePosition: top-left
         landingImage: /pfaff-miniatur-bruecke.png
         landingProducts:
