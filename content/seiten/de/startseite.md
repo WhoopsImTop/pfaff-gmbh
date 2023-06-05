@@ -5,14 +5,6 @@ hideInMenu: true
 components:
   - type: slider
     slide:
-      - landingTitle: Ihre Kunststoffprodukte. <br> Präzise und sofort einsatzbereit.
-        landingImage: /preview-pfaff-miniatur-laster.png
-        landingProducts:
-          - implantatschraube
-        landingTitlePosition: top-left
-        landingProductMarkerPosition:
-          - bottom: 36
-            left: 16
       - landingTitle: Schwarzwälder Präzision <br> trifft High-Tech.
         landingImage: /pfaff-miniatur-guckloch-1-.jpg
         landingProducts:
