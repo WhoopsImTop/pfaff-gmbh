@@ -37,7 +37,7 @@ components:
     block:
       - blockCategory: Verblüffende Produktbeispiele
         blockTitle: Produkte & Branchen
-        blockImage: /massageball-bepanthen_pfaff_teaser.jpeg
+        blockImage: /pfaff-miniatur-produktbeispiele.jpg
         blockLink: produktbeispiele
       - blockCategory: Natürliche Qualität
         blockTitle: Zertifizierung
@@ -49,15 +49,15 @@ components:
         blockLink: kompetenzen
       - blockCategory: Ready To Use
         blockTitle: Komplettlösungen
-        blockImage: /pfaff_komplettloesung_teaser.jpeg
+        blockImage: /pfaff-komplettloesungen.jpg
         blockLink: kompetenzen
       - blockCategory: Markteinführung, Versuche
         blockTitle: Kleinauflagen
-        blockImage: /pfaff_kleine-auflagen_teaser.jpeg
+        blockImage: /pfaff-kleinauflagen.jpg
         blockLink: kompetenzen
       - blockCategory: "#Zukunft"
         blockTitle: Nachhaltigkeit
-        blockImage: /pfaff-projektmanagement_teaser.jpeg
+        blockImage: /pfaff-nachhaltigkeit.jpg
         blockLink: unternehmen
   - type: productPreview
     productImage: /pfaff-miniatur-bruecke.png
@@ -73,13 +73,16 @@ components:
       - cardTitle: Neuigkeiten
         cardText: Hier finden Sie alles rund um die Pfaff GmbH.
         cardLink: news-medien
+        cardImage: /pfaff-neuigkeiten.jpg
       - cardTitle: Karriere
         cardText: Hier finden Sie all unsere Stellenangebote und die Möglichkeit der
           Initiativbewerbung.
         cardLink: news-medien
+        cardImage: /pfaff-karriere.jpg
       - cardTitle: Historie
         cardText: Lernen Sie uns und unsere Geschichte kennen.
         cardLink: news-medien
+        cardImage: /pfaff-historie.jpg
   - type: news
     embedNews: false
 ---

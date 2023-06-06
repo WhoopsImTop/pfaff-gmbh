@@ -8,8 +8,8 @@
         :key="index"
         class="pf-card"
       >
-        <div v-if="card.image" class="card-image">
-          <img :src="card.image" :alt="card.cardTitle" />
+        <div v-if="card.cardImage" class="card-image">
+          <img :src="card.cardImage" :alt="card.cardTitle" />
         </div>
         <div class="card-content">
           <h3 style="margin-top: 10px">{{ card.cardTitle }}</h3>
