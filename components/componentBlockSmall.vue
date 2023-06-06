@@ -45,7 +45,7 @@ export default {
 
 <style>
 .pf-card-sm {
-  background-color: var(--light-gray-color)
+  box-shadow: var(--box-shadow);
 }
 
 .pf-card-sm:hover {

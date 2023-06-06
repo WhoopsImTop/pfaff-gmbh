@@ -13,6 +13,6 @@ competenceDescription: Wir verstehen uns nicht nur als Spritzgießer sondern vor
   montieren etc. können von uns übernommen werden. Teilweise liefern wir
   Produkte auch „ready to use“, so dass diese, ohne jeglichen weiteren
   Arbeitsschritt, direkt in den Vertrieb gegeben werden können.
-competenceImage: /pfaff_komplettloesung_teaser.jpeg
+competenceImage: /pfaff-komplettloesungen.jpg
 competenceButtonLink: kontakt
 ---

@@ -211,13 +211,9 @@ collections:
                     i18n: true
                   - label: "Link"
                     name: "cardLink"
-                    widget: "relation"
+                    widget: "string"
                     required: false
                     i18n: duplicate 
-                    collection: "seiten"
-                    value_field: "{{slug}}"
-                    search_fields: ["siteTitle"]
-                    display_fields: ["siteTitle"]
 
           - label: "News"
             name: "news"

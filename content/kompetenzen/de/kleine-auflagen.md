@@ -12,6 +12,6 @@ competenceDescription: Neben der Serienfertigung von Kunststoffteilen für
   mit Kunststoffeinsätzen, gefertigt im 3D-Verfahren, sehr gute Erfahrungen
   gemacht. Damit können wir eine echte und kostengünstige Alternative zum
   klassischen Spritzguss anbieten.
-competenceImage: /pfaff-gmbh_kunststoffeinsatz1-768x512-1.jpeg
+competenceImage: /pfaff-kleinauflagen.jpg
 competenceImageDescription: Kunststoffeinsatz
 ---

@@ -77,11 +77,11 @@ components:
       - cardTitle: Karriere
         cardText: Hier finden Sie all unsere Stellenangebote und die Möglichkeit der
           Initiativbewerbung.
-        cardLink: news-medien
+        cardLink: news-medien/stellenausschreibungen
         cardImage: /pfaff-karriere.jpg
       - cardTitle: Historie
         cardText: Lernen Sie uns und unsere Geschichte kennen.
-        cardLink: news-medien
+        cardLink: news-medien/historie
         cardImage: /pfaff-historie.jpg
   - type: news
     embedNews: false

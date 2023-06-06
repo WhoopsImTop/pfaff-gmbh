@@ -13,6 +13,6 @@ competenceDescription: We see ourselves not only as an injection moulder, but
   printing, assembly etc. can be taken over by us. In some cases, we also
   deliver products “ready to use”, so that they can be sold directly without any
   further work steps.
-competenceImage: /pfaff_komplettloesung_teaser.jpeg
+competenceImage: /pfaff-komplettloesungen.jpg
 competenceButtonLink: kontakt
 ---
