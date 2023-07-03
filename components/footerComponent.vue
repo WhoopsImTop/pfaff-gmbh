@@ -63,9 +63,9 @@
 <script>
 export default {
   mounted() {
-    const grayCircle = document.querySelector(".gray-circle");
-    const blueCircle = document.querySelector(".dark-circle");
-    const lightCircle = document.querySelector(".light-circle");
+    const grayCircle = document.querySelector(".footer .gray-circle");
+    const blueCircle = document.querySelector(".footer .dark-circle");
+    const lightCircle = document.querySelector(".footer .light-circle");
 
     setInterval(() => {
       const date = new Date();

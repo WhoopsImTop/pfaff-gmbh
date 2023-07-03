@@ -8,7 +8,7 @@ components:
   - type: slider
     slide:
       - landingTitle: Schwarzwälder Präzision <br> ist unsere Familientradition.
-        landingTitlePosition: top-left
+        landingTitlePosition: top-right
         landingImage: /pfaff-miniatur-bruecke.png
         landingProducts:
           - umspritzte-stimulationssonden-und-nadelelektroden-für-die-neurochirurgie

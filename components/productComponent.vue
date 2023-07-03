@@ -43,7 +43,7 @@ export default {
   align-items: center;
   margin-right: 20px;
   overflow: hidden;
-  box-shadow: 0px 10px 20px #35353516;
+  box-shadow: var(--box-shadow);
   text-decoration: none;
   background-color: #ffffff;
   transition: all 0.3s ease-in-out;  

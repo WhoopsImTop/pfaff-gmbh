@@ -11,7 +11,13 @@
 }
 
 .desktop-logo {
+  position: absolute;
+  top: 0;
+  height: 115px;
   display: block;
+  padding: 10px;
+  background-color: white;
+  width: auto;
 }
 
 .mobile-logo {
@@ -29,7 +35,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid #d43e35;
   z-index: 100;
   position: fixed;
   top: 0px;
@@ -41,11 +46,6 @@
 
 .align-end {
   align-self: flex-end;
-}
-
-.navigation-bar svg {
-  height: 45px;
-  width: auto;
 }
 
 .burger {

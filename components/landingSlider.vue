@@ -1,39 +1,80 @@
 <template>
-  <div
-    ref="slider"
-    class="landing-slider content-container"
-    style="margin: 0 auto"
-  >
+  <div>
     <div
-      v-for="(slide, index) in slideData"
-      :key="index"
-      :style="sliderStyles"
-      class="slide"
+      v-if="isMobile"
+      ref="slider"
+      class="landing-slider content-container"
+      style="margin: 0 auto"
     >
-      <h1
-        class="slide-title"
-        :class="slide.landingTitlePosition"
-        v-html="slide.landingTitle"
-      ></h1>
-      <div class="slide-image">
-        <div
-          v-for="(marker, i) in slide.landingProductMarkerPosition"
-          :key="i"
-          class="marker"
-          :style="'bottom:' + marker.bottom + '%; left:' + marker.left + '%'"
-          @mouseover="highlightConnectedProduct(slide.landingProducts, i)"
-          @mouseout="highlightConnectedProduct(slide.landingProducts, i)"
-        >
-          <div class="ping-marker"></div>
-          <div class="inner-cricle"></div>
+      <div
+        v-for="(slide, index) in slideData"
+        :key="index"
+        :style="sliderStyles"
+        class="slide"
+      >
+        <h1
+          class="slide-title"
+          :class="slide.landingTitlePosition"
+          v-html="slide.landingTitle"
+        ></h1>
+
+        <div class="slide-image">
+          <div
+            v-for="(marker, i) in slide.landingProductMarkerPosition"
+            :key="i"
+            class="marker"
+            :style="'bottom:' + marker.bottom + '%; left:' + marker.left + '%'"
+            @mouseover="highlightConnectedProduct(slide.landingProducts, i)"
+            @mouseout="highlightConnectedProduct(slide.landingProducts, i)"
+          >
+            <div class="ping-marker"></div>
+            <div class="inner-cricle"></div>
+          </div>
+          <img :src="slide.landingImage" :alt="slide.landingTitle" />
         </div>
-        <img :src="slide.landingImage" :alt="slide.landingTitle" />
+
+        <productSlider
+          v-if="slide.landingProducts"
+          id="productSlider"
+          :productSlugProp="slide.landingProducts"
+        />
       </div>
-      <productSlider
-        v-if="slide.landingProducts"
-        id="productSlider"
-        :productSlugProp="slide.landingProducts"
-      />
+    </div>
+    <div v-else ref="slider" class="landing-slider" style="margin: 0 auto">
+      <div
+        v-for="(slide, index) in slideData"
+        :key="index"
+        :style="sliderStyles"
+        class="slide"
+      >
+        <div class="slide-content-container">
+          <h1
+            class="slide-title"
+            :class="slide.landingTitlePosition"
+            v-html="slide.landingTitle"
+          ></h1>
+          <productSlider
+            v-if="slide.landingProducts"
+            id="productSlider"
+            :productSlugProp="slide.landingProducts"
+          />
+        </div>
+
+        <div class="slide-image">
+          <div
+            v-for="(marker, i) in slide.landingProductMarkerPosition"
+            :key="i"
+            class="marker"
+            :style="'bottom:' + marker.bottom + '%; left:' + marker.left + '%'"
+            @mouseover="highlightConnectedProduct(slide.landingProducts, i)"
+            @mouseout="highlightConnectedProduct(slide.landingProducts, i)"
+          >
+            <div class="ping-marker"></div>
+            <div class="inner-cricle"></div>
+          </div>
+          <img :src="slide.landingImage" :alt="slide.landingTitle" />
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -50,6 +91,7 @@ export default {
       slidesToShow: 1,
       slideWidth: null,
       interval: null,
+      isMobile: false,
     }
   },
   computed: {
@@ -64,6 +106,9 @@ export default {
       this.interval = setInterval(() => {
         this.nextSlide()
       }, 8000)
+    }
+    if (window.innerWidth < 768) {
+      this.isMobile = true
     }
   },
   mounted() {
@@ -146,19 +191,32 @@ export default {
   height: 100%;
 }
 
+.slide-content-container {
+  max-width: var(--content-max-width);
+  padding: var(--content-padding);
+  margin: 0 auto;
+  position: relative;
+  min-height: 100vh;
+  z-index: 1;
+}
+
 .slide-title {
   position: absolute;
   z-index: 2;
 }
 
 .slide-image {
-  position: relative;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
   width: 100%;
-  height: 900px;
   background-image: url('static/logo.svg');
   background-size: 20%;
   background-position: center;
   background-repeat: no-repeat;
+  z-index: 0;
 }
 
 @keyframes shine {
@@ -216,22 +274,22 @@ export default {
 
 .top-left {
   top: 150px;
-  left: 50px;
+  left: 60px;
 }
 
 .top-right {
   top: 150px;
-  right: 50px;
+  right: 60px;
 }
 
 .bottom-left {
   bottom: 150px;
-  left: 50px;
+  left: 60px;
 }
 
 .bottom-right {
   bottom: 150px;
-  right: 50px;
+  right: 60px;
 }
 
 .center {
@@ -268,12 +326,22 @@ export default {
   }
 
   .slide {
-    padding-top: 150px;
+    padding-top: 120px;
   }
 
   .landing-slider {
     width: 100%;
     height: auto !important;
+  }
+
+  .slide-image {
+    position: relative;
+    width: 100%;
+    background-image: url('static/logo.svg');
+    background-size: 20%;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 0;
   }
 }
 </style>

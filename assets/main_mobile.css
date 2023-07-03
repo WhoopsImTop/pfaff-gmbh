@@ -14,6 +14,10 @@
 }
 
 @media (max-width: 800px) {
+  .burger {
+    justify-content: center;
+  }
+
   .card-container {
     display: grid;
     grid-template-columns: 1fr;
@@ -62,5 +66,19 @@
   .copyright {
     margin-top: 10px;
     font-size: 12px;
+  }
+
+  .link-container-background.burger-active {
+    transition: all 0.3s ease-in-out;
+    top: 50px;
+    right: 0;
+    display: flex;
+    padding-top: 50px !important;
+    padding: var(--content-padding);
+    opacity: 1;
+  }
+
+  .link-container-background.burger-active .link-container {
+    margin: 0;
   }
 }
