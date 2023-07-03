@@ -10,10 +10,6 @@
   --box-shadow: 0px 5px 15px var(--primary-light-color);
 }
 
-* {
-  box-sizing: border-box;
-}
-
 .desktop-logo {
   position: absolute;
   top: 0;

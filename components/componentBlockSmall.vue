@@ -68,4 +68,10 @@ export default {
   height: 100%;
   object-fit: cover;
 }
+
+@media (max-width: 900) {
+  .small-card-container {
+    grid-template-columns: 1fr;
+  }  
+}
 </style>
