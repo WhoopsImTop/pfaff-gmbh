@@ -81,4 +81,8 @@
   .link-container-background.burger-active .link-container {
     margin: 0;
   }
+  
+  .article-content {
+    width: 100%;
+  }
 }

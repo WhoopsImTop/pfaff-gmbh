@@ -84,14 +84,10 @@ export default {
 
 @media (max-width: 1230px) {
   .grid-4 {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      'header'
-      'sidebar';
-    grid-template-rows: auto;
-    padding: 0;
-    max-width: 100%;
+    display: flex;
+    flex-direction: column;
     margin-top: 100px;
+    padding: 0;
   }
 
   .article-background {
