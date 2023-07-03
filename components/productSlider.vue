@@ -1,6 +1,6 @@
 <template>
   <div class="product-slider-container">
-    <h5 v-if="displayHeading == true" class="small-title" :class="titlePosition" >{{$i18n.locale == 'de' ? 'Gezeigte Produkte' : 'shown Products' }}</h5>
+    <h5 v-if="displayHeading == true" class="" :class="titlePosition" >{{$i18n.locale == 'de' ? 'Gezeigte Produkte' : 'shown Products' }}</h5>
     <div class="product-slider">
       <product-component
         v-for="product in products"

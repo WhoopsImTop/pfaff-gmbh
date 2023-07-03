@@ -107,7 +107,7 @@ export default {
         this.nextSlide()
       }, 8000)
     }
-    if (window.innerWidth < 768) {
+    if (window.innerWidth < 1230) {
       this.isMobile = true
     }
   },
@@ -212,7 +212,6 @@ export default {
   right: 0px;
   bottom: 0px;
   width: 100%;
-  background-image: url('static/logo.svg');
   background-size: 20%;
   background-position: center;
   background-repeat: no-repeat;

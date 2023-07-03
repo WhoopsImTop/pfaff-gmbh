@@ -13,6 +13,17 @@ components:
         landingProductMarkerPosition:
           - bottom: 36
             left: 24
+      - landingTitle: Wir bringen Sie vertrauensvoll <br> zu Ihrem Kunststoffgipfel.
+        landingTitlePosition: top-left
+        landingImage: /pfaff-miniatur-wanderer-1-.jpg
+        landingProducts:
+          - massageball-für-bepanthen-narbengel
+      - landingTitle: Ihre Kunststoff&shy;produkte. <br> Präzise und sofort einsatzbereit.
+        landingTitlePosition: top-left
+        landingImage: /preview-pfaff-miniatur-laster.png
+        landingProducts:
+          - implantatschraube
+        landingProductMarkerPosition: []
   - type: contentblock
     contentTitle: Pfaff GmbH. Wo Kunststoff Karriere macht.
     contentText: >-

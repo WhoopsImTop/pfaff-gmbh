@@ -102,7 +102,11 @@
         </g>
       </g>
     </svg>
-    <div v-else class="mobile-logo" :style="isMobile ? 'display: block; width: 50px; height: 50px' : ''">
+    <div
+      v-else
+      class="mobile-logo"
+      :style="isMobile ? 'display: block; width: 50px; height: 50px' : ''"
+    >
       <div class="pfaff-navi-logo">
         <div class="dark-circle">
           <div class="dark-stick"></div>
@@ -127,16 +131,21 @@ export default {
     }
   },
   mounted() {
-    this.isMobile = window.innerWidth < 768
-    window.addEventListener('scroll', () => {
-      if (window.scrollY > 0) {
-        this.isMobile = true
-        this.startClock()
-      } else {
-        this.isMobile = false
-        clearInterval(this.timeOut)
-      }
-    })
+    if (window.innerWidth > 1230) {
+      this.isMobile = false
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 0) {
+          this.isMobile = true
+          this.startClock()
+        } else {
+          this.isMobile = false
+          clearInterval(this.timeOut)
+        }
+      })
+    } else {
+      this.isMobile = true
+      this.startClock()
+    }
   },
   methods: {
     startClock() {

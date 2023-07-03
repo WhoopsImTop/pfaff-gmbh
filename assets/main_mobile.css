@@ -20,7 +20,6 @@
 
   .card-container {
     display: grid;
-    grid-template-columns: 1fr;
     grid-gap: 10px;
   }
   
@@ -70,7 +69,7 @@
 
   .link-container-background.burger-active {
     transition: all 0.3s ease-in-out;
-    top: 50px;
+    top: 90px;
     right: 0;
     display: flex;
     padding-top: 50px !important;

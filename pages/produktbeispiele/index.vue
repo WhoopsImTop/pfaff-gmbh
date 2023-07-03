@@ -188,5 +188,14 @@ export default {
     font-size: 16px;
     margin: 5px;
   }
+
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio-item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }
 </style>

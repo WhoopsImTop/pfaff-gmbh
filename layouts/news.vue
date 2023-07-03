@@ -81,4 +81,30 @@ export default {
 .article-container {
   grid-area: header;
 }
+
+@media (max-width: 1230px) {
+  .grid-4 {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      'header'
+      'sidebar';
+    grid-template-rows: auto;
+    padding: 0;
+    max-width: 100%;
+    margin-top: 100px;
+  }
+
+  .article-background {
+    padding: 0;
+    box-shadow: none;
+  }
+
+  .sidebar-content {
+    padding: 20px 0;
+  }
+
+  .article-informations {
+    display: block;
+  }
+}
 </style>
