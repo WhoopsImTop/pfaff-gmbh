@@ -9,7 +9,7 @@
         "
         class="slide"
       >
-        <div class="slide-actions">
+        <div class="slide-actions" v-if="slideData.length > 1">
           <div class="arrow-left" @click="slideLeft">
             <img
               src="/arrow.svg"
