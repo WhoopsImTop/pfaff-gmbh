@@ -105,6 +105,7 @@
     <div
       v-else
       class="mobile-logo"
+      @mouseover="stopClock"
       :style="isMobile ? 'display: block; width: 50px; height: 50px' : ''"
     >
       <div class="pfaff-navi-logo">
@@ -156,6 +157,11 @@ export default {
     }
   },
   methods: {
+    stopClock() {
+      clearInterval(this.timeOut)
+      this.timeOut = null
+      this.isMobile = false
+    },
     startClock() {
       this.timeOut = setInterval(() => {
         const grayCircle = document.querySelector(

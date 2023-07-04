@@ -1,55 +1,32 @@
 <template>
   <div>
-    <!-- <div
-      v-if="isMobile"
-      ref="slider"
-      class="landing-slider content-container"
-      style="margin: 0 auto"
-    >
-      <div
-        v-for="(slide, index) in slideData"
-        :key="index"
-        :style="sliderStyles"
-        class="slide"
-      >
-        <h1
-          class="slide-title"
-          :class="slide.landingTitlePosition"
-          v-html="slide.landingTitle"
-        ></h1>
-
-        <div class="slide-image">
-          <div
-            v-for="(marker, i) in slide.landingProductMarkerPosition"
-            :key="i"
-            class="marker"
-            :style="'bottom:' + marker.bottom + '%; left:' + marker.left + '%'"
-            @mouseover="highlightConnectedProduct(slide.landingProducts, i)"
-            @mouseout="highlightConnectedProduct(slide.landingProducts, i)"
-          >
-            <div class="ping-marker"></div>
-            <div class="inner-cricle"></div>
-          </div>
-          <img :src="slide.landingImage" :alt="slide.landingTitle" />
-        </div>
-
-        <productSlider
-          v-if="slide.landingProducts"
-          id="productSlider"
-          :productSlugProp="slide.landingProducts"
-        />
-      </div>
-    </div> -->
     <div ref="slider" class="landing-slider" style="margin: 0 auto">
       <div
         v-for="(slide, index) in slideData"
         :key="index"
         :style="
-          sliderStyles +
-          '; background-image: url(' + slide.landingImage + ');'
+          sliderStyles + '; background-image: url(' + slide.landingImage + ');'
         "
         class="slide"
       >
+        <div class="slide-actions">
+          <div class="arrow-left" @click="slideLeft">
+            <img
+              src="/arrow.svg"
+              width="25px"
+              alt="arrow-left"
+              style="transform: rotate(-90deg)"
+            />
+          </div>
+          <div class="arrow-right" @click="slideRight">
+            <img
+              src="/arrow.svg"
+              width="25px"
+              alt="arrow-right"
+              style="transform: rotate(90deg)"
+            />
+          </div>
+        </div>
         <div class="slide-content-container">
           <h1
             class="slide-title"
@@ -98,7 +75,7 @@ export default {
   },
   computed: {
     sliderStyles() {
-      return `transform: translateX(-${this.currentSlide * 100}%)`      
+      return `transform: translateX(-${this.currentSlide * 100}%)`
     },
   },
   beforeMount() {
@@ -151,6 +128,28 @@ export default {
     })
   },
   methods: {
+    slideLeft() {
+      if (this.currentSlide > 0) {
+        this.currentSlide--
+      } else {
+        this.currentSlide = this.slideData.length - this.slidesToShow
+      }
+      clearInterval(this.interval)
+      this.interval = setInterval(() => {
+        this.nextSlide()
+      }, 8000)
+    },
+    slideRight() {
+      if (this.currentSlide < this.slideData.length - this.slidesToShow) {
+        this.currentSlide++
+      } else {
+        this.currentSlide = 0
+      }
+      clearInterval(this.interval)
+      this.interval = setInterval(() => {
+        this.nextSlide()
+      }, 8000)
+    },
     highlightConnectedProduct(data, index) {
       if (!Array.isArray(data)) {
         data = [data]
@@ -192,6 +191,28 @@ export default {
   background-size: 100%;
   background-position: center center;
   background-repeat: no-repeat;
+}
+
+.slide-actions {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+  padding: var(--content-padding);
+}
+
+.arrow-left, .arrow-right {
+  width: 50px;
+  height: 50px;
+  background-color: var(--white);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 .slide-content-container {
@@ -242,9 +263,9 @@ export default {
 }
 
 .ping-marker {
-  background: var(--primary-color);
-  width: 15px;
-  height: 15px;
+  background: var(--primary-light-color);
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
   position: absolute;
   z-index: 2;
@@ -255,8 +276,9 @@ export default {
 
 .inner-cricle {
   background: var(--primary-color);
-  width: 15px;
-  height: 15px;
+  border: 3px solid var(--primary-light-color);
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
   position: absolute;
   z-index: 2;

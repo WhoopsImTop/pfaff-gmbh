@@ -14,13 +14,6 @@
       <div class="article-content">
         <h4 v-html="article.title"></h4>
         <div class="article-informations">
-          <span class="article-information"
-            >Geschrieben am:
-            {{
-              new Date(article.date).toLocaleDateString('DE-de') ||
-              new Date(article.createdAt).toLocaleDateString('DE-de')
-            }}</span
-          >
           <span class="article-information">{{ article.category[0] }}</span>
         </div>
         <p v-if="article.content">

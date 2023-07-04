@@ -2,21 +2,6 @@
   <div class="article-column article-background">
     <h1 style="margin-bottom: 10px">{{ news[0].title }}</h1>
     <div class="article-informations">
-      <span class="article-information"
-        >Geschrieben am:
-        {{
-          new Date(news[0].date).toLocaleDateString('DE-de', {
-            year: 'numeric',
-            month: 'long',
-            day: 'numeric',
-          }) ||
-          new Date(news[0].createdAt).toLocaleDateString('DE-de', {
-            year: 'numeric',
-            month: 'long',
-            day: 'numeric',
-          })
-        }}</span
-      >
       <span class="article-information" v-if="kategorie[0]">{{
         kategorie[0] ? kategorie[0].categoryTitle : ''
       }}</span>
