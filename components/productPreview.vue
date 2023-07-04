@@ -104,11 +104,18 @@ export default {
   .preview-image-container {
     position: unset;
     margin-bottom: 20px;
+    height: unset !important;
   }
 
   .preview-text-container {
     position: unset;
     max-width: unset;
+  }
+
+  .preview-image-container img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
   }
 }
 
@@ -130,5 +137,4 @@ export default {
     top: -100px;
   }
 }
-
 </style>
