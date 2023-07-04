@@ -54,7 +54,7 @@ export default {
 
 .small-card-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(315px, calc(50% - 10px)));
+  grid-template-columns: repeat(auto-fit, minmax(255px, calc(50% - 10px)));
   grid-gap: 10px;
 }
 
@@ -69,7 +69,7 @@ export default {
   object-fit: cover;
 }
 
-@media (max-width: 900) {
+@media (max-width: 900px) {
   .small-card-container {
     grid-template-columns: 1fr;
   }  

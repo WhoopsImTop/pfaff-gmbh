@@ -7,7 +7,7 @@ contentblock:
 components:
   - type: slider
     slide:
-      - landingTitle: Ihre Kunststoffprodukte. <br> Präzise und sofort einsatzbereit.
+      - landingTitle: Ihre Kunststoff&shy;produkte. <br> Präzise und sofort einsatzbereit.
         landingTitlePosition: top-left
         landingImage: /preview-pfaff-miniatur-laster.png
         landingProducts:

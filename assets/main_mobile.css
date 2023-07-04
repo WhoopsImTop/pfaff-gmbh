@@ -19,9 +19,8 @@
   }
 
   .card-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
+    display: flex;
+    flex-direction: column;
   }
   
   .grid {
@@ -85,4 +84,6 @@
   .article-content {
     width: 100%;
   }
+
+  
 }

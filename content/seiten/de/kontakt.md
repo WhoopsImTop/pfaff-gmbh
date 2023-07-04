@@ -27,37 +27,37 @@ components:
     teamMember:
       - name: Corinna Pfaff
         position: Geschäftsführerin
-        image: /cp2.jpg
+        image: /pfaff-gmbh-geschaeftsfuehrerin-corinna-pfaff.jpg
         phone: 07681-49397-12
         email: c.pfaff@pfaffgmbh.com
       - position: Technischer Leiter
         name: Andreas Buff
-        image: /ab2.jpg
+        image: /pfaff-gmbh-technischer-leiter-andreas-buff.jpg
         email: a.buff@pfaffgmbh.com
         phone: 07681-49397-15
       - name: Sabrina Kaul
         position: Assistenz/Vertieb
         email: s.kaul@pfaffgmbh.com
         phone: 07681-49397-12
-        image: /sk.jpg
+        image: /pfaff-gmbh-assistenz-vertrieb-sabrina-kaul.jpg
       - name: Christine Biehler
         position: Assistenz/Buchhaltung
         email: c.biehler@pfaffgmbh.com
         phone: 07681-49397-17
-        image: /cbi.jpg
+        image: /pfaff-gmbh-assistenz-buchhaltung-christine-biehler.jpg
       - name: Harald Seifried
         position: QMB/Leiter Validierung
-        image: /sei.jpg
+        image: /pfaff-gmbh-qmb-leiter-validierung-harald-seifried.jpg
         email: h.seifried@pfaffgmbh.com
         phone: 07681-49397-18
       - name: Urban Winterer
         position: Produktionsleiter Spritzguss
-        image: /uw.jpg
+        image: /pfaff-gmbh-produktionsleiter-spritzguss-urban-winterer.jpg
         email: u.winterer@pfaffgmbh.com
         phone: 07681-49397-25
       - name: Oliver Salvat
         position: Werkzeug- & Projektmanagement
-        image: /os.jpg
+        image: /pfaff-gmbh-werkzeug-projektmanagement-oliver-salvat.jpg
         email: o.salvat@pfaffgmbh.com
         phone: 07681-49397-28
     title: Das Team

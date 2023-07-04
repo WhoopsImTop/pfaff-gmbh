@@ -17,6 +17,7 @@
     "@nuxtjs/axios": "^5.13.6",
     "@nuxtjs/i18n": "^7.3.1",
     "@nuxtjs/markdownit": "^2.0.0",
+    "@nuxtjs/sitemap": "^2.4.0",
     "bootstrap": "^4.6.2",
     "bootstrap-vue": "^2.22.0",
     "core-js": "^3.25.3",
@@ -35,6 +36,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-nuxt": "^4.0.0",
     "eslint-plugin-vue": "^9.5.1",
-    "prettier": "^2.7.1"
+    "prettier": "^2.7.1",
+    "sitemap": "^7.1.1"
   }
 }

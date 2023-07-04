@@ -128,28 +128,36 @@ export default {
     return {
       isMobile: false,
       timeOut: null,
+      grayCircle: null,
+      blueCircle: null,
+      lightCircle: null,
     }
   },
   mounted() {
     if (window.innerWidth > 1230) {
       this.isMobile = false
       window.addEventListener('scroll', () => {
-        if (window.scrollY > 0) {
+        if (window.scrollY > 100) {
           this.isMobile = true
-          this.startClock()
+          if (this.timeOut == null) {
+            this.startClock()
+          }
         } else {
           this.isMobile = false
           clearInterval(this.timeOut)
+          this.timeOut = null
         }
       })
     } else {
       this.isMobile = true
-      this.startClock()
+      if (this.timeOut == null) {
+        this.startClock()
+      }
     }
   },
   methods: {
     startClock() {
-      setTimeout(() => {
+      this.timeOut = setInterval(() => {
         const grayCircle = document.querySelector(
           '.pfaff-navi-logo .gray-circle'
         )
@@ -159,22 +167,32 @@ export default {
         const lightCircle = document.querySelector(
           '.pfaff-navi-logo .light-circle'
         )
+        if (!grayCircle.style.transition) {
+          grayCircle.style.transition = 'all 0.5s'
+          blueCircle.style.transition = 'all 0.5s'
+          lightCircle.style.transition = 'all 0.5s'
+        }
+        const date = new Date()
+        const seconds = date.getSeconds()
+        const minutes = date.getMinutes()
+        const hours = date.getHours()
 
-        this.timeOut = setInterval(() => {
-          const date = new Date()
-          const seconds = date.getSeconds()
-          const minutes = date.getMinutes()
-          const hours = date.getHours()
+        const secondsDegrees = (seconds / 60) * 360
+        const minutesDegrees = (minutes / 60) * 360
+        const hoursDegrees = (hours / 12) * 360
 
-          const secondsDegrees = (seconds / 60) * 360
-          const minutesDegrees = (minutes / 60) * 360
-          const hoursDegrees = (hours / 12) * 360
+        grayCircle.style.transform = `rotate(${secondsDegrees}deg)`
+        blueCircle.style.transform = `rotate(${minutesDegrees}deg)`
+        lightCircle.style.transform = `rotate(${hoursDegrees}deg)`
 
-          grayCircle.style.transform = `rotate(${secondsDegrees}deg)`
-          blueCircle.style.transform = `rotate(${minutesDegrees}deg)`
-          lightCircle.style.transform = `rotate(${hoursDegrees}deg)`
-        }, 1000)
-      }, 3000)
+        if (grayCircle.style.transition !== 'unset') {
+          setTimeout(() => {
+            grayCircle.style.transition = 'unset'
+            blueCircle.style.transition = 'unset'
+            lightCircle.style.transition = 'unset'
+          }, 500)
+        }
+      }, 1000)
     },
   },
 }

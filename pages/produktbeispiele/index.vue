@@ -183,6 +183,13 @@ export default {
   flex-grow: 1;
   word-wrap: break-word;
 }
+
+@media (max-width: 1230px) {
+  .filter-btn {
+    margin: 5px;
+  }
+}
+
 @media (max-width: 1000px) {
   .filter-btn {
     font-size: 16px;

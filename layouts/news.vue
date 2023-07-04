@@ -56,7 +56,7 @@ export default {
   grid-template-rows: auto;
   grid-template-areas: 'header header header header sidebar sidebar';
   grid-gap: 40px;
-  padding: 40px;
+  padding: 60px 0;
   color: #444;
 }
 
@@ -82,7 +82,7 @@ export default {
   grid-area: header;
 }
 
-@media (max-width: 1230px) {
+@media (max-width: 1000px) {
   .grid-4 {
     display: flex;
     flex-direction: column;

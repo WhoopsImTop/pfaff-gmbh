@@ -30,6 +30,31 @@
         </div>
       </div>
     </div>
+    <div class="three-products-grid content-container">
+      <nuxt-link
+        v-for="(produkt, index) in relatedProducts"
+        :key="index"
+        :to="'/produktbeispiele/' + produkt.slug"
+        class="portfolio-item"
+      >
+        <div class="portfolio-image">
+          <img :src="produkt.productImage" :alt="produkt.productTitle" />
+        </div>
+        <div class="portfolio-content">
+          <div class="portfolio-items-categories">
+            <span
+              v-for="(category, index) in produkt.productCategories"
+              :key="index"
+              class="product-category"
+              >{{ category }}</span
+            >
+          </div>
+          <div class="portfolio-title">
+            <h4>{{ produkt.productTitle }}</h4>
+          </div>
+        </div>
+      </nuxt-link>
+    </div>
   </div>
 </template>
 
@@ -40,7 +65,23 @@ export default {
       'produkte/' + app.i18n.locale + '/' + params.slug
     ).fetch()
     await dispatch('nuxtServerInit')
-    return { seite }
+    const products = await $content('produkte/' + app.i18n.locale).fetch()
+    const relatedProducts = []
+    for (let i = 0; i < products.length; i++) {
+      const product = products[i]
+      const productCategories = product.productCategories
+      for (let j = 0; j < productCategories.length; j++) {
+        const productCategory = productCategories[j]
+        if (
+          productCategory === seite.productCategories[0] &&
+          product.slug !== seite.slug
+        ) {
+          relatedProducts.push(product)
+        }
+      }
+    }
+    relatedProducts.length = 3
+    return { seite, relatedProducts }
   },
 
   head() {
@@ -50,11 +91,11 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: this.seite.productDescription
-        }
-      ]
+          content: this.seite.productDescription,
+        },
+      ],
     }
-  }
+  },
 }
 </script>
 
@@ -95,6 +136,66 @@ export default {
   object-position: center;
 }
 
+.three-products-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+  margin-top: 80px;
+}
+
+.portfolio-item {
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s ease-in-out;
+  background-color: var(--light-gray-color);
+  border: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-item::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 20px;
+  background-image: url('/arrow.svg');
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-position: center;
+  width: 40px;
+  height: 40px;
+  transition: 0.3s ease-in-out;
+}
+
+.portfolio-item:hover::after {
+  bottom: 0px;
+  transition: 0.3s ease-in-out;
+}
+
+.portfolio-item:hover {
+  text-decoration: none;
+}
+
+.portfolio-image {
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.portfolio-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.portfolio-content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px 50px 20px;
+  overflow: hidden;
+  flex-grow: 1;
+  word-wrap: break-word;
+}
 @media (max-width: 1000px) {
   .image-container {
     height: 40vh;
@@ -102,6 +203,22 @@ export default {
 
   .image-container img {
     object-fit: cover;
+  }
+
+  .portfolio-single.content-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .three-products-grid {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1230px) {
+  .product-category {
+    margin-bottom: 5px;
   }
 }
 </style>

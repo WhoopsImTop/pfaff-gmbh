@@ -111,4 +111,24 @@ export default {
     max-width: unset;
   }
 }
+
+@media (max-width: 1230px) {
+  .preview-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 50px;
+  }
+
+  .preview-image-container {
+    position: unset;
+    margin-bottom: 20px;
+    height: 100vh;
+  }
+
+  .preview-text-container {
+    top: -100px;
+  }
+}
+
 </style>

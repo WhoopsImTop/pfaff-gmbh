@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div
+    <!-- <div
       v-if="isMobile"
       ref="slider"
       class="landing-slider content-container"
@@ -39,12 +39,15 @@
           :productSlugProp="slide.landingProducts"
         />
       </div>
-    </div>
-    <div v-else ref="slider" class="landing-slider" style="margin: 0 auto">
+    </div> -->
+    <div ref="slider" class="landing-slider" style="margin: 0 auto">
       <div
         v-for="(slide, index) in slideData"
         :key="index"
-        :style="sliderStyles"
+        :style="
+          sliderStyles +
+          '; background-image: url(' + slide.landingImage + ');'
+        "
         class="slide"
       >
         <div class="slide-content-container">
@@ -72,7 +75,6 @@
             <div class="ping-marker"></div>
             <div class="inner-cricle"></div>
           </div>
-          <img :src="slide.landingImage" :alt="slide.landingTitle" />
         </div>
       </div>
     </div>
@@ -96,9 +98,7 @@ export default {
   },
   computed: {
     sliderStyles() {
-      return {
-        transform: `translateX(-${this.currentSlide * 100}%)`,
-      }
+      return `transform: translateX(-${this.currentSlide * 100}%)`      
     },
   },
   beforeMount() {
@@ -189,6 +189,9 @@ export default {
   min-width: 100%;
   transition: transform 0.7s ease-in-out;
   height: 100%;
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .slide-content-container {
@@ -341,6 +344,35 @@ export default {
     background-position: center;
     background-repeat: no-repeat;
     z-index: 0;
+  }
+
+  .slide-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 85vh;
+  }
+
+  .slide {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .marker {
+    display: none;
+  }
+}
+
+@media (max-width: 1230px) {
+  .slide {
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  .marker {
+    display: none;
   }
 }
 </style>
