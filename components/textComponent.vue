@@ -24,7 +24,7 @@ export default {
         duration: 1,
         scrollTrigger: {
           trigger: '.text-container',
-          start: 'top 80%'
+          start: 'top 80%',
         },
       }
     )
