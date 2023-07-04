@@ -100,14 +100,6 @@ export default {
 </script>
 
 <style>
-.image-container {
-  width: 100%;
-  height: 70vh;
-  overflow: hidden;
-  position: relative;
-  margin-top: 80px;
-}
-
 .portfolio-single.content-container {
   margin-top: 50px;
   display: grid;
@@ -129,13 +121,6 @@ export default {
   grid-column: 1 / 3;
 }
 
-.image-container img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  object-position: center;
-}
-
 .three-products-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -147,7 +132,7 @@ export default {
   display: flex;
   flex-direction: column;
   transition: 0.3s ease-in-out;
-  background-color: var(--light-gray-color);
+  box-shadow: var(--box-shadow);
   border: none;
   position: relative;
   overflow: hidden;
@@ -174,6 +159,8 @@ export default {
 
 .portfolio-item:hover {
   text-decoration: none;
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 15px var(--primary-light-color);
 }
 
 .portfolio-image {

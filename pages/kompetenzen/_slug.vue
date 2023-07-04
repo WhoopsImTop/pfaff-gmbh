@@ -40,15 +40,7 @@ export default {
 }
 </script>
   
-  <style>
-.image-container {
-  width: 100%;
-  height: 70vh;
-  overflow: hidden;
-  position: relative;
-  margin-top: 80px;
-}
-
+<style>
 .competence-single.content-container {
   margin-top: 50px;
   display: grid;
@@ -60,14 +52,12 @@ export default {
   grid-column: 1 / 4;
 }
 
-.image-container img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  object-position: center;
-}
-
 @media (max-width: 1000px) {
+  .competence-single.content-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
   .image-container {
     height: 40vh;
   }

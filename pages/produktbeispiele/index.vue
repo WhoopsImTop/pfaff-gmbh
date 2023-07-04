@@ -125,16 +125,16 @@ export default {
   display: grid;
   grid-template-columns: repeat(
     auto-fill,
-    minmax(330px, calc(100% / 3 - 10px))
+    minmax(330px, calc(100% / 3 - 20px))
   );
-  grid-gap: 10px;
+  grid-gap: 20px;
 }
 
 .portfolio-item {
   display: flex;
   flex-direction: column;
   transition: 0.3s ease-in-out;
-  background-color: var(--light-gray-color);
+  box-shadow: var(--box-shadow);
   border: none;
   position: relative;
   overflow: hidden;
@@ -161,6 +161,8 @@ export default {
 
 .portfolio-item:hover {
   text-decoration: none;
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 15px var(--primary-light-color);
 }
 
 .portfolio-image {

@@ -1,6 +1,6 @@
 <template>
   <div class="content-container row">
-    <div style="padding: 0" v-for="(block, index) in component.component" :key="index" :class="component.component.length > 1 ? 'col-lg-6' : 'col'">
+    <div v-for="(block, index) in component.component" :key="index" :class="component.component.length > 1 ? 'col-lg-6' : 'col'">
       <div v-if="block.type === 'text'">
         <span class="smallHeadline" style="min-height: 30px;">{{ block.smallHeadline }}</span>
         <h2 style="min-height: 45px">{{ block.headline }}</h2>

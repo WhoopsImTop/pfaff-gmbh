@@ -46,10 +46,16 @@ export default {
 <style>
 .pf-card-sm {
   box-shadow: var(--box-shadow);
+  transition: all 0.3s ease-in-out;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
 }
 
 .pf-card-sm:hover {
   text-decoration: none;
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 15px var(--primary-light-color);
 }
 
 .small-card-container {
