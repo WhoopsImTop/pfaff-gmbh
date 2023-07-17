@@ -24,9 +24,6 @@ export default {
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: ['~/assets/font', '~/assets/main', '~/assets/main_mobile'],
 
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
-
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
@@ -72,8 +69,9 @@ export default {
     '@nuxt/content',
     '@nuxtjs/markdownit',
     '@nuxtjs/i18n',
-    'nuxt-jsonld',
   ],
+  
+  plugins: ['~/plugins/jsonld'],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
