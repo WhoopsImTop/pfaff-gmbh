@@ -3,7 +3,14 @@ title: "Kunststoff Magazin: 2K-Kunststoffteile für die Medizintechnik"
 date: 2016-10-15T14:23:00
 category:
   - fachbeitraege
-content:  Voll integrierter Prozess einschließlich komplexem Handling.    Eine kleine Kunststoffkugel, regelmäßige kleine Noppen auf der Oberfläche, eine kleine Achse imZentrum, um die sie sich drehen kann. Diese kleine Kugel so herzustellen erfordert herstellungstechnisch einen erstaunlichen Aufwand. Warum der Spritzgießer Pfaff in Südbaden diesen Aufwand betreibt, ist schnell beantwortet. Einfache Lösungen sind zu teuer.    Den kompletten Artikel aus dem Kunststoff Magazin als PDF 
+content: Voll integrierter Prozess einschließlich komplexem Handling.    Eine
+  kleine Kunststoffkugel, regelmäßige kleine Noppen auf der Oberfläche, eine
+  kleine Achse imZentrum, um die sie sich drehen kann. Diese kleine Kugel so
+  herzustellen erfordert herstellungstechnisch einen erstaunlichen Aufwand.
+  Warum der Spritzgießer Pfaff in Südbaden diesen Aufwand betreibt, ist schnell
+  beantwortet. Einfache Lösungen sind zu teuer.    Den kompletten Artikel aus
+  dem Kunststoff Magazin als PDF
+categories: fachbeiträge
 ---
 
 <p><strong>Voll integrierter Prozess einschließlich komplexem Handling</strong>.</p>
