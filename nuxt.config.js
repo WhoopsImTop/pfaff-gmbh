@@ -72,18 +72,8 @@ export default {
     '@nuxt/content',
     '@nuxtjs/markdownit',
     '@nuxtjs/i18n',
-    '@nuxtjs/sitemap',
+    'nuxt-jsonld',
   ],
-
-  sitemap: {
-    hostname: 'https://pfaff-gmbh.netlify.app',
-    path: '/sitemap.xml',
-    sitemaps: [
-      {
-        path: '/sitemap/sitemap.xml',
-      }
-    ],
-  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {

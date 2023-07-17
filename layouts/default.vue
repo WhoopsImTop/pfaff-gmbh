@@ -1,5 +1,6 @@
 <template>
   <div>
+    <SeoKit />
     <navbar-component />
     <nuxt />
     <footer-component />
