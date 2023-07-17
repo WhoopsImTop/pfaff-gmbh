@@ -34,13 +34,64 @@ export default {
 
   head() {
     return {
-      title: 'News & Medien',
+      title: 'Pfaff GmbH | News & Medien',
       meta: [
         {
           hid: 'description',
           name: 'description',
+          content: 'Hier finden Sie alle Neuigkeiten rund um die Pfaff GmbH. Wir informieren Sie über neue Produkte, Veranstaltungen und vieles mehr.',
+        },
+        {
+          hid: 'keywords',
+          name: 'keywords',
           content:
-            'Hier finden Sie alle Neuigkeiten rund um die Pfaff GmbH. Wir informieren Sie über neue Produkte, Veranstaltungen und vieles mehr.',
+            'Pfaff, Kunststoff, Kunststoffverarbeitung, Spritzguss, Spritzgussteile',
+        },
+        {
+          property: 'og:title',
+          content: 'Pfaff GmbH | News & Medien',
+        },
+        {
+          property: 'og:description',
+          content: 'Hier finden Sie alle Neuigkeiten rund um die Pfaff GmbH. Wir informieren Sie über neue Produkte, Veranstaltungen und vieles mehr.',
+        },
+        {
+          property: 'og:image',
+          content: 'https://pfaffgmbh.com/pfaff-historie.jpg',
+        },
+        {
+          property: 'og:url',
+          content: 'https://pfaffgmbh.com/news-medien',
+        },
+        {
+          property: 'og:type',
+          content: 'website',
+        },
+        {
+          property: 'og:locale',
+          content: 'de_DE',
+        },
+      ],
+      link: [
+        {
+          rel: 'canonical',
+          href: 'https://pfaffgmbh.com/news-medien',
+        },
+      ],
+    }
+  },
+
+  jsonld() {
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'Organization',
+      name: 'Pfaff GmbH | News und Medien',
+      url: 'https://pfaffgmbh.com/news-medien/',
+      contactPoint: [
+        {
+          '@type': 'ContactPoint',
+          telephone: '+(49) 7681-49397-0',
+          contactType: 'customer service',
         },
       ],
     }

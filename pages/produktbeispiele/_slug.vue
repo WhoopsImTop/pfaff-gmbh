@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="image-container">
-      <img :src="seite.productImage" :alt="seite.productTitle" />
+      <img :src="seite.productImage" :alt="seite.productTitle" loading="lazy" :title="seite.productTitle"/>
     </div>
     <div class="portfolio-single content-container">
       <div class="content text-container">
@@ -86,12 +86,65 @@ export default {
 
   head() {
     return {
-      title: 'Pfaff GmbH | ' + this.seite.productTitle,
+      title: 'Pfaff GmbH | Produktbeispiel | ' + this.seite.productTitle,
       meta: [
         {
           hid: 'description',
           name: 'description',
           content: this.seite.productDescription,
+        },
+        {
+          hid: 'keywords',
+          name: 'keywords',
+          content:
+            'Pfaff, Kunststoff, Kunststoffverarbeitung, Spritzguss, Spritzgussteile',
+        },
+        {
+          property: 'og:title',
+          content: 'Pfaff GmbH | Produktbeispiel | ' + this.seite.productTitle,
+        },
+        {
+          property: 'og:description',
+          content: this.seite.productDescription,
+        },
+        {
+          property: 'og:image',
+          content: this.seite.productImage,
+        },
+        {
+          property: 'og:url',
+          content: 'https://pfaffgmbh.com/produktbeispiele/' + this.seite.slug,
+        },
+        {
+          property: 'og:type',
+          content: 'website',
+        },
+        {
+          property: 'og:locale',
+          content: 'de_DE',
+        },
+      ],
+      link: [
+        {
+          rel: 'canonical',
+          href: 'https://pfaffgmbh.com/produktbeispiele/' + this.seite.slug,
+        },
+      ],
+    }
+  },
+
+  jsonld() {
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'Organization',
+      name: 'Pfaff GmbH | Produktbeispiel | ' + this.seite.productTitle,
+      url: 'https://pfaffgmbh.com/produktbeispiele/' + this.seite.slug,
+      logo: this.seite.productImage,
+      contactPoint: [
+        {
+          '@type': 'ContactPoint',
+          telephone: '+(49) 7681-49397-0',
+          contactType: 'customer service',
         },
       ],
     }

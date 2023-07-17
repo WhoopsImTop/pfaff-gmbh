@@ -44,13 +44,13 @@
           <div
             v-for="(marker, i) in slide.landingProductMarkerPosition"
             :key="i"
-            class="marker"
+            class="pulseMarker-relative"
             :style="'bottom:' + marker.bottom + '%; left:' + marker.left + '%'"
             @mouseover="highlightConnectedProduct(slide.landingProducts, i)"
             @mouseout="highlightConnectedProduct(slide.landingProducts, i)"
           >
-            <div class="ping-marker"></div>
-            <div class="inner-cricle"></div>
+            <div class="marker-inner"></div>
+            <div class="marker-outer"></div>
           </div>
         </div>
       </div>
@@ -252,48 +252,6 @@ export default {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-.marker {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  position: absolute;
-  z-index: 2;
-}
-
-.ping-marker {
-  background: var(--primary-light-color);
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  position: absolute;
-  z-index: 2;
-  bottom: 7.5px;
-  left: 7.5px;
-  animation: ping 2s infinite cubic-bezier(0, 0, 0.2, 1);
-}
-
-.inner-cricle {
-  background: var(--primary-color);
-  border: 3px solid var(--primary-light-color);
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  position: absolute;
-  z-index: 2;
-  bottom: 7.5px;
-  left: 7.5px;
-}
-
-@keyframes ping {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    transform: scale(2);
-    opacity: 0;
-  }
 }
 
 .top-left {

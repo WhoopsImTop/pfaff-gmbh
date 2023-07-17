@@ -1,40 +1,98 @@
 <template>
-    <div>
-      <component-renderer v-for="(component, index) in landing.components" :key="index" :component="component" />
-    </div>
-  </template>
+  <div>
+    <component-renderer
+      v-for="(component, index) in landing.components"
+      :key="index"
+      :component="component"
+    />
+  </div>
+</template>
   
   <script>
-  import componentRenderer from '~/components/componentRenderer.vue'
-  export default {
-    components: { componentRenderer },
-    name: 'IndexPage',
-    layout: 'default',
-  
-    async asyncData({ $content, app, store: { dispatch } }) {
-      const landing = await $content(
-        'seiten/' + app.i18n.locale + '/qualität'
-      ).fetch()
-      await dispatch('nuxtServerInit')
-      return { landing }
-    },
+import componentRenderer from '~/components/componentRenderer.vue'
+export default {
+  components: { componentRenderer },
+  name: 'IndexPage',
+  layout: 'default',
 
-    head() {
-      return {
-        title: "Pfaff GmbH | Qualität",
-        meta: [
-          {
-            hid: 'description',
-            name: 'description',
-            content: "Hervorragende Qualität bei wirtschaftlicher Produktion verstehen wir als Selbstverständlichkeit. Seit 2006 sind wir nach der ISO-Norm 9001 zertifiziert. Seit 2011 bieten wir unseren Kunden im Medizinbereich zusätzlich eine Qualitätssicherung nach ISO 13485.",
-          },
-        ],
-      }
-    },
-  
-    data() {
-      return {}
-    },
-  }
-  </script>
+  async asyncData({ $content, app, store: { dispatch } }) {
+    const landing = await $content(
+      'seiten/' + app.i18n.locale + '/qualität'
+    ).fetch()
+    await dispatch('nuxtServerInit')
+    return { landing }
+  },
+
+  head() {
+    return {
+      title: 'Pfaff GmbH | Qualität',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'Hervorragende Qualität bei wirtschaftlicher Produktion verstehen wir als Selbstverständlichkeit. Seit 2006 sind wir nach der ISO-Norm 9001 zertifiziert. Seit 2011 bieten wir unseren Kunden im Medizinbereich zusätzlich eine Qualitätssicherung nach ISO 13485.',
+        },
+        {
+          hid: 'keywords',
+          name: 'keywords',
+          content:
+            'Pfaff, Kunststoff, Kunststoffverarbeitung, Spritzguss, Spritzgussteile',
+        },
+        {
+          property: 'og:title',
+          content: 'Pfaff GmbH | Qualität',
+        },
+        {
+          property: 'og:description',
+          content: "Hervorragende Qualität bei wirtschaftlicher Produktion verstehen wir als Selbstverständlichkeit. Seit 2006 sind wir nach der ISO-Norm 9001 zertifiziert. Seit 2011 bieten wir unseren Kunden im Medizinbereich zusätzlich eine Qualitätssicherung nach ISO 13485.",
+        },
+        {
+          property: 'og:image',
+          content: 'https://pfaffgmbh.com/pfaff-historie.jpg',
+        },
+        {
+          property: 'og:url',
+          content: 'https://pfaffgmbh.com/qualität',
+        },
+        {
+          property: 'og:type',
+          content: 'website',
+        },
+        {
+          property: 'og:locale',
+          content: 'de_DE',
+        },
+      ],
+      link: [
+        {
+          rel: 'canonical',
+          href: 'https://pfaffgmbh.com/qualität',
+        },
+      ],
+    }
+  },
+
+  jsonld() {
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'Organization',
+      name: 'Pfaff GmbH | Qualität',
+      url: 'https://pfaffgmbh.com/qualität',
+      logo: 'https://pfaffgmbh.com/pfaff-historie.jpg',
+      contactPoint: [
+        {
+          '@type': 'ContactPoint',
+          telephone: '+(49) 7681-49397-0',
+          contactType: 'customer service',
+        },
+      ],
+    }
+  },
+
+  data() {
+    return {}
+  },
+}
+</script>
   

@@ -51,11 +51,11 @@ export default {
         },
         {
           property: 'og:image',
-          content: 'https://www.pfaff-gmbh.netlify.app/og-image.png',
+          content: 'https://pfaffgmbh.com/pfaff-historie.jpg',
         },
         {
           property: 'og:url',
-          content: 'https://www.pfaff-gmbh.netlify.app/',
+          content: 'https://pfaffgmbh.com/',
         },
         {
           property: 'og:type',
@@ -69,7 +69,7 @@ export default {
       link: [
         {
           rel: 'canonical',
-          href: 'https://www.pfaff-gmbh.netlify.app/',
+          href: 'https://pfaffgmbh.com/',
         },
       ],
     }
@@ -80,11 +80,8 @@ export default {
       '@context': 'https://schema.org',
       '@type': 'Organization',
       name: 'Pfaff GmbH',
-      url: 'https://www.pfaff-gmbh.netlify.app/',
-      logo: 'https://www.pfaff-gmbh.netlify.app/logo.svg',
-      sameAs: [
-        'https://www.instagram.com/pfaffgmbh/',
-      ],
+      url: 'https://pfaffgmbh.com/',
+      logo: 'https://pfaffgmbh.com/pfaff-historie.jpg',
       contactPoint: [
         {
           '@type': 'ContactPoint',

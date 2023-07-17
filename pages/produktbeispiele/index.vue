@@ -76,7 +76,60 @@ export default {
           hid: 'description',
           name: 'description',
           content:
-            'Produktbeispiele der Pfaff GmbH. Wir entwickeln mit modernen Materialien, innovativer Technik und garantieren zertifizierte Qualität unter Reinraumbedingungen.',
+          'Produktbeispiele der Pfaff GmbH. Wir entwickeln mit modernen Materialien, innovativer Technik und garantieren zertifizierte Qualität unter Reinraumbedingungen.',
+        },
+        {
+          hid: 'keywords',
+          name: 'keywords',
+          content:
+            'Pfaff, Kunststoff, Kunststoffverarbeitung, Spritzguss, Spritzgussteile',
+        },
+        {
+          property: 'og:title',
+          content: 'Pfaff GmbH | Produktbeispiele',
+        },
+        {
+          property: 'og:description',
+          content: 'Produktbeispiele der Pfaff GmbH. Wir entwickeln mit modernen Materialien, innovativer Technik und garantieren zertifizierte Qualität unter Reinraumbedingungen.',
+        },
+        {
+          property: 'og:image',
+          content: 'https://pfaffgmbh.com/pfaff-historie.jpg',
+        },
+        {
+          property: 'og:url',
+          content: 'https://pfaffgmbh.com/produktbeispiele',
+        },
+        {
+          property: 'og:type',
+          content: 'website',
+        },
+        {
+          property: 'og:locale',
+          content: 'de_DE',
+        },
+      ],
+      link: [
+        {
+          rel: 'canonical',
+          href: 'https://pfaffgmbh.com/produktbeispiele',
+        },
+      ],
+    }
+  },
+
+  jsonld() {
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'Organization',
+      name: 'Pfaff GmbH | Produktbeispiele',
+      url: 'https://pfaffgmbh.com/produktbeispiele',
+      logo: 'https://pfaffgmbh.com/pfaff-historie.jpg',
+      contactPoint: [
+        {
+          '@type': 'ContactPoint',
+          telephone: '+(49) 7681-49397-0',
+          contactType: 'customer service',
         },
       ],
     }
