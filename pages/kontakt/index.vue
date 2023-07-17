@@ -78,16 +78,34 @@ export default {
     return {
       '@context': 'https://schema.org',
       '@type': 'Organization',
-      name: 'Pfaff GmbH | Kontakt',
-      url: 'https://pfaffgmbh.com/kontakt',
-      logo: 'https://pfaffgmbh.com/pfaff-historie.jpg',
-      contactPoint: [
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: 'Waldkirch, Deutschland',
+        postalCode: '79183',
+        streetAddress: "Spinnereistraße  4-6",
+      },
+      email: 'info@pfaffgmbh.com',
+      member: [
         {
-          '@type': 'ContactPoint',
-          telephone: '+(49) 7681-49397-0',
-          contactType: 'customer service',
+          '@type': 'Organization',
+        },
+        {
+          '@type': 'Organization',
         },
       ],
+      alumni: [
+        {
+          '@type': 'Person',
+          name: 'Corinna Pfaff',
+        },
+        {
+          '@type': 'Person',
+          name: 'Andreas Buff',
+        },
+      ],
+      name: 'Pfaff GmbH | Kontakt',
+      url: 'https://pfaffgmbh.com/kontakt',
+      telephone: '+ (49) 7681 49397-0',
     }
   },
 

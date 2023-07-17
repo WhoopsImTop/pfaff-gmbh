@@ -137,16 +137,34 @@ export default {
     return {
       '@context': 'https://schema.org',
       '@type': 'Organization',
-      name: 'Pfaff GmbH | Produktbeispiel | ' + this.seite.productTitle,
-      url: 'https://pfaffgmbh.com/produktbeispiele/' + this.seite.slug,
-      logo: this.seite.productImage,
-      contactPoint: [
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: 'Waldkirch, Deutschland',
+        postalCode: '79183',
+        streetAddress: "Spinnereistraße  4-6",
+      },
+      email: 'info@pfaffgmbh.com',
+      member: [
         {
-          '@type': 'ContactPoint',
-          telephone: '+(49) 7681-49397-0',
-          contactType: 'customer service',
+          '@type': 'Organization',
+        },
+        {
+          '@type': 'Organization',
         },
       ],
+      alumni: [
+        {
+          '@type': 'Person',
+          name: 'Corinna Pfaff',
+        },
+        {
+          '@type': 'Person',
+          name: 'Andreas Buff',
+        },
+      ],
+      name: 'Pfaff GmbH | Produktbeispiel | ' + this.seite.productTitle,
+      url: 'https://pfaffgmbh.com/produktbeispiele/' + this.seite.slug,
+      telephone: '+ (49) 7681 49397-0',
     }
   },
 }
