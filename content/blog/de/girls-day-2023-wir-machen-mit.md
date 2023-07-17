@@ -1,9 +1,15 @@
 ---
-title: "Girl&#8217;s Day 2023 &#8211; Wir machen mit!"
+title: Girl's Day 2023 - Wir machen mit!
 date: 2023-03-13T10:20:54
 category:
   - allgemeine-news
-content:  Wir machen mit! Zwei Mädchen bekommen beim#GirlsDayam 27.04.2023 die Chance, bei uns in den#Berufder#Verfahrensmechanikerineinzutauchen. Wir zeigen Euch, warum es in diesem#JobÜberschneidungen zu den Aufgaben einer#Köchingibt. Außerdem erfahrt Ihr, wie Ihr die Stoffe der Zukunft mischt, um Menschen in Europa regional mit lebenswichtigen Produkten zu versorgen. Interessiert?    Dann meldet Euch gleich hier an:http://bitly.ws/Bxey        #Medizintechnik#Kunststoffspritzguss#Spritzgießtechnik#Mechanik#Elektronik#Kunststoff#Zukunft#Mädchentag#Ladiesfirst#Kunststoffkarriere#Innovation 
+content: Wir machen mit! Zwei Mädchen bekommen beim#GirlsDayam 27.04.2023 die
+  Chance, bei uns in den#Berufder#Verfahrensmechanikerineinzutauchen. Wir zeigen
+  Euch, warum es in diesem#JobÜberschneidungen zu den Aufgaben einer#Köchingibt.
+  Außerdem erfahrt Ihr, wie Ihr die Stoffe der Zukunft mischt, um Menschen in
+  Europa regional mit lebenswichtigen Produkten zu versorgen.
+  Interessiert?    Dann meldet Euch gleich hier an:http://bitly.ws/Bxey
+image: /22159_ced1ee8d0525300.jpg
 ---
 
 <p>Wir machen mit! Zwei Mädchen bekommen beim&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=girlsday&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7040967640995012608">#GirlsDay</a>&nbsp;am 27.04.2023 die Chance, bei uns in den&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=beruf&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7040967640995012608">#Beruf</a>&nbsp;der&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=verfahrensmechanikerin&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7040967640995012608">#Verfahrensmechanikerin</a>&nbsp;einzutauchen. Wir zeigen Euch, warum es in diesem&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=job&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7040967640995012608">#Job</a>&nbsp;Überschneidungen zu den Aufgaben einer&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=k%C3%B6chin&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7040967640995012608">#Köchin</a>&nbsp;gibt. Außerdem erfahrt Ihr, wie Ihr die Stoffe der Zukunft mischt, um Menschen in Europa regional mit lebenswichtigen Produkten zu versorgen. Interessiert?</p>
