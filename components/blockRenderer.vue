@@ -3,7 +3,7 @@
     <div class="grid">
       <nuxt-link v-for="(block, index) in blocks" :key="index" class="product-card" :to="block.blockLink">
         <div class="product-card-image">
-          <img :src="block.blockImage" :alt="block.blockTitle" />
+          <img :src="block.blockImage" :alt="block.blockTitle" :title="block.blockTitle" loading="lazy" />
         </div>
         <div class="product-card-content">
           <span class="product-category">{{ block.blockCategory }}</span>

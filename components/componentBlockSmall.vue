@@ -8,7 +8,7 @@
         class="pf-card-sm"
       >
         <div v-if="card.competenceImage" class="small-card-image">
-          <img :src="card.competenceImage" :alt="card.competenceName" />
+          <img :src="card.competenceImage" :alt="card.competenceName" :title="card.competenceName" loading="lazy" />
         </div>
         <div class="card-content">
           <span class="product-category">{{ card.competenceName }}</span>

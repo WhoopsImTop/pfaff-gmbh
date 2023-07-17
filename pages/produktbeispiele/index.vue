@@ -28,7 +28,7 @@
           class="portfolio-item"
         >
           <div class="portfolio-image">
-            <img :src="produkt.productImage" :alt="produkt.productTitle" />
+            <img :src="produkt.productImage" :alt="produkt.productTitle" :title="produkt.productTitle" loading="lazy" />
           </div>
           <div class="portfolio-content">
             <div class="portfolio-items-categories">

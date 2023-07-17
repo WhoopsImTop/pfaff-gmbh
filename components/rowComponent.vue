@@ -8,7 +8,7 @@
         <a class="button" v-if="block.button" :href="block.button.buttonDownloadLink || block.button.buttonLink" :download="block.button.buttonDownloadLink ? true : false">{{ block.button.buttonText }}</a>
       </div>
       <div class="content-image-container" v-if="block.type === 'image'">
-        <img class="content-image" :src="block.image" :alt="block.alt" />
+        <img class="content-image" :src="block.image" :alt="block.alt" :title="block.title" loading="lazy" />
       </div>
       <div v-if="block.type === 'cards'">
         <component-block-small :component="block" />

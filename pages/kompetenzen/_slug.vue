@@ -4,6 +4,8 @@
       <img
         :src="seite.competenceImage"
         :alt="seite.competenceImageDescription ?? seite.competenceTitle"
+        :title="seite.competenceImageDescription ?? seite.competenceTitle"
+        loading="lazy"
       />
     </div>
     <div class="competence-single content-container">

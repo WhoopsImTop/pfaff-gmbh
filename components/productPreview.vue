@@ -8,7 +8,7 @@
       <span class="quote">{{ components.productQuote }}</span>
     </div>
     <div class="preview-image-container">
-      <img :src="components.productImage" :alt="components.productTitle" />
+      <img :src="components.productImage" :alt="components.productTitle" :title="components.productTitle" loading="lazy" />
     </div>
     <div class="preview-slide-container" v-if="components.product">
       <product-slider

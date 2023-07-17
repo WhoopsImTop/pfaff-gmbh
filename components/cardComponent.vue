@@ -9,7 +9,7 @@
         class="pf-card"
       >
         <div v-if="card.cardImage" class="card-image">
-          <img :src="card.cardImage" :alt="card.cardTitle" />
+          <img :src="card.cardImage" :alt="card.cardTitle" :title="card.cardTitle" loading="lazy" />
         </div>
         <div class="card-content">
           <h3 style="margin-top: 10px">{{ card.cardTitle }}</h3>

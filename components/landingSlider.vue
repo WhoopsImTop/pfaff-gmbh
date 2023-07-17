@@ -16,6 +16,8 @@
               width="25px"
               alt="arrow-left"
               style="transform: rotate(-90deg)"
+              title="letzte Folie"
+              loading="lazy"
             />
           </div>
           <div class="arrow-right" @click="slideRight">
@@ -24,6 +26,8 @@
               width="25px"
               alt="arrow-right"
               style="transform: rotate(90deg)"
+              title="nächste Folie"
+              loading="lazy"
             />
           </div>
         </div>

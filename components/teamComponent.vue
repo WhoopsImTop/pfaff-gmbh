@@ -13,6 +13,8 @@
               teamMember.image ? teamMember.image : '/personal-pfaff-gmbh.jpg'
             "
             :alt="teamMember.name"
+            :title="teamMember.name"
+            loading="lazy"
           />
         </div>
         <div class="team-member-content">

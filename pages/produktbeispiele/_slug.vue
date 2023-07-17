@@ -1,7 +1,12 @@
 <template>
   <div>
     <div class="image-container">
-      <img :src="seite.productImage" :alt="seite.productTitle" loading="lazy" :title="seite.productTitle"/>
+      <img
+        :src="seite.productImage"
+        :alt="seite.productTitle"
+        loading="lazy"
+        :title="seite.productTitle"
+      />
     </div>
     <div class="portfolio-single content-container">
       <div class="content text-container">
@@ -38,7 +43,12 @@
         class="portfolio-item"
       >
         <div class="portfolio-image">
-          <img :src="produkt.productImage" :alt="produkt.productTitle" />
+          <img
+            :src="produkt.productImage"
+            :alt="produkt.productTitle"
+            :title="produkt.productTitle"
+            loading="lazy"
+          />
         </div>
         <div class="portfolio-content">
           <div class="portfolio-items-categories">
@@ -141,7 +151,7 @@ export default {
         '@type': 'PostalAddress',
         addressLocality: 'Waldkirch, Deutschland',
         postalCode: '79183',
-        streetAddress: "Spinnereistraße  4-6",
+        streetAddress: 'Spinnereistraße  4-6',
       },
       email: 'info@pfaffgmbh.com',
       member: [
