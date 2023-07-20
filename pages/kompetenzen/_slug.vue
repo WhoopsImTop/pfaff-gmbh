@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="content-margin">
     <div class="image-container">
       <img
         :src="seite.competenceImage"

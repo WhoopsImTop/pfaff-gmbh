@@ -5,7 +5,7 @@
         v-for="(slide, index) in slideData"
         :key="index"
         :style="
-          sliderStyles + '; background-image: url(' + (isMobile ? slide.landingImageMobile : slide.landingImage) + ');'
+          sliderStyles + '; background-image: url(' + (isMobile ? (slide.landingImageMobile ? slide.landingImageMobile : slide.landingImage) : slide.landingImage) + ');'
         "
         class="slide"
       >
@@ -50,8 +50,6 @@
             :key="i"
             class="pulseMarker-relative"
             :style="'bottom:' + marker.bottom + '%; left:' + marker.left + '%'"
-            @mouseover="highlightConnectedProduct(slide.landingProducts, i)"
-            @mouseout="highlightConnectedProduct(slide.landingProducts, i)"
           >
             <div class="marker-inner"></div>
             <div class="marker-outer"></div>
@@ -159,6 +157,7 @@ export default {
         data = [data]
       }
       const id = data[index]
+      console.log(index)
       document.getElementById(id).classList.toggle('highlighted')
     },
     nextSlide() {
@@ -217,6 +216,7 @@ export default {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  box-shadow: var(--box-shadow);
 }
 
 .slide-content-container {
@@ -309,10 +309,6 @@ export default {
 
   .slide-title {
     position: relative;
-  }
-
-  .slide {
-    padding-top: 100px;
   }
 
   .landing-slider {

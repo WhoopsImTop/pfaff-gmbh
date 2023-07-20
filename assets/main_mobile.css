@@ -11,6 +11,30 @@
   .mobile-logo {
     display: block;
   }
+
+  .col-lg-6, .col-12 {
+    padding: 0px !important;
+  }
+
+  .row {
+    margin: 0px !important;
+  }
+
+  .content-image {
+    margin-bottom: 20px;
+  }
+
+  label {
+    margin-top: 10px;
+  }
+
+  form {
+    margin-bottom: 50px;
+  }
+
+  .content-margin {
+    margin-top: 100px;
+  }
 }
 
 @media (max-width: 800px) {

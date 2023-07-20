@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="content-margin">
     <landing-slider :slideData="slides" />
     <div class="content-container" style="margin-top: 100px">
       <div class="produktfilter">

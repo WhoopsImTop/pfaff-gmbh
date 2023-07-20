@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="content-margin">
     <div class="image-container">
       <img
         :src="seite.productImage"
@@ -279,6 +279,11 @@ export default {
   }
 
   .three-products-grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .info-container {
     display: flex;
     flex-direction: column;
   }
