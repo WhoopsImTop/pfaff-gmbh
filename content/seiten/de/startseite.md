@@ -13,17 +13,28 @@ components:
         landingProductMarkerPosition:
           - bottom: 36
             left: 24
+        landingImageMobile: /pfaff-miniatur-guckloch-1-mobile.jpg
       - landingTitle: Wir bringen Sie vertrauensvoll <br> zu Ihrem Kunststoffgipfel.
         landingTitlePosition: top-left
         landingImage: /pfaff-miniatur-wanderer-1-.jpg
         landingProducts:
           - massageball-für-bepanthen-narbengel
+        landingImageMobile: /pfaff-miniatur-wanderer-1-mobile.jpg
+        landingProductMarkerPosition:
+          - bottom: 45
+            left: 37
       - landingTitle: Ihre Kunststoff&shy;produkte. <br> Präzise und sofort einsatzbereit.
         landingTitlePosition: top-left
         landingImage: /preview-pfaff-miniatur-laster.png
         landingProducts:
+          - peek-spitze-für-die-dentaltechnik
           - implantatschraube
-        landingProductMarkerPosition: []
+        landingProductMarkerPosition:
+          - bottom: 41
+            left: 19
+          - bottom: 49
+            left: 61
+        landingImageMobile: /preview-pfaff-miniatur-laster-mobile.png
   - type: contentblock
     contentTitle: Pfaff GmbH. Wo Kunststoff Karriere macht.
     contentText: >-

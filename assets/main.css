@@ -548,6 +548,17 @@
   .content-container {
     margin: 130px auto;
   }
+  
+  .article {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .article-image {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 1200px) {

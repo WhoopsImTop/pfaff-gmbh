@@ -46,12 +46,12 @@ export default {
   flex-direction: row;
   align-items: center;
   margin-right: 20px;
-  overflow: hidden;
   box-shadow: var(--box-shadow);
   text-decoration: none;
   background-color: #ffffff;
   transition: all 0.3s ease-in-out;  
   border-radius: 4px;
+  position: relative;
 }
 
 .highlighted {
@@ -94,7 +94,7 @@ export default {
 }
 
 .product-name h3 {
-  font-size: 25px;
+  font-size: 20px;
   margin-bottom: 0px;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -105,6 +105,7 @@ export default {
   .product {
     margin-right: 0px;
     margin-bottom: 20px;
+    max-width: 90vw;
   }
 
   .product-image {
@@ -115,6 +116,14 @@ export default {
   .product-name {
     overflow: hidden;
     text-overflow: ellipsis;
+  }
+
+  .pulseMarker {
+    display: none;
+  }
+
+  .pulseMarker-relative {
+    display: none;
   }
 
   .product-slider-category {

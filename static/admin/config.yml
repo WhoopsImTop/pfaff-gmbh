@@ -76,6 +76,11 @@ collections:
                     widget: image
                     required: false
                     i18n: true
+                  - label: Bild/er Mobil
+                    name: landingImageMobile
+                    widget: image
+                    required: false
+                    i18n: true
                   - label: "Verknüpfte Produkte"
                     name: "landingProducts"
                     widget: "relation"

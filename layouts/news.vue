@@ -86,7 +86,6 @@ export default {
   .grid-4 {
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
     padding: 0;
   }
 

@@ -158,6 +158,7 @@ export default {
   },
   methods: {
     stopClock() {
+      if(this.isMobile) return
       clearInterval(this.timeOut)
       this.timeOut = null
       this.isMobile = false

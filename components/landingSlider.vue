@@ -5,7 +5,7 @@
         v-for="(slide, index) in slideData"
         :key="index"
         :style="
-          sliderStyles + '; background-image: url(' + slide.landingImage + ');'
+          sliderStyles + '; background-image: url(' + (isMobile ? slide.landingImageMobile : slide.landingImage) + ');'
         "
         class="slide"
       >
@@ -312,7 +312,7 @@ export default {
   }
 
   .slide {
-    padding-top: 120px;
+    padding-top: 100px;
   }
 
   .landing-slider {
