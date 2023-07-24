@@ -106,7 +106,7 @@ components:
         cardImage: /pfaff-karriere.jpg
       - cardTitle: Meilensteine
         cardText: Erfahren Sie mehr über unsere Geschichte und wichtige Stationen.
-        cardLink: news-medien/historie
+        cardLink: news-medien/meilensteine
         cardImage: /pfaff-historie.jpg
   - type: news
     embedNews: false
