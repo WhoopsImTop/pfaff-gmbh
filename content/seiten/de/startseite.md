@@ -41,8 +41,8 @@ components:
       Willkommen bei PFAFF GMBH – Ihrem Experten für hochwertige
       Kunststoffartikel in Medizin- und Dentaltechnik, Mess- und
       Regelungstechnik, Ventil- und Fluidtechnik sowie Sensorik. Seit 1991
-      bieten wir innovative Technologien und Hochleistungskunststoffe wie Peek
-      und PPS für herausragende Qualität und wirtschaftliche Herstellung.
+      bieten wir innovative Technologien und Hochleistungs&shy;kunststoffe wie
+      Peek und PPS für herausragende Qualität und wirtschaftliche Herstellung.
 
 
       **Warum PFAFF GMBH?**
