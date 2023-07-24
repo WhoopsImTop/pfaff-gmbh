@@ -96,7 +96,8 @@ components:
     cardsTitle: Entdecken Sie die PFAFF GmbH
     card:
       - cardTitle: Neuigkeiten
-        cardText: Bleiben Sie auf dem Laufenden über PFAFF GmbH.
+        cardText: Bleiben Sie auf dem Laufenden mit aktuellen News, Fachbeiträgen und
+          Pressemitteilungen.
         cardLink: news-medien
         cardImage: /pfaff-neuigkeiten.jpg
       - cardTitle: Karriere
