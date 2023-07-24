@@ -1,5 +1,5 @@
 ---
-competenceName: Raumfertigung
+competenceName: Reinraumfertigung
 competencePosition: 4
 competenceTitle: Geringe Partikelbelastung
 competenceDescription: Da unsere Kunden aus unterschiedlichen Industriezweigen

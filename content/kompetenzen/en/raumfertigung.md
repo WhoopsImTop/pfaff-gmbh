@@ -1,5 +1,5 @@
 ---
-competenceName: space fabrication
+competenceName: clean room manufactoring
 competencePosition: 4
 competenceTitle: Low particle load
 competenceDescription: Since our customers come from different branches of
