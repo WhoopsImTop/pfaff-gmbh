@@ -38,26 +38,39 @@ components:
   - type: contentblock
     contentTitle: Pfaff GmbH. Wo Kunststoff Karriere macht.
     contentText: >-
-      Seit 1991 sind wir die Experten für hochwertige Kunststoffartikel in den
-      Branchen Medizin- und Dentaltechnik, Mess- und Regelungstechnik, Ventil-
-      und Fluidtechnik sowie Sensorik. Mit innovativen Technologien und
-      erstklassigen Materialien, darunter Hochleistungskunststoffe wie Peek und
-      PPS, garantieren wir unseren Kunden herausragende Qualität und
-      wirtschaftliche Herstellung. Als inhabergeführtes Unternehmen bieten wir
-      direkte Kommunikation, flexible Lösungen, kurze Lieferzeiten und faire
-      Preise.
+      Willkommen bei PFAFF GMBH – Ihrem Experten für hochwertige
+      Kunststoffartikel in Medizin- und Dentaltechnik, Mess- und
+      Regelungstechnik, Ventil- und Fluidtechnik sowie Sensorik. Seit 1991
+      bieten wir innovative Technologien und Hochleistungskunststoffe wie Peek
+      und PPS für herausragende Qualität und wirtschaftliche Herstellung.
 
 
-      ##### "Schnelle und transparente Kommunikation sowie maßgeschneiderte Lösungen sind unsere Stärken."
+      **Warum PFAFF GMBH?**
 
 
-      ##### Corinna Pfaff  (CEO)
+      * **Erfahrung und Kompetenz:** Über 30 Jahre Expertise in der Kunststoffbranche.
+
+      * **Persönliche Betreuung:** Direkte Kommunikation, flexible Lösungen.
+
+      * **Schnell und fair:** Kurze Lieferzeiten, faire Preise.
 
 
-      Vertrauen, Respekt und Nachhaltigkeit prägen unsere Zusammenarbeit mit Kunden, Lieferanten und Mitarbeitern. Entdecken Sie unsere Möglichkeiten und kontaktieren Sie uns für langfristige Partnerschaften.
+      **Unsere Werte – Vertrauen, Respekt, Nachhaltigkeit**
 
 
-      Wir freuen uns darauf, Ihre Anforderungen zu erfüllen.
+      Vertrauen, Respekt und Nachhaltigkeit prägen unsere Zusammenarbeit mit Kunden, Lieferanten und Mitarbeitern. Für langfristige Partnerschaften sind wir Ihr zuverlässiger Partner.
+
+
+      **Entdecken Sie unser Leistungsspektrum**
+
+
+      Ob Prototypen, Serienproduktionen oder Werkstoffberatung – wir erfüllen Ihre Kunststoff-Herausforderungen kompetent und zuverlässig.
+
+
+      Kontaktieren Sie uns jetzt für erstklassige Kunststofflösungen.
+
+
+      Ihr Team von PFAFF GMBH
     contentImage: /ab-cp-4.jpg
   - type: blocks
     block:
