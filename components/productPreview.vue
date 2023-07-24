@@ -20,32 +20,10 @@
 </template>
 
 <script>
-import { gsap } from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import productSlider from './productSlider.vue'
 export default {
   components: { productSlider },
   props: ['components'],
-  mounted() {
-    gsap.registerPlugin(ScrollTrigger)
-    gsap.fromTo(
-      '.preview-title',
-      {
-        opacity: 0,
-        y: 100,
-      },
-      {
-        opacity: 1,
-        y: 0,
-        duration: 0.5,
-        scrollTrigger: {
-          trigger: '.preview-container',
-          start: 'top 0%',
-          offset: 300,
-        },
-      }
-    )
-  },
 }
 </script>
 

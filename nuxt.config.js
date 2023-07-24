@@ -70,7 +70,7 @@ export default {
     '@nuxtjs/markdownit',
     '@nuxtjs/i18n',
   ],
-  
+
   plugins: ['~/plugins/jsonld'],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios

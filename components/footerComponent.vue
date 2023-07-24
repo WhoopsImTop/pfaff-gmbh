@@ -54,6 +54,7 @@
         <nuxt-link to="/impressum">Impressum</nuxt-link>
         <nuxt-link to="/datenschutz">Datenschutzerklärung</nuxt-link>
         <nuxt-link to="/agbs">AGB's</nuxt-link>
+        <a href="javascript:UC_UI.showSecondLayer();">Cookie-Einstellungen</a>
       </div>
       <div class="copyright">© 2023 PFAFF GMBH | <img src="/ideenlabor-logo-bildmarke-weiss.svg" width="25px" alt="ideenlabor" style="margin: 0 2px"> von Ideenlabor Agentur</div>
     </div>
