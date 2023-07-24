@@ -1,7 +1,7 @@
 ---
-competenceName: Projektmanagement
+competenceName: Nachhaltigkeit
 competencePosition: 5
-competenceTitle: Know How von A bis Z
+competenceTitle: Unser Versprechen
 competenceDescription: >-
   Bei unserem professionellen Projektmanagement profitieren Sie von all unseren
   Kompetenzen:
@@ -18,5 +18,5 @@ competenceDescription: >-
   * Erstellung eines Erstmusterprüfberichts, eines PPAPs oder einer Prozessvalidierung
 
   * Betreuung durch einen einzigen Ansprechpartner, der für alle Fragen, die das Projekt betreffen, ständig zur Verfügung steht
-competenceImage: /projektmanagement-pfaff-gmbh.png
+competenceImage: /pfaff-nachhaltigkeit.jpg
 ---
