@@ -80,7 +80,7 @@ components:
         blockTitle: Idealer Startup Partner
         blockImage: /pfaff-kleinauflagen.jpg
         blockLink: kompetenzen
-      - blockCategory: "#Zukunft"
+      - blockCategory: Unser Versprechen
         blockTitle: Nachhaltigkeit
         blockImage: /pfaff-nachhaltigkeit.jpg
         blockLink: unternehmen
