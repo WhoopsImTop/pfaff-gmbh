@@ -88,7 +88,7 @@ components:
       Schwarzwald ausschließlich mit modernen Materialien, innovativer Technik
       und garantieren höchste Qualität.“
     productQuote: Corinna Pfaff, CEO Pfaff GmbH
-    product: prismaschlitten
+    product: umspritzte-stimulationssonden-und-nadelelektroden-für-die-neurochirurgie
   - type: cards
     cardsTitle: Themen rund um Pfaff GmbH
     card:
