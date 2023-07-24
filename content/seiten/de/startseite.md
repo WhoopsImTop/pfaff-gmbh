@@ -39,15 +39,12 @@ components:
     contentTitle: Pfaff GmbH. Wo Kunststoff Karriere macht.
     contentText: >-
       Seit 1991 sind wir Experten für hochwertige Kunststoffartikel in den
-      Branchen Medizin- und Dentaltechnik, Mess- und Regelungstechnik, Ventil-
-      und Fluidtechnik sowie Sensorik. Mit innovativen Technologien und
-      Hochleistungskunststoffen wie Peek und PPS garantieren wir herausragende
-      Qualität und wirtschaftliche Herstellung. Als inhabergeführtes Unternehmen
-      bieten wir direkte Kommunikation, flexible Lösungen, kurze Lieferzeiten
-      und faire Preise.
-
-
-      **Unsere Stärken – Schnelle und maßgeschneiderte Lösungen**
+      Branchen **Medizin- und Dentaltechnik**, **Mess- und Regelungstechnik**,
+      **Ventil- und Fluidtechnik** sowie **Sensorik**. Mit innovativen
+      Technologien und **Hochleistungskunststoffen** wie **Peek** und **PPS**
+      garantieren wir herausragende Qualität und wirtschaftliche Herstellung.
+      Als inhabergeführtes Unternehmen bieten wir direkte Kommunikation,
+      flexible Lösungen, kurze Lieferzeiten und faire Preise.
 
 
       #### "SCHNELLE UND TRANSPARENTE KOMMUNIKATION SOWIE MASSGESCHNEIDERTE LÖSUNGEN SIND UNSERE STÄRKEN."
@@ -59,10 +56,7 @@ components:
       Vertrauen, Respekt und Nachhaltigkeit prägen unsere Zusammenarbeit mit Kunden, Lieferanten und Mitarbeitern. Entdecken Sie unsere Möglichkeiten und kontaktieren Sie uns für langfristige Partnerschaften.
 
 
-      **Ihr Partner für Kunststoff-Herausforderungen**
-
-
-      Wir freuen uns darauf, Ihre Anforderungen zu erfüllen.
+      **Wir freuen uns darauf, Ihre Anforderungen zu erfüllen.**
     contentImage: /ab-cp-4.jpg
   - type: blocks
     block:
