@@ -5,11 +5,6 @@ hideInMenu: false
 contentblock:
   - news: false
 components:
-  - type: slider
-    slide:
-      - landingTitle: Filigrane High-Tech-Kunststoffteile <br> aus dem Schwarzwald.
-        landingTitlePosition: top-left
-        landingImage: /preview-pfaff-miniatur-bollenhutmaidli-bub-sammlung.jpg
   - type: contentblock
     contentText: >-
       Tauchen Sie ein in eine Welt voller hochwertiger Produktbeispiele. Von
@@ -20,4 +15,9 @@ components:
 
       Hochwertige Materialien wie Peek und PPS garantieren Präzision und Langlebigkeit. Lassen Sie sich inspirieren und entdecken Sie die vielseitigen Kunststoffanwendungen bei PFAFF GmbH.
     contentTitle: Entdecken Sie unsere vielfältigen Kunststoffinnovationen
+  - type: slider
+    slide:
+      - landingTitle: Filigrane High-Tech-Kunststoffteile <br> aus dem Schwarzwald.
+        landingTitlePosition: top-left
+        landingImage: /preview-pfaff-miniatur-bollenhutmaidli-bub-sammlung.jpg
 ---
