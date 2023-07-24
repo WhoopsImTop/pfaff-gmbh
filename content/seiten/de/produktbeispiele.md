@@ -12,12 +12,14 @@ components:
         landingImage: /preview-pfaff-miniatur-bollenhutmaidli-bub-sammlung.jpg
   - type: contentblock
     contentText: >-
-      Tauchen Sie ein in eine Welt voller hochwertiger Produktbeispiele. Von
-      maßgeschneiderten Prototypen bis kundenspezifischen Serienproduktionen
-      bieten wir Lösungen für Medizin- und Dentaltechnik, Mess- und
-      Regelungstechnik, Ventil- und Fluidtechnik sowie Sensorik.
+      Tauchen Sie ein in eine Welt voller Kunststoffinnovationen und entdecken
+      Sie unsere breite Palette an hochwertigen Produktbeispielen. Von
+      maßgeschneiderten Prototypen bis hin zu kundenspezifischen
+      Serienproduktionen bieten wir Lösungen für die Branchen Medizin- und
+      Dentaltechnik, Mess- und Regelungstechnik, Ventil- und Fluidtechnik sowie
+      Sensorik.
 
 
-      Hochwertige Materialien wie Peek und PPS garantieren Präzision und Langlebigkeit. Lassen Sie sich inspirieren und entdecken Sie die vielseitigen Kunststoffanwendungen bei PFAFF GmbH.
-    contentTitle: Entdecken Sie unsere vielfältigen Kunststoffinnovationen
+      Entdecken Sie die Möglichkeiten und lassen Sie sich von den vielfältigen Kunststoffanwendungen bei PFAFF GmbH inspirieren.
+    contentTitle: Pfaff GmbH. Verblüffende Produktbeispiele.
 ---
