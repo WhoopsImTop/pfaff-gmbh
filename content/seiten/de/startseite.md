@@ -48,16 +48,17 @@ components:
       Preise.
 
 
-      ### "Schnelle und transparente Kommunikation sowie maßgeschneiderte Lösungen sind unsere Stärken."
+      ##### "Schnelle und transparente Kommunikation sowie maßgeschneiderte Lösungen sind unsere Stärken."
 
 
-      #### Corinna Pfaff  (CEO)
+      ##### Corinna Pfaff  (CEO)
 
 
       Vertrauen, Respekt und Nachhaltigkeit prägen unsere Zusammenarbeit mit Kunden, Lieferanten und Mitarbeitern. Entdecken Sie unsere Möglichkeiten und kontaktieren Sie uns für langfristige Partnerschaften.
 
 
       Wir freuen uns darauf, Ihre Anforderungen zu erfüllen.
+    contentImage: /ab-cp-4.jpg
   - type: blocks
     block:
       - blockCategory: Verblüffende Produktbeispiele
