@@ -88,10 +88,10 @@ components:
   - type: productPreview
     productImage: /pfaff-miniatur-bruecke.png
     productTitle: Tradition und Präzision
-    productDescription: „Seit 1991 entwickeln wir in unserem Familienbetrieb im
-      Schwarzwald ausschließlich mit modernen Materialien, innovativer Technik
-      und garantieren höchste Qualität.“
-    productQuote: Corinna Pfaff, CEO Pfaff GmbH
+    productDescription: „Seit über 30 Jahren entwickeln wir in unserem
+      Familienbetrieb im Schwarzwald ausschließlich mit modernen Materialien,
+      innovativer Technik und garantieren höchste Qualität.“
+    productQuote: Corinna Pfaff, CEO
     product: umspritzte-stimulationssonden-und-nadelelektroden-für-die-neurochirurgie
   - type: cards
     cardsTitle: Themen rund um Pfaff GmbH
