@@ -1,6 +1,10 @@
 <template>
   <div class="content-margin">
-    <landing-slider :slideData="slides" />
+    <component-renderer
+      v-for="(component, index) in seite.components"
+      :key="index"
+      :component="component"
+    />
     <div class="content-container" style="margin-top: 100px">
       <div class="produktfilter">
         <button
@@ -28,7 +32,12 @@
           class="portfolio-item"
         >
           <div class="portfolio-image">
-            <img :src="produkt.productImage" :alt="produkt.productTitle" :title="produkt.productTitle" loading="lazy" />
+            <img
+              :src="produkt.productImage"
+              :alt="produkt.productTitle"
+              :title="produkt.productTitle"
+              loading="lazy"
+            />
           </div>
           <div class="portfolio-content">
             <div class="portfolio-items-categories">
@@ -50,16 +59,13 @@
 </template>
 
 <script>
-import landingSlider from '~/components/landingSlider.vue'
 export default {
-  components: { landingSlider },
   async asyncData({ $content, app, store: { dispatch } }) {
     const seite = await $content(
       'seiten/' + app.i18n.locale + '/produktbeispiele'
     ).fetch()
     await dispatch('nuxtServerInit')
-    const slides = seite.components[0].slide
-    return { slides, seite }
+    return { seite }
   },
 
   data() {
@@ -76,7 +82,7 @@ export default {
           hid: 'description',
           name: 'description',
           content:
-          'Produktbeispiele der Pfaff GmbH. Wir entwickeln mit modernen Materialien, innovativer Technik und garantieren zertifizierte Qualität unter Reinraumbedingungen.',
+            'Produktbeispiele der Pfaff GmbH. Wir entwickeln mit modernen Materialien, innovativer Technik und garantieren zertifizierte Qualität unter Reinraumbedingungen.',
         },
         {
           hid: 'keywords',
@@ -90,7 +96,8 @@ export default {
         },
         {
           property: 'og:description',
-          content: 'Produktbeispiele der Pfaff GmbH. Wir entwickeln mit modernen Materialien, innovativer Technik und garantieren zertifizierte Qualität unter Reinraumbedingungen.',
+          content:
+            'Produktbeispiele der Pfaff GmbH. Wir entwickeln mit modernen Materialien, innovativer Technik und garantieren zertifizierte Qualität unter Reinraumbedingungen.',
         },
         {
           property: 'og:image',
@@ -126,7 +133,7 @@ export default {
         '@type': 'PostalAddress',
         addressLocality: 'Waldkirch, Deutschland',
         postalCode: '79183',
-        streetAddress: "Spinnereistraße  4-6",
+        streetAddress: 'Spinnereistraße  4-6',
       },
       email: 'info@pfaffgmbh.com',
       member: [
