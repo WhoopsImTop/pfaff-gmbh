@@ -51,7 +51,7 @@ components:
       ##### "SCHNELLE UND TRANSPARENTE KOMMUNIKATION SOWIE MASSGESCHNEIDERTE LÖSUNGEN SIND UNSERE STÄRKEN."
 
 
-      **Corinna Pfaff (CEO)**
+      *Corinna Pfaff (CEO)*
 
 
       Vertrauen, Respekt und Nachhaltigkeit prägen unsere Zusammenarbeit mit Kunden, Lieferanten und Mitarbeitern. Entdecken Sie unsere Möglichkeiten und kontaktieren Sie uns für langfristige Partnerschaften.
