@@ -1,5 +1,5 @@
 ---
-competenceName: Kleine Auflagen
+competenceName: Kleine Auflagen, Prototypen
 competencePosition: 3
 competenceTitle: Idealer StartUp Partner
 competenceDescription: >-
