@@ -38,39 +38,26 @@ components:
   - type: contentblock
     contentTitle: Pfaff GmbH. Wo Kunststoff Karriere macht.
     contentText: >-
-      Willkommen bei PFAFF GMBH – Ihrem Experten für hochwertige
-      Kunststoffartikel in Medizin- und Dentaltechnik, Mess- und
-      Regelungstechnik, Ventil- und Fluidtechnik sowie Sensorik. Seit 1991
-      bieten wir innovative Technologien und Hochleistungs&shy;kunststoffe wie
-      Peek und PPS für herausragende Qualität und wirtschaftliche Herstellung.
+      Seit 1991 sind wir die Experten für hochwertige Kunststoffartikel in den
+      Branchen Medizin- und Dentaltechnik, Mess- und Regelungstechnik, Ventil-
+      und Fluidtechnik sowie Sensorik. Mit innovativen Technologien und
+      erstklassigen Materialien, darunter Hochleistungskunststoffe wie Peek und
+      PPS, garantieren wir unseren Kunden herausragende Qualität und
+      wirtschaftliche Herstellung. Als inhabergeführtes Unternehmen bieten wir
+      direkte Kommunikation, flexible Lösungen, kurze Lieferzeiten und faire
+      Preise.
 
 
-      **Warum PFAFF GMBH?**
+      ##### "SCHNELLE UND TRANSPARENTE KOMMUNIKATION SOWIE MASSGESCHNEIDERTE LÖSUNGEN SIND UNSERE STÄRKEN.
 
 
-      * **Erfahrung und Kompetenz:** Über 30 Jahre Expertise in der Kunststoffbranche.
-
-      * **Persönliche Betreuung:** Direkte Kommunikation, flexible Lösungen.
-
-      * **Schnell und fair:** Kurze Lieferzeiten, faire Preise.
+      ##### CORINNA PFAFF (CEO)
 
 
-      **Unsere Werte – Vertrauen, Respekt, Nachhaltigkeit**
+      Vertrauen, Respekt und Nachhaltigkeit prägen unsere Zusammenarbeit mit Kunden, Lieferanten und Mitarbeitern. Entdecken Sie unsere Möglichkeiten und kontaktieren Sie uns für langfristige Partnerschaften.
 
 
-      Vertrauen, Respekt und Nachhaltigkeit prägen unsere Zusammenarbeit mit Kunden, Lieferanten und Mitarbeitern. Für langfristige Partnerschaften sind wir Ihr zuverlässiger Partner.
-
-
-      **Entdecken Sie unser Leistungsspektrum**
-
-
-      Ob Prototypen, Serienproduktionen oder Werkstoffberatung – wir erfüllen Ihre Kunststoff-Herausforderungen kompetent und zuverlässig.
-
-
-      Kontaktieren Sie uns jetzt für erstklassige Kunststofflösungen.
-
-
-      Ihr Team von PFAFF GMBH
+      Wir freuen uns darauf, Ihre Anforderungen zu erfüllen.
     contentImage: /ab-cp-4.jpg
   - type: blocks
     block:
