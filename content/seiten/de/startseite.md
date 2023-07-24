@@ -93,7 +93,7 @@ components:
     productQuote: Corinna Pfaff, CEO
     product: umspritzte-stimulationssonden-und-nadelelektroden-für-die-neurochirurgie
   - type: cards
-    cardsTitle: "Entdecken Sie PFAFF GmbH: News, Karriere & Meilensteine"
+    cardsTitle: Entdecken Sie die PFAFF GmbH
     card:
       - cardTitle: Neuigkeiten
         cardText: Bleiben Sie auf dem Laufenden über PFAFF GmbH.
