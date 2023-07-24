@@ -17,14 +17,7 @@
     <component-blocks
       :component="{
         title: 'Weitere Kompetenzen',
-        competencies: [
-          'komplettlösungen',
-          'projektmanagement',
-          'materialien',
-          'raumfertigung',
-          'kleine-auflagen',
-          'maschinenpark',
-        ],
+        competencies: competencies,
       }"
     />
   </div>
@@ -32,12 +25,31 @@
   
   <script>
 export default {
+  data() {
+    return {
+      competencies: [
+        'komplettlösungen',
+        'projektmanagement',
+        'materialien',
+        'raumfertigung',
+        'kleine-auflagen',
+        'maschinenpark',
+      ],
+    }
+  },
   async asyncData({ $content, app, store: { dispatch }, params }) {
     const seite = await $content(
       'kompetenzen/' + app.i18n.locale + '/' + params.slug
     ).fetch()
     await dispatch('nuxtServerInit')
     return { seite }
+  },
+
+  beforeMount() {
+    const index = this.competencies.indexOf(this.$route.params.slug)
+    if (index > -1) {
+      this.competencies.splice(index, 1)
+    }
   },
 
   jsonld() {
@@ -48,7 +60,7 @@ export default {
         '@type': 'PostalAddress',
         addressLocality: 'Waldkirch, Deutschland',
         postalCode: '79183',
-        streetAddress: "Spinnereistraße  4-6",
+        streetAddress: 'Spinnereistraße  4-6',
       },
       email: 'info@pfaffgmbh.com',
       member: [
@@ -94,7 +106,7 @@ export default {
     display: flex;
     flex-direction: column;
   }
-  
+
   .image-container {
     height: 40vh;
   }

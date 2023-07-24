@@ -9,7 +9,6 @@ content: Wir freuen uns auf Ihren Besuch!    Auch 2017 sind wir wieder mit einem
 excerpt: Wir freuen uns auf Ihren Besuch! Auch 2017 sind wir wieder mit einem
   Stand auf der i+e Messe in Freiburg im Breisgau vertreten. Sie finden …
 image: /i_e_2017.jpg
-categories: allgemeine-news
 ---
 
 <figure class="wp-block-image size-large"><img loading="lazy"   src="/i_e_2017.jpg" alt="" class="wp-image-688"   /></figure>

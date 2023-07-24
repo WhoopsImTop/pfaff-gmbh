@@ -14,7 +14,6 @@ content: 3D Tage.    Wir sind Teilnehmer der Fachmesse3D-Tagein St. Georgen im
 excerpt: 3D Tage. Wir sind Teilnehmer der Fachmesse 3D-Tage in St. Georgen im
   Schwarzwald. Dort stellen renommierte Referenten aus Industrie, Forschung und
   Wissenschaft die neusten Trends, Herstellungs-Verfahren und …
-categories: allgemeine-news
 ---
 
 <p><strong>3D Tage.</strong></p>

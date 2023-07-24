@@ -15,7 +15,6 @@ content: Wie der 2K-Spezialist Pfaff als flexibles Familienunternehmen den
   Jahrenerfolgreich den Generationenwechsel innerhalb des für seine innovativen
   Ideen ausgezeichneten Unternehmens.    Der gesamte Artikel aus der K-Profi als
   PDF
-categories: fachbeiträge
 ---
 
 <p><strong>Wie der 2K-Spezialist Pfaff als flexibles Familienunternehmen den Generationenwechsel schafft.</strong></p>

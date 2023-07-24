@@ -238,6 +238,7 @@ collections:
                 required: false
                 i18n: true 
                 collection: "category"
+                multiple: true
                 value_field: "{{slug}}"
                 search_fields: ["categoryTitle"]
                 display_fields: ["categoryTitle"]
@@ -513,9 +514,10 @@ collections:
       - { label: "Bild", name: "image", widget: "image", required: false, i18n: true }
       - { label: "Inhalt", name: "body", widget: "markdown", i18n: true, required: false }
       - label: "Kategorien"
-        name: "categories"
+        name: "category"
         widget: "relation"
         collection: "blogkategorien"
+        multiple: true
         value_field: "{{slug}}"
         search_fields: ["categoryTitle"]
         display_fields: ["categoryTitle"]

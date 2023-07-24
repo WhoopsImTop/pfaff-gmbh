@@ -12,7 +12,6 @@ excerpt: Zahntechnische Instrumente. Aus Hochleistungspolymeren wie PEEK lassen
   sich Instrumententeile herstellen, deren Eigenschaften wenig von aus Metall
   gefertigten Produkten abweichen. Das erfordert allerdings besonderes
   Fertigungs-Know-how, wie …
-categories: fachbeiträge
 ---
 
 <p><strong>Zahntechnische Instrumente.</strong></p>

@@ -14,7 +14,6 @@ content: Neuer Kunststoffbohrer rückt gezielt Karies zu Leibe.    Wer schon
 excerpt: "Neuer Kunststoffbohrer rückt gezielt Karies zu Leibe. Wer schon einmal
   beim Zahnarzt war weiß: Bohren macht keinen Spaß, denn es kann schmerzen. Das
   muss nicht …"
-categories: fachbeiträge
 ---
 
 <p><strong>Neuer Kunststoffbohrer rückt gezielt Karies zu Leibe.</strong></p>

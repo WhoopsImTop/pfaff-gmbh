@@ -5,6 +5,6 @@ excerpt: '"Freiburger Innovationspreis“ für die Entwicklung einer
   Berlin.'
 date: 2004-07-01T12:25:09.293Z
 category: 
-  - historie
+  - meilensteine
 ---
 "Freiburger Innovationspreis“ für die Entwicklung einer Venen-­Verweilkanüle in Kooperation mit der Berliner Charité und der TU Berlin.

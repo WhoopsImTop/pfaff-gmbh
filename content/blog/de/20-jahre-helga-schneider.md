@@ -13,7 +13,6 @@ content: HERZLICHEN GLÜCKWUNSCH!    Sie ist neben dem Geschäftsführer Adolf
   die Pfaff GmbH schlicht nicht vorstellen. Auf viele weitere tolle Jahre
   Zusammenarbeit!
 image: /helga-schneider-20-jahre.jpg
-categories: allgemeine-news
 ---
 
 <figure class="wp-block-image size-large"><img loading="lazy"   src="/helga-schneider-20-jahre.jpg" alt="" class="wp-image-716"   /></figure>

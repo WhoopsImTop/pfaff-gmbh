@@ -12,7 +12,6 @@ excerpt: Dass ein Trinkbecher neu erfunden werden muss, mag merkwürdig klingen.
   Für manche Menschen bedeutet der Becher mit dem Namen Sippa aber eine große
   Erleichterung. Die …
 image: /pfaff-gmbh_sippa-startnext-1024x683.jpg
-categories: fachbeiträge
 ---
 
 <figure class="wp-block-image size-large"><img loading="lazy"   src="/pfaff-gmbh_sippa-startnext-1024x683.jpg" alt="" class="wp-image-635"   /></figure>

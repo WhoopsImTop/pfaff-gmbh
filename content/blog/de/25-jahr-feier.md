@@ -13,7 +13,6 @@ excerpt: 25. Firmenjubiläum. Am 01.12.2017 feierten wir unser 25-jähriges
   Jubiläum zusammen mit langjährigen Geschäftspartnern, Mitarbeitern und Familie
   in gemütlichem Rahmen im neuen Open-Space-Büro im Obergeschoss der …
 image: /khri8-pfaff-gmbh-waldkirch.jpg
-categories: allgemeine-news
 ---
 
 <figure class="wp-block-image size-large"><img loading="lazy"   src="/khri8-pfaff-gmbh-waldkirch.jpg" alt="" class="wp-image-650"   /></figure>

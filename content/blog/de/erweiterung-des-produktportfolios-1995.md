@@ -5,6 +5,6 @@ excerpt: Ausweitung des Produktportfolios auf den Bereich
   Lichtschranken produziert.
 date: 1995-02-01T13:20:05.315Z
 category: 
-  - historie
+  - meilensteine
 ---
 Ausweitung des Produktportfolios auf den Bereich Opto-Elektronik/Sensorik. Es werden erstmals Gehäuse und Druckknöpfe für Lichtschranken produziert.

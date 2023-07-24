@@ -15,7 +15,6 @@ excerpt: Die i+e 2017 – ein voller Erfolg. Wir konnten uns mit unserem neu
   designten Stand bei potentiellen Kunden hervorragend als professionelles und
   familiäres Schwarzwälder Unternehmen …
 image: /i-e-pfaff-gmbh-2017-768x1024.jpg
-categories: allgemeine-news
 ---
 
 <figure class="wp-block-image size-large"><img loading="lazy"   src="/i-e-pfaff-gmbh-2017-768x1024.jpg" alt="" class="wp-image-675"   /></figure>

@@ -10,7 +10,6 @@ content: Ein Firmenportrait.    Die Pfaff GmbH produziert für Auftraggeber aus
 excerpt: Ein Firmenportrait. Die Pfaff GmbH produziert für Auftraggeber aus der
   Medizin- und Dentaltechnik, aber es entstehen auch Teile für die
   Opto-Elektronik und Sensorik. Der gesamte …
-categories: fachbeiträge
 ---
 
 <p><strong>Ein Firmenportrait.</strong></p>

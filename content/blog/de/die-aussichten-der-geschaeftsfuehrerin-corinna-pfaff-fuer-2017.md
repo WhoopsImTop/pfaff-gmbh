@@ -12,7 +12,6 @@ excerpt: Corinna Pfaff in Netzwerk Südbaden. Auch 2017 gab die Geschäftsführe
   Corinna Pfaff wieder ihre Aussichten, Pläne und Projekte für 2017 im „Netzwerk
   Südbaden“ preis. Es …
 image: /corinna-pfaff-statement.jpg
-categories: pressemitteilungen
 ---
 
 <figure class="wp-block-image size-large"><img loading="lazy"   src="/corinna-pfaff-statement.jpg" alt="" class="wp-image-685"   /></figure>

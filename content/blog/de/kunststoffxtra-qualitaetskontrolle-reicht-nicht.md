@@ -10,7 +10,6 @@ content: Qualitätskontrolle reicht nicht    „Spritzgiessen ist ein
   medizintechnischen Produkten, geht es nicht ohne.“ Ein Artikel aus der
   Schweizer „KunststoffXtra“ zum Thema Medizintechnik in der Ausgabe
   03/2017.    Den gesamten Artikel aus der KunststoffXtra als PDF
-categories: fachbeiträge
 ---
 
 <p><strong>Qualitätskontrolle reicht nicht</strong></p>

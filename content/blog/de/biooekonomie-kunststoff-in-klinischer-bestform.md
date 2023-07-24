@@ -17,7 +17,6 @@ excerpt: Kunststoff in klinischer Bestform. Die medizinischen Anwendungsbereiche
   für Kunststoffe sind mannigfaltig. Spritzen, selbstabbaubare Gelenkschrauben
   oder Kanülen für Katheter – Kliniken möchten möglichst hochwertige Produkte,
   die ...
-categories: fachbeiträge
 ---
 
 <p><strong>Kunststoff in klinischer Bestform.</strong></p>

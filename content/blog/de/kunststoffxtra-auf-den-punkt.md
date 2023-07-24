@@ -12,7 +12,6 @@ content: Auf den Punkt.    Puncture Cube heißt ein kleines und leichtes
 excerpt: Auf den Punkt. Puncture Cube heißt ein kleines und leichtes
   Kunststoffkonstrukt, das dem Arzt helfen kann, Nadeln sehr präzise in
   kritische Bereiche zu setzen. Hinter …
-categories: fachbeiträge
 ---
 
 <p><strong>Auf den Punkt.</strong></p>

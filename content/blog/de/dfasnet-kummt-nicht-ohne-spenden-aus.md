@@ -11,7 +11,6 @@ excerpt: Heimattage in Waldkirch. Im Rahmen der Waldkircher Heimattage haben wir
   dem Kindergarten St. Josef Fasnetmalbücher gespendet. So können sich die
   Kleinsten schon auf die kommende …
 image: /heimattage-waldkirch.jpg
-categories: allgemeine-news
 ---
 
 <figure class="wp-block-image size-large"><img loading="lazy"   src="/heimattage-waldkirch.jpg" alt="" class="wp-image-645"   /></figure>

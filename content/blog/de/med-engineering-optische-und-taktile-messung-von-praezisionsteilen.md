@@ -8,7 +8,6 @@ content: MED Elektronik &#8211; Messtechnik.    Beitrag der Pfaff GmbH in der
 excerpt: MED Elektronik – Messtechnik. Beitrag der Pfaff GmbH in der
   April-Ausgabe der MED Engineering
 image: /MED_Engineering_1704-940x528-1.png
-categories: pressemitteilungen
 ---
 
 <figure class="wp-block-image size-large"><img loading="lazy"   src="/MED_Engineering_1704-940x528-1.png" alt="" class="wp-image-669"   /></figure>

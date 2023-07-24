@@ -10,7 +10,6 @@ content: Voll integrierter Prozess einschließlich komplexem Handling.    Eine
   Warum der Spritzgießer Pfaff in Südbaden diesen Aufwand betreibt, ist schnell
   beantwortet. Einfache Lösungen sind zu teuer.    Den kompletten Artikel aus
   dem Kunststoff Magazin als PDF
-categories: fachbeiträge
 ---
 
 <p><strong>Voll integrierter Prozess einschließlich komplexem Handling</strong>.</p>
