@@ -58,6 +58,7 @@ components:
 
 
       Wir freuen uns darauf, Ihre Anforderungen zu erfüllen.
+    contentImage: /ab-cp-4.jpg
   - type: blocks
     block:
       - blockCategory: Verblüffende Produktbeispiele
