@@ -108,6 +108,7 @@ collections:
             fields:
               - {label: "Überschrift", name: "contentTitle", widget: "string", required: false, i18n: true }
               - {label: "Textinhalt", name: "contentText", widget: "markdown", required: false, i18n: true }
+              - {label: "Bild", name: "contentImage", widget: "image", required: false, i18n: true }
           
           - label: "Blöcke"
             name: "blocks"
