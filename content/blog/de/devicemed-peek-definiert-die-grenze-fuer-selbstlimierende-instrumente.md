@@ -15,4 +15,4 @@ categories: fachbeiträge
 
 
 
-<p><a href="https://pfaffgmbh.com/downloads/DEV10-16S38-39.pdf" target="_blank" rel="noreferrer noopener" aria-label=" (öffnet in neuem Tab)">Der gesamte Artikel aus der DeviceMed als PDF</a></p>
+<a href="/downloads/DEV10-16S38-39.pdf" target="_blank" rel="noreferrer noopener" aria-label=" (öffnet in neuem Tab)">Der gesamte Artikel aus der DeviceMed als PDF</a></p>

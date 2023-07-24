@@ -14,11 +14,11 @@ image: /heimattage-waldkirch.jpg
 categories: allgemeine-news
 ---
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="940" height="619" src="/heimattage-waldkirch.jpg" alt="" class="wp-image-645" srcset="/heimattage-waldkirch.jpg 940w, /heimattage-waldkirch-300x198.jpg 300w, /heimattage-waldkirch-768x506.jpg 768w" sizes="(max-width: 940px) 100vw, 940px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy"   src="/heimattage-waldkirch.jpg" alt="" class="wp-image-645"   /></figure>
 
 
 
-<p><strong>Heimattage in Waldkirch.</strong></p>
+<strong>Heimattage in Waldkirch.</strong></p>
 
 
 
@@ -26,4 +26,4 @@ categories: allgemeine-news
 
 
 
-<p></p>
+</p>

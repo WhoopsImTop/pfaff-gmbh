@@ -32,11 +32,11 @@ excerpt: Wir bieten Ihnen ein vielseitiges, verantwortungsvolles Aufgabengebiet
 image: /stellenanzeige-waldkirch-projektmanagement-pfaff-gmbh-1024x565.jpg
 ---
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="565" src="/stellenanzeige-waldkirch-projektmanagement-pfaff-gmbh-1024x565.jpg" alt="" class="wp-image-1110" srcset="/stellenanzeige-waldkirch-projektmanagement-pfaff-gmbh-1024x565.jpg 1024w, /stellenanzeige-waldkirch-projektmanagement-pfaff-gmbh-300x166.jpg 300w, /stellenanzeige-waldkirch-projektmanagement-pfaff-gmbh-768x424.jpg 768w, /stellenanzeige-waldkirch-projektmanagement-pfaff-gmbh.jpg 1063w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy"   src="/stellenanzeige-waldkirch-projektmanagement-pfaff-gmbh-1024x565.jpg" alt="" class="wp-image-1110"   /></figure>
 
 
 
-<p><strong>Was Sie erwartet:</strong></p>
+<strong>Was Sie erwartet:</strong></p>
 
 
 
@@ -44,7 +44,7 @@ image: /stellenanzeige-waldkirch-projektmanagement-pfaff-gmbh-1024x565.jpg
 
 
 
-<p><strong>Was Sie mitbringen sollten:</strong></p>
+<strong>Was Sie mitbringen sollten:</strong></p>
 
 
 
@@ -52,7 +52,7 @@ image: /stellenanzeige-waldkirch-projektmanagement-pfaff-gmbh-1024x565.jpg
 
 
 
-<p><strong>Was wir bieten:</strong></p>
+<strong>Was wir bieten:</strong></p>
 
 
 
@@ -60,4 +60,4 @@ image: /stellenanzeige-waldkirch-projektmanagement-pfaff-gmbh-1024x565.jpg
 
 
 
-<p>Wir freuen uns auf Ihre Bewerbung: <a href="mailto:c.pfaff@pfaffgmbh.com">c.pfaff@pfaffgmbh.com</a></p>
+Wir freuen uns auf Ihre Bewerbung: <a href="mailto:c.pfaff@pfaffgmbh.com">c.pfaff@pfaffgmbh.com</a></p>

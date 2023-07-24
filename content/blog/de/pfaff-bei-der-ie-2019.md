@@ -22,4 +22,4 @@ categories: allgemeine-news
 
 
 
-<p>Gerne nutzen wir die Messe für ein persönliches Gespräch in einem netten Rahmen und würden uns auf Ihren Besuch sehr freuen. Um besser planen zu können, bitten wir Sie mit Frau Schneider einen Termin zu vereinbaren unter der Telefonnummer 07681-49397-0 oder per Email an: <a>info@pfaffgmbh.com</a>. Wir senden Ihnen dann selbstverständlich gerne zwei Eintrittskarten-Codes zur freien Verfügung zu.</p>
+Gerne nutzen wir die Messe für ein persönliches Gespräch in einem netten Rahmen und würden uns auf Ihren Besuch sehr freuen. Um besser planen zu können, bitten wir Sie mit Frau Schneider einen Termin zu vereinbaren unter der Telefonnummer 07681-49397-0 oder per Email an: <a>info@pfaffgmbh.com</a>. Wir senden Ihnen dann selbstverständlich gerne zwei Eintrittskarten-Codes zur freien Verfügung zu.</p>

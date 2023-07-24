@@ -21,8 +21,9 @@ categories: allgemeine-news
 
 
 
-<p>Wir sind Teilnehmer der Fachmesse&nbsp;<a href="http://3d-tage.de/">3D-Tage&nbsp;</a>in St. Georgen im Schwarzwald. Dort stellen renommierte Referenten aus Industrie, Forschung und Wissenschaft die neusten Trends, Herstellungs-Verfahren und Anwendungsmöglichkeiten vor. Wir präsentieren im 3D-Verfahren gefertigte Kunststoffeinsätze. Diese bieten wir unseren Kunden in der Entwicklungsphase von Projekten als kostengünstige Vor- und Kleinstserien von 1 bis 1000 Stück. In St. Georgen zeigen wir diese Möglichkeit am 20. und 21. Juni 2018 und freuen uns auf Ihren Besuch.</p>
+Wir sind Teilnehmer der Fachmesse&nbsp;<a href="http://3d-tage.de/">3D-Tage&nbsp;</a>in St. Georgen im Schwarzwald. Dort stellen renommierte Referenten aus Industrie, Forschung und Wissenschaft die neusten Trends, Herstellungs-Verfahren und Anwendungsmöglichkeiten vor. Wir präsentieren im 3D-Verfahren gefertigte Kunststoffeinsätze. Diese bieten wir unseren Kunden in der Entwicklungsphase von Projekten als kostengünstige Vor- und Kleinstserien von 1 bis 1000 Stück. In St. Georgen zeigen wir diese Möglichkeit am 20. und 21. Juni 2018 und freuen uns auf Ihren Besuch.</p>
 
 
 
 <p></p>
+

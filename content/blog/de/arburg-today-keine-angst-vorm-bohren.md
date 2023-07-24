@@ -21,8 +21,9 @@ categories: fachbeiträge
 
 
 
-<p>Wer schon einmal beim Zahnarzt war weiß: Bohren macht keinen Spaß, denn es kann schmerzen. Das muss nicht sein.<br>Ein neuer Kunststoffbohrer entfernt dank seiner Materialeigenschaften zielgerichtet nur die Karies. Gesundes Dentin bleibt weitgehend verschont. Produziert wird der Bohrer gebrauchsfertig in nur einem Prozess. Wie das geht, weiß die Firma Pfaff in Waldkirch, Deutschland, die auf die Fertigung aufwendiger technischer Teile spezialisiert ist.</p>
+Wer schon einmal beim Zahnarzt war weiß: Bohren macht keinen Spaß, denn es kann schmerzen. Das muss nicht sein.<br>Ein neuer Kunststoffbohrer entfernt dank seiner Materialeigenschaften zielgerichtet nur die Karies. Gesundes Dentin bleibt weitgehend verschont. Produziert wird der Bohrer gebrauchsfertig in nur einem Prozess. Wie das geht, weiß die Firma Pfaff in Waldkirch, Deutschland, die auf die Fertigung aufwendiger technischer Teile spezialisiert ist.</p>
 
 
 
-<p><a href="https://pfaffgmbh.com/downloads/Arburg-today.pdf" target="_blank" rel="noreferrer noopener" aria-label=" (öffnet in neuem Tab)">Der gesamte Artikel aus der Arburg today als PDF</a></p>
+<p><a href="/downloads/Arburg-today.pdf" target="_blank" rel="noreferrer noopener" aria-label=" (öffnet in neuem Tab)">Der gesamte Artikel aus der Arburg today als PDF</a></p>
+

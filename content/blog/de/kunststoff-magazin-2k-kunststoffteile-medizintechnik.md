@@ -17,8 +17,9 @@ categories: fachbeiträge
 
 
 
-<p>Eine kleine Kunststoffkugel, regelmäßige kleine Noppen auf der Oberfläche, eine kleine Achse im<br>Zentrum, um die sie sich drehen kann. Diese kleine Kugel so herzustellen erfordert herstellungstechnisch einen erstaunlichen Aufwand. Warum der Spritzgießer Pfaff in Südbaden diesen Aufwand betreibt, ist schnell beantwortet. Einfache Lösungen sind zu teuer.</p>
+Eine kleine Kunststoffkugel, regelmäßige kleine Noppen auf der Oberfläche, eine kleine Achse im<br>Zentrum, um die sie sich drehen kann. Diese kleine Kugel so herzustellen erfordert herstellungstechnisch einen erstaunlichen Aufwand. Warum der Spritzgießer Pfaff in Südbaden diesen Aufwand betreibt, ist schnell beantwortet. Einfache Lösungen sind zu teuer.</p>
 
 
 
-<p><a href="https://pfaffgmbh.com/downloads/KM_Oktober_2016_S26-28_web.pdf" target="_blank" rel="noreferrer noopener" aria-label=" (öffnet in neuem Tab)">Den kompletten Artikel aus dem Kunststoff Magazin als PDF</a></p>
+<p><a href="/downloads/KM_Oktober_2016_S26-28_web.pdf" target="_blank" rel="noreferrer noopener" aria-label=" (öffnet in neuem Tab)">Den kompletten Artikel aus dem Kunststoff Magazin als PDF</a></p>
+

@@ -16,11 +16,11 @@ excerpt: >-
 image: /ausbildungsplatz-waldkirch-pfaff-gmbh-1024x768.jpg
 ---
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="768" src="/ausbildungsplatz-waldkirch-pfaff-gmbh-1024x768.jpg" alt="" class="wp-image-1118" srcset="/ausbildungsplatz-waldkirch-pfaff-gmbh-1024x768.jpg 1024w, /ausbildungsplatz-waldkirch-pfaff-gmbh-300x225.jpg 300w, /ausbildungsplatz-waldkirch-pfaff-gmbh-768x576.jpg 768w, /ausbildungsplatz-waldkirch-pfaff-gmbh.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy"   src="/ausbildungsplatz-waldkirch-pfaff-gmbh-1024x768.jpg" alt="" class="wp-image-1118"   /></figure>
 
 
 
-<p>Wir suchen einen Azubi „Verfahrensmechaniker für Kunststoff- und Kautschuktechnik“ zum 01.09.2022</p>
+Wir suchen einen Azubi „Verfahrensmechaniker für Kunststoff- und Kautschuktechnik“ zum 01.09.2022</p>
 
 
 
@@ -28,4 +28,4 @@ image: /ausbildungsplatz-waldkirch-pfaff-gmbh-1024x768.jpg
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="720" height="1024" src="/LMB_Flyer_web-720x1024.jpg" alt="" class="wp-image-1098" srcset="/LMB_Flyer_web-720x1024.jpg 720w, /LMB_Flyer_web-211x300.jpg 211w, /LMB_Flyer_web-768x1092.jpg 768w, /LMB_Flyer_web.jpg 844w" sizes="(max-width: 720px) 100vw, 720px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" src="/LMB_Flyer_web-720x1024.jpg" alt="" class="wp-image-1098"  /></figure>

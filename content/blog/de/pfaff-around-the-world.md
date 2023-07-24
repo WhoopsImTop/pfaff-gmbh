@@ -18,7 +18,7 @@ excerpt: Erfahren Sie in diesem WVIB-Beitrag, wie Pfaff als lokales
 
 
 
-<p></p>
+</p>
 
 
 
@@ -26,4 +26,4 @@ excerpt: Erfahren Sie in diesem WVIB-Beitrag, wie Pfaff als lokales
 
 
 
-<p></p>
+</p>

@@ -16,11 +16,11 @@ image: /25_Jahre_Buero-pfaff-kollnau.jpg
 categories: pressemitteilungen
 ---
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="940" height="550" src="/25_Jahre_Buero-pfaff-kollnau.jpg" alt="" class="wp-image-658" srcset="/25_Jahre_Buero-pfaff-kollnau.jpg 940w, /25_Jahre_Buero-pfaff-kollnau-300x176.jpg 300w, /25_Jahre_Buero-pfaff-kollnau-768x449.jpg 768w" sizes="(max-width: 940px) 100vw, 940px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy"   src="/25_Jahre_Buero-pfaff-kollnau.jpg" alt="" class="wp-image-658"   /></figure>
 
 
 
-<p><strong>Open Space Büro.</strong></p>
+<strong>Open Space Büro.</strong></p>
 
 
 
@@ -28,4 +28,4 @@ categories: pressemitteilungen
 
 
 
-<p><a href="http://www.badische-zeitung.de/kollektive/neue-bueroraeume-ueber-der-maschinenhalle--144104156.html">http://www.badische-zeitung.de/kollektive/neue-bueroraeume-ueber-der-maschinenhalle&#8211;144104156.html</a></p>
+<a href="http://www.badische-zeitung.de/kollektive/neue-bueroraeume-ueber-der-maschinenhalle--144104156.html">http://www.badische-zeitung.de/kollektive/neue-bueroraeume-ueber-der-maschinenhalle&#8211;144104156.html</a></p>

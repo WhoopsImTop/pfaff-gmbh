@@ -14,11 +14,11 @@ image: /pfaff-gmbh-fertigung-1024x683.jpg
 categories: pressemitteilungen
 ---
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="683" src="/pfaff-gmbh-fertigung-1024x683.jpg" alt="" class="wp-image-728" srcset="/pfaff-gmbh-fertigung-1024x683.jpg 1024w, /pfaff-gmbh-fertigung-300x200.jpg 300w, /pfaff-gmbh-fertigung-768x512.jpg 768w, /pfaff-gmbh-fertigung.jpg 1063w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy"   src="/pfaff-gmbh-fertigung-1024x683.jpg" alt="" class="wp-image-728"   /></figure>
 
 
 
-<p><strong>Badische Zeitung.</strong></p>
+<strong>Badische Zeitung.</strong></p>
 
 
 
@@ -26,4 +26,4 @@ categories: pressemitteilungen
 
 
 
-<p><a href="https://www.badische-zeitung.de/waldkirch/kanuele-wurzelstift-und-hahnbank--63926059.html">https://www.badische-zeitung.de/waldkirch/kanuele-wurzelstift-und-hahnbank&#8211;63926059.html</a></p>
+<a href="https://www.badische-zeitung.de/waldkirch/kanuele-wurzelstift-und-hahnbank--63926059.html">https://www.badische-zeitung.de/waldkirch/kanuele-wurzelstift-und-hahnbank&#8211;63926059.html</a></p>

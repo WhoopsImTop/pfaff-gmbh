@@ -1,4 +1,5 @@
 const fs = require('fs')
+const axios = require('axios')
 
 function wordpress_content_cleanup() {
   //read all md files in content/blog/de and cleanup the html
@@ -27,12 +28,20 @@ function wordpress_content_cleanup() {
           inHtmlBlockType = line.split(' ')[0].replace('<', '').replace('>', '')
         }
         if (inHtmlBlock) {
-          if (inHtmlBlockType === 'img') {
+          if (
+            inHtmlBlockType === 'img' ||
+            inHtmlBlockType === 'iframe' ||
+            inHtmlBlockType === 'figure'
+          ) {
             //remove style attribute
             line = line.replace(/style=".*?"/g, '')
             //remove width/height attributes
             line = line.replace(/width=".*?"/g, '')
             line = line.replace(/height=".*?"/g, '')
+            //remove srcset attribute
+            line = line.replace(/srcset=".*?"/g, '')
+
+            line = line.replace(/sizes=".*?"/g, '')
           }
           if (inHtmlBlockType === 'a') {
             //remove style attribute
@@ -56,12 +65,38 @@ function wordpress_content_cleanup() {
             return
           }
         }
+
+        //replace pdf links with local file
+        if (line.includes('href="https://pfaffgmbh.com/downloads')) {
+          //downoad pdf from link
+          const pdfUrl = line.split('href="')[1].split('"')[0]
+          const pdfName = pdfUrl.split('/').pop()
+
+          //download pdf from wordpress site
+
+          axios({
+            method: 'get',
+            url: pdfUrl,
+            responseType: 'stream',
+          })
+            .then(function (response) {
+                response.data.pipe(
+                    fs.createWriteStream('./static/downloads/' + pdfName)
+                )
+                console.log('downloaded ' + pdfName)
+            })
+            .catch(function (error) {
+              console.log(error)
+            })
+
+          //replace link with local file
+          line = line.replace(pdfUrl, '/downloads/' + pdfName)
+        }
         newFileContent = newFileContent + line + '\n'
       })
       fs.writeFileSync('./content/blog/de/' + file, newFileContent)
     }
   })
 }
-
 
 wordpress_content_cleanup()

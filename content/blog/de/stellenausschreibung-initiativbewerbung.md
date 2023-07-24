@@ -19,8 +19,9 @@ image: /pfaff-historie.jpg
 
 
 
-<p>An dieser Stelle finden Sie – falls vorhanden – offene Stellen. Wir freuen uns aber auch auf Ihre Initiativ-Bewerbung!</p>
+An dieser Stelle finden Sie – falls vorhanden – offene Stellen. Wir freuen uns aber auch auf Ihre Initiativ-Bewerbung!</p>
 
 
 
 <p><a href="mailto:info@pfaffgmbh.com">Initiativ bewerben</a></p>
+

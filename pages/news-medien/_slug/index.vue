@@ -10,7 +10,9 @@
         article.slug
       "
       class="article"
-    >
+    ><div v-if="article.image" class="article-image">
+        <img :src="article.image" />
+      </div>
       <div class="article-content">
         <h4 v-html="article.title"></h4>
         <div class="article-informations">
@@ -24,9 +26,7 @@
           }}
         </p>
       </div>
-      <div v-if="article.image" class="article-image">
-        <img :src="article.image" />
-      </div>
+      
     </nuxt-link>
   </div>
 </template>

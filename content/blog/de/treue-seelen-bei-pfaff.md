@@ -20,4 +20,4 @@ image: /IMG_4032.jpg-scaled.jpg
 
 
 
-<p><br><img loading="lazy" width="2560" height="1920" class="wp-image-982" style="width: 1000px;" src="/IMG_4032.jpg-scaled.jpg" alt="" srcset="/IMG_4032.jpg-scaled.jpg 2560w, /IMG_4032.jpg-300x225.jpg 300w, /IMG_4032.jpg-1024x768.jpg 1024w, /IMG_4032.jpg-768x576.jpg 768w, /IMG_4032.jpg-1536x1152.jpg 1536w, /IMG_4032.jpg-2048x1536.jpg 2048w" sizes="(max-width: 2560px) 100vw, 2560px" /></p>
+<br><img loading="lazy" width="2560" height="1920" class="wp-image-982" src="/IMG_4032.jpg-scaled.jpg" alt="" /></p>

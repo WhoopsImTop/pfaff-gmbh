@@ -13,4 +13,4 @@ categories: fachbeiträge
 ---
 <p><strong>Pfaffs PEEK-„Rosenbohrer“</strong></p>
 
-<p>Mit selbstlimitierenden Rosenbohrern und anderen kundenspezifischen Bauteilen in PEEK sind wir Profis.</p>
+Mit selbstlimitierenden Rosenbohrern und anderen kundenspezifischen Bauteilen in PEEK sind wir Profis.
