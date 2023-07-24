@@ -1,7 +1,16 @@
 <template>
   <div class="content-container text-container">
     <h2>{{ component.contentTitle }}</h2>
-    <p class="marketing-text" v-html="$md.render(component.contentText)"></p>
+    <div v-if="component.contentImage" class="row">
+      <p
+        class="marketing-text col-6"
+        v-html="$md.render(component.contentText)"
+      ></p>
+      <img class="col-6" :src="component.contentImage" alt="content image" />
+    </div>
+    <div v-else>
+      <p class="marketing-text" v-html="$md.render(component.contentText)"></p>
+    </div>
   </div>
 </template>
 
