@@ -65,19 +65,19 @@ components:
         blockImage: /pfaff-miniatur-produktbeispiele.jpg
         blockLink: produktbeispiele
       - blockCategory: Natürliche Qualität
-        blockTitle: Zertifizierung
+        blockTitle: ISO Zertifizierungen
         blockImage: /iso-9001-13485_teaser.jpeg
         blockLink: qualität
       - blockCategory: Übergreifendes Knowhow
-        blockTitle: Kompetenzen
+        blockTitle: Kernkompetenzen
         blockImage: /pfaff-kompetenzen_teaser.jpeg
         blockLink: kompetenzen
       - blockCategory: Ready To Use
         blockTitle: Komplettlösungen
         blockImage: /pfaff-komplettloesungen.jpg
         blockLink: kompetenzen
-      - blockCategory: Markteinführung, Versuche
-        blockTitle: Kleinauflagen
+      - blockCategory: Kleine Auflagen, Prototypen
+        blockTitle: Idealer Startup Partner
         blockImage: /pfaff-kleinauflagen.jpg
         blockLink: kompetenzen
       - blockCategory: "#Zukunft"
