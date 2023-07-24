@@ -277,7 +277,7 @@ span.smallHeadline {
 
 h1 {
   font-size: 40px;
-  line-height: 45px;
+  line-height: 51px;
   font-weight: 600;
   color: var(--primary-color);
   text-transform: uppercase;
@@ -287,7 +287,7 @@ h1 {
 
 h2 {
   font-size: 40px;
-  line-height: 45px;
+  line-height: 51px;
   font-weight: 600;
   color: var(--primary-color);
   text-transform: uppercase;
@@ -296,7 +296,7 @@ h2 {
 
 h3 {
   font-size: 30px;
-  line-height: 40px;
+  line-height: 41px;
   font-weight: 600;
   color: var(--primary-color);
   margin-bottom: 20px;
@@ -304,7 +304,7 @@ h3 {
 
 h4 {
   font-size: 25px;
-  line-height: 28px;
+  line-height: 34px;
   font-weight: 600;
   color: var(--primary-color);
   text-transform: uppercase;

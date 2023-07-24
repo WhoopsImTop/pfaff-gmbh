@@ -45,7 +45,14 @@
         <p>
           <strong>Kontakt</strong><br />
           <a href="tel:0768149397-0">+(49) 7681-49397-0</a><br />
-          <a href="tel:info@pfaffgmbh.com">info@pfaffgmbh.com</a>
+          <a href="tel:info@pfaffgmbh.com">info@pfaffgmbh.com</a><br />
+          <a style="margin-top: 10px" href="https://www.linkedin.com/company/pfaff-gmbh/" target="_blank"
+            ><img
+              src="/LI-Logo.png"
+              width="100"
+              alt="linkedin"
+              style="margin: 0 2px"
+          /></a>
         </p>
       </div>
     </div>
@@ -56,7 +63,16 @@
         <nuxt-link to="/agbs">AGB's</nuxt-link>
         <a href="javascript:UC_UI.showSecondLayer();">Cookie-Einstellungen</a>
       </div>
-      <div class="copyright">© 2023 PFAFF GMBH | <img src="/ideenlabor-logo-bildmarke-weiss.svg" width="25px" alt="ideenlabor" style="margin: 0 2px"> von Ideenlabor Agentur</div>
+      <div class="copyright">
+        © 2023 PFAFF GMBH |
+        <img
+          src="/ideenlabor-logo-bildmarke-weiss.svg"
+          width="25px"
+          alt="ideenlabor"
+          style="margin: 0 2px"
+        />
+        von Ideenlabor Agentur
+      </div>
     </div>
   </div>
 </template>
@@ -64,24 +80,24 @@
 <script>
 export default {
   mounted() {
-    const grayCircle = document.querySelector(".footer .gray-circle");
-    const blueCircle = document.querySelector(".footer .dark-circle");
-    const lightCircle = document.querySelector(".footer .light-circle");
+    const grayCircle = document.querySelector('.footer .gray-circle')
+    const blueCircle = document.querySelector('.footer .dark-circle')
+    const lightCircle = document.querySelector('.footer .light-circle')
 
     setInterval(() => {
-      const date = new Date();
-      const seconds = date.getSeconds();
-      const minutes = date.getMinutes();
-      const hours = date.getHours();
+      const date = new Date()
+      const seconds = date.getSeconds()
+      const minutes = date.getMinutes()
+      const hours = date.getHours()
 
-      const secondsDegrees = (seconds / 60) * 360;
-      const minutesDegrees = (minutes / 60) * 360;
-      const hoursDegrees = (hours / 12) * 360;
+      const secondsDegrees = (seconds / 60) * 360
+      const minutesDegrees = (minutes / 60) * 360
+      const hoursDegrees = (hours / 12) * 360
 
-      grayCircle.style.transform = `rotate(${secondsDegrees}deg)`;
-      blueCircle.style.transform = `rotate(${minutesDegrees}deg)`;
-      lightCircle.style.transform = `rotate(${hoursDegrees}deg)`;
-    }, 1000);
+      grayCircle.style.transform = `rotate(${secondsDegrees}deg)`
+      blueCircle.style.transform = `rotate(${minutesDegrees}deg)`
+      lightCircle.style.transform = `rotate(${hoursDegrees}deg)`
+    }, 1000)
   },
 }
 </script>
@@ -96,7 +112,7 @@ export default {
   justify-content: center;
   align-items: center;
   position: relative;
-  transform: scale(.7) rotate(0deg);
+  transform: scale(0.7) rotate(0deg);
 }
 
 .dark-circle {

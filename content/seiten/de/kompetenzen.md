@@ -66,6 +66,8 @@ components:
 
           Vertrauen Sie auf die Kompetenz und Erfahrung von PFAFF GmbH im Bereich Spritzguss, um maßgeschneiderte Lösungen mit Präzision und Vielseitigkeit zu erhalten.
         smallHeadline: Spritzguss
+  - type: row
+    component:
       - type: cards
         competencies:
           - wo-andere-aufhören-fangen-wir-erst-an

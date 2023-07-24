@@ -109,6 +109,7 @@ collections:
               - {label: "Überschrift", name: "contentTitle", widget: "string", required: false, i18n: true }
               - {label: "Textinhalt", name: "contentText", widget: "markdown", required: false, i18n: true }
               - {label: "Bild", name: "contentImage", widget: "image", required: false, i18n: true }
+              - {label: "Text unter Bild", name: "contentTextUnderImage", widget: "markdown", required: false, i18n: true }
           
           - label: "Blöcke"
             name: "blocks"
@@ -117,6 +118,12 @@ collections:
             i18n: true
             required: false
             fields:
+              - label: "Titel"
+                name: "blockTitle"
+                widget: "string"
+                required: false
+                i18n: true
+                
               - label: "Block"
                 name: "block"
                 widget: "list"
@@ -179,6 +186,14 @@ collections:
                 widget: "image"
                 required: false
                 i18n: true
+              - label: "Marker"
+                name: "productImageMarkerPosition"
+                widget: "object"
+                required: false
+                i18n: true
+                fields:
+                  - { label: "Unten", name: "bottom", widget: "number", required: false, i18n: true }
+                  - { label: "links", name: "left", widget: "number", required: false, i18n: true }
               - label: "Titel"
                 name: "productTitle"
                 widget: "string"

@@ -47,17 +47,17 @@ components:
       flexible Lösungen, kurze Lieferzeiten und faire Preise.
 
 
-      #### "SCHNELLE UND TRANSPARENTE KOMMUNIKATION SOWIE MASSGESCHNEIDERTE LÖSUNGEN SIND UNSERE STÄRKEN."
-
-
-      *Corinna Pfaff, CEO* 
-
-
       Vertrauen, Respekt und Nachhaltigkeit prägen unsere Zusammenarbeit mit Kunden, Lieferanten und Mitarbeitern. Entdecken Sie unsere Möglichkeiten und kontaktieren Sie uns für langfristige Partnerschaften.
 
 
       **Wir freuen uns darauf, Ihre Anforderungen zu erfüllen.**
     contentImage: /ab-cp-4.jpg
+    contentTextUnderImage: >-
+      #### "SCHNELLE UND TRANSPARENTE KOMMUNIKATION SOWIE MASSGESCHNEIDERTE
+      LÖSUNGEN SIND UNSERE STÄRKEN."
+
+
+      *Corinna Pfaff, CEO*
   - type: blocks
     block:
       - blockCategory: Verblüffende Produktbeispiele
@@ -84,6 +84,7 @@ components:
         blockTitle: Nachhaltigkeit
         blockImage: /pfaff-nachhaltigkeit.jpg
         blockLink: unternehmen
+    blockTitle: test
   - type: productPreview
     productImage: /pfaff-miniatur-bruecke.png
     productTitle: Tradition und Präzision
@@ -92,6 +93,9 @@ components:
       innovativer Technik und garantieren höchste Qualität.“
     productQuote: Corinna Pfaff, CEO
     product: umspritzte-stimulationssonden-und-nadelelektroden-für-die-neurochirurgie
+    productImageMarkerPosition:
+      bottom: 20
+      left: 38
   - type: cards
     cardsTitle: Entdecken Sie die PFAFF GmbH
     card:

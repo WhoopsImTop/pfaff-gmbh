@@ -8,12 +8,24 @@
       <span class="quote">{{ components.productQuote }}</span>
     </div>
     <div class="preview-image-container">
-      <img :src="components.productImage" :alt="components.productTitle" :title="components.productTitle" loading="lazy" />
+      <div
+        class="pulseMarker-relative"
+        :style="'bottom:' + components.productImageMarkerPosition.bottom + '%; left:' + components.productImageMarkerPosition.left + '%'"
+      >
+        <div class="marker-inner"></div>
+        <div class="marker-outer"></div>
+      </div>
+      <img
+        :src="components.productImage"
+        :alt="components.productTitle"
+        :title="components.productTitle"
+        loading="lazy"
+      />
     </div>
     <div class="preview-slide-container" v-if="components.product">
       <product-slider
         :productSlugProp="components.product"
-        :titlePosition="'left'"
+        :titlePosition="'right'"
       />
     </div>
   </div>
@@ -62,10 +74,6 @@ export default {
   max-width: var(--content-max-width);
   padding: var(--content-padding);
   width: 100%;
-}
-
-.preview-slide-container .product-slider-container {
-  right: unset;
 }
 
 .quote {

@@ -9,7 +9,9 @@
         :to="'/news-medien/' + card.category + '/' + card.slug"
       >
         <div class="card-content">
-          <span class="article-date">{{ new Date(card.date).toLocaleDateString('de-DE') }}</span>
+          <span class="article-date">{{
+            translateStatus(card.category[0])
+          }}</span>
           <h3 v-html="card.title"></h3>
           <p v-html="card.content.slice(0, 100) + '...'"></p>
         </div>
@@ -23,12 +25,19 @@ export default {
   props: ['component'],
   data() {
     return {
-      cards: []
+      cards: [],
     }
+  },
+  methods: {
+    translateStatus(status) {
+      return status
+        .replace(/-/g, ' ')
+        .replace(/\w\S*/g, (w) => w.replace(/^\w/, (c) => c.toUpperCase()))
+    },
   },
   created() {
     this.cards = this.$store.state.news.slice(0, 3)
-  }
+  },
 }
 </script>
 

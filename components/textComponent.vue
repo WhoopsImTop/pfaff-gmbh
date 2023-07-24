@@ -3,10 +3,13 @@
     <h2>{{ component.contentTitle }}</h2>
     <div v-if="component.contentImage" class="row">
       <p
-        class="marketing-text col-6"
+        class="marketing-text col-lg-6"
         v-html="$md.render(component.contentText)"
       ></p>
-      <img class="col-6" :src="component.contentImage" alt="content image" />
+      <div class="col-lg-6">
+        <img :src="component.contentImage" width="100%" style="margin-bottom: 20px" alt="content image" />
+        <p v-html="$md.render(component.contentTextUnderImage)"></p>
+      </div>
     </div>
     <div v-else>
       <p class="marketing-text" v-html="$md.render(component.contentText)"></p>

@@ -164,6 +164,19 @@
   opacity: 1;
 }
 
+/*burger lines to cross*/
+.burger-active .burger-line:nth-child(1) {
+  transform: rotate(45deg) translate(3px, 5px);
+}
+
+.burger-active .burger-line:nth-child(2) {
+  opacity: 0;
+}
+
+.burger-active .burger-line:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -8px);
+}
+
 .footer {
   display: flex;
   flex-direction: column;
