@@ -32,6 +32,6 @@ competenceDescription: >-
 
 
   Vertrauen Sie auf unseren modernen Maschinenpark und unsere langjährige Erfahrung in der Spritzgießtechnik für herausragende Ergebnisse.
-competenceImage: /pfaff-gmbh_spritzguss-768x424-1.jpeg
+competenceImage: /kompetenzen-maschinenpark-pfaff-gmbh.jpg
 competenceButtonFile: /pfaff-gmbh_maschinenpark_web.pdf
 ---
