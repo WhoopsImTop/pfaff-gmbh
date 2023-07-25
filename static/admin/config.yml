@@ -998,12 +998,12 @@ collections:
     format: 'json'
     folder: 'content/menu'
     create: true
-    slug: '{{fields.title}}'
     i18n: true
     editor:
       preview: false
     fields:
       - { label: 'Titel', name: 'title', widget: 'string', i18n: true }
+      - { label: 'Slug', name: 'slug', widget: 'string', i18n: true}
       - { label: 'Link', name: 'link', widget: 'string', i18n: true }
       - {
           label: 'Untermenü',
