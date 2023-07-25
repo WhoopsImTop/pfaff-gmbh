@@ -1,49 +1,56 @@
 ---
 productTitle: Implantatschraube
 productDescription: >-
-  **Produktbeschreibung der Implantatschraube aus PEEK:**
+  Die Fertigung hochwertiger Implantatschrauben aus PEEK (Polyetheretherketon)
+  ist eine unserer herausragenden Kernkompetenzen im Bereich Dentaltechnik. Mit
+  einem klaren Fokus auf Präzision und Qualität stellen wir Implantatschrauben
+  her, die den höchsten Ansprüchen in der medizinischen Chirurgie gerecht
+  werden.
 
 
-  Die Implantatschraube aus PEEK (Polyetheretherketon) ist eine hochpräzise und zuverlässige Lösung für orthopädische und dentalchirurgische Eingriffe. Hergestellt aus einem speziellen thermoplastischen Polymer bietet die Implantatschraube eine Kombination aus mechanischer Stabilität, Biokompatibilität und geringem Gewicht.
+  ### Präzise Verarbeitung für optimale Ergebnisse
 
 
-  Mit ihrer präzisen Verarbeitung gewährleistet die Implantatschraube eine einfache und sichere Implantation. Das Material PEEK ist bekannt für seine ausgezeichneten mechanischen Eigenschaften, einschließlich einer hohen Zugfestigkeit und Steifigkeit. Dadurch kann die Schraube eine optimale Stabilität bieten, um das implantierte Gewebe zu unterstützen und eine schnelle Heilung zu fördern.
+  Unsere modernen Fertigungsanlagen, darunter die leistungsstarke Arburg 370 A, ermöglichen es uns, die Implantatschrauben mit höchster Präzision und Sorgfalt herzustellen. Jeder Schritt in der Fertigung wird sorgfältig überwacht und kontrolliert, um eine konstant hohe Qualität zu gewährleisten.
 
 
-  Die Implantatschraube aus PEEK ist auch biokompatibel, was bedeutet, dass sie mit dem umgebenden Gewebe gut verträglich ist und keine allergischen Reaktionen hervorruft. Dies ist besonders wichtig, um Entzündungen und Gewebeschäden zu minimieren und eine langfristige Integration des Implantats zu gewährleisten.
+  ### Materialauswahl für biokompatible Lösungen
 
 
-  Darüber hinaus zeichnet sich die Implantatschraube durch ihr geringes Gewicht aus, was den Komfort für den Patienten erhöht und die Belastung auf das umliegende Gewebe reduziert. Dies ist besonders vorteilhaft für Patienten, die sich einer umfangreichen chirurgischen Behandlung unterziehen und eine schnelle Genesung anstreben.
+  PEEK als thermoplastisches Polymer bietet ideale Eigenschaften für medizinische Implantate. Wir verwenden hochwertiges PEEK-Material mit einer Verarbeitungstemperatur von 360° - 400°C, das eine optimale Biokompatibilität gewährleistet und sich hervorragend mit dem umgebenden Gewebe verträgt. Dies ist entscheidend für eine erfolgreiche Integration des Implantats und eine schnelle Genesung des Patienten.
 
 
-  **Zusammenfassung der Implantatschraube aus PEEK:**
+  ### Hygienische Fertigung und Verpackung in Reinraumklasse 7
 
 
-  Die Implantatschraube aus PEEK ist eine hochpräzise und zuverlässige Lösung für orthopädische und dentalchirurgische Eingriffe. Hergestellt aus einem speziellen thermoplastischen Polymer bietet die Implantatschraube optimale mechanische Stabilität, Biokompatibilität und ein geringes Gewicht. Mit ihrer präzisen Verarbeitung ermöglicht sie eine einfache und sichere Implantation, während ihre biokompatiblen Eigenschaften Entzündungen und Gewebeschäden minimieren. Das leichte Gewicht der Schraube erhöht den Patientenkomfort und fördert eine schnelle Genesung. Die Implantatschraube aus PEEK ist eine ausgezeichnete Wahl für Patienten, die eine langfristige Stabilität und eine effektive Heilung benötigen.
+  Die Fertigung der Implantatschrauben sowie die Verpackung erfolgen unter strengen Reinraumbedingungen der Klasse 7. In unserer kontrollierten und sauberen Umgebung stellen wir sicher, dass die Implantate frei von Partikeln und Verunreinigungen sind, um eine sichere Anwendung im medizinischen Bereich zu gewährleisten. Die fertigen Implantatschrauben werden automatisch entnommen und in Folienbeutel verpackt, um eine effiziente und hygienische Handhabung der Produkte zu gewährleisten. und sind somit "ready to use"
+
+
+  ### Qualitätssicherung für Spitzenleistungen
+
+
+  Unsere hohen Qualitätsstandards sind der Kern unseres Erfolgs. Jede Implantatschraube unterliegt einer umfassenden Qualitätskontrolle und Validierung, um sicherzustellen, dass sie den strengen Anforderungen der medizinischen Industrie entspricht. Wir nehmen keine Kompromisse bei der Qualität unserer Produkte hin.
+
+
+  ### Individuelle Lösungen für Ihre Anforderungen
+
+
+  Wir verstehen uns nicht nur als Fertigungsunternehmen, sondern auch als Partner unserer Kunden. Gemeinsam entwickeln wir maßgeschneiderte Lösungen, die den spezifischen Anforderungen und Bedürfnissen unserer Kunden gerecht werden. Ihre Zufriedenheit ist unser Antrieb.
+
+
+  Vertrauen Sie auf unsere Fachkompetenz und Erfahrung, wenn es um die Fertigung hochwertiger Implantatschrauben geht. Unsere Präzision und unser Streben nach Spitzenleistungen machen uns zu einem verlässlichen Partner in der medizinischen Fertigungsbranche.
+
+
+  **Anwendung:** Die Implantatschraube verschließt das Implantat während des Heilungsprozesses, bis der Zahn aufgeschraubt werden kann.
 productImage: /implantatschraube-dentaltechnik-pfaff.jpeg
 productCategories:
   - Medizin
   - Dentaltechnik
 productFeatures:
-  - featureTitle: "Industriebereich:"
-    featureText: Dentaltechnik
-  - featureTitle: "Maschine:"
+  - featureTitle: "Fertigung:"
     featureText: Arburg 370 A
-  - featureTitle: "Zuhaltekraft:"
-    featureText: 60 to
-  - featureTitle: "Verpackungsart:"
-    featureText: Folienbeutel
-  - featureTitle: Reinraumbedingungen?
-    featureText: Ja
+  - featureTitle: Reinraum
+    featureText: Klasse 7
   - featureTitle: "Material:"
     featureText: Peek
-  - featureTitle: Automatisierte Entnahme und Verpackung?
-    featureText: Ja
-  - featureTitle: "Verarbeitungstemperatur:"
-    featureText: 360° - 400°C
-  - featureTitle: Geforderte Doku (EMPB/PPAP/Validierung)?
-    featureText: Validierung
-  - featureTitle: "Anwendung:"
-    featureText: Die Implantat Schraube verschließt das Implantat während des
-      Heilungsprozesses bis der Zahn aufgeschraubt werden kann.
 ---
