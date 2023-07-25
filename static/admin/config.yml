@@ -25,52 +25,68 @@ i18n:
   # When false, new entries will be created with no values.
   default_missing_locale_values: true
 
-
 media_folder: static/
 public_folder: /
 
 collections:
-  - name: "seiten"
-    label: "Seiten"
-    format: "frontmatter"
+  - name: 'seiten'
+    label: 'Seiten'
+    format: 'frontmatter'
     extension: 'md'
-    folder: "content/seiten"
+    folder: 'content/seiten'
     create: true
-    sortable_fields: ["title"]
-    slug: "{{fields.siteTitle}}"
+    sortable_fields: ['title']
+    slug: '{{fields.siteTitle}}'
     i18n: true
     editor:
       preview: false
     fields:
-      - { label: "Seitentitel", name: "siteTitle", widget: "string", i18n: true }
-      - { label: "Menüreihenfolge", name: "menuOrder", widget: "number", i18n: true }
-      - { label: "im Menü verstecken", name: "hideInMenu", widget: "boolean", default: false, required: false, i18n: true }
-      - label: "Seiten Komponenten"
-        name: "components"
-        widget: "list"
+      - {
+          label: 'Seitentitel',
+          name: 'siteTitle',
+          widget: 'string',
+          i18n: true,
+        }
+      - {
+          label: 'Menüreihenfolge',
+          name: 'menuOrder',
+          widget: 'number',
+          i18n: true,
+        }
+      - {
+          label: 'im Menü verstecken',
+          name: 'hideInMenu',
+          widget: 'boolean',
+          default: false,
+          required: false,
+          i18n: true,
+        }
+      - label: 'Seiten Komponenten'
+        name: 'components'
+        widget: 'list'
         i18n: true
         types:
-          - label: "Slider mit Produkten"
-            name: "slider"
-            widget: "object"
-            summary: "{{fields.landingTitle}}"
+          - label: 'Slider mit Produkten'
+            name: 'slider'
+            widget: 'object'
+            summary: '{{fields.landingTitle}}'
             fields:
-              - label: "Slide"
-                name: "slide"
-                widget: "list"
-                summary: "{{fields.landingTitle}}"
+              - label: 'Slide'
+                name: 'slide'
+                widget: 'list'
+                summary: '{{fields.landingTitle}}'
                 i18n: true
                 fields:
-                  - {label: Titel, name: landingTitle, widget: string }
+                  - { label: Titel, name: landingTitle, widget: string }
                   - label: Titel Position
                     name: landingTitlePosition
                     widget: select
                     options:
-                      - { label: "Links Oben", value: "top-left" }
-                      - { label: "Rechts Oben", value: "top-right" }
-                      - { label: "Mitte", value: "center" }
-                      - { label: "Links Unten", value: "bottom-left" }
-                      - { label: "Rechts Unten", value: "bottom-right" }
+                      - { label: 'Links Oben', value: 'top-left' }
+                      - { label: 'Rechts Oben', value: 'top-right' }
+                      - { label: 'Mitte', value: 'center' }
+                      - { label: 'Links Unten', value: 'bottom-left' }
+                      - { label: 'Rechts Unten', value: 'bottom-right' }
                   - label: Bild/er
                     name: landingImage
                     widget: image
@@ -81,475 +97,848 @@ collections:
                     widget: image
                     required: false
                     i18n: true
-                  - label: "Verknüpfte Produkte"
-                    name: "landingProducts"
-                    widget: "relation"
-                    collection: "produkte"
+                  - label: 'Verknüpfte Produkte'
+                    name: 'landingProducts'
+                    widget: 'relation'
+                    collection: 'produkte'
                     multiple: true
                     required: false
-                    i18n: duplicate 
-                    value_field: "{{slug}}"
-                    search_fields: ["productTitle"]
-                    display_fields: ["productTitle"]
-                  - label: "Produkt Marker Position"
+                    i18n: duplicate
+                    value_field: '{{slug}}'
+                    search_fields: ['productTitle']
+                    display_fields: ['productTitle']
+                  - label: 'Produkt Marker Position'
                     name: landingProductMarkerPosition
                     widget: list
                     required: false
                     i18n: true
                     fields:
-                      - { label: "Unten", name: "bottom", widget: "number", required: false, i18n: true }
-                      - { label: "links", name: "left", widget: "number", required: false, i18n: true }
+                      - {
+                          label: 'Unten',
+                          name: 'bottom',
+                          widget: 'number',
+                          required: false,
+                          i18n: true,
+                        }
+                      - {
+                          label: 'links',
+                          name: 'left',
+                          widget: 'number',
+                          required: false,
+                          i18n: true,
+                        }
 
-          - label: "Textblock"
-            name: "contentblock"
-            widget: "list"
+          - label: 'Textblock'
+            name: 'contentblock'
+            widget: 'list'
             i18n: true
-            summary: "{{fields.contentTitle}}"
+            summary: '{{fields.contentTitle}}'
             fields:
-              - {label: "Überschrift", name: "contentTitle", widget: "string", required: false, i18n: true }
-              - {label: "Textinhalt", name: "contentText", widget: "markdown", required: false, i18n: true }
-              - {label: "Bild", name: "contentImage", widget: "image", required: false, i18n: true }
-              - {label: "Text unter Bild", name: "contentTextUnderImage", widget: "markdown", required: false, i18n: true }
-          
-          - label: "Blöcke"
-            name: "blocks"
-            widget: "object"
-            summary: "{{fields.blockCategory}}"
+              - {
+                  label: 'Überschrift',
+                  name: 'contentTitle',
+                  widget: 'string',
+                  required: false,
+                  i18n: true,
+                }
+              - {
+                  label: 'Textinhalt',
+                  name: 'contentText',
+                  widget: 'markdown',
+                  required: false,
+                  i18n: true,
+                }
+              - {
+                  label: 'Bild',
+                  name: 'contentImage',
+                  widget: 'image',
+                  required: false,
+                  i18n: true,
+                }
+              - {
+                  label: 'Text unter Bild',
+                  name: 'contentTextUnderImage',
+                  widget: 'markdown',
+                  required: false,
+                  i18n: true,
+                }
+
+          - label: 'Blöcke'
+            name: 'blocks'
+            widget: 'object'
+            summary: '{{fields.blockCategory}}'
             i18n: true
             required: false
             fields:
-              - label: "Titel"
-                name: "blockTitle"
-                widget: "string"
+              - label: 'Titel'
+                name: 'blockTitle'
+                widget: 'string'
                 required: false
                 i18n: true
-                
-              - label: "Block"
-                name: "block"
-                widget: "list"
-                summary: "{{fields.blockCategory}}"
+
+              - label: 'Block'
+                name: 'block'
+                widget: 'list'
+                summary: '{{fields.blockCategory}}'
                 i18n: true
                 required: false
                 fields:
-                  - {label: "Kategorie", name: "blockCategory", widget: "string", required: false, i18n: true }
-                  - {label: "Überschrift", name: "blockTitle", widget: "string", required: false, i18n: true }
-                  - label: "Bild/er"
-                    name: "blockImage"
-                    widget: "image"
+                  - {
+                      label: 'Kategorie',
+                      name: 'blockCategory',
+                      widget: 'string',
+                      required: false,
+                      i18n: true,
+                    }
+                  - {
+                      label: 'Überschrift',
+                      name: 'blockTitle',
+                      widget: 'string',
+                      required: false,
+                      i18n: true,
+                    }
+                  - label: 'Bild/er'
+                    name: 'blockImage'
+                    widget: 'image'
                     required: false
                     i18n: true
-                  - label: "Link"
-                    name: "blockLink"
-                    widget: "relation"
+                  - label: 'Link'
+                    name: 'blockLink'
+                    widget: 'relation'
                     required: false
-                    i18n: duplicate 
-                    collection: "seiten"
-                    value_field: "{{slug}}"
-                    search_fields: ["siteTitle"]
-                    display_fields: ["siteTitle"]
-          
-          - label: "Kompetenzblöcke"
-            name: "competenciesBlocks"
-            widget: "object"
+                    i18n: duplicate
+                    collection: 'seiten'
+                    value_field: '{{slug}}'
+                    search_fields: ['siteTitle']
+                    display_fields: ['siteTitle']
+
+          - label: 'Kompetenzblöcke'
+            name: 'competenciesBlocks'
+            widget: 'object'
             i18n: true
             required: false
             fields:
-              - { label: "Titel", name: "title", widget: "string", required: false, i18n: true }
-              - label: "Kompetenzen"
-                name: "competencies"
-                widget: "relation"
+              - {
+                  label: 'Titel',
+                  name: 'title',
+                  widget: 'string',
+                  required: false,
+                  i18n: true,
+                }
+              - label: 'Kompetenzen'
+                name: 'competencies'
+                widget: 'relation'
                 collection: 'kompetenzen'
                 required: false
                 multiple: true
-                i18n: duplicate 
-                value_field: "{{slug}}"
-                search_fields: ["competenceName"]
-                display_fields: ["competenceName"]
+                i18n: duplicate
+                value_field: '{{slug}}'
+                search_fields: ['competenceName']
+                display_fields: ['competenceName']
 
-          - label: "Product Vorschau"
-            name: "productPreview"
-            widget: "object"
-            summary: "{{fields.product}}"
+          - label: 'Product Vorschau'
+            name: 'productPreview'
+            widget: 'object'
+            summary: '{{fields.product}}'
             i18n: true
             fields:
-              - label: "Produkt"
-                name: "product"
-                widget: "relation"
-                required: false
-                i18n: true 
-                collection: "produkte"
-                value_field: "{{slug}}"
-                search_fields: ["productTitle"]
-                display_fields: ["productTitle"]
-              - label: "Bild/er"
-                name: "productImage"
-                widget: "image"
+              - label: 'Produkt'
+                name: 'product'
+                widget: 'relation'
                 required: false
                 i18n: true
-              - label: "Marker"
-                name: "productImageMarkerPosition"
-                widget: "object"
+                collection: 'produkte'
+                value_field: '{{slug}}'
+                search_fields: ['productTitle']
+                display_fields: ['productTitle']
+              - label: 'Bild/er'
+                name: 'productImage'
+                widget: 'image'
+                required: false
+                i18n: true
+              - label: 'Marker'
+                name: 'productImageMarkerPosition'
+                widget: 'object'
                 required: false
                 i18n: true
                 fields:
-                  - { label: "Unten", name: "bottom", widget: "number", required: false, i18n: true }
-                  - { label: "links", name: "left", widget: "number", required: false, i18n: true }
-              - label: "Titel"
-                name: "productTitle"
-                widget: "string"
+                  - {
+                      label: 'Unten',
+                      name: 'bottom',
+                      widget: 'number',
+                      required: false,
+                      i18n: true,
+                    }
+                  - {
+                      label: 'links',
+                      name: 'left',
+                      widget: 'number',
+                      required: false,
+                      i18n: true,
+                    }
+              - label: 'Titel'
+                name: 'productTitle'
+                widget: 'string'
                 required: false
                 i18n: true
-              - label: "Beschreibung"
-                name: "productDescription"
-                widget: "markdown"
+              - label: 'Beschreibung'
+                name: 'productDescription'
+                widget: 'markdown'
                 required: false
                 i18n: true
-              - label: "Zitat"
-                name: "productQuote"
-                widget: "string"
+              - label: 'Zitat'
+                name: 'productQuote'
+                widget: 'string'
                 required: false
                 i18n: true
 
-          - label: "Karten"
-            name: "cards"
-            widget: "object"
-            summary: "{{fields.cardsTitle}}"
+          - label: 'Karten'
+            name: 'cards'
+            widget: 'object'
+            summary: '{{fields.cardsTitle}}'
             i18n: true
             fields:
-              - { label: "Überschrift", name: "cardsTitle", widget: "string", required: false, i18n: true }
-              - label: "Karte"
-                name: "card"
-                widget: "list"
-                summary: "{{fields.cardTitle}}"
+              - {
+                  label: 'Überschrift',
+                  name: 'cardsTitle',
+                  widget: 'string',
+                  required: false,
+                  i18n: true,
+                }
+              - label: 'Karte'
+                name: 'card'
+                widget: 'list'
+                summary: '{{fields.cardTitle}}'
                 i18n: true
                 fields:
-                  - {label: "Überschrift", name: "cardTitle", widget: "string", required: false, i18n: true }
-                  - {label: "Textinhalt", name: "cardText", widget: "markdown", required: false, i18n: true }
-                  - label: "Bild/er"
-                    name: "cardImage"
-                    widget: "image"
+                  - {
+                      label: 'Überschrift',
+                      name: 'cardTitle',
+                      widget: 'string',
+                      required: false,
+                      i18n: true,
+                    }
+                  - {
+                      label: 'Textinhalt',
+                      name: 'cardText',
+                      widget: 'markdown',
+                      required: false,
+                      i18n: true,
+                    }
+                  - label: 'Bild/er'
+                    name: 'cardImage'
+                    widget: 'image'
                     required: false
                     i18n: true
-                  - label: "Link"
-                    name: "cardLink"
-                    widget: "string"
+                  - label: 'Link'
+                    name: 'cardLink'
+                    widget: 'string'
                     required: false
-                    i18n: duplicate 
+                    i18n: duplicate
 
-          - label: "News"
-            name: "news"
-            widget: "object"
-            summary: "{{fields.news}}"
+          - label: 'News'
+            name: 'news'
+            widget: 'object'
+            summary: '{{fields.news}}'
             i18n: true
             fields:
-              - label: "Aktuelle News einbinden"
-                name: "embedNews"
-                widget: "boolean"
+              - label: 'Aktuelle News einbinden'
+                name: 'embedNews'
+                widget: 'boolean'
                 i18n: true
                 default: false
-              - label: "News Kategorien"
-                name: "newsCategories"
-                widget: "relation"
+              - label: 'News Kategorien'
+                name: 'newsCategories'
+                widget: 'relation'
                 required: false
-                i18n: true 
-                collection: "category"
+                i18n: true
+                collection: 'category'
                 multiple: true
-                value_field: "{{slug}}"
-                search_fields: ["categoryTitle"]
-                display_fields: ["categoryTitle"]
-          
-          - label: "Team"
-            name: "team"
-            widget: "object"
-            summary: "{{fields.name}}"
+                value_field: '{{slug}}'
+                search_fields: ['categoryTitle']
+                display_fields: ['categoryTitle']
+
+          - label: 'Team'
+            name: 'team'
+            widget: 'object'
+            summary: '{{fields.name}}'
             i18n: true
             fields:
-              - label: "Titel"
-                name: "title"
-                widget: "string"
+              - label: 'Titel'
+                name: 'title'
+                widget: 'string'
                 required: false
                 i18n: true
-              - label: "Teammitglied"
-                name: "teamMember"
-                widget: "list"
+              - label: 'Teammitglied'
+                name: 'teamMember'
+                widget: 'list'
                 i18n: true
-                summary: "{{fields.name}} - {{fields.position}}"
+                summary: '{{fields.name}} - {{fields.position}}'
                 fields:
-                  - {label: "Name", name: "name", widget: "string", required: false, i18n: true }
-                  - {label: "Position", name: "position", widget: "string", required: false, i18n: true }
-                  - {label: "Bild", name: "image", widget: "image", required: false, i18n: true }
-                  - {label: "E-Mail", name: "email", widget: "string", required: false, i18n: true }
-                  - {label: "Telefon", name: "phone", widget: "string", required: false, i18n: true }
+                  - {
+                      label: 'Name',
+                      name: 'name',
+                      widget: 'string',
+                      required: false,
+                      i18n: true,
+                    }
+                  - {
+                      label: 'Position',
+                      name: 'position',
+                      widget: 'string',
+                      required: false,
+                      i18n: true,
+                    }
+                  - {
+                      label: 'Bild',
+                      name: 'image',
+                      widget: 'image',
+                      required: false,
+                      i18n: true,
+                    }
+                  - {
+                      label: 'E-Mail',
+                      name: 'email',
+                      widget: 'string',
+                      required: false,
+                      i18n: true,
+                    }
+                  - {
+                      label: 'Telefon',
+                      name: 'phone',
+                      widget: 'string',
+                      required: false,
+                      i18n: true,
+                    }
 
-          - label: "Reihe"
-            name: "row"
-            widget: "object"
-            summary: "{{fields.textImageBlockTitle}}"
+          - label: 'Reihe'
+            name: 'row'
+            widget: 'object'
+            summary: '{{fields.textImageBlockTitle}}'
             i18n: true
             fields:
-              - label: "Komponente"
-                name: "component"
-                widget: "list"
+              - label: 'Komponente'
+                name: 'component'
+                widget: 'list'
                 i18n: true
                 types:
-                  - label: "Bild"
-                    name: "image"
-                    widget: "object"
+                  - label: 'Bild'
+                    name: 'image'
+                    widget: 'object'
                     fields:
-                      - { label: "Bild", name: "image", widget: "image", requried: false, i18n: true }
-                      - { label: "Bildunterschrift", name: "imageAltText", required: false, i18n: true }
-                  - label: "Button"
-                    name: "button"
-                    widget: "object"
+                      - {
+                          label: 'Bild',
+                          name: 'image',
+                          widget: 'image',
+                          requried: false,
+                          i18n: true,
+                        }
+                      - {
+                          label: 'Bildunterschrift',
+                          name: 'imageAltText',
+                          required: false,
+                          i18n: true,
+                        }
+                  - label: 'Button'
+                    name: 'button'
+                    widget: 'object'
                     fields:
-                      - { label: "Button Text", name: "buttonText", widget: "string", required: false, i18n: true }
-                      - { label: "Button Link", name: "buttonLink", widget: "string", required: false, i18n: true }
-                      - { label: "Button Download", name: "buttonDownloadLink", widget: "file", required: false, i18n: true }
-                  - label: "Kacheln"
-                    name: "cards"
-                    widget: "object"
+                      - {
+                          label: 'Button Text',
+                          name: 'buttonText',
+                          widget: 'string',
+                          required: false,
+                          i18n: true,
+                        }
+                      - {
+                          label: 'Button Link',
+                          name: 'buttonLink',
+                          widget: 'string',
+                          required: false,
+                          i18n: true,
+                        }
+                      - {
+                          label: 'Button Download',
+                          name: 'buttonDownloadLink',
+                          widget: 'file',
+                          required: false,
+                          i18n: true,
+                        }
+                  - label: 'Kacheln'
+                    name: 'cards'
+                    widget: 'object'
                     fields:
-                      - label: "Kacheln"
-                        name: "competencies"
-                        widget: "relation"
+                      - label: 'Kacheln'
+                        name: 'competencies'
+                        widget: 'relation'
                         collection: 'kompetenzen'
                         required: false
                         multiple: true
                         i18n: duplicate
-                        value_field: "{{slug}}"
-                        search_fields: ["competenceName"]
-                        display_fields: ["competenceName"]
-                  - label: "Text"
-                    name: "text"
-                    widget: "object"
+                        value_field: '{{slug}}'
+                        search_fields: ['competenceName']
+                        display_fields: ['competenceName']
+                  - label: 'Text'
+                    name: 'text'
+                    widget: 'object'
                     fields:
-                      - { label: "Kleine Überschrift", name: "smallHeadline", widget: "string", i18n: true, required: false }
-                      - { label: "Überschrift", name: "headline", widget: "string", i18n: true, required: false }
-                      - { label: "Text", name: "text", widget: "markdown", i18n: true, required: false }
-                      - label: "Button"
-                        name: "button"
-                        widget: "object"
+                      - {
+                          label: 'Kleine Überschrift',
+                          name: 'smallHeadline',
+                          widget: 'string',
+                          i18n: true,
+                          required: false,
+                        }
+                      - {
+                          label: 'Überschrift',
+                          name: 'headline',
+                          widget: 'string',
+                          i18n: true,
+                          required: false,
+                        }
+                      - {
+                          label: 'Text',
+                          name: 'text',
+                          widget: 'markdown',
+                          i18n: true,
+                          required: false,
+                        }
+                      - label: 'Button'
+                        name: 'button'
+                        widget: 'object'
                         fields:
-                          - { label: "Button Text", name: "buttonText", widget: "string", required: false, i18n: true }
-                          - { label: "Button Link", name: "buttonLink", widget: "string", required: false, i18n: true }
-                          - { label: "Button Download", name: "buttonDownloadLink", widget: "file", required: false, i18n: true }
-                  - label: "Kooparationsformular"
-                    name: "cooperationForm"
-                    widget: "object"
+                          - {
+                              label: 'Button Text',
+                              name: 'buttonText',
+                              widget: 'string',
+                              required: false,
+                              i18n: true,
+                            }
+                          - {
+                              label: 'Button Link',
+                              name: 'buttonLink',
+                              widget: 'string',
+                              required: false,
+                              i18n: true,
+                            }
+                          - {
+                              label: 'Button Download',
+                              name: 'buttonDownloadLink',
+                              widget: 'file',
+                              required: false,
+                              i18n: true,
+                            }
+                  - label: 'Kooparationsformular'
+                    name: 'cooperationForm'
+                    widget: 'object'
                     fields:
-                      - { label: "Formular einbinden", name: "embedForm", widget: "boolean", i18n: true, required: false }
-                  - label: "Kontaktformular"
-                    name: "contactForm"
-                    widget: "object"
+                      - {
+                          label: 'Formular einbinden',
+                          name: 'embedForm',
+                          widget: 'boolean',
+                          i18n: true,
+                          required: false,
+                        }
+                  - label: 'Kontaktformular'
+                    name: 'contactForm'
+                    widget: 'object'
                     fields:
-                      - { label: "Formular einbinden", name: "embedForm", widget: "boolean", i18n: true, required: false }
+                      - {
+                          label: 'Formular einbinden',
+                          name: 'embedForm',
+                          widget: 'boolean',
+                          i18n: true,
+                          required: false,
+                        }
 
-  - name: "kompetenzen"
-    label: "Kompetenzen"
-    format: "frontmatter"
+  - name: 'kompetenzen'
+    label: 'Kompetenzen'
+    format: 'frontmatter'
     extension: 'md'
-    folder: "content/kompetenzen"
+    folder: 'content/kompetenzen'
     create: true
-    sortable_fields: ["title"]
-    slug: "{{fields.competenceName}}"
+    sortable_fields: ['title']
+    slug: '{{fields.competenceName}}'
     i18n: true
     editor:
       preview: false
     fields:
-      - { label: "Kompetzenzname", name: "competenceName", widget: "string", i18n: true, hint: "Bspw: Spritzguss, Insertteile ..." }
-      - { label: "Kompezenzposition", name: "competencePosition", widget: "number", i18n: true}
-      - { label: "Kompetenztitel", name: "competenceTitle", widget: "string", i18n: true}
-      - { label: "Kompetenzbeschreibung", name: "competenceDescription", widget: "markdown", i18n: true }
-      - { label: "Kompetenzbild", name: "competenceImage", widget: "image", required: false, i18n: true }
-      - { label: "Bildunterschrift", name: "competenceImageDescription", widget: "string", required: false, i18n: true}
-      - label: "Seiten Inhalt"
-        name: "pageContent"
-        widget: "list"
+      - {
+          label: 'Kompetzenzname',
+          name: 'competenceName',
+          widget: 'string',
+          i18n: true,
+          hint: 'Bspw: Spritzguss, Insertteile ...',
+        }
+      - {
+          label: 'Kompezenzposition',
+          name: 'competencePosition',
+          widget: 'number',
+          i18n: true,
+        }
+      - {
+          label: 'Kompetenztitel',
+          name: 'competenceTitle',
+          widget: 'string',
+          i18n: true,
+        }
+      - {
+          label: 'Kompetenzbeschreibung',
+          name: 'competenceDescription',
+          widget: 'markdown',
+          i18n: true,
+        }
+      - {
+          label: 'Kompetenzbild',
+          name: 'competenceImage',
+          widget: 'image',
+          required: false,
+          i18n: true,
+        }
+      - {
+          label: 'Bildunterschrift',
+          name: 'competenceImageDescription',
+          widget: 'string',
+          required: false,
+          i18n: true,
+        }
+      - label: 'Seiten Inhalt'
+        name: 'pageContent'
+        widget: 'list'
         i18n: true
         required: false
         types:
-          - label: "Reihe"
-            name: "row"
-            widget: "object"
-            summary: "{{fields.textImageBlockTitle}}"
+          - label: 'Reihe'
+            name: 'row'
+            widget: 'object'
+            summary: '{{fields.textImageBlockTitle}}'
             i18n: true
             fields:
-              - label: "Komponente"
-                name: "component"
-                widget: "list"
+              - label: 'Komponente'
+                name: 'component'
+                widget: 'list'
                 i18n: true
                 types:
-                  - label: "Bild"
-                    name: "image"
-                    widget: "object"
+                  - label: 'Bild'
+                    name: 'image'
+                    widget: 'object'
                     fields:
-                      - { label: "Bild", name: "image", widget: "image", requried: false, i18n: true }
-                      - { label: "Bildunterschrift", name: "imageAltText", required: false, i18n: true }
-                  - label: "Button"
-                    name: "button"
-                    widget: "object"
+                      - {
+                          label: 'Bild',
+                          name: 'image',
+                          widget: 'image',
+                          requried: false,
+                          i18n: true,
+                        }
+                      - {
+                          label: 'Bildunterschrift',
+                          name: 'imageAltText',
+                          required: false,
+                          i18n: true,
+                        }
+                  - label: 'Button'
+                    name: 'button'
+                    widget: 'object'
                     fields:
-                      - { label: "Button Text", name: "buttonText", widget: "string", required: false, i18n: true }
-                      - { label: "Button Link", name: "buttonLink", widget: "string", required: false, i18n: true }
-                      - { label: "Button Download", name: "buttonDownloadLink", widget: "file", required: false, i18n: true }
-                  - label: "Text"
-                    name: "text"
-                    widget: "object"
+                      - {
+                          label: 'Button Text',
+                          name: 'buttonText',
+                          widget: 'string',
+                          required: false,
+                          i18n: true,
+                        }
+                      - {
+                          label: 'Button Link',
+                          name: 'buttonLink',
+                          widget: 'string',
+                          required: false,
+                          i18n: true,
+                        }
+                      - {
+                          label: 'Button Download',
+                          name: 'buttonDownloadLink',
+                          widget: 'file',
+                          required: false,
+                          i18n: true,
+                        }
+                  - label: 'Text'
+                    name: 'text'
+                    widget: 'object'
                     fields:
-                      - { label: "Überschrift", name: "headline", widget: "string", i18n: true, required: false }
-                      - { label: "Text", name: "text", widget: "markdown", i18n: true, required: false }
-                  - label: "Kooparationsformular"
-                    name: "cooperationForm"
-                    widget: "object"
+                      - {
+                          label: 'Überschrift',
+                          name: 'headline',
+                          widget: 'string',
+                          i18n: true,
+                          required: false,
+                        }
+                      - {
+                          label: 'Text',
+                          name: 'text',
+                          widget: 'markdown',
+                          i18n: true,
+                          required: false,
+                        }
+                  - label: 'Kooparationsformular'
+                    name: 'cooperationForm'
+                    widget: 'object'
                     fields:
-                      - { label: "Formular einbinden", name: "embedForm", widget: "boolean", i18n: true, required: false }
-          
-  - name: "qualitaeten"
-    label: "Qualitäten"
-    format: "frontmatter"
+                      - {
+                          label: 'Formular einbinden',
+                          name: 'embedForm',
+                          widget: 'boolean',
+                          i18n: true,
+                          required: false,
+                        }
+
+  - name: 'qualitaeten'
+    label: 'Qualitäten'
+    format: 'frontmatter'
     extension: 'md'
-    folder: "content/qualitaeten"
+    folder: 'content/qualitaeten'
     create: true
-    sortable_fields: ["title"]
-    slug: "{{fields.qualityName}}"
+    sortable_fields: ['title']
+    slug: '{{fields.qualityName}}'
     i18n: true
     editor:
       preview: false
     fields:
-      - { label: "Qualitätsname", name: "qualityName", widget: "string", i18n: true, hint: "Bspw: ISO 9001:2015, ISO 14001:2015 ..." }
-      - { label: "Qualitätstitel", name: "qualityTitle", widget: "string", i18n: true}
-      - label: "Inhalt"
-        name: "content"
-        widget: "list"
+      - {
+          label: 'Qualitätsname',
+          name: 'qualityName',
+          widget: 'string',
+          i18n: true,
+          hint: 'Bspw: ISO 9001:2015, ISO 14001:2015 ...',
+        }
+      - {
+          label: 'Qualitätstitel',
+          name: 'qualityTitle',
+          widget: 'string',
+          i18n: true,
+        }
+      - label: 'Inhalt'
+        name: 'content'
+        widget: 'list'
         i18n: true
         fields:
-          - { label: "Qualitätstext", name: "qualitytext", widget: "markdown", i18n: true }
-          - label: "Bild/er"
-            name: "qualityImage"
-            widget: "image"
+          - {
+              label: 'Qualitätstext',
+              name: 'qualitytext',
+              widget: 'markdown',
+              i18n: true,
+            }
+          - label: 'Bild/er'
+            name: 'qualityImage'
+            widget: 'image'
             required: false
             i18n: true
-          - label: "Button Text"
-            name: "qualityButtonText"
-            widget: "string"
+          - label: 'Button Text'
+            name: 'qualityButtonText'
+            widget: 'string'
             i18n: true
             required: false
-          - label: "Button"
-            name: "qualityButton"
-            widget: "relation"
+          - label: 'Button'
+            name: 'qualityButton'
+            widget: 'relation'
             required: false
-            i18n: true 
-            collection: "seiten"
-            value_field: "{{slug}}"
-            search_fields: ["siteTitle"]
-            display_fields: ["siteTitle"]
-          - label: "Button Externer Link"
-            name: "qualityButtonExternalLink"
-            widget: "string"
+            i18n: true
+            collection: 'seiten'
+            value_field: '{{slug}}'
+            search_fields: ['siteTitle']
+            display_fields: ['siteTitle']
+          - label: 'Button Externer Link'
+            name: 'qualityButtonExternalLink'
+            widget: 'string'
             required: false
             i18n: true
 
-  - name: "produkte"
-    label: "Produkte"
-    format: "frontmatter"
+  - name: 'produkte'
+    label: 'Produkte'
+    format: 'frontmatter'
     extension: 'md'
-    folder: "content/produkte"
+    folder: 'content/produkte'
     create: true
-    sortable_fields: ["title"]
-    slug: "{{fields.productTitle}}"
+    sortable_fields: ['title']
+    slug: '{{fields.productTitle}}'
     i18n: true
     editor:
       preview: false
     fields:
-      - { label: "Produktname", name: "productTitle", widget: "string", i18n: true }
-      - { label: "Produktbeschreibung", name: "productDescription", widget: "markdown", i18n: true }
-      - {label: "Produktbild", name: "productImage", widget: "image", required: false, i18n: true }
-      - label: "Produktkategorien"
-        name: "productCategories"
-        widget: "relation"
-        collection: "kategorien"
+      - {
+          label: 'Produktname',
+          name: 'productTitle',
+          widget: 'string',
+          i18n: true,
+        }
+      - {
+          label: 'Produktbeschreibung',
+          name: 'productDescription',
+          widget: 'markdown',
+          i18n: true,
+        }
+      - {
+          label: 'Produktbild',
+          name: 'productImage',
+          widget: 'image',
+          required: false,
+          i18n: true,
+        }
+      - label: 'Produktkategorien'
+        name: 'productCategories'
+        widget: 'relation'
+        collection: 'kategorien'
         multiple: true
-        value_field: "productCategoryTitle"
-        search_fields: ["productCategoryTitle"]
-        display_fields: ["productCategoryTitle"]
+        value_field: 'productCategoryTitle'
+        search_fields: ['productCategoryTitle']
+        display_fields: ['productCategoryTitle']
         required: false
         i18n: true
-      - label: "Produktmerkmale"
-        name: "productFeatures"
-        widget: "list"
-        i18n: true
-        required: false
-        fields:
-          - {label: "Überschrift", name: "featureTitle", widget: "string", required: false, i18n: true }
-          - {label: "Textinhalt", name: "featureText", widget: "string", required: false, i18n: true }
-      - label: "Bildgallerie"
-        name: "productGallery"
-        widget: "list"
+      - label: 'Produktmerkmale'
+        name: 'productFeatures'
+        widget: 'list'
         i18n: true
         required: false
         fields:
-          - label: "Bild/er"
-            name: "productGalleryImage"
-            widget: "image"
+          - {
+              label: 'Überschrift',
+              name: 'featureTitle',
+              widget: 'string',
+              required: false,
+              i18n: true,
+            }
+          - {
+              label: 'Textinhalt',
+              name: 'featureText',
+              widget: 'string',
+              required: false,
+              i18n: true,
+            }
+      - label: 'Bildgallerie'
+        name: 'productGallery'
+        widget: 'list'
+        i18n: true
+        required: false
+        fields:
+          - label: 'Bild/er'
+            name: 'productGalleryImage'
+            widget: 'image'
             required: false
             i18n: true
-          - {label: "Bildunterschrift", name: "productGalleryCaption", widget: "string", required: false, i18n: true }
+          - {
+              label: 'Bildunterschrift',
+              name: 'productGalleryCaption',
+              widget: 'string',
+              required: false,
+              i18n: true,
+            }
 
-  - name: "kategorien"
-    label: "Produktkategorien"
-    format: "frontmatter"
+  - name: 'kategorien'
+    label: 'Produktkategorien'
+    format: 'frontmatter'
     extension: 'md'
-    folder: "content/kategorien"
+    folder: 'content/kategorien'
     create: true
-    slug: "{{fields.productCategoryTitle}}"
-    sortable_fields: ["productCategoryTitle"]
+    slug: '{{fields.productCategoryTitle}}'
+    sortable_fields: ['productCategoryTitle']
     i18n: true
     editor:
       preview: false
     fields:
-      - { label: "Kategoriename", name: "productCategoryTitle", widget: "string", i18n: true }
-      - { label: "Kategoriebeschreibung", name: "productCategoryDescription", widget: "markdown", i18n: true, required: false }
+      - {
+          label: 'Kategoriename',
+          name: 'productCategoryTitle',
+          widget: 'string',
+          i18n: true,
+        }
+      - {
+          label: 'Kategoriebeschreibung',
+          name: 'productCategoryDescription',
+          widget: 'markdown',
+          i18n: true,
+          required: false,
+        }
 
-  - name: "blog"
-    label: "Blog & News"
-    format: "frontmatter"
+  - name: 'blog'
+    label: 'Blog & News'
+    format: 'frontmatter'
     extension: 'md'
-    folder: "content/blog"
-    slug: "{{fields.title}}"
+    folder: 'content/blog'
+    slug: '{{fields.title}}'
     create: true
-    sortable_fields: ["title"]
+    sortable_fields: ['title']
     i18n: true
     editor:
       preview: false
     fields:
-      - { label: "Titel", name: "title", widget: "string", i18n: true }
-      - { label: "Beschreibung", name: "excerpt", widget: "markdown", i18n: true, required: false }
-      - { label: "Datum", name: "date", widget: "datetime", i18n: true, required: false }
-      - { label: "Autor", name: "author", widget: "string", i18n: true, required: false }
-      - { label: "Bild", name: "image", widget: "image", required: false, i18n: true }
-      - { label: "Inhalt", name: "body", widget: "markdown", i18n: true, required: false }
-      - label: "Kategorien"
-        name: "category"
-        widget: "relation"
-        collection: "blogkategorien"
+      - { label: 'Titel', name: 'title', widget: 'string', i18n: true }
+      - {
+          label: 'Beschreibung',
+          name: 'excerpt',
+          widget: 'markdown',
+          i18n: true,
+          required: false,
+        }
+      - {
+          label: 'Datum',
+          name: 'date',
+          widget: 'datetime',
+          i18n: true,
+          required: false,
+        }
+      - {
+          label: 'Autor',
+          name: 'author',
+          widget: 'string',
+          i18n: true,
+          required: false,
+        }
+      - {
+          label: 'Bild',
+          name: 'image',
+          widget: 'image',
+          required: false,
+          i18n: true,
+        }
+      - {
+          label: 'Inhalt',
+          name: 'body',
+          widget: 'markdown',
+          i18n: true,
+          required: false,
+        }
+      - label: 'Kategorien'
+        name: 'category'
+        widget: 'relation'
+        collection: 'blogkategorien'
         multiple: true
-        value_field: "{{slug}}"
-        search_fields: ["categoryTitle"]
-        display_fields: ["categoryTitle"]
+        value_field: '{{slug}}'
+        search_fields: ['categoryTitle']
+        display_fields: ['categoryTitle']
         i18n: true
         required: false
-      
-  - name: "blogkategorien"
-    label: "Blogkategorien"
-    format: "frontmatter"
+
+  - name: 'blogkategorien'
+    label: 'Blogkategorien'
+    format: 'frontmatter'
     extension: 'md'
-    folder: "content/blogkategorien"
+    folder: 'content/blogkategorien'
     create: true
-    sortable_fields: ["categoryTitle"]
-    slug: "{{fields.categoryTitle}}"
+    sortable_fields: ['categoryTitle']
+    slug: '{{fields.categoryTitle}}'
     i18n: true
     editor:
       preview: false
     fields:
-      - { label: "Kategoriename", name: "categoryTitle", widget: "string", i18n: true }
-      - { label: "Kategoriebeschreibung", name: "categoryDescription", widget: "markdown", required: false, i18n: true }
+      - {
+          label: 'Kategoriename',
+          name: 'categoryTitle',
+          widget: 'string',
+          i18n: true,
+        }
+      - {
+          label: 'Kategoriebeschreibung',
+          name: 'categoryDescription',
+          widget: 'markdown',
+          required: false,
+          i18n: true,
+        }
