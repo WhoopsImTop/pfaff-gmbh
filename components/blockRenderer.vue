@@ -6,7 +6,7 @@
         v-for="(block, index) in blocks"
         :key="index"
         class="product-card"
-        :to="block.blockLink"
+        :to="block.blockLink ? block.blockLink : block.blockLinkCompetencies"
       >
         <div class="product-card-image">
           <img
@@ -30,6 +30,13 @@ import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 export default {
   props: ['blocks', 'title'],
+  /* beforeMount() {
+    this.blocks.forEach((block) => {
+      if (block.blockLinkCompetencies) {
+        block.blockLink = block.blockLinkCompetencies
+      }
+    })
+  }, */
   mounted() {
     gsap.registerPlugin(ScrollTrigger)
     gsap.fromTo(

@@ -79,27 +79,26 @@ components:
       - blockCategory: Kleine Auflagen, Prototypen
         blockTitle: Idealer Startup Partner
         blockImage: /pfaff-kleinauflagen.jpg
-        blockLink: kompetenzen
+        blockLink: ""
+        blockLinkCompetencies: kompetenzen/kleine-auflagen
       - blockCategory: Unser Versprechen
         blockTitle: Nachhaltigkeit
         blockImage: /pfaff-nachhaltigkeit.jpg
         blockLink: unternehmen
     blockTitle: High-Tech-Teile aus Kunststoff
-  - type: productPreview
+  - productTitle: Tradition und Präzision
     productImage: /pfaff-miniatur-bruecke.png
-    productTitle: Tradition und Präzision
-    productDescription: >-
-      „Seit über 30 Jahren entwickeln wir in unserem Familienbetrieb im
-      Schwarzwald ausschließlich mit modernen Materialien, innovativer Technik
-      und garantieren höchste Qualität.“
-
-
-      **C﻿all to Action Link zu Unternehmen!**
     productQuote: Corinna Pfaff, CEO
-    product: umspritzte-stimulationssonden-und-nadelelektroden-für-die-neurochirurgie
+    productDescription: „Seit über 30 Jahren entwickeln wir in unserem
+      Familienbetrieb im Schwarzwald ausschließlich mit modernen Materialien,
+      innovativer Technik und garantieren höchste Qualität.“
+    productCtaText: zum Unternehmen
     productImageMarkerPosition:
       bottom: 20
       left: 38
+    product: umspritzte-stimulationssonden-und-nadelelektroden-für-die-neurochirurgie
+    type: productPreview
+    productCtaLink: unternehmen
   - type: cards
     cardsTitle: News & Medien. Immer informiert.
     card:

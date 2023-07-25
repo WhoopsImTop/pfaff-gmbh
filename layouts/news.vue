@@ -7,7 +7,7 @@
         <div class="sidebar">
           <div class="scrollable_container">
             <div class="sidebar-content">
-              <span class="smallHeadline">News & Medien</span>
+              <span class="smallHeadline" style="width: max-content">News & Medien</span>
               <h4>Immer Informiert</h4>
               <p>
                 Bleiben Sie auf dem Laufenden mit News, Fachbeiträgen,

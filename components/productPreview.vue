@@ -5,9 +5,23 @@
       <p class="preview-text marketing-text">
         {{ components.productDescription }}
       </p>
-      <span class="quote">{{ components.productQuote }}</span>
+      <span class="quote">{{ components.productQuote }}</span
+      ><br /><br />
+      <nuxt-link
+        v-if="components.productCtaLink"
+        :to="components.productCtaLink"
+        class="button"
+        >{{ components.productCtaText }}</nuxt-link
+      >
     </div>
-    <div class="preview-image-container" :style="'background-image: url(' + components.productImage + '); width: 100%; background-size: cover; background-position: left'">
+    <div
+      class="preview-image-container"
+      :style="
+        'background-image: url(' +
+        components.productImage +
+        '); width: 100%; background-size: cover; background-position: left'
+      "
+    >
       <div
         class="pulseMarker-relative"
         :style="
@@ -99,7 +113,7 @@ export default {
   }
 
   .preview-image-container {
-    min-height: 400px
+    min-height: 400px;
   }
 }
 

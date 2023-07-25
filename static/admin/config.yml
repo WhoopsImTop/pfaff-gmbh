@@ -218,6 +218,16 @@ collections:
                     value_field: '{{slug}}'
                     search_fields: ['siteTitle']
                     display_fields: ['siteTitle']
+                  
+                  - label: "Link Kompetenzen"
+                    name: "blockLinkCompetencies"
+                    widget: "relation"
+                    required: false
+                    i18n: duplicate
+                    collection: "kompetenzen"
+                    value_field: "kompetenzen/{{slug}}"
+                    search_fields: ["competenceName"]
+                    display_fields: ["competenceName"]
 
           - label: 'Kompetenzblöcke'
             name: 'competenciesBlocks'
@@ -295,6 +305,20 @@ collections:
                 i18n: true
               - label: 'Zitat'
                 name: 'productQuote'
+                widget: 'string'
+                required: false
+                i18n: true
+              - label: 'Call To Action'
+                name: 'productCtaLink'
+                widget: 'relation'
+                required: false
+                i18n: true
+                collection: 'seiten'
+                value_field: '{{slug}}'
+                search_fields: ['siteTitle']
+                display_fields: ['siteTitle']
+              - label: 'Call To Action Text'
+                name: 'productCtaText'
                 widget: 'string'
                 required: false
                 i18n: true
@@ -816,7 +840,7 @@ collections:
           - {
               label: 'Textinhalt',
               name: 'featureText',
-              widget: 'string',
+              widget: 'markdown',
               required: false,
               i18n: true,
             }
