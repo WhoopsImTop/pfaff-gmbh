@@ -17,7 +17,7 @@ components:
   - type: row
     component:
       - type: text
-        headline: Präzision und Vielseitigkeit
+        headline: Spritzguss. Präzision und Vielseitigkeit.
         text: >-
           Bei PFAFF GmbH ist der Spritzguss eine unserer fachlichen
           Hauptkompetenzen. Durch enge Zusammenarbeit mit führenden
@@ -66,7 +66,7 @@ components:
 
 
           Vertrauen Sie auf die Kompetenz und Erfahrung von PFAFF GmbH im Bereich Spritzguss, um maßgeschneiderte Lösungen mit Präzision und Vielseitigkeit zu erhalten.
-        smallHeadline: Spritzguss
+        smallHeadline: Kompetenzen
   - type: row
     component:
       - type: cards
