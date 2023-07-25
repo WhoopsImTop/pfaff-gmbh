@@ -15,4 +15,5 @@ competenceDescription: In enger Zusammenarbeit mit Maschinenherstellern aus der
 competenceSideInfo:
   - buttonText: PDF MASCHINENDATENBLATT
     buttonFileDownload: /pfaff-gmbh_maschinenpark_web.pdf
+featuredCompetence: true
 ---

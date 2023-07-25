@@ -13,4 +13,5 @@ competenceDescription: Das Spritzgießen von optischen und transparenten Teilen
   optimal geschützt.
 competenceImage: /lichtleiter-1k-2k-automotive_pfaff.jpg
 competenceImageDescription: Lichtleiter Automotive
+featuredCompetence: true
 ---

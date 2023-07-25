@@ -9,4 +9,5 @@ competenceDescription: Durch unsere Kompetenzen in der Mehrkomponenten-Technik
   direkt verwendbare Produkte in großer Stückzahl hergestellt werden.
 competenceImage: /massageball-bepanthen_pfaff-2.jpg
 competenceImageDescription: Massageball für Bepanthen Narbengel
+featuredCompetence: true
 ---

@@ -633,6 +633,15 @@ collections:
           required: false,
           i18n: true,
         }
+      - {
+        label: 'Kompetenz featuren',
+        name: 'featuredCompetence',
+        widget: 'boolean',
+        default: false,
+        required: false,
+        i18n: true,
+        hint: 'Soll die Kompetenz in der Navigation gezeigt werden?'
+      }
       - label: 'Seiten Inhalt'
         name: 'pageContent'
         widget: 'list'
@@ -813,6 +822,15 @@ collections:
           widget: 'image',
           required: false,
           i18n: true,
+        }
+      - {
+          label: 'Produkt featuren',
+          name: 'featuredProduct',
+          widget: 'boolean',
+          default: false,
+          required: false,
+          i18n: true,
+          hint: 'Soll das Produkt in der Navigation gezeigt werden?'
         }
       - label: 'Produktkategorien'
         name: 'productCategories'
