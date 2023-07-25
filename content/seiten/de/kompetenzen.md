@@ -1,7 +1,8 @@
 ---
-siteTitle: "Kompetenzen "
+siteTitle: Kompetenzen
 menuOrder: 2
 hideInMenu: false
+id: 9771b267-9c48-4320-aa5b-1ef501a96a00
 contentblock:
   - news: false
 components:

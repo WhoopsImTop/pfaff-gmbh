@@ -2,6 +2,7 @@
 siteTitle: Competencies
 menuOrder: 2
 hideInMenu: false
+id: 8377ac16-729c-4a85-81a6-22cd75285f63
 contentblock:
   - news: false
 components:

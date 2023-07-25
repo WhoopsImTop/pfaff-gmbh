@@ -5,11 +5,14 @@ export const state = () => ({
   kompetenzen: [],
   blogKategorien: [],
   news: [],
+  featuredProdukte: [],
+  featuredCompetence: [], 
 })
 
 export const mutations = {
   setProdukte(state, produkte) {
     state.produkte = produkte
+    state.featuredProdukte = produkte.filter((p) => p.featuredProduct)
   },
   setSeiten(state, seiten) {
     seiten.sort((a, b) => (a.menuOrder > b.menuOrder ? 1 : -1))
@@ -21,6 +24,7 @@ export const mutations = {
   },
   setKompetenzen(state, kompetenzen) {
     state.kompetenzen = kompetenzen
+    state.featuredCompetence = kompetenzen.filter((k) => k.featuredCompetence)
   },
   setBlogkategorien(state, blogKategorien) {
     state.blogKategorien = blogKategorien
