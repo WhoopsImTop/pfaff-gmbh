@@ -47,7 +47,7 @@ productFeatures:
   - featureTitle: "Gefertigt auf:"
     featureText: Arburg 370 A
   - featureTitle: "Entnahme:"
-    featureText: mittels KUKA-Robot
+    featureText: KUKA-Robot
   - featureTitle: "Reinraum:"
     featureText: Klasse 7
   - featureTitle: "Material:"
