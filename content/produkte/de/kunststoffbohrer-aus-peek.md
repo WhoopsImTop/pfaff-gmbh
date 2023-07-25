@@ -8,25 +8,25 @@ productDescription: >-
   in der Medizintechnik.
 
 
-  #### Präzision trifft Qualität
+  ### Präzision trifft Qualität
 
 
   Die Kunststoffbohrer werden auf unserer hochmodernen Arburg 370 A Spritzgießmaschine gefertigt, die für ihre Präzision und Effizienz bekannt ist. Die Entnahme der geformten Teile erfolgt mittels eines KUKA-Roboters, um eine gleichbleibende Qualität sicherzustellen.
 
 
-  #### Hygienische Fertigung in Reinraumklasse 7
+  ### Hygienische Fertigung in Reinraumklasse 7
 
 
   Unsere Kunststoffbohrer werden in einem speziell ausgerüsteten Reinraum der Klasse 7 hergestellt. Dies gewährleistet eine hygienische Umgebung und schützt die Bohrer vor Verunreinigungen während des gesamten Produktionsprozesses.
 
 
-  #### Ready to Use und effiziente Verpackung
+  ### Ready to Use und effiziente Verpackung
 
 
   Unmittelbar nach der Fertigung erfolgt die Ablage der Kunststoffbohrer in einer Kühlstation, um eine schnelle und effektive Abkühlung zu gewährleisten. Anschließend werden die abgekühlten Bohrer unter Reinraumbedingungen in einen Endlosschlauchbeutel verpackt, der eine hygienische und praktische Lösung für die Lagerung und den Transport darstellt. Auch diese Verpackung erfolgt im Reinraum der Klasse 7, um höchste Hygienestandards zu gewährleisten.
 
 
-  #### Vielseitigkeit für anspruchsvolle Anwendungen
+  ### Vielseitigkeit für anspruchsvolle Anwendungen
 
 
   Dank der hervorragenden Eigenschaften von PEEK sind unsere Kunststoffbohrer für vielfältige Anwendungen in der Medizintechnik und Dentaltechnik geeignet. Das Material ist besonders leicht, chemikalienbeständig und biokompatibel, was es zu einer optimalen Wahl für den Einsatz in medizinischen Instrumenten und Geräten macht.
