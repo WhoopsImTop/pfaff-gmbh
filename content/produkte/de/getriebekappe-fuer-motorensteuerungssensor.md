@@ -1,5 +1,5 @@
 ---
-productTitle: Getriebekappe für Motorensteuerungssensor
+productTitle: Getriebekappe für Motoren&shy;steuerungs&shy;sensor
 productDescription: Die Wellen/Stifte werden in eine von Pfaff konzipierte
   Vorrichtung eingelegt und auf einer Arburg 470C umspritzt.
 productImage: /getriebekappe-motorensteuerung-sensor.jpeg
