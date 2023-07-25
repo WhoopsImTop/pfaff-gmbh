@@ -6,7 +6,8 @@ export const state = () => ({
   blogKategorien: [],
   news: [],
   featuredProdukte: [],
-  featuredCompetence: [], 
+  featuredCompetence: [],
+  menu: [],
 })
 
 export const mutations = {
@@ -32,7 +33,10 @@ export const mutations = {
   setNews(state, news) {
     news.sort((a, b) => (a.date > b.date ? -1 : 1))
     state.news = news
-  }
+  },
+  setMenu(state, menu) {
+    state.menu = menu[0]
+  },
 }
 
 export const actions = {
@@ -50,15 +54,30 @@ export const actions = {
     const blogKategorien = await this.$content(
       'blogkategorien/' + this.$i18n.locale
     ).fetch()
-    const news = await this.$content(
-      'blog/' + this.$i18n.locale
-    ).fetch()
+    const news = await this.$content('blog/' + this.$i18n.locale).fetch()
+    const menu = await this.$content('menu/' + this.$i18n.locale).fetch()
+    const produkteLinks = []
+    const kompetenzenLinks = []
+    menu[0].links.forEach((entry) => {
+      if (entry.featuredProducts) {
+        entry.featuredProducts.forEach((slug) => {
+          produkteLinks.push(produkte.find((p) => p.slug === slug))
+        })
+        entry.featuredProducts = produkteLinks
+      } else if (entry.featuredCompetencies) {
+        entry.featuredCompetencies.forEach((slug) => {
+          kompetenzenLinks.push(kompetenzen.find((k) => k.slug === slug))
+        })
+        entry.featuredCompetencies = kompetenzenLinks
+      }
+    })
     commit('setProdukte', produkte)
     commit('setSeiten', seiten)
     commit('setKategorien', kategorien)
     commit('setKompetenzen', kompetenzen)
     commit('setBlogkategorien', blogKategorien)
     commit('setNews', news)
+    commit('setMenu', menu)
   },
 }
 

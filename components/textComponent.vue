@@ -22,6 +22,7 @@
       </div>
     </div>
     <div v-else>
+      <h2>{{ component.contentTitle }}</h2>
       <p class="marketing-text" v-html="$md.render(component.contentText)"></p>
     </div>
   </div>

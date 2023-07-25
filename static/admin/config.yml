@@ -997,22 +997,64 @@ collections:
     label: 'Menü'
     format: 'json'
     folder: 'content/menu'
-    create: true
+    slug: '{{slug}}'
+    display_fields: ['titel']
     i18n: true
     editor:
       preview: false
     fields:
-      - { label: 'Titel', name: 'title', widget: 'string', i18n: true }
-      - { label: 'Slug', name: 'slug', widget: 'string', i18n: true}
-      - { label: 'Link', name: 'link', widget: 'string', i18n: true }
-      - {
-          label: 'Untermenü',
-          name: 'submenu',
-          widget: 'list',
-          i18n: true,
-          fields:
-            [
-              { label: 'Titel', name: 'title', widget: 'string', i18n: true },
-              { label: 'Link', name: 'link', widget: 'string', i18n: true },
-            ],
-        }
+      - name: 'titel'
+        label: 'Titel'
+        widget: 'string'
+        required: true
+      - name: 'links'
+        label: 'Links'
+        widget: 'list'
+        fields:
+          - name: 'siteTitle'
+            label: 'Titel'
+            widget: 'string'
+            required: true
+          - name: 'siteLink'
+            label: 'Link'
+            widget: 'relation'
+            required: false
+            collection: 'seiten'
+            value_field: '{{slug}}'
+            search_fields: ['siteTitle']
+            display_fields: ['siteTitle']
+          - name: 'subLinks'
+            label: 'Unterseiten'
+            widget: 'list'
+            required: false
+            fields:
+              - name: 'siteTitle'
+                label: 'Titel'
+                widget: 'string'
+                required: true
+              - name: 'siteLink'
+                label: 'Link'
+                widget: 'relation'
+                required: false
+                collection: 'seiten'
+                value_field: '{{slug}}'
+                search_fields: ['siteTitle']
+                display_fields: ['siteTitle']
+          - name: 'featuredProducts'
+            label: 'Produkte'
+            widget: 'relation'
+            required: false
+            collection: 'produkte'
+            multiple: true
+            value_field: '{{slug}}'
+            search_fields: ['productTitle']
+            display_fields: ['productTitle']
+          - name: 'featuredCompetencies'
+            label: 'Kompetenzen'
+            widget: 'relation'
+            required: false
+            collection: 'kompetenzen'
+            multiple: true
+            value_field: '{{slug}}'
+            search_fields: ['competenceName']
+            display_fields: ['competenceName']

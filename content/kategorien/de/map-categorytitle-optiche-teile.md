@@ -1,3 +1,0 @@
----
-productCategoryTitle: Optische Teile
----
