@@ -109,7 +109,7 @@ export default {
   margin: 0 !important;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
   .productRow,
   .competenciesRow {
     display: none;

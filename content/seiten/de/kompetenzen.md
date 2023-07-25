@@ -33,39 +33,6 @@ components:
 
 
           Unsere Spritzgussproduktion umfasst eine breite Palette von Materialien, darunter technische Thermoplaste wie PMMA, POM, sowie Hochleistungskunststoffe wie PEEK oder PPSU. Darüber hinaus sind wir in der Lage, Produkte aus Sondermaterialien wie PUR, TPU und Silikon-Elastomer herzustellen. Diese Materialvielfalt ermöglicht es uns, maßgeschneiderte Lösungen für die individuellen Anforderungen unserer Kunden zu entwickeln.
-
-
-          ### Fachliche Expertise für besondere Herausforderungen
-
-
-          Unser Know-how im Spritzguss erstreckt sich über verschiedene Spezialgebiete:
-
-
-          ### Mehrkomponententechnik - Farben & Materialmix
-
-
-          Mit unserer Mehrkomponententechnik sind wir in der Lage, Produkte in verschiedenen Farben oder Materialkombinationen herzustellen. Diese Technologie eröffnet neue Gestaltungsmöglichkeiten und ermöglicht innovative Produktkonzepte.
-
-
-          ### Insertteile - Umspritzen von sensiblen Bauteilen
-
-
-          Durch das Umspritzen von sensiblen Bauteilen können wir komplexe und hochpräzise Produkte realisieren. Dies ermöglicht eine effiziente und zuverlässige Integration von Einlegeteilen in das Endprodukt.
-
-
-          ### Optische Teile - Unsere jahrelange Stärke
-
-
-          Unsere langjährige Erfahrung im Spritzguss von optischen Teilen garantiert eine erstklassige Qualität und makellose Oberflächen. Wir setzen auf modernste Technologien und Verfahren, um die höchsten Ansprüche unserer Kunden zu erfüllen.
-
-
-          ### Filigrane Teilegeometrien - Wo andere aufhören, fangen wir erst an
-
-
-          Die präzise Herstellung von filigranen Teilegeometrien stellt besondere Anforderungen an den Spritzguss. Dank unserer fortschrittlichen Technik und unseres Expertenteams können wir auch in diesem Bereich hervorragende Ergebnisse erzielen.
-
-
-          Vertrauen Sie auf die Kompetenz und Erfahrung von PFAFF GmbH im Bereich Spritzguss, um maßgeschneiderte Lösungen mit Präzision und Vielseitigkeit zu erhalten.
         smallHeadline: Kompetenzen
   - type: row
     component:
@@ -75,6 +42,7 @@ components:
           - umspritzen-von-sensiblen-bauteilen
           - unsere-jahrelange-stärke
           - farben-materialienmix
+        showText: true
   - type: competenciesBlocks
     competencies:
       - komplettlösungen

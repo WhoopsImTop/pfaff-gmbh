@@ -12,8 +12,8 @@
         </div>
         <div class="card-content">
           <span class="product-category">{{ card.competenceName }}</span>
-          <h5 style="margin-top: 10px">{{ card.competenceTitle }}</h5>
-          <!-- <p>{{ card.competenceDescription.slice(0, 50) }}</p> -->
+          <h4 style="margin-top: 20px">{{ card.competenceTitle }}</h4>
+          <p v-if="component.showText" >{{ card.shortText }}</p> 
         </div>
       </nuxt-link>
     </div>
@@ -66,7 +66,7 @@ export default {
 
 .small-card-image {
   width: 100%;
-  height: 170px;
+  height: 350px;
 }
 
 .small-card-image img {

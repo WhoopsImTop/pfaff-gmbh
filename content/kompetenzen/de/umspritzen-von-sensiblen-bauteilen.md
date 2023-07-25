@@ -7,6 +7,9 @@ competenceDescription: Aktuell verfügen wir über 2 Einlegemaschinen, auf welch
   Medizintechnik umspritzen. Die Fertigung erfolgt unter anderem mit der
   Unterstützung durch Werkzeuginnendrucksensoren und Infrarotsensoren. Diese
   sorgen für eine optimale Produktqualität und valide Prozesse.
+shortText: Durch das Umspritzen von sensiblen Bauteilen können wir komplexe und
+  hochpräzise Produkte realisieren. Dies ermöglicht eine effiziente und
+  zuverlässige Integration von Einlegeteilen in das Endprodukt.
 competenceImage: /sonden-elektroden-bohrer_pfaff-874x969-1-1536x775.jpg
 competenceImageDescription: Umspritzte Stimulationssonden und Nadelelektroden für die Neurochirurgie
 pageContent: []

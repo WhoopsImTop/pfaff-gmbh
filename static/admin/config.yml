@@ -509,6 +509,11 @@ collections:
                         value_field: '{{slug}}'
                         search_fields: ['competenceName']
                         display_fields: ['competenceName']
+                      - label: "Anzeigetext"
+                        name: "showText"
+                        widget: "boolean"
+                        default: false
+                        required: false
                   - label: 'Text'
                     name: 'text'
                     widget: 'object'
@@ -619,6 +624,12 @@ collections:
           name: 'competenceDescription',
           widget: 'markdown',
           i18n: true,
+        }
+      - {
+          label: "Kompezenzen Anzeigetext",
+          name: "shortText",
+          widget: "markdown",
+          default: false,
         }
       - {
           label: 'Kompetenzbild',

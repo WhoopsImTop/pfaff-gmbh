@@ -11,6 +11,10 @@ competenceDescription: Das Spritzgießen von optischen und transparenten Teilen
   Auch die Verpackung erfolgt teilweise unter Reinraumbedingungen, überwiegend
   in Blister oder Spezialverpackungen. So sind die Teile auf dem Transportweg
   optimal geschützt.
+shortText: Unsere langjährige Erfahrung im Spritzguss von optischen Teilen
+  garantiert eine erstklassige Qualität und makellose Oberflächen. Wir setzen
+  auf modernste Technologien und Verfahren, um die höchsten Ansprüche unserer
+  Kunden zu erfüllen.
 competenceImage: /lichtleiter-1k-2k-automotive_pfaff.jpg
 competenceImageDescription: Lichtleiter Automotive
 featuredCompetence: true
