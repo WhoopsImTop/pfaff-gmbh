@@ -108,4 +108,11 @@ export default {
   padding: 20px 0;
   margin: 0 !important;
 }
+
+@media (max-width: 1200px) {
+  .productRow,
+  .competenciesRow {
+    display: none;
+  }
+}
 </style>
