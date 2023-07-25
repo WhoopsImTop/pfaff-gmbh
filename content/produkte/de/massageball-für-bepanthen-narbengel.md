@@ -47,5 +47,7 @@ productFeatures:
   - featureTitle: "Reinraum:"
     featureText: Klasse 7
   - featureTitle: "Fachbeitrag:"
-    featureText: Kunststoff Magazin 2016
+    featureText: "[Kunststoff Magazin
+      2016](/news-medien/fachbeitraege/kunststoff-magazin-2k-kunststoffteile-me\
+      dizintechnik)"
 ---
