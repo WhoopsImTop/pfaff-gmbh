@@ -84,20 +84,24 @@ components:
         blockTitle: Nachhaltigkeit
         blockImage: /pfaff-nachhaltigkeit.jpg
         blockLink: unternehmen
-    blockTitle: test
+    blockTitle: High-Tech-Teile aus Kunststoff
   - type: productPreview
     productImage: /pfaff-miniatur-bruecke.png
     productTitle: Tradition und Präzision
-    productDescription: „Seit über 30 Jahren entwickeln wir in unserem
-      Familienbetrieb im Schwarzwald ausschließlich mit modernen Materialien,
-      innovativer Technik und garantieren höchste Qualität.“
+    productDescription: >-
+      „Seit über 30 Jahren entwickeln wir in unserem Familienbetrieb im
+      Schwarzwald ausschließlich mit modernen Materialien, innovativer Technik
+      und garantieren höchste Qualität.“
+
+
+      **C﻿all to Action Link zu Unternehmen!**
     productQuote: Corinna Pfaff, CEO
     product: umspritzte-stimulationssonden-und-nadelelektroden-für-die-neurochirurgie
     productImageMarkerPosition:
       bottom: 20
       left: 38
   - type: cards
-    cardsTitle: Entdecken Sie die PFAFF GmbH
+    cardsTitle: News & Medien. Immer informiert.
     card:
       - cardTitle: Neuigkeiten
         cardText: Bleiben Sie auf dem Laufenden mit aktuellen News, Fachbeiträgen und
