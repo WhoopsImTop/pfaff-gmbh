@@ -1,0 +1,39 @@
+{
+  "titel": "Menü",
+  "links": [
+    {
+      "siteTitle": "Produktbeispiele",
+      "siteLink": "produktbeispiele",
+      "featuredProducts": [
+        "einführsystem-für-periphere-gefäßprothese",
+        "lichtleiter-automotive-1",
+        "navigationsring-„touch“-automotive"
+      ]
+    },
+    {
+      "siteTitle": "Kompetenzen",
+      "siteLink": "kompetenzen",
+      "featuredCompetencies": [
+        "maschinenpark",
+        "umspritzen-von-sensiblen-bauteilen",
+        "unsere-jahrelange-stärke"
+      ]
+    },
+    {
+      "siteTitle": "Qualität",
+      "siteLink": "qualität"
+    },
+    {
+      "siteTitle": "Unternehmen",
+      "siteLink": "unternehmen"
+    },
+    {
+      "siteTitle": "News & Medien",
+      "siteLink": "news-medien"
+    },
+    {
+      "siteTitle": "Kontakt",
+      "siteLink": "kontakt"
+    }
+  ]
+}
