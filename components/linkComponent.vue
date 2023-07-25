@@ -24,6 +24,7 @@
           </div>
         </div>
       </nuxt-link>
+      <nuxt-link to="/produktbeispiele">Alle anzeigen</nuxt-link>
     </div>
     <div v-if="component.featuredCompetencies" class="competenciesRow">
       <nuxt-link
@@ -46,6 +47,8 @@
           </div>
         </div>
       </nuxt-link>
+
+      <nuxt-link to="/kompetenzen">Alle anzeigen</nuxt-link>
     </div>
   </div>
 </template>
@@ -57,19 +60,24 @@ export default {
 </script>
 
 <style>
-.productRow, .competenciesRow {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 10px;
+.productRow,
+.competenciesRow {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  padding: 0 0 20px 0;
+  justify-items: center;
+  align-items: center;
 }
 
 .product-link {
   display: flex;
   flex-direction: row;
-  margin: 0 20px 0 0 !important;
   box-shadow: var(--box-shadow);
   border-radius: 5px;
-  max-width: 350px;
+  margin: 0 !important;
+  width: 100%;
+  height: 100%;
 }
 
 .product-link-image {
