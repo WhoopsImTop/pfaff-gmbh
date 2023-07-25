@@ -48,7 +48,7 @@ productFeatures:
     featureText: Arburg 370 A
   - featureTitle: "Entnahme:"
     featureText: mittels KUKA-Robot
-  - featureTitle: Reinraumbox
+  - featureTitle: "Reinraum:"
     featureText: Klasse 7
   - featureTitle: "Material:"
     featureText: Peek
