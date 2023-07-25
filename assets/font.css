@@ -242,7 +242,8 @@ p {
   word-wrap: break-word;
 }
 
-.marketing-text, .marketing-text p {
+.marketing-text,
+.marketing-text p {
   font-size: 22px;
   line-height: 45px;
   font-weight: 400;
@@ -267,12 +268,14 @@ a.nuxt-link-exact-active {
 }
 
 span.smallHeadline {
-  font-size: 20px;
-  line-height: 30px;
-  color: var(--darker-gray-color);
+  font-size: 14px;
+  padding: 5px 10px;
+  background-color: var(--primary-light-color);
+  color: var(--primary-color);
+  border-radius: 2px;
+  display: inline-block;
+  margin-bottom: 10px;
   text-transform: uppercase;
-  margin-bottom: 10px !important;
-  display: inline-block
 }
 
 h1 {
@@ -341,7 +344,8 @@ h5 {
     line-height: 20px;
   }
 
-  .marketing-text, .marketing-text p {
+  .marketing-text,
+  .marketing-text p {
     font-size: 18px;
     line-height: 35px;
     font-weight: 400;

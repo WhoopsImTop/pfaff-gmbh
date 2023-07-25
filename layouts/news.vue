@@ -28,6 +28,9 @@
                 {{ link.categoryTitle }}
               </nuxt-link>
             </div>
+            <div class="sidebar-content">
+              <a href="https://www.linkedin.com/company/pfaff-gmbh/" target="_blank"><img src="/linked_in_logo_blue.svg" width="100" alt="linkedIn Logo"></a>
+            </div>
           </div>
         </div>
       </div>
@@ -69,8 +72,7 @@ export default {
 .sidebar-content {
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
-  padding: 40px;
+  padding: 20px 40px;
 }
 
 .scrollable_container {

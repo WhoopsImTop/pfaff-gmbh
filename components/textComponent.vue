@@ -1,13 +1,23 @@
 <template>
   <div class="content-container text-container">
-    <h2>{{ component.contentTitle }}</h2>
     <div v-if="component.contentImage" class="row">
-      <p
-        class="marketing-text col-lg-6"
-        v-html="$md.render(component.contentText)"
-      ></p>
       <div class="col-lg-6">
-        <img :src="component.contentImage" width="100%" style="margin-bottom: 20px" alt="content image" />
+        <span class="small-headline" v-if="component.smallHeadline">{{
+          component.smallHeadline
+        }}</span>
+        <h2>{{ component.contentTitle }}</h2>
+        <p
+          class="marketing-text"
+          v-html="$md.render(component.contentText)"
+        ></p>
+      </div>
+      <div class="col-lg-6">
+        <img
+          :src="component.contentImage"
+          width="100%"
+          style="margin-bottom: 20px"
+          alt="content image"
+        />
         <p v-html="$md.render(component.contentTextUnderImage)"></p>
       </div>
     </div>

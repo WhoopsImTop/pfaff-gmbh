@@ -3,7 +3,7 @@
     <div
       class="content-container d-flex flex-row justify-content-between align-flex-end"
     >
-      <nuxt-link to="/"><pfaff-logo /></nuxt-link>
+      <nuxt-link to="/" style="z-index: 999"><pfaff-logo :active="burgerActive" /></nuxt-link>
       <div
         class="link-container-background"
         :class="burgerActive ? 'burger-active' : ''"

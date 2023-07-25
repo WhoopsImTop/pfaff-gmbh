@@ -48,8 +48,8 @@
           <a href="tel:info@pfaffgmbh.com">info@pfaffgmbh.com</a><br />
           <a style="margin-top: 10px" href="https://www.linkedin.com/company/pfaff-gmbh/" target="_blank"
             ><img
-              src="/LI-Logo.png"
-              width="100"
+              src="/linked_in_logo.svg"
+              width="75"
               alt="linkedin"
               style="margin: 0 2px"
           /></a>

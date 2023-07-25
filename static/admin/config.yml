@@ -135,6 +135,13 @@ collections:
             summary: '{{fields.contentTitle}}'
             fields:
               - {
+                  label: 'Kleine Überschrift',
+                  name: 'smallHeadline',
+                  widget: 'string',
+                  i18n: true,
+                  required: false,
+                }
+              - {
                   label: 'Überschrift',
                   name: 'contentTitle',
                   widget: 'string',

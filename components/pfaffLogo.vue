@@ -125,6 +125,7 @@
 
 <script>
 export default {
+  props: ['active'],
   data() {
     return {
       isMobile: false,
@@ -133,6 +134,15 @@ export default {
       blueCircle: null,
       lightCircle: null,
     }
+  },
+  watch: {
+    active() {
+      if (this.active) {
+        this.isMobile = false
+      } else {
+        this.isMobile = true
+      }
+    },
   },
   mounted() {
     if (window.innerWidth > 1230) {
@@ -174,6 +184,7 @@ export default {
         const lightCircle = document.querySelector(
           '.pfaff-navi-logo .light-circle'
         )
+        if (!grayCircle) return
         if (!grayCircle.style.transition) {
           grayCircle.style.transition = 'all 0.5s'
           blueCircle.style.transition = 'all 0.5s'

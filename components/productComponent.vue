@@ -14,7 +14,7 @@
     ></div>
     <div class="product-name">
       <span class="product-slider-category">{{ getCategoryString }}</span>
-      <h3>{{ product.productTitle }}</h3>
+      <h3 v-html="product.productTitle"></h3>
     </div>
   </nuxt-link>
 </template>
@@ -129,6 +129,16 @@ export default {
   .product-slider-category {
     white-space: nowrap;
     color: var(--darker-gray-color);
+  }
+}
+
+@media (max-width: 1230px) {
+  .pulseMarker {
+    display: none;
+  }
+
+  .pulseMarker-relative {
+    display: none;
   }
 }
 </style>

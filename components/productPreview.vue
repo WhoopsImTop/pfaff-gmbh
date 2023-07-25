@@ -7,20 +7,20 @@
       </p>
       <span class="quote">{{ components.productQuote }}</span>
     </div>
-    <div class="preview-image-container">
+    <div class="preview-image-container" :style="'background-image: url(' + components.productImage + '); width: 100%; background-size: cover; background-position: left'">
       <div
         class="pulseMarker-relative"
-        :style="'bottom:' + components.productImageMarkerPosition.bottom + '%; left:' + components.productImageMarkerPosition.left + '%'"
+        :style="
+          'bottom:' +
+          components.productImageMarkerPosition.bottom +
+          '%; left:' +
+          components.productImageMarkerPosition.left +
+          '%'
+        "
       >
         <div class="marker-inner"></div>
         <div class="marker-outer"></div>
       </div>
-      <img
-        :src="components.productImage"
-        :alt="components.productTitle"
-        :title="components.productTitle"
-        loading="lazy"
-      />
     </div>
     <div class="preview-slide-container" v-if="components.product">
       <product-slider
@@ -98,10 +98,8 @@ export default {
     max-width: unset;
   }
 
-  .preview-image-container img {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
+  .preview-image-container {
+    min-height: 400px
   }
 }
 
@@ -117,10 +115,15 @@ export default {
     position: unset;
     margin-bottom: 20px;
     height: 100vh;
+    min-height: 400px;
   }
 
   .preview-text-container {
     top: -100px;
+  }
+
+  .pulseMarker-relative {
+    display: none;
   }
 }
 </style>
