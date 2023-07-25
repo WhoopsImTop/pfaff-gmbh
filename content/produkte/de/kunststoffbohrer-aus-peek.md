@@ -33,12 +33,6 @@ productDescription: >-
 
 
   Vertrauen Sie auf die Präzision und Qualität unserer Kunststoffbohrer aus PEEK, die für höchste Ansprüche in der Medizintechnik und Dentaltechnik entwickelt wurden. Unser Engagement für exzellente Produktionsstandards und anspruchsvolle Materialauswahl steht im Mittelpunkt unserer medizinischen Produkte.
-
-
-  [F﻿achbeitrag Arburg 2012](news-medien/fachbeitraege/arburg-today-keine-angst-vorm-bohren/)
-
-
-  [F﻿achbeitrag DeviceMed 2016](/news-medien/fachbeitraege/devicemed-pfaffs-peek-rosenbohrer)
 productImage: /selbstlimitierender-dentalbohrer_peek_pfaff-1200x969-1.jpg
 productCategories:
   - Medizin
