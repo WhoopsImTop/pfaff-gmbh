@@ -31,8 +31,8 @@ components:
   - type: row
     component:
       - type: text
-        smallHeadline: Zertifikate
-        headline: ISO 9001 & 13485
+        smallHeadline: Zertifikat
+        headline: ISO 9001
         text: "**Die ISO 9001** legt die Mindestanforderungen an ein
           Qualitätsmanagementsystem fest, die uns zu genügen hat, um Produkte
           und Dienstleistungen bereitstellen zu können, welche die
@@ -49,6 +49,8 @@ components:
         button:
           buttonText: PDF ISO 13485 ZERTIFIKAT
           buttonDownloadLink: /328302-mp2016-2021-08-13-deutsch.pdf
+        headline: ISO 13485
+        smallHeadline: Zertifikat
   - type: row
     component:
       - type: text
@@ -81,7 +83,7 @@ components:
 
           * Darüber hinaus wird die Sicherheit Ihres Medizinproduktes durch das laut Norm geforderte, systematische Lieferantenmanagementsystem gewährleistet.
       - type: image
-        image: /pfaff-med-komponenten-01-1-700x394-1.jpg
+        image: /iso134852016.png
   - type: row
     component:
       - type: text
@@ -127,4 +129,5 @@ components:
             * Unser System zur Qualitätssicherung ist Vorbeugung
             * Unsere Philosophie ist „Null Fehler“
           * Der Qualitätsmanagementbeauftragte unseres Unternehmens ist direkt der Geschäftsführung unterstellt. Er ist beauftragt, unser QM-System zu überwachen und weiterzuentwickeln.
+id: 30fd5a65-6f3f-40cc-bdff-517c6e554d35
 ---

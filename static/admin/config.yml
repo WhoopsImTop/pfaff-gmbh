@@ -1069,3 +1069,39 @@ collections:
             value_field: '{{slug}}'
             search_fields: ['competenceName']
             display_fields: ['competenceName']
+          - label: 'Karten'
+            name: 'cards'
+            widget: 'object'
+            summary: '{{fields.cardsTitle}}'
+            i18n: true
+            fields:
+              - label: 'Karte'
+                name: 'card'
+                widget: 'list'
+                summary: '{{fields.cardTitle}}'
+                i18n: true
+                fields:
+                  - {
+                      label: 'Überschrift',
+                      name: 'cardTitle',
+                      widget: 'string',
+                      required: false,
+                      i18n: true,
+                    }
+                  - {
+                      label: 'Textinhalt',
+                      name: 'cardText',
+                      widget: 'markdown',
+                      required: false,
+                      i18n: true,
+                    }
+                  - label: 'Bild/er'
+                    name: 'cardImage'
+                    widget: 'image'
+                    required: false
+                    i18n: true
+                  - label: 'Link'
+                    name: 'cardLink'
+                    widget: 'string'
+                    required: false
+                    i18n: duplicate

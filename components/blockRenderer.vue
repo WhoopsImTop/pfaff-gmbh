@@ -13,7 +13,6 @@
             :src="block.blockImage"
             :alt="block.blockTitle"
             :title="block.blockTitle"
-            loading="lazy"
           />
         </div>
         <div class="product-card-content">

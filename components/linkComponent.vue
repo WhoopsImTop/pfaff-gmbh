@@ -15,7 +15,6 @@
             :src="produkt.productImage"
             :alt="produkt.productTitle"
             :title="produkt.productTitle"
-            loading="lazy"
           />
         </div>
         <div class="product-link-content">
@@ -38,7 +37,6 @@
             :src="competency.competenceImage"
             :alt="competency.competenceTitle"
             :title="competency.competenceTitle"
-            loading="lazy"
           />
         </div>
         <div class="product-link-content">
@@ -49,6 +47,28 @@
       </nuxt-link>
 
       <nuxt-link to="/kompetenzen">Alle anzeigen</nuxt-link>
+    </div>
+    <div v-if="component.cards" class="productRow">
+      <nuxt-link
+        class="product-link"
+        v-for="produkt in component.cards.card"
+        :key="produkt.cardTitle"
+        :to="'/' + produkt.cardLink"
+      >
+        <div class="product-link-image">
+          <img
+            :src="produkt.cardImage"
+            :alt="produkt.cardTitle"
+            :title="produkt.cardTitle"
+          />
+        </div>
+        <div class="product-link-content">
+          <div>
+            <h5>{{ produkt.cardTitle }}</h5>
+          </div>
+        </div>
+      </nuxt-link>
+      <nuxt-link to="/news-medien">Alle anzeigen</nuxt-link>
     </div>
   </div>
 </template>
