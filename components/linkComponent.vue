@@ -23,7 +23,7 @@
           </div>
         </div>
       </nuxt-link>
-      <nuxt-link to="/produktbeispiele">Alle anzeigen</nuxt-link>
+      <nuxt-link class="showAll" to="/produktbeispiele">Alle anzeigen</nuxt-link>
     </div>
     <div v-if="component.featuredCompetencies" class="competenciesRow">
       <nuxt-link
@@ -46,7 +46,7 @@
         </div>
       </nuxt-link>
 
-      <nuxt-link to="/kompetenzen">Alle anzeigen</nuxt-link>
+      <nuxt-link class="showAll" to="/kompetenzen">Alle anzeigen</nuxt-link>
     </div>
     <div v-if="component.cards" class="productRow">
       <nuxt-link
@@ -68,7 +68,7 @@
           </div>
         </div>
       </nuxt-link>
-      <nuxt-link to="/news-medien">Alle anzeigen</nuxt-link>
+      <nuxt-link class="showAll" to="/news-medien">Alle anzeigen</nuxt-link>
     </div>
   </div>
 </template>
@@ -130,6 +130,14 @@ export default {
   display: block;
   padding: 20px 0;
   margin: 0 !important;
+}
+
+.showAll {
+  font-size: 16px !important;
+}
+
+.showAll:hover {
+  color: var(--primary-red-color) !important;
 }
 
 @media (max-width: 1400px) {
