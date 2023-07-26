@@ -28,7 +28,26 @@
     },
     {
       "siteTitle": "News & Medien",
-      "siteLink": "news-medien"
+      "siteLink": "news-medien",
+      "cards": {
+        "card": [
+          {
+            "cardTitle": "Neuigkeiten",
+            "cardImage": "/pfaff-neuigkeiten.jpg",
+            "cardLink": "news-medien"
+          },
+          {
+            "cardTitle": "Karriere",
+            "cardImage": "/pfaff-karriere.jpg",
+            "cardLink": "news-medien/stellenausschreibungen"
+          },
+          {
+            "cardTitle": "Meilensteine",
+            "cardImage": "/pfaff-historie.jpg",
+            "cardLink": "news-medien/meilensteine"
+          }
+        ]
+      }
     },
     {
       "siteTitle": "Kontakt",
