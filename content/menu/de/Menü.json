@@ -20,14 +20,6 @@
       ]
     },
     {
-      "siteTitle": "Qualität",
-      "siteLink": "qualität"
-    },
-    {
-      "siteTitle": "Unternehmen",
-      "siteLink": "unternehmen"
-    },
-    {
       "siteTitle": "News & Medien",
       "siteLink": "news-medien",
       "cards": {
@@ -49,6 +41,14 @@
           }
         ]
       }
+    },
+    {
+      "siteTitle": "Qualitätsversprechen",
+      "siteLink": "qualität"
+    },
+    {
+      "siteTitle": "Unternehmen",
+      "siteLink": "unternehmen"
     },
     {
       "siteTitle": "Kontakt",
