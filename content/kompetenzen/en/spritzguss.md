@@ -15,4 +15,5 @@ competenceDescription: In close cooperation with machine manufacturers from the
 competenceSideInfo:
   - buttonText: PDF MACHINE DATA SHEET
     buttonFileDownload: /pfaff-gmbh_maschinenpark_web.pdf
+competenceImage: /pfaff-kunststoff-technik.jpg
 ---
