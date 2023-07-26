@@ -10,6 +10,7 @@
     </div>
     <div class="competence-single content-container">
       <div class="content competence-text-container">
+        <span class="smallHeadline">{{ seite.competenceName }}</span>
         <h1>{{ seite.competenceTitle }}</h1>
         <p v-html="$md.render(seite.competenceDescription)"></p>
       </div>
@@ -49,6 +50,19 @@ export default {
     const index = this.competencies.indexOf(this.$route.params.slug)
     if (index > -1) {
       this.competencies.splice(index, 1)
+    }
+  },
+
+  head() {
+    return {
+      title: "Pfaff GmbH - " + this.seite.competenceName,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.seite.competenceDescription,
+        },
+      ],
     }
   },
 

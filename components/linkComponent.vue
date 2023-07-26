@@ -19,7 +19,7 @@
         </div>
         <div class="product-link-content">
           <div>
-            <h5>{{ produkt.productTitle }}</h5>
+            <h6>{{ produkt.productTitle }}</h6>
           </div>
         </div>
       </nuxt-link>
@@ -35,13 +35,13 @@
         <div class="product-link-image">
           <img
             :src="competency.competenceImage"
-            :alt="competency.competenceTitle"
-            :title="competency.competenceTitle"
+            :alt="competency.competenceName"
+            :title="competency.competenceName"
           />
         </div>
         <div class="product-link-content">
           <div>
-            <h5>{{ competency.competenceTitle }}</h5>
+            <h6>{{ competency.competenceName }}</h6>
           </div>
         </div>
       </nuxt-link>
@@ -64,7 +64,7 @@
         </div>
         <div class="product-link-content">
           <div>
-            <h5>{{ produkt.cardTitle }}</h5>
+            <h6>{{ produkt.cardTitle }}</h6>
           </div>
         </div>
       </nuxt-link>
@@ -113,7 +113,10 @@ export default {
 }
 
 .product-link-content {
-  padding: 20px;
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .link-item {
