@@ -373,6 +373,11 @@ collections:
             summary: '{{fields.news}}'
             i18n: true
             fields:
+              - label: "Titel"
+                name: "title"
+                widget: "string"
+                required: false
+                i18n: true
               - label: 'Aktuelle News einbinden'
                 name: 'embedNews'
                 widget: 'boolean'
