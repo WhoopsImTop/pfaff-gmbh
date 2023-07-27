@@ -1,6 +1,6 @@
 <template>
   <div class="content-container text-container">
-    <h2>Aktuelle News</h2>
+    <h2>{{ component.title }}</h2>
     <div class="card-container">
       <nuxt-link
         v-for="(card, index) in cards"
