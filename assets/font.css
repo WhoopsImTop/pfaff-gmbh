@@ -267,7 +267,7 @@ a.nuxt-link-exact-active {
   text-decoration: none;
 }
 
-span.smallHeadline {
+span.smallHeadline, span.small-headline {
   font-size: 14px;
   padding: 5px 10px;
   background-color: var(--primary-light-color);
