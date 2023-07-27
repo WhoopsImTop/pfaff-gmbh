@@ -25,7 +25,7 @@ export default {
 
   head() {
     return {
-      title: 'Pfaff GmbH - Wo Kunststoff Karriere macht. - ISO zertifiziert',
+      title: 'Pfaff GmbH - Test Wo Kunststoff Karriere macht. - ISO zertifiziert',
       meta: [
         {
           hid: 'description',
