@@ -36,7 +36,7 @@ components:
             left: 61
         landingImageMobile: /preview-pfaff-miniatur-laster-mobile.png
   - type: contentblock
-    contentTitle: Pfaff GmbH. Wo Kunststoff Karriere macht.
+    contentTitle: Wo Kunststoff Karriere macht.
     contentText: >-
       Seit 1991 sind wir Experten für hochwertige Kunststoffartikel in den
       Branchen **Medizin- und Dentaltechnik**, **Mess- und Regelungstechnik**,
@@ -58,6 +58,7 @@ components:
 
 
       *Corinna Pfaff, CEO*
+    smallHeadline: "Pfaff GmbH "
   - type: blocks
     block:
       - blockCategory: Verblüffende Produktbeispiele
@@ -118,4 +119,5 @@ components:
         cardImage: /pfaff-historie.jpg
   - type: news
     embedNews: false
+id: 8c68cce3-2666-4e94-8f59-cd5b2b5d3355
 ---
