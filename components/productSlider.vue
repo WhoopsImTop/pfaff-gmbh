@@ -37,6 +37,12 @@ export default {
           }
         }
       }
+      this.products.sort((a, b) => {
+        return (
+          this.productSlug.indexOf(a.slug) -
+          this.productSlug.indexOf(b.slug)
+        )
+      })
     }
   },
   mounted() {

@@ -39,6 +39,12 @@ export default {
         }
       }
     }
+    this.kompetenzen.sort((a, b) => {
+      return (
+        this.component.competencies.indexOf(a.slug) -
+        this.component.competencies.indexOf(b.slug)
+      )
+    })
   },
 }
 </script>
