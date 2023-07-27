@@ -22,6 +22,9 @@
       </div>
     </div>
     <div v-else>
+      <span class="small-headline" v-if="component.smallHeadline">{{
+        component.smallHeadline
+      }}</span>
       <h2>{{ component.contentTitle }}</h2>
       <p class="marketing-text" v-html="$md.render(component.contentText)"></p>
     </div>
