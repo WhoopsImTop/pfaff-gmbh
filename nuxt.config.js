@@ -8,7 +8,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title:
-      'Pfaff GmbH - Ihr Partner für die Entwicklung und Fertigung von Kunststoffteilen',
+      'Pfaff GmbH - Test Ihr Partner für die Entwicklung und Fertigung von Kunststoffteilen',
     htmlAttrs: {
       lang: 'de',
     },
