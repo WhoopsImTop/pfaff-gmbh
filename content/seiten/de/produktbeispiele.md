@@ -21,5 +21,7 @@ components:
 
 
       Entdecken Sie die Möglichkeiten und lassen Sie sich von den vielfältigen Kunststoffanwendungen bei PFAFF GmbH inspirieren.
-    contentTitle: Pfaff GmbH. Verblüffende Kunststofflösungen.
+    contentTitle: Verblüffende Kunststofflösungen.
+    smallHeadline: Produktbeispiele
+id: 1c3ac0b8-d426-432c-9d38-315834318f27
 ---
