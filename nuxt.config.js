@@ -86,4 +86,19 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  generate: {
+    fallback: true,
+    routes: [
+      "/",
+      "/impressum",
+      "/datenschutz",
+      "/agbs",
+      "/produktbeispiele",
+      "/kompetenzen",
+      "/qualität",
+      "/news-medien",
+      "/kontakt",
+    ],
+  },
 }
