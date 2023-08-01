@@ -1,7 +1,6 @@
 ---
 title: Kraft & Energie tanken fürs Business
-slug: kraft-und-energie
-date: 2023-08-01T09:10:30.336Z
+date: 2021-08-25T09:10:30.336Z
 image: /cp2.jpg
 category:
   - pressemitteilungen
