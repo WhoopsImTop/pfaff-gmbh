@@ -4,7 +4,7 @@ slug: devicemed-pfaffs-peek-rosenbohrer
 date: 2017-08-20T14:02:00
 image: /pfaff_komplettloesung_teaser.jpeg
 category:
-  - fachbeitraege
+  - fachbeiträge
 ---
 <p><strong>Pfaffs PEEK-„Rosenbohrer“</strong></p>
 
