@@ -946,7 +946,7 @@ collections:
       preview: false
     fields:
       - { label: 'Titel', name: 'title', widget: 'string', i18n: true }
-      - { label: 'Permalink', name: 'slug', widget: 'string', i18n: true, hint: 'Link unter dem der Beitrag aufrufbar sein soll (z.B. mein-beitrag)'}
+      - { label: 'Permalink', name: 'slug', widget: 'string', i18n: true, hint: 'Link unter dem der Beitrag aufrufbar sein soll (z.B. mein-beitrag)', required: false}
       - {
           label: 'Beschreibung',
           name: 'excerpt',

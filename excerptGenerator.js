@@ -1,29 +1,37 @@
-const fs = require('fs')
-const path = require('path')
+const fs = require('fs');
+const path = require('path');
+const frontMatter = require('front-matter');
 
-const generateExcerpt = (language) => {
-  const blogPath = path.join(__dirname, `/content/blog/${language}`)
-  const files = fs.readdirSync(blogPath)
+const contentDir = path.join(__dirname, 'content', 'blog');
 
-  //read content of frontmatter and create excerpt that has max 100 characters and create a new frontmatter entry with the excerpt
-  files.forEach((file) => {
-    const filePath = path.join(blogPath, file)
-    const fileContent = fs.readFileSync(filePath, 'utf8')
-    const frontmatter = fileContent.split('---')[1]
-    const excerpt = fileContent.split('---')[2].slice(0, 100)
-    //check if excerpt is already in frontmatter and if not add it to the frontmatter if so replace content of excerpt
-    if (!frontmatter.includes('excerpt')) {
-      const newFrontmatter = `---${frontmatter}excerpt: ${excerpt}---\n`
-      fs.writeFileSync(filePath, newFrontmatter)
-    } else {
-      const newFrontmatter = `---${frontmatter.replace(
-        /excerpt: .*/,
-        `excerpt: ${excerpt}`
-      )}---\n`
-      fs.writeFileSync(filePath, newFrontmatter)
-    }
-  })
+function addMoreTagIfMissing(filePath) {
+  const content = fs.readFileSync(filePath, 'utf-8');
+  const { attributes, body } = frontMatter(content);
+  
+  if (!body.includes('<!--more-->')) {
+    const excerpt = body.split('\n').slice(0, 3).join('\n');
+    const updatedContent = `---\n${frontMatter.stringify(attributes)}\n---\n\n${excerpt}\n\n<!--more-->\n\n${body}`;
+    fs.writeFileSync(filePath, updatedContent, 'utf-8');
+    console.log(`Updated file: ${filePath}`);
+  }
 }
 
-generateExcerpt('en')
-generateExcerpt('de')
+function processFilesInLanguage(language) {
+  const languageDir = path.join(contentDir, language);
+  const files = fs.readdirSync(languageDir);
+  files.forEach((file) => {
+    if (file.endsWith('.md')) {
+      const filePath = path.join(languageDir, file);
+      addMoreTagIfMissing(filePath);
+    }
+  });
+}
+
+function processAllLanguages() {
+  const languages = ['de', 'en'];
+  languages.forEach((language) => {
+    processFilesInLanguage(language);
+  });
+}
+
+processAllLanguages();
