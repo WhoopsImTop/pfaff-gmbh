@@ -4,6 +4,7 @@ menuOrder: 1
 hideInMenu: false
 contentblock:
   - news: false
+slug: produktbeispiele
 components:
   - type: slider
     slide:

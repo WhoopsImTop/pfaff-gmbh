@@ -4,6 +4,7 @@ menuOrder: 6
 hideInMenu: false
 contentblock:
   - news: false
+slug: kontakt
 components:
   - type: row
     component:
@@ -78,4 +79,5 @@ components:
           D-79183 Waldkirch
       - type: contactForm
         embedForm: true
+id: 45547fa0-bb18-4943-8020-f276e955d5f9
 ---

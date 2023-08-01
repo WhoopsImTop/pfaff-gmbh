@@ -4,6 +4,7 @@ menuOrder: 4
 hideInMenu: false
 contentblock:
   - news: false
+slug: unternehmen
 components:
   - type: slider
     slide:
@@ -54,4 +55,5 @@ components:
         button:
           buttonLink: /news-medien/stellenausschreibungen
           buttonText: Stellenausschreibungen
+id: f768f98b-fcb5-4305-b731-838d75613174
 ---

@@ -4,6 +4,7 @@ menuOrder: 3
 hideInMenu: false
 contentblock:
   - news: false
+slug: qualitaet
 components:
   - type: slider
     slide:

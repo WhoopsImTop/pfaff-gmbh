@@ -17,7 +17,7 @@ export default {
 
   async asyncData({ $content, app, store: { dispatch } }) {
     const landing = await $content(
-      'seiten/' + app.i18n.locale + '/qualität'
+      'seiten/' + app.i18n.locale + '/qualitaet'
     ).fetch()
     await dispatch('nuxtServerInit')
     return { landing }

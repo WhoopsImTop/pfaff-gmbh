@@ -4,9 +4,9 @@
       "siteTitle": "Produktbeispiele",
       "siteLink": "produktbeispiele",
       "featuredProducts": [
-        "einführsystem-für-periphere-gefäßprothese",
-        "lichtleiter-automotive-1",
-        "navigationsring-„touch“-automotive"
+        "implantatschraube",
+        "massageball-für-bepanthen-narbengel",
+        "sippa-cup-antiverschluck-trinkbecher"
       ]
     },
     {
@@ -17,14 +17,6 @@
         "wo-andere-aufhören-fangen-wir-erst-an",
         "kleine-auflagen"
       ]
-    },
-    {
-      "siteTitle": "Qualität",
-      "siteLink": "qualität"
-    },
-    {
-      "siteTitle": "Unternehmen",
-      "siteLink": "unternehmen"
     },
     {
       "siteTitle": "News & Medien",
@@ -48,6 +40,14 @@
           }
         ]
       }
+    },
+    {
+      "siteTitle": "Qualitätsversprechen",
+      "siteLink": "qualität"
+    },
+    {
+      "siteTitle": "Unternehmen",
+      "siteLink": "unternehmen"
     },
     {
       "siteTitle": "Kontakt",

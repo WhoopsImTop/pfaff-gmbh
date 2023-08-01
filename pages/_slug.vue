@@ -1,7 +1,7 @@
 <template>
   <div class="content-margin">
     <component-renderer
-      v-for="(component, index) in landing.components"
+      v-for="(component, index) in landing[0].components"
       :key="index"
       :component="component"
     />
@@ -16,9 +16,12 @@ export default {
   layout: 'default',
 
   async asyncData({ $content, app, store: { dispatch }, params }) {
-    const landing = await $content(
-      'seiten/' + app.i18n.locale + '/' + params.slug
-    ).fetch()
+    console.log(params.slug)
+    const landing = await $content('seiten/' + app.i18n.locale)
+      .where({ slug: params.slug })
+      .fetch()
+
+    console.log(landing)
     await dispatch('nuxtServerInit')
     return { landing }
   },

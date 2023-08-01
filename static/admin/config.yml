@@ -1049,7 +1049,7 @@ collections:
             widget: 'relation'
             required: false
             collection: 'seiten'
-            value_field: '{{slug}}'
+            value_field: 'slug'
             search_fields: ['siteTitle']
             display_fields: ['siteTitle']
           - name: 'subLinks'
