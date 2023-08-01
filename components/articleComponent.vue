@@ -13,7 +13,7 @@
             translateStatus(card.category[0])
           }}</span>
           <h3 v-html="card.title"></h3>
-          <nuxt-content :document="card" />
+          <p>{{ card.body.children[0].children[0].value }}</p>
         </div>
       </nuxt-link>
     </div>
