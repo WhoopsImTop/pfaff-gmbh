@@ -6,7 +6,9 @@ category:
 image: /22159_ced1ee8d0525300.jpg
 ---
 **Wir machen mit!**\
-Zwei Mädchen bekommen beim GirlsDay am 27.04.2023 die Chance, bei uns in den Beruf der Verfahrensmechanikerin einzutauchen. Wir zeigen Euch, warum es in diesem Job Überschneidungen zu den Aufgaben einer Köchin gibt. Außerdem erfahrt Ihr, wie Ihr die Stoffe der Zukunft mischt, um Menschen in Europa regional mit lebenswichtigen Produkten zu versorgen.\
+Zwei Mädchen bekommen beim GirlsDay am 27.04.2023 die Chance, bei uns in den Beruf der Verfahrensmechanikerin einzutauchen. 
+<!--more-->
+Wir zeigen Euch, warum es in diesem Job Überschneidungen zu den Aufgaben einer Köchin gibt. Außerdem erfahrt Ihr, wie Ihr die Stoffe der Zukunft mischt, um Menschen in Europa regional mit lebenswichtigen Produkten zu versorgen.\
 \
 Interessiert? \
 Dann meldet Euch gleich hier an:\

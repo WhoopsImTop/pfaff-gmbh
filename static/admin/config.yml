@@ -47,6 +47,7 @@ collections:
           widget: 'string',
           i18n: true,
         }
+      - { label: 'Permalink', name: 'slug', widget: 'string', i18n: true, hint: 'Link unter dem der Beitrag aufrufbar sein soll (z.B. mein-beitrag)'}
       - {
           label: 'Menüreihenfolge',
           name: 'menuOrder',
@@ -612,6 +613,7 @@ collections:
           i18n: true,
           hint: 'Bspw: Spritzguss, Insertteile ...',
         }
+      - { label: 'Permalink', name: 'slug', widget: 'string', i18n: true, hint: 'Link unter dem der Beitrag aufrufbar sein soll (z.B. mein-beitrag)'}
       - {
           label: 'Kompezenzposition',
           name: 'competencePosition',
@@ -773,6 +775,7 @@ collections:
           widget: 'string',
           i18n: true,
         }
+      - { label: 'Permalink', name: 'slug', widget: 'string', i18n: true, hint: 'Link unter dem der Beitrag aufrufbar sein soll (z.B. mein-beitrag)'}
       - label: 'Inhalt'
         name: 'content'
         widget: 'list'
@@ -827,6 +830,7 @@ collections:
           widget: 'string',
           i18n: true,
         }
+      - { label: 'Permalink', name: 'slug', widget: 'string', i18n: true, hint: 'Link unter dem der Beitrag aufrufbar sein soll (z.B. mein-beitrag)'}
       - {
           label: 'Produktbeschreibung',
           name: 'productDescription',
@@ -942,6 +946,7 @@ collections:
       preview: false
     fields:
       - { label: 'Titel', name: 'title', widget: 'string', i18n: true }
+      - { label: 'Permalink', name: 'slug', widget: 'string', i18n: true, hint: 'Link unter dem der Beitrag aufrufbar sein soll (z.B. mein-beitrag)'}
       - {
           label: 'Beschreibung',
           name: 'excerpt',
