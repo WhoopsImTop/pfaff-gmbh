@@ -10,4 +10,4 @@ category:
 
 Mit selbstlimitierenden Rosenbohrern und anderen kundenspezifischen Bauteilen in PEEK sind wir Profis.
 
-[D﻿en gesamten Artikel lesen](peek_2017.pdf)
+[D﻿en gesamten Artikel lesen](/peek_2017.pdf)
