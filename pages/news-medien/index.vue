@@ -25,8 +25,8 @@
               >{{ article.category[0] }}</span
             >
           </div>
-          <p>{{ article }}</p>
-          <p v-if="article.excerpt">
+          <p v-if="article.shortText">{{ article.shortText }}</p>
+          <p v-else>
             <nuxt-content :document="{ body: article.excerpt }" />
           </p>
         </div>
