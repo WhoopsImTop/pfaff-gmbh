@@ -986,7 +986,7 @@ collections:
         search_fields: ['categoryTitle']
         display_fields: ['categoryTitle']
         i18n: true
-        required: false
+        required: true
 
   - name: 'blogkategorien'
     label: 'Blogkategorien'

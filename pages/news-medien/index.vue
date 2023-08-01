@@ -17,7 +17,7 @@
       <div class="article-content">
         <h4 v-html="article.title"></h4>
         <div class="article-informations">
-          <span class="article-information">{{ article.category[0] }}</span>
+          <span class="article-information" v-if="article.category.length > 0">{{ article.category[0] }}</span>
         </div>
         <p v-if="article.content">{{ article.content.length <= 200 ? article.content : article.content.slice(0, 200) + '...' }}</p>
       </div>

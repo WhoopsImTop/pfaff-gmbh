@@ -13,7 +13,7 @@
             translateStatus(card.category[0])
           }}</span>
           <h3 v-html="card.title"></h3>
-          <p v-html="card.content.slice(0, 100) + '...'"></p>
+          <nuxt-content :document="card" />
         </div>
       </nuxt-link>
     </div>
