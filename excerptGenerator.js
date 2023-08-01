@@ -7,10 +7,14 @@ const contentDir = path.join(__dirname, 'content', 'blog');
 function addMoreTagIfMissing(filePath) {
   const content = fs.readFileSync(filePath, 'utf-8');
   const { attributes, body } = frontMatter(content);
+  //convert attributes to frontmatter
+  const frontmatterAttributes = Object.keys(attributes).map((key) => `${key}: ${attributes[key]}`).join('\n');
   
   if (!body.includes('<!--more-->')) {
-    const excerpt = body.split('\n').slice(0, 3).join('\n');
-    const updatedContent = `---\n${frontMatter.stringify(attributes)}\n---\n\n${excerpt}\n\n<!--more-->\n\n${body}`;
+    const blockContent = body;
+    const excerpt = blockContent.slice(0, 100);
+    const updatedBlockContent = excerpt + '\n\n<!--more-->\n\n' + blockContent.slice(excerpt.length);
+    const updatedContent = `---\n${frontmatterAttributes}\n---\n\n${updatedBlockContent}`;
     fs.writeFileSync(filePath, updatedContent, 'utf-8');
     console.log(`Updated file: ${filePath}`);
   }

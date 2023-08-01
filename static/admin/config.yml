@@ -36,7 +36,6 @@ collections:
     folder: 'content/seiten'
     create: true
     sortable_fields: ['title']
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     i18n: true
     editor:
       preview: false
@@ -47,7 +46,7 @@ collections:
           widget: 'string',
           i18n: true,
         }
-      - { label: 'Permalink', name: 'slug', widget: 'string', i18n: true, hint: 'Link unter dem der Beitrag aufrufbar sein soll (z.B. mein-beitrag)'}
+      - { label: 'Permalink', name: 'slug', widget: 'string', i18n: true, hint: 'Link unter dem der Beitrag aufrufbar sein soll (z.B. mein-beitrag)', required: false}
       - {
           label: 'Menüreihenfolge',
           name: 'menuOrder',
@@ -613,7 +612,7 @@ collections:
           i18n: true,
           hint: 'Bspw: Spritzguss, Insertteile ...',
         }
-      - { label: 'Permalink', name: 'slug', widget: 'string', i18n: true, hint: 'Link unter dem der Beitrag aufrufbar sein soll (z.B. mein-beitrag)'}
+      - { label: 'Permalink', name: 'slug', widget: 'string', i18n: true, hint: 'Link unter dem der Beitrag aufrufbar sein soll (z.B. mein-beitrag)', required: false}
       - {
           label: 'Kompezenzposition',
           name: 'competencePosition',
@@ -775,7 +774,7 @@ collections:
           widget: 'string',
           i18n: true,
         }
-      - { label: 'Permalink', name: 'slug', widget: 'string', i18n: true, hint: 'Link unter dem der Beitrag aufrufbar sein soll (z.B. mein-beitrag)'}
+      - { label: 'Permalink', name: 'slug', widget: 'string', i18n: true, hint: 'Link unter dem der Beitrag aufrufbar sein soll (z.B. mein-beitrag)', required: false}
       - label: 'Inhalt'
         name: 'content'
         widget: 'list'
@@ -830,7 +829,7 @@ collections:
           widget: 'string',
           i18n: true,
         }
-      - { label: 'Permalink', name: 'slug', widget: 'string', i18n: true, hint: 'Link unter dem der Beitrag aufrufbar sein soll (z.B. mein-beitrag)'}
+      - { label: 'Permalink', name: 'slug', widget: 'string', i18n: true, hint: 'Link unter dem der Beitrag aufrufbar sein soll (z.B. mein-beitrag)', required: false}
       - {
           label: 'Produktbeschreibung',
           name: 'productDescription',
@@ -940,7 +939,8 @@ collections:
         field: date
         # groups items based on the value matched by the pattern
         pattern: \d{4}
-
+    #make sortable by date field
+    sortable_fields: ['date']
     i18n: true
     editor:
       preview: false
