@@ -16,4 +16,4 @@ Zwei Mädchen bekommen beim #GirlsDay am 27.04.2023 die Chance, bei uns in den B
 \
 Interessiert? \
 Dann meldet Euch gleich hier an:\
-https://www.girls-day.de/.oO/Show/pfaff-gmbh/ein-tag-als-verfahrensmechanikerin
+<https://www.girls-day.de/.oO/Show/pfaff-gmbh/ein-tag-als-verfahrensmechanikerin>
