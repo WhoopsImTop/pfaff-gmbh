@@ -11,17 +11,9 @@ content: Wir machen mit! Zwei Mädchen bekommen beim#GirlsDayam 27.04.2023 die
   Interessiert?    Dann meldet Euch gleich hier an:http://bitly.ws/Bxey
 image: /22159_ced1ee8d0525300.jpg
 ---
-
-<p>Wir machen mit! Zwei Mädchen bekommen beim&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=girlsday&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7040967640995012608">#GirlsDay</a>&nbsp;am 27.04.2023 die Chance, bei uns in den&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=beruf&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7040967640995012608">#Beruf</a>&nbsp;der&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=verfahrensmechanikerin&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7040967640995012608">#Verfahrensmechanikerin</a>&nbsp;einzutauchen. Wir zeigen Euch, warum es in diesem&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=job&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7040967640995012608">#Job</a>&nbsp;Überschneidungen zu den Aufgaben einer&nbsp;<a href="https://www.linkedin.com/feed/hashtag/?keywords=k%C3%B6chin&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7040967640995012608">#Köchin</a>&nbsp;gibt. Außerdem erfahrt Ihr, wie Ihr die Stoffe der Zukunft mischt, um Menschen in Europa regional mit lebenswichtigen Produkten zu versorgen. Interessiert?</p>
-
-
-
-Dann meldet Euch gleich hier an:&nbsp;<a href="http://bitly.ws/Bxey">http://bitly.ws/Bxey</a></p>
-
-
-
-<figure class="wp-block-image size-full"><img loading="lazy"   src="/22159_ced1ee8d0525300.jpg" alt="" class="wp-image-1150"   /></figure>
-
-
-
-<a href="https://www.linkedin.com/feed/hashtag/?keywords=medizintechnik&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7040967640995012608">#Medizintechnik</a><a href="https://www.linkedin.com/feed/hashtag/?keywords=kunststoffspritzguss&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7040967640995012608">#Kunststoffspritzguss</a><a href="https://www.linkedin.com/feed/hashtag/?keywords=spritzgiesstechnik&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7040967640995012608">#Spritzgießtechnik</a><a href="https://www.linkedin.com/feed/hashtag/?keywords=mechanik&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7040967640995012608">#Mechanik</a><a href="https://www.linkedin.com/feed/hashtag/?keywords=elektronik&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7040967640995012608">#Elektronik</a><a href="https://www.linkedin.com/feed/hashtag/?keywords=kunststoff&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7040967640995012608">#Kunststoff</a><a href="https://www.linkedin.com/feed/hashtag/?keywords=zukunft&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7040967640995012608">#Zukunft</a><a href="https://www.linkedin.com/feed/hashtag/?keywords=m%C3%A4dchentag&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7040967640995012608">#Mädchentag</a><a href="https://www.linkedin.com/feed/hashtag/?keywords=ladiesfirst&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7040967640995012608">#Ladiesfirst</a><a href="https://www.linkedin.com/feed/hashtag/?keywords=kunststoffkarriere&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7040967640995012608">#Kunststoffkarriere</a><a href="https://www.linkedin.com/feed/hashtag/?keywords=innovation&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7040967640995012608">#Innovation</a></p>
+**Wir machen mit!**\
+Zwei Mädchen bekommen beim #GirlsDay am 27.04.2023 die Chance, bei uns in den Beruf der #Verfahrensmechanikerin einzutauchen. Wir zeigen Euch, warum es in diesem #Job Überschneidungen zu den Aufgaben einer #Köchin gibt. Außerdem erfahrt Ihr, wie Ihr die Stoffe der Zukunft mischt, um Menschen in Europa regional mit lebenswichtigen Produkten zu versorgen.\
+\
+Interessiert? \
+Dann meldet Euch gleich hier an:\
+https://www.girls-day.de/.oO/Show/pfaff-gmbh/ein-tag-als-verfahrensmechanikerin
