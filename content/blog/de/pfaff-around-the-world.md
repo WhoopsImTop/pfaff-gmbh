@@ -2,7 +2,6 @@
 title: Pfaff around the world
 date: 2021-03-11T12:12:58
 category:
-  - fachbeitraege
   - pressemitteilungen
 content: Erfahren Sie in diesem WVIB-Beitrag, wie Pfaff als lokales
   Schwarzwälder Unternehmen rund um den Globus aktiv ist. Das Know-how in der
