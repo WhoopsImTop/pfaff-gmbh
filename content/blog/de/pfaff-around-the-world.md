@@ -9,6 +9,7 @@ content: Erfahren Sie in diesem WVIB-Beitrag, wie Pfaff als lokales
   Prinzip &#8222;Glokalisierung&#8220; zu setzen.        WVIB Beitrag
   2021Herunterladen
 excerpt: ""
+image: /pfaff_komplettloesung_teaser.jpeg
 ---
 Erfahren Sie in diesem WVIB-Beitrag, wie Pfaff als lokales Schwarzwälder Unternehmen rund um den Globus aktiv ist. Das Know-how in der Region ist für Pfaff in Waldkirch-Kollnau ein wesentlicher Grund dafür, aufs Prinzip "Glokalisierung" zu setzen.
 
