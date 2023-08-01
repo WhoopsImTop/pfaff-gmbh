@@ -1,22 +1,20 @@
 ---
-title: "MEDengineering: Medizintechnik aus den Fokusregionen Deutschland"
-date: 2016-04-15T14:31:00
-category:
-  - fachbeitraege
-content: Ein Firmenportrait.    Die Pfaff GmbH produziert für Auftraggeber aus
-  der Medizin- und Dentaltechnik, aber es entstehen auch Teile für die
-  Opto-Elektronik und Sensorik.    Der gesamte Artikel aus der MEDengineering
-  als PDF
-excerpt: Ein Firmenportrait. Die Pfaff GmbH produziert für Auftraggeber aus der
-  Medizin- und Dentaltechnik, aber es entstehen auch Teile für die
-  Opto-Elektronik und Sensorik. Der gesamte …
+title: MEDengineering: Medizintechnik aus den Fokusregionen Deutschland
+date: Fri Apr 15 2016 16:31:00 GMT+0200 (Mitteleuropäische Sommerzeit)
+category: fachbeitraege
+content: Ein Firmenportrait.    Die Pfaff GmbH produziert für Auftraggeber aus der Medizin- und Dentaltechnik, aber es entstehen auch Teile für die Opto-Elektronik und Sensorik.    Der gesamte Artikel aus der MEDengineering als PDF
+excerpt: Ein Firmenportrait. Die Pfaff GmbH produziert für Auftraggeber aus der Medizin- und Dentaltechnik, aber es entstehen auch Teile für die Opto-Elektronik und Sensorik. Der gesamte …
 ---
 
 <p><strong>Ein Firmenportrait.</strong></p>
 
 
 
-Die Pfaff GmbH produziert für Auftraggeber aus der Medizin- und Dentaltechnik, aber es entstehen auch Teile für die Opto-Elektronik und Sensorik.</p>
+Die Pfaff GmbH produziert für Auftraggeber aus de
+
+<!--more-->
+
+r Medizin- und Dentaltechnik, aber es entstehen auch Teile für die Opto-Elektronik und Sensorik.</p>
 
 
 

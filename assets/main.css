@@ -484,7 +484,6 @@
   box-shadow: var(--box-shadow);
   margin-bottom: 16px;
   display: flex;
-  align-items: center;
   overflow: hidden;
   position: relative;
   transition: 0.3s ease-in-out;

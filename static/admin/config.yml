@@ -939,6 +939,10 @@ collections:
         field: date
         # groups items based on the value matched by the pattern
         pattern: \d{4}
+      - label: Kategorie
+        field: category
+        # groups items based on the value matched by the pattern
+        pattern: \w+
     #make sortable by date field
     sortable_fields: ['date']
     i18n: true
@@ -986,7 +990,6 @@ collections:
         name: 'category'
         widget: 'relation'
         collection: 'blogkategorien'
-        multiple: true
         value_field: '{{slug}}'
         search_fields: ['categoryTitle']
         display_fields: ['categoryTitle']

@@ -7,7 +7,7 @@
         :key="index"
         :to="
           '/news-medien/' +
-          article.category[0].replace(/ /g, '-').toLowerCase() +
+          article.category +
           '/' +
           article.slug
         "
@@ -21,8 +21,8 @@
           <div class="article-informations">
             <span
               class="article-information"
-              v-if="article.category.length > 0"
-              >{{ article.category[0] }}</span
+              v-if="article.category"
+              >{{ article.category }}</span
             >
           </div>
           <p v-if="article.shortText">{{ article.shortText }}</p>

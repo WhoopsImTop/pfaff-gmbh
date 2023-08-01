@@ -2,8 +2,8 @@
   <div class="article-column article-background">
     <h1 style="margin-bottom: 10px">{{ news[0].title }}</h1>
     <div class="article-informations">
-      <span class="article-information" v-if="kategorie[0]">{{
-        kategorie[0] ? kategorie[0].categoryTitle : ''
+      <span class="article-information" v-if="kategorie">{{
+        kategorie ? kategorie[0].categoryTitle : ''
       }}</span>
     </div>
     <img v-if="news[0].image" :src="news[0].image" style="width: 100%; margin-bottom: 20px" />
@@ -20,7 +20,7 @@ export default {
       .where({ slug: params.slug })
       .fetch()
     const kategorie = await $content('blogkategorien/' + app.i18n.locale)
-      .where({ slug: news[0].category[0] })
+      .where({ slug: news[0].category })
       .fetch()
     return { news, kategorie }
   },

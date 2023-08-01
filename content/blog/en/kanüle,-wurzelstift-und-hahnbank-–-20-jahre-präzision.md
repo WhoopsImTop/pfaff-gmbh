@@ -1,8 +1,7 @@
 ---
 title: Kanüle, Wurzelstift und Hahnbank – 20 Jahre Präzision
-date: 2012-10-09T14:41:00
-category:
-  - pressemitteilungen
+date: Tue Oct 09 2012 16:41:00 GMT+0200 (Mitteleuropäische Sommerzeit)
+category: pressemitteilungen
 content: Badische Zeitung.    Zum 20jährigen Jubiläum der Pfaff GmbH im
   September 2012 gibts einen Artikel in der Badischen Zeitung. Ein Bericht über
   Präzision, Medizin und die Kunststoffkarriere der Pfaff
@@ -13,7 +12,11 @@ excerpt: Badische Zeitung. Zum 20jährigen Jubiläum der Pfaff GmbH im September
 image: /pfaff-gmbh-fertigung-1024x683.jpg
 ---
 
-<figure class="wp-block-image size-large"><img loading="lazy"   src="/pfaff-gmbh-fertigung-1024x683.jpg" alt="" class="wp-image-728"   /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy"   src="/pfaff-gmbh-fertigung-1024x683.
+
+<!--more-->
+
+jpg" alt="" class="wp-image-728"   /></figure>
 
 
 

@@ -10,7 +10,7 @@
       >
         <div class="card-content">
           <span class="article-date">{{
-            translateStatus(card.category[0])
+            translateStatus(card.category)
           }}</span>
           <h3 v-html="card.title"></h3>
           <p>{{ getHTML(card.path) }}</p>
