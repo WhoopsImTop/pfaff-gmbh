@@ -373,9 +373,9 @@ collections:
             summary: '{{fields.news}}'
             i18n: true
             fields:
-              - label: "Titel"
-                name: "title"
-                widget: "string"
+              - label: 'Titel'
+                name: 'title'
+                widget: 'string'
                 required: false
                 i18n: true
               - label: 'Aktuelle News einbinden'
@@ -514,9 +514,9 @@ collections:
                         value_field: '{{slug}}'
                         search_fields: ['competenceName']
                         display_fields: ['competenceName']
-                      - label: "Anzeigetext"
-                        name: "showText"
-                        widget: "boolean"
+                      - label: 'Anzeigetext'
+                        name: 'showText'
+                        widget: 'boolean'
                         default: false
                         required: false
                   - label: 'Text'
@@ -631,9 +631,9 @@ collections:
           i18n: true,
         }
       - {
-          label: "Kompezenzen Anzeigetext",
-          name: "shortText",
-          widget: "markdown",
+          label: 'Kompezenzen Anzeigetext',
+          name: 'shortText',
+          widget: 'markdown',
           default: false,
         }
       - {
@@ -931,7 +931,12 @@ collections:
     folder: 'content/blog'
     slug: '{{fields.title}}'
     create: true
-    sortable_fields: ['title']
+    view_groups:
+      - label: Jahren
+        field: date
+        # groups items based on the value matched by the pattern
+        pattern: \d{4}
+
     i18n: true
     editor:
       preview: false
