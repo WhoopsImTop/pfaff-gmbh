@@ -6,6 +6,7 @@
         kategorie[0] ? kategorie[0].categoryTitle : ''
       }}</span>
     </div>
+    <img v-if="news[0].image" :src="news[0].image" style="width: 100%; margin-bottom: 20px" />
     <nuxt-content class="blog-content" :document="news[0]" />
   </div>
 </template>

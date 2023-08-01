@@ -1,9 +1,9 @@
 ---
 title: 20 Jahre Helga Schneider!
 date: 2015-09-15T14:35:00
+image: /helga-schneider-20-jahre.jpg
 category:
   - allgemeine-news
-image: /helga-schneider-20-jahre.jpg
 ---
 
 <figure class="wp-block-image size-large"><img loading="lazy"   src="/helga-schneider-20-jahre.jpg" alt="" class="wp-image-716"   /></figure>

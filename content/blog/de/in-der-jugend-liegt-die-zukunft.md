@@ -1,6 +1,7 @@
 ---
 title: In der Jugend liegt die Zukunft
-excerpt: ""
+slug: in-der-jugend-liegt-die-zukunft
+shortText: "Am 16. Juni 2023 besuchte uns die Technikklasse 7b der Realschule Kollnau."
 date: 2023-07-16T08:53:39.699Z
 image: /230706_realschule_7b.jpg
 category:

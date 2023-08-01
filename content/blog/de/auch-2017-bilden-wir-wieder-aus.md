@@ -5,6 +5,7 @@ date: 2017-11-09T12:57:55.000Z
 image: /ausbildung-pfaff-gmbh-waldkirch.jpg
 category:
   - allgemeine-news
+shortText: Herzlich Willkommen!
 ---
 <strong>Herzlich Willkommen!</strong></p>
 

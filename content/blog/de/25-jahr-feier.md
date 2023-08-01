@@ -10,7 +10,7 @@ content: 25. Firmenjubiläum.    Am 01.12.2017 feierten wir unser 25-jähriges
   reichlichen und großartigen Buffet. Viele wunderbare Gäste rundeten den Abend
   ab.
 slug: 25-jahr-feier
-excerpt: ""
+shortText: ""
 image: /khri8-pfaff-gmbh-waldkirch.jpg
 ---
 <strong>25. Firmenjubiläum.</strong></p>

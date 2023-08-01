@@ -1,6 +1,7 @@
 ---
 title: Pfaff erschließt sich neue Märkte in der Medizintechnik | 2005
-excerpt: "Auf Expansionskurs: Pfaff erschließt sich neue Märkte in der
+slug: meilensteine-2006
+shortText: "Auf Expansionskurs: Pfaff erschließt sich neue Märkte in der
   Medizintechnik. Es werden Stimulationssonden und Nadel-Griffstücke umspritzt
   sowie Spenderräder für Hörgerätefilter gefertigt. Für den neuen Absatzmarkt in
   der Automobilindustrie werden 2K-Teile wie Lichtsteine und Wippschalter sowie
@@ -8,7 +9,7 @@ excerpt: "Auf Expansionskurs: Pfaff erschließt sich neue Märkte in der
   Komponenten für Klimaanlagen wie Drehringe, Beleuchtungs-elemente und
   Dämpfer."
 date: 2005-03-01T13:25:51.751Z
-category: 
+category:
   - meilensteine
 ---
 Auf Expansionskurs: Pfaff erschließt sich neue Märkte in der Medizintechnik. Es werden Stimulationssonden und Nadel-Griffstücke umspritzt sowie Spenderräder für Hörgerätefilter gefertigt. Für den neuen Absatzmarkt in der Automobilindustrie werden 2K-Teile wie Lichtsteine und Wippschalter sowie Becher-halter produziert. Später folgen ­weitere Bedienelemente und Komponenten für Klimaanlagen wie Drehringe, Beleuchtungs-elemente und Dämpfer.
