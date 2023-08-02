@@ -13,14 +13,17 @@ components:
         landingImage: /pfaff-miniatur-bruecke.png
         landingProducts:
           - umspritzte-stimulationssonden-und-nadelelektroden-für-die-neurochirurgie
+        landingProductMarkerPosition:
+          - bottom: 100
+            left: 100
   - type: contentblock
     contentText: >-
       Willkommen bei der Pfaff GmbH – Ihrem traditionsreichen Familienbetrieb
       mit Sitz in Waldkirch bei Freiburg. Seit unserer Gründung im Jahr 1991
-      durch Herrn Adolf Pfaff sind wir stolz darauf, ein inhabergeführtes
-      Unternehmen zu sein. 2018 wurde die Geschäftsführung von seiner Tochter
-      Corinna Pfaff übernommen, während ihr Ehemann Andreas Buff als technischer
-      Leiter und Prokurist das Unternehmen mit kreativen Impulsen bereichert.
+      durch Adolf Pfaff sind wir stolz darauf, ein inhabergeführtes Unternehmen
+      zu sein. 2018 wurde die Geschäftsführung von seiner Tochter Corinna Pfaff
+      übernommen, während ihr Ehemann Andreas Buff als technischer Leiter und
+      Prokurist das Unternehmen mit kreativen Impulsen bereichert.
 
 
       Unser Team von Fachleuten und eine übersichtliche Betriebsgröße ermöglichen uns schnelle und direkte Kommunikationswege sowie hohe Flexibilität. Dank modernster Konstruktions- und Herstellungstechnik erfüllen wir besonders hohe Ansprüche an Material, Werkzeuge und Maschinen. Unsere moderne Fertigung, qualifiziertes Personal und ein nach ISO 9001 und ISO 13485 zertifiziertes Qualitätsmanagement gewährleisten eine hervorragende Produktqualität bei wirtschaftlicher Herstellung.
