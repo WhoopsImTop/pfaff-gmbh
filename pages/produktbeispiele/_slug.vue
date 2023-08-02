@@ -60,7 +60,7 @@
             >
           </div>
           <div class="portfolio-title">
-            <h4>{{ produkt.productTitle }}</h4>
+            <h4 v-html="produkt.productTitle"></h4>
           </div>
         </div>
       </nuxt-link>
