@@ -15,7 +15,7 @@ components:
             left: 24
         landingImageMobile: /pfaff-miniatur-guckloch-1-mobile.jpg
       - landingTitle: Wir bringen Sie vertrauensvoll <br> zu Ihrem Kunststoffgipfel.
-        landingTitlePosition: bottom-left
+        landingTitlePosition: top-right
         landingImage: /pfaff-gmbh-kunststoff-schwarzwald.jpg
         landingProducts:
           - massageball-für-bepanthen-narbengel
