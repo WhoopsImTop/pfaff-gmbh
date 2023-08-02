@@ -14,8 +14,8 @@ components:
         landingProducts:
           - umspritzte-stimulationssonden-und-nadelelektroden-für-die-neurochirurgie
         landingProductMarkerPosition:
-          - bottom: 100
-            left: 100
+          - bottom: 26
+            left: 37
   - type: contentblock
     contentText: >-
       Willkommen bei der Pfaff GmbH – Ihrem traditionsreichen Familienbetrieb
