@@ -15,7 +15,7 @@ components:
           - umspritzte-stimulationssonden-und-nadelelektroden-für-die-neurochirurgie
   - type: contentblock
     contentText: >-
-      Die Pfaff GmbH – einem inhabergeführten Unternehmen mit Sitz in Waldkirch,
+      Die Pfaff GmbH – ein inhabergeführtes Unternehmen mit Sitz in Waldkirch,
       nahe Freiburg. Unsere Geschichte begann im Jahr 1991, als Herr Adolf Pfaff
       das Unternehmen gründete und es mit seiner Leidenschaft für Qualität und
       Innovation aufbaute. 2018 wurde die Geschäftsführung von Tochter Corinna
