@@ -11,7 +11,7 @@ components:
     slide:
       - landingTitle: Ihre Kunststoff&shy;produkte. <br> Präzise und sofort einsatzbereit.
         landingTitlePosition: top-left
-        landingImage: /preview-pfaff-miniatur-laster.png
+        landingImage: /pfaff-gmbh-kunststoff-medizin-dental.jpg
         landingProducts:
           - implantatschraube
         landingProductMarkerPosition: []
