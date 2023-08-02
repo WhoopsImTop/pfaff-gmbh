@@ -31,6 +31,8 @@ components:
       beschäftigen heute 17 Mitarbeiter und produzieren im
       Eineinhalb-Schicht-Betrieb auf einer Fläche von 700 Quadratmetern.
     contentImage: /ab-cp-1.jpg
+    smallHeadline: Kurzporträt
+    contentTitle: Das Unternehmen
   - type: row
     component:
       - type: text
