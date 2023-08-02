@@ -13,7 +13,10 @@
             translateStatus(card.category)
           }}</span>
           <h3 v-html="card.title"></h3>
-          <p>{{ getHTML(card.path) }}</p>
+          <p v-if="card.shortText">{{ card.shortText }}</p>
+          <p v-else>
+            <nuxt-content :document="{ body: card.excerpt }" />
+          </p>
         </div>
       </nuxt-link>
     </div>
@@ -29,9 +32,6 @@ export default {
     }
   },
   methods: {
-    getHTML(html) {
-      console.log(this.$nuxt.$options.$content(html).fetch())
-    },
     translateStatus(status) {
       return status
         .replace(/-/g, ' ')
