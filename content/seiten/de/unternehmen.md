@@ -33,6 +33,7 @@ components:
     contentImage: /ab-cp-1.jpg
     smallHeadline: Kurzporträt
     contentTitle: Das Unternehmen
+    contentTextUnderImage: C﻿orinna Pfaff (CEO), Andreas Buff (Technische Leitung)
   - type: row
     component:
       - type: text
@@ -57,6 +58,7 @@ components:
           Eineinhalb-Schicht-Betrieb auf einer Fläche von 700 Quadratmetern.
       - type: image
         image: /ab-cp-4.jpg
+        imageAltText: ""
   - type: row
     component:
       - type: image
