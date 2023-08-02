@@ -14,6 +14,7 @@ components:
         landingImage: /pfaff-gmbh-kunststoff-medizin-dental.jpg
         landingProducts:
           - implantatschraube
+          - kunststoffbohrer-aus-peek
         landingProductMarkerPosition: []
   - type: contentblock
     smallHeadline: Kompetenzen
