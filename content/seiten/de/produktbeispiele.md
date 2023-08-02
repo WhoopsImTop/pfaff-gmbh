@@ -10,7 +10,7 @@ components:
     slide:
       - landingTitle: Filigrane High-Tech-Kunststoffteile <br> aus dem Schwarzwald.
         landingTitlePosition: top-left
-        landingImage: /preview-pfaff-miniatur-bollenhutmaidli-bub-sammlung.jpg
+        landingImage: /pfaff-gmbh-kunststoff-spritzguss-iso-zertifizierung.jpg
   - type: contentblock
     contentText: >-
       Tauchen Sie ein in eine Welt voller Kunststoffinnovationen und entdecken
