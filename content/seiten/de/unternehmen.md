@@ -58,7 +58,7 @@ components:
   - type: row
     component:
       - type: image
-        image: /pfaff_gmbh-karriere-job-bewerbung-683x1024.jpg
+        image: /pfaff-gmbh-karriere-schwarzwald.jpg
       - type: text
         smallHeadline: Karriere
         headline: Azubi oder Mitarbeiter werden
