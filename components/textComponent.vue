@@ -18,7 +18,7 @@
           style="margin-bottom: 20px"
           alt="content image"
         />
-        <p v-html="textRenderer(component.contentTextUnderImage)"></p>
+        <p v-if="component.contentTextUnderImage" v-html="textRenderer(component.contentTextUnderImage)"></p>
       </div>
     </div>
     <div v-else>
