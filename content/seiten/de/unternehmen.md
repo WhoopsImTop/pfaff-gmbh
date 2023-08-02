@@ -15,26 +15,21 @@ components:
           - umspritzte-stimulationssonden-und-nadelelektroden-für-die-neurochirurgie
   - type: contentblock
     contentText: >-
-      Die Pfaff GmbH – ein inhabergeführtes Unternehmen mit Sitz in Waldkirch,
-      nahe Freiburg. Unsere Geschichte begann im Jahr 1991, als Herr Adolf Pfaff
-      das Unternehmen gründete und es mit seiner Leidenschaft für Qualität und
-      Innovation aufbaute. 2018 wurde die Geschäftsführung von Tochter Corinna
-      Pfaff übernommen, die seitdem die erfolgreichen Traditionen weiterführt
-      und neue Impulse setzt. Gemeinsam mit ihrem Ehemann Andreas Buff, der als
-      technischer Leiter und Prokurist agiert, bilden sie ein dynamisches Team,
-      das für Kreativität und technisches Know-how steht.
+      Willkommen bei der Pfaff GmbH – Ihrem traditionsreichen Familienbetrieb
+      mit Sitz in Waldkirch bei Freiburg. Seit unserer Gründung im Jahr 1991
+      durch Herrn Adolf Pfaff sind wir stolz darauf, ein inhabergeführtes
+      Unternehmen zu sein. 2018 wurde die Geschäftsführung von seiner Tochter
+      Corinna Pfaff übernommen, während ihr Ehemann Andreas Buff als technischer
+      Leiter und Prokurist das Unternehmen mit kreativen Impulsen bereichert.
 
 
-      Unsere übersichtliche Betriebsgröße und das kompetente Team von Fachleuten ermöglichen uns kurze und direkte Kommunikationswege, die es uns leicht machen, flexibel auf Kundenwünsche einzugehen. Mit modernster Konstruktions- und Herstellungstechnik sind wir in der Lage, höchsten Ansprüchen an Material, Werkzeuge und Maschinen gerecht zu werden. Durch eine moderne Fertigung und ein qualifiziertes Team, das nach ISO 9001 und ISO 13485 zertifiziert ist, stellen wir eine herausragende Qualität bei wirtschaftlicher Herstellung sicher.
+      Unser Team von Fachleuten und eine übersichtliche Betriebsgröße ermöglichen uns schnelle und direkte Kommunikationswege sowie hohe Flexibilität. Dank modernster Konstruktions- und Herstellungstechnik erfüllen wir besonders hohe Ansprüche an Material, Werkzeuge und Maschinen. Unsere moderne Fertigung, qualifiziertes Personal und ein nach ISO 9001 und ISO 13485 zertifiziertes Qualitätsmanagement gewährleisten eine hervorragende Produktqualität bei wirtschaftlicher Herstellung.
 
 
-      Unser kontinuierliches Wachstum hat es uns ermöglicht, in den vergangenen Jahren in unseren Maschinenpark zu investieren und unser Team aus hochqualifizierten Mitarbeitern zu erweitern. Aktuell beschäftigen wir stolz 17 Mitarbeiter, die in einer Ein-und-einhalb-Schicht arbeiten, um auf einer Fläche von 700 Quadratmetern unsere Produktion voranzutreiben.
+      Um den steigenden Anforderungen gerecht zu werden, haben wir in den vergangenen Jahren kontinuierlich in unseren modernen Maschinenpark und in qualifizierte Mitarbeiter investiert. Heute sind wir stolz darauf, ein Team von über 17 Mitarbeitern zu beschäftigen, das im Eineinhalb-Schicht-Betrieb auf einer Fläche von 700 Quadratmetern unsere Produktion vorantreibt.
 
 
-      Bei der Pfaff GmbH vereinen wir Tradition und Innovation im Herzen des Schwarzwaldes. Unsere Erfolgsgeschichte wäre ohne unsere engagierte Belegschaft und unsere treuen Kunden nicht möglich. Entdecken Sie unsere vielseitigen Lösungen und lassen Sie uns gemeinsam Ihre Ideen in die Realität umsetzen. Wir freuen uns darauf, Sie in unserem Unternehmen willkommen zu heißen.
-
-
-      Erleben Sie das Know-how und die Qualität, die uns auszeichnen. Nehmen Sie Kontakt mit uns auf, um mehr über unsere Dienstleistungen und Produkte zu erfahren.
+      Als traditionsbewusstes Unternehmen sind wir stets darauf bedacht, unsere Erfolgsgeschichte weiterzuführen und uns gleichzeitig neuen Herausforderungen zu stellen. Entdecken Sie unsere hochwertigen Produkte und erfahren Sie mehr über unsere Leidenschaft für Qualität und Innovation. Wir laden Sie herzlich ein, uns näher kennenzulernen und Teil unserer Erfolgsgeschichte zu werden. Kontaktieren Sie uns gerne für weitere Informationen.
     contentImage: /ab-cp-1.jpg
     smallHeadline: Kurzporträt
     contentTitle: Das Unternehmen
