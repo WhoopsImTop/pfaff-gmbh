@@ -6,7 +6,7 @@ components:
   - type: slider
     slide:
       - landingTitle: Schwarzwälder Präzision <br> trifft High-Tech.
-        landingImage: /pfaff-miniatur-guckloch-1-.jpg
+        landingImage: /pfaff-gmbh-kunststoff-sensoren-messen-steuern-regeln.jpg
         landingProducts:
           - getriebekappe-fuer-motorensteuerungssensor
         landingTitlePosition: top-left
@@ -16,7 +16,7 @@ components:
         landingImageMobile: /pfaff-miniatur-guckloch-1-mobile.jpg
       - landingTitle: Wir bringen Sie vertrauensvoll <br> zu Ihrem Kunststoffgipfel.
         landingTitlePosition: top-left
-        landingImage: /pfaff-miniatur-wanderer-1-.jpg
+        landingImage: /pfaff-gmbh-kunststoff-schwarzwald.jpg
         landingProducts:
           - massageball-für-bepanthen-narbengel
         landingImageMobile: /pfaff-miniatur-wanderer-1-mobile.jpg
@@ -25,7 +25,7 @@ components:
             left: 37
       - landingTitle: Ihre Kunststoff&shy;produkte. <br> Präzise und sofort einsatzbereit.
         landingTitlePosition: top-left
-        landingImage: /preview-pfaff-miniatur-laster.png
+        landingImage: /pfaff-gmbh-kunststoff-medizin-dental.jpg
         landingProducts:
           - peek-spitze-für-die-dentaltechnik
           - implantatschraube
