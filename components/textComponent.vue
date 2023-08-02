@@ -2,13 +2,13 @@
   <div class="content-container text-container">
     <div v-if="component.contentImage" class="row">
       <div class="col-lg-6">
-        <span class="small-headline" v-if="component.smallHeadline">{{
+        <span v-if="component.smallHeadline" class="small-headline">{{
           component.smallHeadline
         }}</span>
         <h2>{{ component.contentTitle }}</h2>
         <p
           class="marketing-text"
-          v-html="$md.render(component.contentText)"
+          v-html="textRenderer(component.contentText)"
         ></p>
       </div>
       <div class="col-lg-6">
@@ -18,15 +18,15 @@
           style="margin-bottom: 20px"
           alt="content image"
         />
-        <p v-html="$md.render(component.contentTextUnderImage)"></p>
+        <p v-html="textRenderer(component.contentTextUnderImage)"></p>
       </div>
     </div>
     <div v-else>
-      <span class="small-headline" v-if="component.smallHeadline">{{
+      <span v-if="component.smallHeadline" class="small-headline">{{
         component.smallHeadline
       }}</span>
       <h2>{{ component.contentTitle }}</h2>
-      <p class="marketing-text" v-html="$md.render(component.contentText)"></p>
+      <p class="marketing-text" v-html="textRenderer(component.contentText)"></p>
     </div>
   </div>
 </template>
@@ -54,6 +54,15 @@ export default {
         },
       }
     )
+  },
+  methods: {
+    textRenderer(text) {
+      try {
+        return this.$md.render(text)
+      } catch (e) {
+        return text
+      }
+    },
   },
 }
 </script>
