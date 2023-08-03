@@ -7,8 +7,4 @@ image: /pfaff-neuigkeiten.jpg
 category: meilensteine
 ---
 
-Die historische Fabrikhalle erhält einen Anbau, die gesamte Ver­waltung des Unternehmens wurde in ei
-
-<!--more-->
-
-n neues Open-Space-Büro über der ­Maschinenhalle verlagert, inkl. Konferenzraum, Küche, Sanitäranlagen und Firmen-Archiv.
+Die historische Fabrikhalle erhält einen Anbau, die gesamte Ver­waltung des Unternehmens wurde in ein neues Open-Space-Büro über der ­Maschinenhalle verlagert, inkl. Konferenzraum, Küche, Sanitäranlagen und Firmen-Archiv.

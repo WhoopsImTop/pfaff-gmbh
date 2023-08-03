@@ -8,9 +8,5 @@ image: /i_e_2017.jpg
 
 <strong>Wir freuen uns auf Ihren Besuch!</strong></p>
 
-<p>Auch 2017 sind wir wieder mit einem Stan
-
-<!--more-->
-
-d auf der i+e Messe in Freiburg im Breisgau vertreten. Sie finden uns in der Halle 2 am Stand M111.</p>
+<p>Auch 2017 sind wir wieder mit einem Stand auf der i+e Messe in Freiburg im Breisgau vertreten. Sie finden uns in der Halle 2 am Stand M111.</p>
 

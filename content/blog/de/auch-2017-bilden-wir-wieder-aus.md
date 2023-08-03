@@ -9,8 +9,4 @@ shortText: Herzlich Willkommen!
 
 <strong>Herzlich Willkommen!</strong></p>
 
-<p>Seit 01.09.2017 werden wir tatkräftig von unserem neue
-
-<!--more-->
-
-n Azubi Enrico Bartel unterstützt.</p>
+<p>Seit 01.09.2017 werden wir tatkräftig von unserem neuen Azubi Enrico Bartel unterstützt.</p>

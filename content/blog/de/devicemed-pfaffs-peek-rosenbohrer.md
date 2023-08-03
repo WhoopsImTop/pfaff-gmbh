@@ -9,10 +9,6 @@ shortText: Pfaffs PEEK-„Rosenbohrer“
 
 <p><strong>Pfaffs PEEK-„Rosenbohrer“</strong></p>
 
-Mit selbstlimitierenden Rosenbohrern und anderen 
-
-<!--more-->
-
-kundenspezifischen Bauteilen in PEEK sind wir Profis.
+Mit selbstlimitierenden Rosenbohrern und anderen kundenspezifischen Bauteilen in PEEK sind wir Profis.
 
 [D﻿en gesamten Artikel lesen](/peek_2017.pdf)

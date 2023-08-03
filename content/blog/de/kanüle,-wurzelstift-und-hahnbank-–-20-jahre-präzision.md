@@ -9,11 +9,7 @@ shortText: Badische Zeitung. Zum 20jährigen Jubiläum der Pfaff GmbH im Septemb
 image: /pfaff-gmbh-fertigung-1024x683.jpg
 ---
 
-<figure class="wp-block-image size-large"><img loading="lazy"   src="/pfaff-gmbh-fertigung-1024x683.
-
-<!--more-->
-
-jpg" alt="" class="wp-image-728"   /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy"   src="/pfaff-gmbh-fertigung-1024x683.jpg" alt="" class="wp-image-728"   /></figure>
 
 
 

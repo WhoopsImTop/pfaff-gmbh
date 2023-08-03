@@ -14,9 +14,5 @@ category: presseartikel
 
 
 
-<p>Lesen
-
-<!--more-->
-
- Sie hier die Antworten der Geschäftsführerin der Pfaff GmbH, Frau Corinna Pfaff.</p>
+<p>Lesen Sie hier die Antworten der Geschäftsführerin der Pfaff GmbH, Frau Corinna Pfaff.</p>
 

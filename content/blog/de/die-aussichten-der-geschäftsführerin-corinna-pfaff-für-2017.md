@@ -12,11 +12,7 @@ image: /corinna-pfaff-statement.jpg
 
 
 
-<p>Auch 2017 gab die Geschäftsführer
-
-<!--more-->
-
-in Corinna Pfaff wieder ihre Aussichten, Pläne und Projekte für 2017 im „Netzwerk Südbaden“ preis. Es wird definitiv ein spannendes Jahr, im Herbst gibt es sogar was zu feiern.</p>
+<p>Auch 2017 gab die Geschäftsführerin Corinna Pfaff wieder ihre Aussichten, Pläne und Projekte für 2017 im „Netzwerk Südbaden“ preis. Es wird definitiv ein spannendes Jahr, im Herbst gibt es sogar was zu feiern.</p>
 
 
 

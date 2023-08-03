@@ -10,11 +10,7 @@ shortText: Kunststoff in klinischer Bestform. Die medizinischen Anwendungsbereic
 
 
 
-Die medizinischen Anwendungsbereiche f
-
-<!--more-->
-
-ür Kunststoffe sind mannigfaltig. Spritzen, selbstabbaubare Gelenkschrauben oder Kanülen für Katheter – Kliniken möchten möglichst hochwertige Produkte, die nicht zu teuer sind. Die Firma Pfaff GmbH aus Waldkirch bei Freiburg verfügt über das Know-how und die technischen Mittel, um Kunststoffteile aus verschiedenen Komponenten herzustellen. Das Verfahren des Spritzgießens spart Montagekosten und ist auch noch sehr exakt. Der geschickte Einsatz intelligenter Materialien brachte der Pfaff GmbH für zwei Produkte im medizinisch-technischen Bereich sogar jeweils den Freiburger Innovationspreis ein.</p>
+Die medizinischen Anwendungsbereiche für Kunststoffe sind mannigfaltig. Spritzen, selbstabbaubare Gelenkschrauben oder Kanülen für Katheter – Kliniken möchten möglichst hochwertige Produkte, die nicht zu teuer sind. Die Firma Pfaff GmbH aus Waldkirch bei Freiburg verfügt über das Know-how und die technischen Mittel, um Kunststoffteile aus verschiedenen Komponenten herzustellen. Das Verfahren des Spritzgießens spart Montagekosten und ist auch noch sehr exakt. Der geschickte Einsatz intelligenter Materialien brachte der Pfaff GmbH für zwei Produkte im medizinisch-technischen Bereich sogar jeweils den Freiburger Innovationspreis ein.</p>
 
 
 

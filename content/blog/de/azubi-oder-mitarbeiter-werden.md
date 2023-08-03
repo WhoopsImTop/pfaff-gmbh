@@ -7,11 +7,7 @@ shortText: Werden Sie Teil unseres erfolgreichen Familienbetriebs mit über 17 A
 image: /pfaff-historie.jpg
 ---
 
-<p>Werden Sie Teil unseres erfolgreichen Familienbetriebs mit über 17 Angestellten, Azubis, Praktika
-
-<!--more-->
-
-nten und Aushilfskräften auf 700 Quadratmetern Produktionsfläche mit kurzen Kommunikationswegen und flachen Hierarchien.</p>
+<p>Werden Sie Teil unseres erfolgreichen Familienbetriebs mit über 17 Angestellten, Azubis, Praktikanten und Aushilfskräften auf 700 Quadratmetern Produktionsfläche mit kurzen Kommunikationswegen und flachen Hierarchien.</p>
 
 
 

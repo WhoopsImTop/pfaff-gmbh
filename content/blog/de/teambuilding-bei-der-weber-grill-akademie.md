@@ -12,9 +12,5 @@ category: allgemeine-news
 
 
 
-<p>Deshalb organisiert die Pfa
-
-<!--more-->
-
-ff GmbH für ihre Mitarbeiter mindestens zwei Betriebsausflüge pro Jahr. Der erste Betriebsausflug 2015 führte das Pfaff-Team zur Weber-Grillakademie. Dabei standen im Vordergrund: Teambuilding, gutes Essen und natürlich Spaß. Zum Abschluss erhielt jeder als Dankeschön eine Urkunde.</p>
+<p>Deshalb organisiert die Pfaff GmbH für ihre Mitarbeiter mindestens zwei Betriebsausflüge pro Jahr. Der erste Betriebsausflug 2015 führte das Pfaff-Team zur Weber-Grillakademie. Dabei standen im Vordergrund: Teambuilding, gutes Essen und natürlich Spaß. Zum Abschluss erhielt jeder als Dankeschön eine Urkunde.</p>
 

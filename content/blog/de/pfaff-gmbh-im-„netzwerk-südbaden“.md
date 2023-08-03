@@ -12,9 +12,5 @@ category: presseartikel
 
 <strong>Artikel und Anzeige in der Zeitschrift „Netzwerk Südbaden“.&nbsp;</strong></p>
 
-<p>In der ak
-
-<!--more-->
-
-tuellen Ausgabe wird über den Gewerbestandort Waldkirch berichtet. Da dürfen die medizinischen High-Tech Kunststoffteile von Pfaff natürlich nicht fehlen.</p>
+<p>In der aktuellen Ausgabe wird über den Gewerbestandort Waldkirch berichtet. Da dürfen die medizinischen High-Tech Kunststoffteile von Pfaff natürlich nicht fehlen.</p>
 

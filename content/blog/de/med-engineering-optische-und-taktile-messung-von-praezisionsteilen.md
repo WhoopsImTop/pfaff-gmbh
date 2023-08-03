@@ -10,9 +10,5 @@ image: /MED_Engineering_1704-940x528-1.png
 
 <strong>MED Elektronik & Messtechnik.</strong></p>
 
-<p>Beitrag der Pfaff GmbH in der April-Ausgabe d
-
-<!--more-->
-
-er MED Engineering</p>
+<p>Beitrag der Pfaff GmbH in der April-Ausgabe der MED Engineering</p>
 

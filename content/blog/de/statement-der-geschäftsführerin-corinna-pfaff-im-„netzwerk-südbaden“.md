@@ -13,9 +13,5 @@ category: presseartikel
 <strong>Januar-Ausgabe der „Netzwerk Südbaden“.</strong></p>
 
 
-<p>Geschäftsführerin Corinna Pfaff gi
-
-<!--more-->
-
-bt sich optimistisch für das Geschäftsjahr 2016. Lesen Sie den Artikel über Neuanschaffungen und Qualität „Made in Germany“.</p>
+<p>Geschäftsführerin Corinna Pfaff gibt sich optimistisch für das Geschäftsjahr 2016. Lesen Sie den Artikel über Neuanschaffungen und Qualität „Made in Germany“.</p>
 

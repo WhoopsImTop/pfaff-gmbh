@@ -9,11 +9,7 @@ image: /stellenanzeige-waldkirch-projektmanagement-pfaff-gmbh-1024x565.jpg
 
 <strong>Was Sie erwartet:</strong></p>
 
-<p>Ihre Hauptaufgabe ist die Leitung von Serienprojekten ein
-
-<!--more-->
-
-schließlich der internen und externen Kommunikation. Dabei erarbeiten Sie zusammen mit unseren Werkzeugkonstrukteuren CAD-Modelle und Zeichnungen und bewerten eine kunststoffgerechte Umsetzung. Sie unterstützen bei der Erstellung von FMEAS und erstellen kundenspezifische Angebote. Bei den Abmusterungen von Neuwerkzeugen ist Ihre Mitarbeit genauso gefragt, wie bei der Qualifizierung und Validierung von Maschinen und Prozessen, sowie der Durchführung von Maschinenfähigkeits-, Prozessfähigkeits- und Messmittelfähigkeitsuntersuchungen.</p>
+<p>Ihre Hauptaufgabe ist die Leitung von Serienprojekten einschließlich der internen und externen Kommunikation. Dabei erarbeiten Sie zusammen mit unseren Werkzeugkonstrukteuren CAD-Modelle und Zeichnungen und bewerten eine kunststoffgerechte Umsetzung. Sie unterstützen bei der Erstellung von FMEAS und erstellen kundenspezifische Angebote. Bei den Abmusterungen von Neuwerkzeugen ist Ihre Mitarbeit genauso gefragt, wie bei der Qualifizierung und Validierung von Maschinen und Prozessen, sowie der Durchführung von Maschinenfähigkeits-, Prozessfähigkeits- und Messmittelfähigkeitsuntersuchungen.</p>
 
 <strong>Was Sie mitbringen sollten:</strong></p>
 

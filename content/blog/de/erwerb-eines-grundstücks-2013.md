@@ -8,6 +8,3 @@ category: meilensteine
 
 Erwerb eines Grundstücks im Waldkircher Gewerbegebiet „Am Bruckwald“.
 
-
-<!--more-->
-

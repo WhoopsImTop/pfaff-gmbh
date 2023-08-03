@@ -8,11 +8,7 @@ shortText: Ein Firmenportrait. Die Pfaff GmbH produziert für Auftraggeber aus d
 
 <p><strong>Ein Firmenportrait.</strong></p>
 
-Die Pfaff GmbH produziert für Auftraggeber aus der Medi
-
-<!--more-->
-
-zin- und Dentaltechnik, aber es entstehen auch Teile für die Opto-Elektronik und Sensorik.</p>
+Die Pfaff GmbH produziert für Auftraggeber aus der Medizin- und Dentaltechnik, aber es entstehen auch Teile für die Opto-Elektronik und Sensorik.</p>
 
 <p><a href="/downloads/medeng_4-16_14-15.pdf" target="_blank" rel="noreferrer noopener" aria-label=" (öffnet in neuem Tab)">Der gesamte Artikel aus der MEDengineering als PDF</a></p>
 

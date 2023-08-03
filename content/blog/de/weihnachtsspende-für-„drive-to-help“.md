@@ -10,9 +10,5 @@ category: allgemeine-news
 
 <strong>Pfaff GmbH unzerstützt eine Klinik in Gambia.</strong></p>
 
-<p>Drive-To-Help ist ein gemeinn
-
-<!--more-->
-
-ütziger Verein und das vorrangige Ziel ist die Unterstützung der ASB Health Clinic in Serrekunda, Gambia. Zu diesem Zweck wurde im Frühjahr 2014 eine Charity-Rallye durchgeführt und dadurch die Möglichkeit eröffnet, den ASB mit vielen Sach- und Geldspenden sowie medizinischen Hilfsgütern zu unterstützen. Die nächste Spendenfahrt wird im Frühjahr 2017 stattfinden und ebenfalls die ASB Health Clinic zum Ziel haben.</p>
+<p>Drive-To-Help ist ein gemeinnütziger Verein und das vorrangige Ziel ist die Unterstützung der ASB Health Clinic in Serrekunda, Gambia. Zu diesem Zweck wurde im Frühjahr 2014 eine Charity-Rallye durchgeführt und dadurch die Möglichkeit eröffnet, den ASB mit vielen Sach- und Geldspenden sowie medizinischen Hilfsgütern zu unterstützen. Die nächste Spendenfahrt wird im Frühjahr 2017 stattfinden und ebenfalls die ASB Health Clinic zum Ziel haben.</p>
 

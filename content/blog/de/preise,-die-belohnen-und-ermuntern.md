@@ -11,9 +11,5 @@ slug: preise-die-belohnen-und-ermuntern
 
 <strong>Innovationspreise.</strong></p>
 
-<p>Die Wirtschaftsregion Freiburg vergibt den Innovationspr
-
-<!--more-->
-
-eis. Erster Platz geht an Adolf Pfaff für seinen Zahn-Wurzelstift.</p>
+<p>Die Wirtschaftsregion Freiburg vergibt den Innovationspreis. Erster Platz geht an Adolf Pfaff für seinen Zahn-Wurzelstift.</p>
 

@@ -9,6 +9,3 @@ category: meilensteine
 
 Das Unternehmen feiert mit inzwischen 10 Mitarbeitern sein 20-jähriges Bestehen.
 
-
-<!--more-->
-

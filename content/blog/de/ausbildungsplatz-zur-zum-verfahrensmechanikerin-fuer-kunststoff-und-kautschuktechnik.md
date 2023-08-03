@@ -7,11 +7,7 @@ shortText: Du suchst eine Ausbildung, bei der du die technische Arbeit eines Mec
 image: /pfaff_gmbh-karriere-job-bewerbung-683x1024.jpg
 ---
 
-Du suchst eine Ausbildung, bei der du die <strong>technische Arbeit eines Mechanikers</strong> mit d
-
-<!--more-->
-
-en <strong>raffinierten Rezepten eines Kochs</strong> vereinen kannst?</p>
+Du suchst eine Ausbildung, bei der du die <strong>technische Arbeit eines Mechanikers</strong> mit den <strong>raffinierten Rezepten eines Kochs</strong> vereinen kannst?</p>
 
 <p>Dann ist die Ausbildung zur/zum <strong>Verfahrensmechaniker*in für Kunststoff- und Kautschuktechnik</strong> genau das richtige für dich!</p>
 
