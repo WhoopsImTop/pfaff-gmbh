@@ -68,7 +68,7 @@ components:
       - blockCategory: Natürliche Qualität
         blockTitle: ISO Zertifizierungen
         blockImage: /iso-9001-13485_teaser.jpeg
-        blockLink: qualität
+        blockLink: qualitaet
       - blockCategory: Übergreifendes Knowhow
         blockTitle: Kernkompetenzen
         blockImage: /pfaff-kompetenzen_teaser.jpeg

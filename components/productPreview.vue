@@ -18,7 +18,7 @@
       class="preview-image-container"
       :style="'background-image: url(' + productImage + ');'"
     >
-      <div
+      <!-- <div
         class="pulseMarker-relative"
         :style="
           'bottom:' +
@@ -30,7 +30,7 @@
       >
         <div class="marker-inner"></div>
         <div class="marker-outer"></div>
-      </div>
+      </div> -->
     </div>
     <div class="preview-slide-container" v-if="components.product">
       <product-slider

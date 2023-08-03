@@ -31,7 +31,7 @@
             />
           </div>
         </div>
-        <div class="slide-content-container">
+        <div class="slide-content-container" :class="slide.landingProducts ? 'slide-with-products' : ''">
           <h1
             class="slide-title"
             :class="slide.landingTitlePosition"
@@ -340,6 +340,9 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+  }
+
+  .slide-with-products {
     min-height: 80vh;
   }
 
