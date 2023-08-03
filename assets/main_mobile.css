@@ -4,9 +4,9 @@
     --content-padding: 20px;
   }
 
-  .desktop-logo {
+  /* .desktop-logo {
     display: none;
-  }
+  } */
 
   .mobile-logo {
     display: block;
@@ -97,7 +97,6 @@
     right: 0;
     display: flex;
     padding-top: 50px !important;
-    padding: var(--content-padding);
     opacity: 1;
   }
 

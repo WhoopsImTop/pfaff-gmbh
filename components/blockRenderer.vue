@@ -51,7 +51,7 @@ export default {
         delay: (index) => index * 0.25,
         scrollTrigger: {
           trigger: '.product-card',
-          start: 'top 50%',
+          start: 'top 20%',
           end: 'bottom 10%',
         },
       }

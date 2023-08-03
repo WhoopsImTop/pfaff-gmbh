@@ -16,7 +16,7 @@
     </div>
     <div
       class="preview-image-container"
-      :style="'background-image: url(' + components.productImage + ');'"
+      :style="'background-image: url(' + productImage + ');'"
     >
       <div
         class="pulseMarker-relative"
@@ -46,6 +46,16 @@ import productSlider from './productSlider.vue'
 export default {
   components: { productSlider },
   props: ['components'],
+
+  computed: {
+    productImage() {
+      if(window.innerWidth < 1000) {
+        return this.components.productMobileImage ? this.components.productMobileImage : this.components.productImage
+      } else {
+        return this.components.productImage
+      }
+    },
+  },
 }
 </script>
 

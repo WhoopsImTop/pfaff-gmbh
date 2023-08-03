@@ -10,7 +10,7 @@ components:
     slide:
       - landingTitle: Filigrane High-Tech-Kunststoffteile <br> aus dem Schwarzwald.
         landingTitlePosition: top-left
-        landingImage: /pfaff-gmbh-kunststoff-spritzguss-iso-zertifizierung.jpg
+        landingImage: /pfaff-gmbh-kunststoff-waldkirch-kollnau-freiburg-schwarzwald.jpg
   - type: contentblock
     contentText: >-
       Tauchen Sie ein in eine Welt voller Kunststoffinnovationen und entdecken

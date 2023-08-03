@@ -10,12 +10,13 @@ components:
     slide:
       - landingTitle: Schwarzwälder Präzision <br> ist unsere Familientradition.
         landingTitlePosition: top-right
-        landingImage: /pfaff-gmbh-kunststoff-waldkirch-kollnau-freiburg-schwarzwald.jpg
+        landingImage: /pfaff-gmbh-miniatur-bruecke.jpg
         landingProducts:
           - umspritzte-stimulationssonden-und-nadelelektroden-für-die-neurochirurgie
         landingProductMarkerPosition:
           - bottom: 26
             left: 37
+        landingImageMobile: /pfaff-gmbh-miniatur-bruecke-mobil.jpg
   - type: contentblock
     contentText: >-
       Willkommen bei der Pfaff GmbH – Ihrem traditionsreichen Familienbetrieb

@@ -10,9 +10,10 @@ components:
     slide:
       - landingTitle: Wir bringen Sie vertrauensvoll <br> zu Ihrem Kunststoffgipfel.
         landingTitlePosition: top-left
-        landingImage: /pfaff-miniatur-wanderer-1-.jpg
+        landingImage: /pfaff-gmbh-kunststoff-bepanthen-narbengel.jpg
         landingProducts:
           - massageball-für-bepanthen-narbengel
+        landingImageMobile: /pfaff-miniatur-wanderer-1-mobile.jpg
   - type: row
     component:
       - type: text

@@ -16,7 +16,7 @@ components:
         landingImageMobile: /pfaff-miniatur-guckloch-1-mobile.jpg
       - landingTitle: Wir bringen Sie vertrauensvoll <br> zu Ihrem Kunststoffgipfel.
         landingTitlePosition: top-right
-        landingImage: /pfaff-gmbh-kunststoff-schwarzwald.jpg
+        landingImage: /pfaff-gmbh-kunststoff-bepanthen-narbengel.jpg
         landingProducts:
           - massageball-für-bepanthen-narbengel
         landingImageMobile: /pfaff-miniatur-wanderer-1-mobile.jpg
@@ -88,7 +88,8 @@ components:
         blockLink: unternehmen
     blockTitle: High-Tech-Teile aus Kunststoff.
   - productTitle: Tradition und Präzision.
-    productImage: /pfaff-miniatur-bruecke.png
+    productMobileImage: /pfaff-gmbh-miniatur-bruecke-mobil.jpg
+    productImage: /pfaff-gmbh-miniatur-bruecke.jpg
     productQuote: Corinna Pfaff, CEO
     productDescription: „Seit über 30 Jahren entwickeln wir in unserem
       Familienbetrieb im Schwarzwald ausschließlich mit modernen Materialien,

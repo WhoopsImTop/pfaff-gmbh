@@ -1,14 +1,13 @@
 ---
-title: DeviceMed Pfaffs PEEK-„Rosenbohrer“
-slug: devicemed-pfaffs-peek-rosenbohrer
+title: DeviceMed: Pfaffs PEEK-„Rosenbohrer“
 date: Sun Aug 20 2017 16:02:00 GMT+0200 (Mitteleuropäische Sommerzeit)
-image: /pfaff_komplettloesung_teaser.jpeg
-category: fachbeiträge
-shortText: Pfaffs PEEK-„Rosenbohrer“
+category: fachbeitraege
 ---
 
 <p><strong>Pfaffs PEEK-„Rosenbohrer“</strong></p>
 
-Mit selbstlimitierenden Rosenbohrern und anderen kundenspezifischen Bauteilen in PEEK sind wir Profis.
+Mit selbstlimitierenden Rosenbohrern und andere
 
-[D﻿en gesamten Artikel lesen](/peek_2017.pdf)
+<!--more-->
+
+n kundenspezifischen Bauteilen in PEEK sind wir Profis.

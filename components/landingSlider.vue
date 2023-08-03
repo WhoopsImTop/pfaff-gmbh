@@ -186,14 +186,13 @@ export default {
   overflow: hidden;
 }
 
-@media (min-height: 800px) and (orientation: portrait) {
+@media (max-width: 1000px) and (orientation: portrait) {
   .landing-slider {
     height: 1200px;
   }
 
   .slide-content-container {
     height: 100% !important;
-    min-height: unset !important;
   }
 }
 

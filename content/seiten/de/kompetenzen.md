@@ -16,6 +16,7 @@ components:
           - implantatschraube
           - kunststoffbohrer-aus-peek
         landingProductMarkerPosition: []
+        landingImageMobile: /preview-pfaff-miniatur-laster-mobile.png
   - type: contentblock
     smallHeadline: Kompetenzen
     contentTitle: Präzision und Vielseitigkeit.
