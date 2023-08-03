@@ -273,6 +273,11 @@ collections:
                 widget: 'image'
                 required: false
                 i18n: true
+              - label: 'Bild/er Mobil'
+                name: 'productMobileImage'
+                widget: 'image'
+                required: false
+                i18n: true
               - label: 'Marker'
                 name: 'productImageMarkerPosition'
                 widget: 'object'
