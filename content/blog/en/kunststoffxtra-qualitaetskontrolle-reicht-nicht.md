@@ -1,5 +1,5 @@
 ---
-title: Kunststoffxtra: Qualitätskontrolle reicht nicht
+title: Kunststoffxtra Qualitätskontrolle reicht nicht
 date: Thu Apr 13 2017 16:09:00 GMT+0200 (Mitteleuropäische Sommerzeit)
 category: fachbeitraege
 content: Qualitätskontrolle reicht nicht    „Spritzgiessen ist ein Standardverfahren, allerdings eines mit einer sehr hohen Streubreite in Qualität und Leistungsfähigkeit. Ein stringentes Qualitätsmanagement ist aufwändig und hat viele Facetten – bei kritischen Anwendungen, z. B. medizintechnischen Produkten, geht es nicht ohne.“ Ein Artikel aus der Schweizer „KunststoffXtra“ zum Thema Medizintechnik in der Ausgabe 03/2017.    Den gesamten Artikel aus der KunststoffXtra als PDF

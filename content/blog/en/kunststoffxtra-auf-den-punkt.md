@@ -1,5 +1,5 @@
 ---
-title: KunststoffXtra: Auf den Punkt
+title: KunststoffXtra Auf den Punkt
 date: Fri Sep 21 2018 15:50:37 GMT+0200 (Mitteleuropäische Sommerzeit)
 category: fachbeiträge
 content: Auf den Punkt.    Puncture Cube heißt ein kleines und leichtes Kunststoffkonstrukt, das dem Arzt helfen kann, Nadeln sehr präzise in kritische Bereiche zu setzen. Hinter dem auf den ersten Blick unscheinbaren Stück Kunststoff steckt eine clevere Idee, viel Know-how in der werkzeugtechnischen Umsetzung und ein umfassendes Qualitätsmanagement bei der Herstellung.    Den ganzen Beitrag aus der KunststoffXtra als PDF

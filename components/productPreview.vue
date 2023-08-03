@@ -19,7 +19,7 @@
       :style="
         'background-image: url(' +
         components.productImage +
-        '); width: 100%; background-size: cover; background-position: left'
+        ');'
       "
     >
       <div
@@ -64,6 +64,9 @@ export default {
   position: absolute;
   width: 100%;
   height: 100%;
+  width: 100%; 
+  background-size: cover; 
+  background-position: left
 }
 
 .preview-image-container img {
@@ -105,6 +108,9 @@ export default {
     position: unset;
     margin-bottom: 20px;
     height: unset !important;
+    min-height: unset;
+    
+  background-size: contain; 
   }
 
   .preview-text-container {

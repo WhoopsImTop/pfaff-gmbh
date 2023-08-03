@@ -1,5 +1,5 @@
 ---
-title: MEDengineering: Medizintechnik aus den Fokusregionen Deutschland
+title: MEDengineering Medizintechnik aus den Fokusregionen Deutschland
 date: Fri Apr 15 2016 16:31:00 GMT+0200 (Mitteleuropäische Sommerzeit)
 category: fachbeitraege
 content: Ein Firmenportrait.    Die Pfaff GmbH produziert für Auftraggeber aus der Medizin- und Dentaltechnik, aber es entstehen auch Teile für die Opto-Elektronik und Sensorik.    Der gesamte Artikel aus der MEDengineering als PDF

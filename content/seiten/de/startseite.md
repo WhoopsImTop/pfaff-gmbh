@@ -118,6 +118,7 @@ components:
         cardLink: news-medien/meilensteine
         cardImage: /pfaff-historie.jpg
   - type: news
-    embedNews: false
+    embedNews: true
+    title: Aktuelle News
 id: 8c68cce3-2666-4e94-8f59-cd5b2b5d3355
 ---
