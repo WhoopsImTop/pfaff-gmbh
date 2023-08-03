@@ -40,8 +40,7 @@ export default {
         delay: (index) => index * 0.25,
         scrollTrigger: {
           trigger: '.card-container',
-          start: 'top 20%',
-          end: 'bottom 10%',
+          start: 'top 80%',
           toggleActions: 'play none none reverse',
         },
       }
