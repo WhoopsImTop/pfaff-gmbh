@@ -1,7 +1,7 @@
 @media (max-width: 1024px) {
   .card-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(335px, calc(100% / 2 - 20px)));
+    grid-template-columns: repeat(auto-fill, 100%);
     grid-template-rows: auto;
     grid-gap: 20px;
   }

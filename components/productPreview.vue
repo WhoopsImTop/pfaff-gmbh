@@ -116,7 +116,7 @@ export default {
     height: unset !important;
     min-height: unset;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
   }
 
   .preview-text-container {
