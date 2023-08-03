@@ -115,11 +115,44 @@ export default {
   }
 
   .preview-image-container {
-    min-height: 400px;
+    min-height: 300px;
   }
 }
 
-@media (max-width: 1230px) {
+@media (min-width: 1000px) and (max-width: 1024px) {
+  .preview-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  .preview-image-container {
+    position: unset;
+    margin-bottom: 20px;
+    height: unset !important;
+    min-height: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .preview-text-container {
+    position: unset;
+    max-width: unset;
+    padding: 0 50px;
+  }
+
+  .preview-image-container {
+    min-height: 400px;
+  }
+
+  .preview-container .preview-slide-container .product-slider-container {
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1230px) {
   .preview-container {
     position: relative;
     width: 100%;

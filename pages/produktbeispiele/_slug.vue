@@ -289,6 +289,20 @@ export default {
   }
 }
 
+@media (min-width: 1000px) and (max-width: 1230px) {
+  .portfolio-single.content-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .three-products-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .info-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 @media (max-width: 1230px) {
   .product-category {
     margin-bottom: 5px;

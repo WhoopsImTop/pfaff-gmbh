@@ -55,8 +55,8 @@ export default {
   display: flex;
   flex-direction: column;
   position: absolute;
-  bottom: 50px;
-  right: 50px;
+  bottom: 5vh;
+  right: 5vh;
 }
 
 .product-slider {
@@ -78,6 +78,7 @@ export default {
   border-radius: 2px;
 }
 
+/* Mobile */
 @media (max-width: 1000px) {
   .product-slider-container {
     position: relative;

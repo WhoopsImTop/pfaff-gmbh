@@ -104,4 +104,14 @@ export default {
     display: block;
   }
 }
+
+
+@media (min-width: 1000px) and (max-width: 1230px) {
+  .grid-4 {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      'header'
+      'sidebar';
+  }
+}
 </style>

@@ -44,7 +44,7 @@
           />
         </div>
 
-        <div class="slide-image">
+        <!-- <div class="slide-image">
           <div
             v-for="(marker, i) in slide.landingProductMarkerPosition"
             :key="i"
@@ -54,7 +54,7 @@
             <div class="marker-inner"></div>
             <div class="marker-outer"></div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
@@ -184,6 +184,17 @@ export default {
   display: flex;
   flex-wrap: nowrap;
   overflow: hidden;
+}
+
+@media (min-height: 800px) and (orientation: portrait) {
+  .landing-slider {
+    height: 1200px;
+  }
+
+  .slide-content-container {
+    height: 100% !important;
+    min-height: unset !important;
+  }
 }
 
 .slide {

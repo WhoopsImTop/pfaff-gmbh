@@ -22,7 +22,7 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ['~/assets/font', '~/assets/main', '~/assets/main_mobile'],
+  css: ['~/assets/font', '~/assets/main', '~/assets/main_mobile', '~/assets/tablet'],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,

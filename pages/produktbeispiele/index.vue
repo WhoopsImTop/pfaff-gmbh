@@ -270,6 +270,15 @@ export default {
   }
 }
 
+@media (min-width: 1000px) and (max-width: 1230px) {
+  .portfolio-grid {
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(330px, calc(100% / 2 - 20px))
+    );
+  }
+}
+
 @media (max-width: 1000px) {
   .filter-btn {
     font-size: 16px;
