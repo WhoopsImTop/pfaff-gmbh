@@ -7,16 +7,6 @@ id: 9771b267-9c48-4320-aa5b-1ef501a96a00
 contentblock:
   - news: false
 components:
-  - type: slider
-    slide:
-      - landingTitle: Ihre Kunststoff&shy;produkte. <br> Präzise und sofort einsatzbereit.
-        landingTitlePosition: top-left
-        landingImage: /pfaff-gmbh-kunststoff-medizin-dental.jpg
-        landingProducts:
-          - implantatschraube
-          - kunststoffbohrer-aus-peek
-        landingProductMarkerPosition: []
-        landingImageMobile: /preview-pfaff-miniatur-laster-mobile.png
   - type: contentblock
     smallHeadline: Kompetenzen
     contentTitle: Präzision und Vielseitigkeit.
