@@ -65,7 +65,7 @@ components:
         blockTitle: Produkte & Branchen
         blockImage: /pfaff-miniatur-produktbeispiele.jpg
         blockLink: produktbeispiele
-      - blockCategory: Natürliche Qualität
+      - blockCategory: Natürlich Qualität
         blockTitle: ISO Zertifizierungen
         blockImage: /iso-9001-13485_teaser.jpeg
         blockLink: qualitaet
