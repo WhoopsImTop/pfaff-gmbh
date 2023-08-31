@@ -24,6 +24,8 @@ components:
       **Vielfältige Materialien für maßgeschneiderte Lösungen**\
 
       Unsere Spritzgussproduktion umfasst eine breite Palette von Materialien, darunter technische Thermoplaste wie PMMA, POM, sowie Hochleistungskunststoffe wie PEEK oder PPSU. Darüber hinaus sind wir in der Lage, Produkte aus Sondermaterialien wie PUR, TPU und Silikon-Elastomer herzustellen. Diese Materialvielfalt ermöglicht es uns, maßgeschneiderte Lösungen für die individuellen Anforderungen unserer Kunden zu entwickeln.
+    contentImage: /pfaff-kompetenzen_teaser.jpeg
+    contentTextUnderImage: Ü﻿bergreifendes Knowhow.
   - type: row
     component:
       - type: cards
