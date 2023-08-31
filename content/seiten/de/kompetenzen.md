@@ -8,7 +8,7 @@ contentblock:
   - news: false
 components:
   - type: contentblock
-    smallHeadline: Kompetenzen
+    smallHeadline: Kernkompetenzen
     contentTitle: Präzision und Vielseitigkeit.
     contentText: >-
       Bei PFAFF GmbH ist der Spritzguss eine unserer fachlichen
