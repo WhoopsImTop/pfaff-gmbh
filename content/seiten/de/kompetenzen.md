@@ -1,5 +1,5 @@
 ---
-siteTitle: Kompetenzen
+siteTitle: Kernkompetenzen
 slug: kompetenzen
 menuOrder: 2
 hideInMenu: false
