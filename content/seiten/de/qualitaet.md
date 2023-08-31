@@ -9,7 +9,7 @@ components:
   - type: row
     component:
       - type: text
-        smallHeadline: Qualitätsmanagement
+        smallHeadline: Qualitätsversprechen
         headline: Natürlich Qualität
         text: Hervorragende Qualität bei wirtschaftlicher Produktion verstehen wir als
           Selbstverständlichkeit. Seit 2006 sind wir nach der ISO-Norm 9001
