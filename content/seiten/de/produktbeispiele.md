@@ -8,7 +8,7 @@ slug: produktbeispiele
 components:
   - type: contentblock
     contentImage: /pfaff-gmbh-kunststoff-waldkirch-kollnau-freiburg-schwarzwald.jpg
-    contentTextUnderImage: Filigrane High-Tech-Kunststoffteile aus dem Schwarzwald.
+    contentTextUnderImage: "#### Filigrane High-Tech-Kunststoffteile aus dem Schwarzwald."
     smallHeadline: Produktbeispiele
     contentTitle: Verblüffende Kunststofflösungen.
     contentText: >-
