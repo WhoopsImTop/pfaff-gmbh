@@ -38,10 +38,7 @@ competenceDescription: >-
 
 
   Vertrauen Sie auf unsere Expertise, wenn es um die Fertigung anspruchsvoller, filigraner Kunststoffteile geht. Wir nehmen die Herausforderung an und setzen Ihre Ideen in die Realität um - mit Präzision, Innovation und Leidenschaft.
-shortText: Die präzise Herstellung von filigranen Teilegeometrien stellt
-  besondere Anforderungen an den Spritzguss. Dank unserer fortschrittlichen
-  Technik und unseres Expertenteams können wir auch in diesem Bereich
-  hervorragende Ergebnisse erzielen.
+shortText: T﻿est
 competenceImage: /sensorgehaeuse-2k_pfaff.jpg
 competenceImageDescription: Sensorgehäuse für unterschiedliche Anwendungen
 ---
