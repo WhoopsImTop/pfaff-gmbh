@@ -10,7 +10,7 @@ components:
   - type: row
     component:
       - type: text
-        headline: Präzision und Vielseitigkeit.
+        headline: Präzision und Vielseitigkeit
         smallHeadline: Kernkompetenzen
         text: Bei PFAFF GmbH ist der Spritzguss eine unserer fachlichen
           Hauptkompetenzen. Durch enge Zusammenarbeit mit führenden
@@ -26,7 +26,7 @@ components:
   - type: row
     component:
       - type: text
-        headline: Vielfältige Materialien für maßgeschneiderte Lösungen.
+        headline: Vielfältige Materialien für maßgeschneiderte Lösungen
         smallHeadline: ""
         text: Unsere Spritzgussproduktion umfasst eine breite Palette von Materialien,
           darunter technische Thermoplaste wie PMMA, POM, sowie
