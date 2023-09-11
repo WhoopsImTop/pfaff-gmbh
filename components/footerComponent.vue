@@ -36,8 +36,8 @@
           <nuxt-link to="/news-medien/stellenausschreibungen"
             >Stellenausschreibungen</nuxt-link
           ><br />
-          <nuxt-link to="/news-medien/pressemitteilungen"
-            >Pressemitteilungen</nuxt-link
+          <nuxt-link to="/news-medien/presseartikel"
+            >Presseartikel</nuxt-link
           >
         </p>
       </div>
