@@ -7,8 +7,10 @@ competenceShortText: >-
   Unternehmensphilosophie. Wir setzen uns aktiv für eine verantwortungsvolle und
   umweltfreundliche Produktion ein und streben danach, nachhaltige Lösungen zu
   entwickeln, die unseren ökologischen Fußabdruck reduzieren und zur Sicherung
-  einer lebenswerten Zukunft beitragen. Hier sind einige der Maßnahmen, die wir
-  in Richtung Nachhaltigkeit ergreifen:
+  einer lebenswerten Zukunft beitragen.
+
+
+  Hier sind einige der Maßnahmen, die wir in Richtung Nachhaltigkeit ergreifen:
 competenceDescription: >-
   ### Regionalität - Stärkung der Region
 
