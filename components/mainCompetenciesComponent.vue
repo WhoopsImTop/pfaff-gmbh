@@ -1,5 +1,11 @@
 <template>
   <div>
+    <span
+      v-if="component.smallHeadline"
+      class="smallHeadline"
+      style="min-height: 30px"
+      >{{ component.smallHeadline }}</span
+    >
     <h2>{{ component.headline }}</h2>
     <div class="card-container">
       <nuxt-link
