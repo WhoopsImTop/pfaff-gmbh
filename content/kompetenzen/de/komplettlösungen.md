@@ -1,11 +1,7 @@
 ---
 competenceButtonText: Sprechen Sie uns gerne an
 competenceName: Komplettlösungen
-competenceImageDescription: Komplettlösungen - Komponenten "Ready To Use"
-competenceSideInfo:
-  - image: /selbstlimitierender-dentalbohrer_peek_pfaff-768x733-1.jpeg
 competencePosition: 2
-competenceTitle: Komponenten ready to use
 competenceDescription: >-
   Bei PFAFF GmbH verstehen wir uns nicht nur als Spritzgießer, sondern vor allem
   als Dienstleister und Problemlöser. Neben den perfekt gespritzten
@@ -30,6 +26,13 @@ competenceDescription: >-
 
 
   Unsere langjährige Erfahrung und Expertise in der Kunststoffbranche ermöglichen es uns, komplexe Herausforderungen zu bewältigen und innovative Lösungen zu finden. Verlassen Sie sich auf PFAFF GmbH als zuverlässigen Partner für Komplettlösungen und hochwertige Kunststoffkomponenten.
+shortText: Unsere Fachleute stehen Ihnen von der Konzeption bis zur Fertigung
+  zur Seite und übernehmen alle erforderlichen Arbeitsschritte, um Ihnen ein
+  einsatzbereites Produkt zu liefern.
 competenceImage: /pfaff-komplettloesungen.jpg
+competenceImageDescription: Komplettlösungen - Komponenten "Ready To Use"
+competenceSideInfo:
+  - image: /selbstlimitierender-dentalbohrer_peek_pfaff-768x733-1.jpeg
+competenceTitle: Komponenten ready to use
 competenceButtonLink: kontakt
 ---
