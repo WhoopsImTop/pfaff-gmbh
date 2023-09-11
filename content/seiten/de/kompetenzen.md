@@ -46,6 +46,7 @@ components:
           - filigrane-teilegeometrien
           - insertteile
           - optische-teile
+          - mehrkomponententechnik
         showText: true
   - type: competenciesBlocks
     competencies:
