@@ -1,5 +1,5 @@
 <template>
-  <div class="content-margin">
+  <div>
     <component-renderer
       v-for="(component, index) in landing.components"
       :key="index"
