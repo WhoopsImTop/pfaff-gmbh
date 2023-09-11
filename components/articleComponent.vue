@@ -41,7 +41,8 @@ export default {
 
     if(this.component.newsCategories) {
       cards.filter((card) => {
-        return this.component.newsCategories.includes(card.category)
+        const slug = card.category.replace(/ /g, '-').toLowerCase()
+        return this.component.newsCategories.includes(slug)
       })
     }
 
