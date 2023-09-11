@@ -4,7 +4,7 @@
       <div v-if="block.type === 'text'">
         <span v-if="block.smallHeadline" class="smallHeadline" style="min-height: 30px;">{{ block.smallHeadline }}</span>
         <h2 style="min-height: 45px">{{ block.headline }}</h2>
-        <p v-html="$md.render(block.text)"></p>
+        <p v-html="$md.render(block.text ?? '')"></p>
         <a class="button" v-if="block.button" :href="block.button.buttonDownloadLink || block.button.buttonLink" :download="block.button.buttonDownloadLink ? true : false">{{ block.button.buttonText }}</a>
       </div>
       <div class="content-image-container" v-if="block.type === 'image'">

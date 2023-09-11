@@ -1,5 +1,5 @@
 ---
-title: DeviceMed: Pfaffs PEEK-„Rosenbohrer“
+title: DeviceMed Pfaffs PEEK-„Rosenbohrer“
 date: Sun Aug 20 2017 16:02:00 GMT+0200 (Mitteleuropäische Sommerzeit)
 category: fachbeitraege
 ---
