@@ -51,7 +51,7 @@ components:
 
 
       **Wir freuen uns darauf, Ihre Anforderungen zu erfüllen.**
-    contentImage: /ab-cp-4.jpg
+    contentImage: /pfaff-gmbh-ceo-technische-leitung.jpg
     contentTextUnderImage: >-
       #### "SCHNELLE UND TRANSPARENTE KOMMUNIKATION SOWIE MASSGESCHNEIDERTE
       LÖSUNGEN SIND UNSERE STÄRKEN."
