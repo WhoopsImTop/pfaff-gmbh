@@ -35,6 +35,8 @@ components:
           Silikon-Elastomer herzustellen. Diese Materialvielfalt ermöglicht es
           uns, maßgeschneiderte Lösungen für die individuellen Anforderungen
           unserer Kunden zu entwickeln.
+      - type: image
+        image: /pfaff-gmbh-fertigung-1024x683.jpg
   - type: row
     component:
       - type: cards
