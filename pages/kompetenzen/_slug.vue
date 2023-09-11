@@ -20,6 +20,12 @@
         <p v-html="$md.render(seite.competenceDescription)"></p>
       </div>
     </div>
+    <component-renderer
+      v-for="(component, index) in seite.pageContent"
+      :key="index"
+      :component="component"
+      :inContent=true
+    />
     <component-blocks
       :component="{
         title: 'Weitere Kompetenzen',

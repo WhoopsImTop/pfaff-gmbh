@@ -694,6 +694,37 @@ collections:
                 widget: 'list'
                 i18n: true
                 types:
+                  - label: 'Kacheln'
+                    name: 'cards'
+                    widget: 'object'
+                    fields:
+                      - label: 'Kleine Überschrift'
+                        name: 'smallHeadline'
+                        widget: 'string'
+                        required: false
+                      - label: 'Überschrift'
+                        name: 'headline'
+                        widget: 'string'
+                        required: false
+                      - label: 'text'
+                        name: 'cardText'
+                        widget: 'markdown'
+                        required: false
+                      - label: 'Kacheln'
+                        name: 'competencies'
+                        widget: 'relation'
+                        collection: 'kompetenzen'
+                        required: false
+                        multiple: true
+                        i18n: duplicate
+                        value_field: '{{slug}}'
+                        search_fields: ['competenceName']
+                        display_fields: ['competenceName']
+                      - label: 'Anzeigetext'
+                        name: 'showText'
+                        widget: 'boolean'
+                        default: false
+                        required: false
                   - label: 'Bild'
                     name: 'image'
                     widget: 'object'
