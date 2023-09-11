@@ -43,10 +43,9 @@ components:
         headline: Schussgewicht von 0,01 g bis 50 g
         smallHeadline: Spritzguss
         competencies:
-          - wo-andere-aufhören-fangen-wir-erst-an
-          - umspritzen-von-sensiblen-bauteilen
-          - unsere-jahrelange-stärke
-          - farben-materialienmix
+          - filigrane-teilegeometrien
+          - insertteile
+          - optische-teile
         showText: true
   - type: competenciesBlocks
     competencies:
