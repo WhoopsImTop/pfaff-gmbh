@@ -6,7 +6,7 @@
         <h1>{{ seite.competenceTitle }}</h1>
         <p v-html="$md.render(seite.competenceShortText ?? '')"></p>
       </div>
-      <div class="image-container col-lg-6">
+      <div class="competence-image-container col-lg-6">
         <img
           :src="seite.competenceImage"
           :alt="seite.competenceImageDescription ?? seite.competenceTitle"
@@ -16,7 +16,7 @@
       </div>
     </div>
     <div class="competence-single">
-      <div class="content competence-text-container">
+      <div class="content competence-text-container" style="margin-top: 50px">
         <p v-html="$md.render(seite.competenceDescription)"></p>
       </div>
     </div>

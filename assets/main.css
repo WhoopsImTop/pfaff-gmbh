@@ -265,7 +265,24 @@
   height: 70vh;
   position: relative;
   max-width: var(--content-max-width);
+  margin: 150px auto 0;
   padding: var(--content-padding);
+}
+
+.competence-image-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  max-width: var(--content-max-width);
+  margin: 0 auto 0;
+  padding: var(--content-padding);
+}
+
+.competence-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .image-container img {
