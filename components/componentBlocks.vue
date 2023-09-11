@@ -1,5 +1,5 @@
 <template>
-  <div class="content-container">
+  <div :class="inComponent ? 'content-margin' : 'content-container'">
     <h2 v-if="component.title">{{ component.title }}</h2>
     <div class="card-container">
       <nuxt-link :to="'/kompetenzen/' + card.slug" v-for="(card, index) in kompetenzen" :key="index" class="pf-card">
@@ -18,7 +18,7 @@
 
 <script>
 export default {
-  props: ['component'],
+  props: ['component', 'inComponent'],
   data: () => {
     return {
       kompetenzen: [],

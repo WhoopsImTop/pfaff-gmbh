@@ -51,7 +51,7 @@ components:
   - type: competenciesBlocks
     competencies:
       - komplettlösungen
-      - projektmanagement
+      - nachhaltigkeit
       - materialien
       - raumfertigung
       - kleine-auflagen

@@ -32,6 +32,10 @@
   width: 100%;
 }
 
+.content-margin {
+  margin: 200px auto;
+}
+
 .navigation-bar {
   display: flex;
   justify-content: space-between;
@@ -593,6 +597,10 @@
 
 @media (max-width: 1000px) {
   .content-container {
+    margin: 130px auto;
+  }
+
+  .content-margin {
     margin: 130px auto;
   }
 

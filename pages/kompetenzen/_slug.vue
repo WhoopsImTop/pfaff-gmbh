@@ -24,13 +24,14 @@
       v-for="(component, index) in seite.pageContent"
       :key="index"
       :component="component"
-      :inContent=true
+      :inComponent=true
     />
     <component-blocks
       :component="{
         title: 'Weitere Kompetenzen',
         competencies: competencies,
       }"
+      :inComponent=true
     />
   </div>
 </template>
@@ -41,7 +42,7 @@ export default {
     return {
       competencies: [
         'komplettlösungen',
-        'projektmanagement',
+        'nachhaltigkeit',
         'materialien',
         'raumfertigung',
         'kleine-auflagen',
@@ -62,6 +63,7 @@ export default {
     if (index > -1) {
       this.competencies.splice(index, 1)
     }
+    console.log(this.competencies.length)
   },
 
   head() {

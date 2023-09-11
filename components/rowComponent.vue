@@ -1,6 +1,6 @@
 <template>
-  <div class="content-container row">
-    <div v-for="(block, index) in component.component" :key="index" :class="component.component.length > 1 ? 'col-lg-6' : 'col'">
+  <div :class="inComponent ? 'content-margin' : 'content-container'" class="row">
+    <div v-for="(block, index) in component.component" :key="index" :class="component.component.length > 1 ? 'col-lg-6' : 'col p-0'">
       <div v-if="block.type === 'text'">
         <span v-if="block.smallHeadline" class="smallHeadline" style="min-height: 30px;">{{ block.smallHeadline }}</span>
         <h2 style="min-height: 45px">{{ block.headline }}</h2>
@@ -14,7 +14,7 @@
         <component-block-small :component="block" />
       </div>
       <div v-if="block.type === 'mainCompetencies'">
-        <main-competencies-component :component="block" />
+        <main-competencies-component :component="block" :inComponent="inComponent" />
       </div>
       <div v-if="block.type === 'cooperationForm'">
         <component-cooperation-form v-if="block.embedForm" />
@@ -28,7 +28,7 @@
 
 <script>
 export default {
-  props: ['component'],
+  props: ['component', 'inComponent'],
 }
 </script>
 

@@ -23,14 +23,14 @@
       v-if="component.type == 'competenciesBlocks'"
       :component="component"
     />
-    <row-component v-if="component.type == 'row'" :component="component" />
+    <row-component v-if="component.type == 'row'" :component="component" :inComponent="inComponent"/>
     <team-component v-if="component.type == 'team'" :component="component" />
   </div>
 </template>
 
 <script>
 export default {
-  props: ['component'],
+  props: ['component', 'inComponent'],
 }
 </script>
 
