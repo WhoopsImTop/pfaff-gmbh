@@ -1,17 +1,22 @@
 <template>
-  <div class="content-margin">
-    <div class="image-container">
-      <img
-        :src="seite.competenceImage"
-        :alt="seite.competenceImageDescription ?? seite.competenceTitle"
-        :title="seite.competenceImageDescription ?? seite.competenceTitle"
-        loading="lazy"
-      />
-    </div>
-    <div class="competence-single content-container">
-      <div class="content competence-text-container">
+  <div class="content-margin content-container">
+    <div class="row">
+      <div class="col-lg-6">
         <span class="smallHeadline">{{ seite.competenceName }}</span>
         <h1>{{ seite.competenceTitle }}</h1>
+        <p v-html="$md.render(seite.competenceShortText ?? '')"></p>
+      </div>
+      <div class="image-container col-lg-6">
+        <img
+          :src="seite.competenceImage"
+          :alt="seite.competenceImageDescription ?? seite.competenceTitle"
+          :title="seite.competenceImageDescription ?? seite.competenceTitle"
+          loading="lazy"
+        />
+      </div>
+    </div>
+    <div class="competence-single">
+      <div class="content competence-text-container">
         <p v-html="$md.render(seite.competenceDescription)"></p>
       </div>
     </div>
@@ -55,7 +60,7 @@ export default {
 
   head() {
     return {
-      title: "Pfaff GmbH - " + this.seite.competenceName,
+      title: 'Pfaff GmbH - ' + this.seite.competenceName,
       meta: [
         {
           hid: 'description',

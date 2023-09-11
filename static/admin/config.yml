@@ -631,6 +631,12 @@ collections:
           i18n: true,
         }
       - {
+          label: 'Kompetenz Kurzbeschreibung',
+          name: 'competenceShortText',
+          widget: 'markdown',
+          i18n: true,
+        }
+      - {
           label: 'Kompetenzbeschreibung',
           name: 'competenceDescription',
           widget: 'markdown',

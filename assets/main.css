@@ -265,7 +265,6 @@
   height: 70vh;
   position: relative;
   max-width: var(--content-max-width);
-  margin: 150px auto 0;
   padding: var(--content-padding);
 }
 
