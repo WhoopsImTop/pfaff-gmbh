@@ -47,6 +47,6 @@ components:
         cardLink: news-medien/meilensteine
         cardImage: /pfaff-historie.jpg
   - type: news
-    embedNews: false
+    embedNews: true
 id: f768f98b-fcb5-4305-b731-838d75613174
 ---
