@@ -37,12 +37,15 @@ export default {
     },
   },
   created() {
-    const cards = [...this.$store.state.news];
+    let cards = [...this.$store.state.news]
 
-    if(this.component.newsCategories) {
-      cards.filter((card) => {
-        const slug = card.category.replace(/ /g, '-').toLowerCase()
-        return this.component.newsCategories.includes(slug)
+    if (this.component.newsCategories) {
+      const categories = this.component.newsCategories.map((category) => {
+        return category.replace(/ /g, '-').toLowerCase()
+      })
+
+      cards = cards.filter((card) => {
+        return categories.includes(card.category)
       })
     }
 
