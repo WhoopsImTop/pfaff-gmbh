@@ -26,6 +26,8 @@ components:
   - type: row
     component:
       - type: text
+        headline: Vielfältige Materialien für maßgeschneiderte Lösungen.
+        smallHeadline: Spritzguss
         text: Unsere Spritzgussproduktion umfasst eine breite Palette von Materialien,
           darunter technische Thermoplaste wie PMMA, POM, sowie
           Hochleistungskunststoffe wie PEEK oder PPSU. Darüber hinaus sind wir
@@ -33,8 +35,8 @@ components:
           Silikon-Elastomer herzustellen. Diese Materialvielfalt ermöglicht es
           uns, maßgeschneiderte Lösungen für die individuellen Anforderungen
           unserer Kunden zu entwickeln.
-        headline: Vielfältige Materialien für maßgeschneiderte Lösungen.
-        smallHeadline: Spritzguss
+  - type: row
+    component:
       - type: cards
         competencies:
           - wo-andere-aufhören-fangen-wir-erst-an
