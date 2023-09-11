@@ -7,7 +7,9 @@
         <div class="sidebar">
           <div class="scrollable_container">
             <div class="sidebar-content">
-              <span class="smallHeadline" style="width: max-content">News & Medien</span>
+              <span class="smallHeadline" style="width: max-content"
+                >News & Medien</span
+              >
               <h4>Immer Informiert</h4>
               <p>
                 Bleiben Sie auf dem Laufenden mit News, Fachbeiträgen,
@@ -29,7 +31,14 @@
               </nuxt-link>
             </div>
             <div class="sidebar-content">
-              <a href="https://www.linkedin.com/company/pfaff-gmbh/" target="_blank"><img src="/linked_in_logo_blue.svg" width="100" alt="linkedIn Logo"></a>
+              <a
+                href="https://www.linkedin.com/company/pfaff-gmbh/"
+                target="_blank"
+                ><img
+                  src="/linked_in_logo_blue.svg"
+                  width="100"
+                  alt="linkedIn Logo"
+              /></a>
             </div>
           </div>
         </div>
@@ -40,10 +49,29 @@
 </template>
   
   <script>
+import Lenis from '@studio-freight/lenis'
 import FooterComponent from '~/components/footerComponent.vue'
 import navbarComponent from '~/components/navbarComponent.vue'
 export default {
   components: { navbarComponent, FooterComponent },
+  data() {
+    return {
+      lenis: null,
+    }
+  },
+  mounted() {
+    this.lenis = new Lenis()
+    const that = this;
+    function raf(time) {
+      that.lenis.raf(time)
+      requestAnimationFrame(raf)
+    }
+
+    requestAnimationFrame(raf)
+  },
+  beforeDestroy() {
+    this.lenis.destroy()
+  },
 }
 </script>
   
@@ -104,7 +132,6 @@ export default {
     display: block;
   }
 }
-
 
 @media (min-width: 1000px) and (max-width: 1230px) {
   .grid-4 {
