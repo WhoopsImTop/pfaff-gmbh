@@ -46,6 +46,9 @@ components:
           - unsere-jahrelange-stärke
           - farben-materialienmix
         showText: true
+      - type: text
+        headline: Schussgewicht von 0,01 g bis 50 g
+        smallHeadline: Spritzguss
   - type: competenciesBlocks
     competencies:
       - komplettlösungen
