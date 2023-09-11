@@ -89,7 +89,7 @@ components:
         blockLink: ""
         blockLinkCompetencies: kompetenzen/projektmanagement
     blockTitle: High-Tech-Teile aus Kunststoff
-  - productTitle: Tradition und Präzision.
+  - productTitle: Tradition und Präzision
     productMobileImage: /pfaff-gmbh-miniatur-bruecke-mobil.jpg
     productImage: /pfaff-gmbh-miniatur-bruecke.jpg
     productQuote: Corinna Pfaff, CEO
