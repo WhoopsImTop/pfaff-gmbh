@@ -62,10 +62,5 @@ components:
         cardText: Erfahren Sie mehr über unsere Geschichte und wichtige Stationen.
         cardLink: news-medien/meilensteine
         cardImage: /pfaff-historie.jpg
-  - type: news
-    embedNews: true
-    title: Aktuelle News
-    newsCategories:
-      - Meilensteine
 id: f768f98b-fcb5-4305-b731-838d75613174
 ---
