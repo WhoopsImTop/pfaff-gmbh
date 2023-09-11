@@ -122,6 +122,7 @@ components:
             * Wir definieren Qualität als Übereinstimmung mit den Anforderungen
             * Unser System zur Qualitätssicherung ist Vorbeugung
             * Unsere Philosophie ist „Null Fehler“
+
           * Der Qualitätsmanagementbeauftragte unseres Unternehmens ist direkt der Geschäftsführung unterstellt. Er ist beauftragt, unser QM-System zu überwachen und weiterzuentwickeln.
 id: 30fd5a65-6f3f-40cc-bdff-517c6e554d35
 ---
