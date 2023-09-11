@@ -13,7 +13,6 @@
         <div class="card-content">
           <span class="product-category">{{ card.competenceName }}</span>
           <h4 style="margin-top: 20px">{{ card.competenceTitle }}</h4>
-          <p v-if="component.showText" >{{ card.shortText }}</p> 
         </div>
       </nuxt-link>
     </div>

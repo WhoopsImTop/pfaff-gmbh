@@ -643,12 +643,6 @@ collections:
           i18n: true,
         }
       - {
-          label: 'Kompezenzen Anzeigetext',
-          name: 'shortText',
-          widget: 'markdown',
-          default: false,
-        }
-      - {
           label: 'Kompetenzbild',
           name: 'competenceImage',
           widget: 'image',
