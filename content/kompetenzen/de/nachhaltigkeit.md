@@ -2,15 +2,11 @@
 competenceName: Nachhaltigkeit
 competencePosition: 5
 competenceTitle: Unser Versprechen
-competenceShortText: >-
-  Bei PFAFF GmbH ist Nachhaltigkeit ein wesentlicher Bestandteil unserer
-  Unternehmensphilosophie. Wir setzen uns aktiv für eine verantwortungsvolle und
-  umweltfreundliche Produktion ein und streben danach, nachhaltige Lösungen zu
-  entwickeln, die unseren ökologischen Fußabdruck reduzieren und zur Sicherung
-  einer lebenswerten Zukunft beitragen.
-
-
-  Hier sind einige der Maßnahmen, die wir in Richtung Nachhaltigkeit ergreifen:
+competenceShortText: Bei PFAFF GmbH ist Nachhaltigkeit ein wesentlicher
+  Bestandteil unserer Unternehmensphilosophie. Wir setzen uns aktiv für eine
+  verantwortungsvolle und umweltfreundliche Produktion ein und streben danach,
+  nachhaltige Lösungen zu entwickeln, die unseren ökologischen Fußabdruck
+  reduzieren und zur Sicherung einer lebenswerten Zukunft beitragen.
 competenceDescription: >-
   ### Regionalität - Stärkung der Region
 
