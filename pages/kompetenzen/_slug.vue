@@ -48,6 +48,12 @@ export default {
         'kleine-auflagen',
         'maschinenpark',
       ],
+      competenciesToPush: [
+        'insertteile',
+        'filigrane-teilegeometrien',
+        'mehrkomponententechnik',
+        'optische-teile',
+      ]
     }
   },
   async asyncData({ $content, app, store: { dispatch }, params }) {
@@ -62,6 +68,9 @@ export default {
     const index = this.competencies.indexOf(this.$route.params.slug)
     if (index > -1) {
       this.competencies.splice(index, 1)
+      this.competenciesToPush.forEach((competence) => {
+        this.competencies.push(competence)
+      })
     }
     console.log(this.competencies.length)
   },

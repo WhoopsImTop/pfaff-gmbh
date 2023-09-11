@@ -17,6 +17,11 @@ export default {
       lenis: null,
     }
   },
+  watch: {
+    $route(to, from) {
+      window.scrollTo(0, 0)
+    },
+  },
   mounted() {
     this.lenis = new Lenis()
     const that = this;
@@ -30,6 +35,7 @@ export default {
   beforeDestroy() {
     this.lenis.destroy()
   },
+
 }
 </script>
 
