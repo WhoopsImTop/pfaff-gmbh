@@ -9,9 +9,7 @@
         :to="'/news-medien/' + card.category + '/' + card.slug"
       >
         <div class="card-content">
-          <span class="article-date">{{
-            translateStatus(card.category)
-          }}</span>
+          <span class="article-date">{{ translateStatus(card.category) }}</span>
           <h3 v-html="card.title"></h3>
           <p v-if="card.shortText">{{ card.shortText }}</p>
           <p v-else>
@@ -39,7 +37,19 @@ export default {
     },
   },
   created() {
-    this.cards = this.$store.state.news.slice(0, 3)
+    const cards = [...this.$store.state.news];
+
+    if(this.component.newsCategories) {
+      cards.filter((card) => {
+        return this.component.newsCategories.includes(card.category)
+      })
+    }
+
+    cards.sort((a, b) => {
+      return new Date(b.date) - new Date(a.date)
+    })
+
+    this.cards = cards.slice(0, 3)
   },
 }
 </script>
