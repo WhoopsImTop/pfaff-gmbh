@@ -2,14 +2,13 @@
 competenceButtonText: Sprechen Sie uns gerne an
 competenceName: Komplettlösungen
 competencePosition: 2
-competenceDescription: >-
+competenceShortText: >-
   Bei PFAFF GmbH verstehen wir uns nicht nur als Spritzgießer, sondern vor allem
   als Dienstleister und Problemlöser. Neben den perfekt gespritzten
   Kunststoffteilen bieten wir unseren Kunden verstärkt Komplettlösungen an.
   Unser umfassender Service umfasst zahlreiche nachgelagerte Prozesse wie
   Stanzen, Bedrucken, Montieren und mehr.
-
-
+competenceDescription: >-
   ### Alles aus einer Hand
 
 

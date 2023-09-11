@@ -2,14 +2,13 @@
 competenceName: Kleine Auflagen, Prototypen
 competencePosition: 3
 competenceTitle: Idealer StartUp Partner
-competenceDescription: >-
+competenceShortText: >-
   Neben der Serienfertigung von Kunststoffteilen für verschiedene
   Industriezweige sind wir spezialisiert auf Abmusterungen, Vor- und
   Kleinstserien. Wir verstehen die einzigartigen Herausforderungen, vor denen
   Startups stehen, und bieten Ihnen maßgeschneiderte Lösungen, um Ihre
   innovativen Ideen in die Realität umzusetzen.
-
-
+competenceDescription: >-
   ### Pionierarbeit in der Technologieentwicklung
 
 

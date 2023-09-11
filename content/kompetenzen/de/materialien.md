@@ -2,14 +2,13 @@
 competenceName: Materialien
 competencePosition: 6
 competenceTitle: Thermoplaste und Hochleistungskunststoffe
-competenceDescription: >-
+competenceShortText: >-
   Eine hervorragende Qualität der Materialien ist die Grundvoraussetzung für
   qualitativ hochwertige Kunststoff-Produkte. Bei PFAFF GmbH arbeiten wir mit
   einer Vielzahl von Materialien, um den unterschiedlichen Anforderungen unserer
   Kunden gerecht zu werden. Neben den Standardmaterialien wie PE oder PP setzen
   wir vor allem auf Hochleistungs-Kunststoffe und technische Thermoplaste.
-
-
+competenceDescription: >-
   ### Hochleistungskunststoffe
 
 

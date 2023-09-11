@@ -2,15 +2,14 @@
 competenceName: Reinraumfertigung
 competencePosition: 4
 competenceTitle: Geringe Partikelbelastung
-competenceDescription: >-
+competenceShortText: >-
   Bei PFAFF GmbH verstehen wir, dass unsere Kunden aus verschiedenen
   Industriezweigen kommen und unterschiedliche Anforderungen an ihre Produkte
   stellen. Aus diesem Grund haben wir im Jahr 2012 in die Investition von
   Reinraumboxen entschieden. Diese Boxen können an bestimmte Maschinen angepasst
   werden und ermöglichen eine Fertigung unter Reinraumklasse 7, einschließlich
   automatisierter Verpackung, falls gewünscht.
-
-
+competenceDescription: >-
   ### Höchste Flexibilität und Mehrwert für unsere Kunden
 
 

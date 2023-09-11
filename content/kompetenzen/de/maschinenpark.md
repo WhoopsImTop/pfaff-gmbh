@@ -6,13 +6,12 @@ competenceSideInfo:
   - image: /pfaff-gmbh_spritzguss-768x424-1.jpeg
 competencePosition: 7
 competenceTitle: Hybrid und vollelektrisch
-competenceDescription: >-
+competenceShortText: >-
   Bei PFAFF GmbH arbeiten wir eng mit Maschinenherstellern aus der Region
   zusammen, um unseren Maschinenpark stets nach den aktuellen Marktgegebenheiten
   und dem technologisch neuesten Standard in der Spritzgießtechnik zu
   aktualisieren.
-
-
+competenceDescription: >-
   ### Modernste Technologie im Einsatz
 
 
