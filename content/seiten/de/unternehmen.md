@@ -41,7 +41,7 @@ components:
         cardText: Entdecken Sie unsere Stellenangebote und Möglichkeiten für
           Initiativbewerbungen.
         cardLink: news-medien/stellenausschreibungen
-        cardImage: /pfaff-karriere.jpg
+        cardImage: /pfaff-gmbh-karriere-schwarzwald.jpg
       - cardTitle: Meilensteine
         cardText: Erfahren Sie mehr über unsere Geschichte und wichtige Stationen.
         cardLink: news-medien/meilensteine
