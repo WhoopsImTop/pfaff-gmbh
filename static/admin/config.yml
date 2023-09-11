@@ -695,7 +695,7 @@ collections:
                 i18n: true
                 types:
                   - label: 'Kacheln'
-                    name: 'cards'
+                    name: 'mainCompetencies'
                     widget: 'object'
                     fields:
                       - label: 'Kleine Überschrift'

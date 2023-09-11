@@ -15,5 +15,15 @@ competenceDescription: Aktuell verfügen wir über 2 Einlegemaschinen, auf welch
   sorgen für eine optimale Produktqualität und valide Prozesse.
 competenceImage: /sonden-elektroden-bohrer_pfaff-874x969-1-1536x775.jpg
 competenceImageDescription: Umspritzte Stimulationssonden und Nadelelektroden für die Neurochirurgie
-pageContent: []
+pageContent:
+  - type: row
+    component:
+      - type: mainCompetencies
+        headline: Weitere Kernkompetenzen
+        competencies:
+          - filigrane-teilegeometrien
+          - insertteile
+          - optische-teile
+          - mehrkomponententechnik
+        showText: true
 ---

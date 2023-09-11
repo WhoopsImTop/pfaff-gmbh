@@ -18,4 +18,15 @@ competenceDescription: Durch unsere Kompetenzen in der Mehrkomponenten-Technik
 competenceImage: /massageball-bepanthen_pfaff-2.jpg
 competenceImageDescription: Massageball für Bepanthen Narbengel
 featuredCompetence: true
+pageContent:
+  - type: row
+    component:
+      - type: mainCompetencies
+        headline: Weitere Kernkompetenzen
+        competencies:
+          - filigrane-teilegeometrien
+          - insertteile
+          - optische-teile
+          - mehrkomponententechnik
+        showText: true
 ---

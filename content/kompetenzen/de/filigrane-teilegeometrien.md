@@ -46,9 +46,8 @@ featuredCompetence: false
 pageContent:
   - type: row
     component:
-      - type: cards
-        headline: Schussgewicht von 0,01 g bis 50 g
-        smallHeadline: Spritzguss
+      - type: mainCompetencies
+        headline: Weitere Kernkompetenzen
         competencies:
           - filigrane-teilegeometrien
           - insertteile

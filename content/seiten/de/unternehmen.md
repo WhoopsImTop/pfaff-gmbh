@@ -40,23 +40,22 @@ components:
       - type: image
         image: /ab-cp-4.jpg
         imageAltText: ""
-  - type: row
-    component:
-      - type: image
-        image: /pfaff-gmbh-karriere-schwarzwald.jpg
-      - type: text
-        smallHeadline: Karriere
-        headline: Azubi oder Mitarbeiter werden
-        text: >-
-          Werden Sie Teil unseres erfolgreichen Familienbetriebs mit über 17
-          Angestellten, Azubis, Praktikanten und Aushilfskräften auf 700
-          Quadratmetern Produktionsfläche mit kurzen Kommunikationswegen und
-          flachen Hierarchien.
-
-
-          An dieser Stelle finden Sie – falls vorhanden – offene Stellen. Wir freuen uns aber auch auf Ihre Initiativ-Bewerbung!
-        button:
-          buttonLink: /news-medien/stellenausschreibungen
-          buttonText: Stellenausschreibungen
+  - type: cards
+    cardsTitle: Immer informiert
+    card:
+      - cardTitle: Neuigkeiten
+        cardText: Bleiben Sie auf dem Laufenden mit aktuellen News, Fachbeiträgen und
+          Presseartikeln.
+        cardLink: news-medien
+        cardImage: /pfaff-neuigkeiten.jpg
+      - cardTitle: Karriere
+        cardText: Entdecken Sie unsere Stellenangebote und Möglichkeiten für
+          Initiativbewerbungen.
+        cardLink: news-medien/stellenausschreibungen
+        cardImage: /pfaff-karriere.jpg
+      - cardTitle: Meilensteine
+        cardText: Erfahren Sie mehr über unsere Geschichte und wichtige Stationen.
+        cardLink: news-medien/meilensteine
+        cardImage: /pfaff-historie.jpg
 id: f768f98b-fcb5-4305-b731-838d75613174
 ---

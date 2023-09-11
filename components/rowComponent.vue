@@ -13,6 +13,9 @@
       <div v-if="block.type === 'cards'">
         <component-block-small :component="block" />
       </div>
+      <div v-if="block.type === 'mainCompetencies'">
+        <main-competencies-component :component="block" />
+      </div>
       <div v-if="block.type === 'cooperationForm'">
         <component-cooperation-form v-if="block.embedForm" />
       </div>

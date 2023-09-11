@@ -22,4 +22,15 @@ competenceDescription: Das Spritzgießen von optischen und transparenten Teilen
 competenceImage: /lichtleiter-1k-2k-automotive_pfaff.jpg
 competenceImageDescription: Lichtleiter Automotive
 featuredCompetence: true
+pageContent:
+  - type: row
+    component:
+      - type: mainCompetencies
+        headline: Weitere Kernkompetenzen
+        competencies:
+          - filigrane-teilegeometrien
+          - insertteile
+          - optische-teile
+          - mehrkomponententechnik
+        showText: true
 ---

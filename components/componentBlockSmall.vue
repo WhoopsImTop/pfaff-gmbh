@@ -10,7 +10,7 @@
     <p v-if="component.text" v-html="$md.render(component.text ?? '')"></p>
     <div class="small-card-container">
       <nuxt-link
-        :to="'kompetenzen/' + card.slug"
+        :to="generateLink('kompetenzen/', card.slug)"
         v-for="(card, index) in kompetenzen"
         :key="index"
         class="pf-card-sm"
@@ -57,6 +57,15 @@ export default {
         this.component.competencies.indexOf(b.slug)
       )
     })
+  },
+  methods: {
+    generateLink(path, slug) {
+      if (this.$route.path.includes(path)) {
+        return slug
+      } else {
+        return path + slug
+      }
+    },
   },
 }
 </script>
