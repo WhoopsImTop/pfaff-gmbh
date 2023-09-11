@@ -36,7 +36,7 @@ components:
             left: 61
         landingImageMobile: /preview-pfaff-miniatur-laster-mobile.png
   - type: contentblock
-    contentTitle: Wo Kunststoff Karriere macht.
+    contentTitle: Wo Kunststoff Karriere macht
     contentText: >-
       Seit 1991 sind wir Experten für hochwertige Kunststoffartikel in den
       Branchen **Medizin- und Dentaltechnik**, **Mess- und Regelungstechnik**,
@@ -88,7 +88,7 @@ components:
         blockImage: /pfaff-nachhaltigkeit.jpg
         blockLink: ""
         blockLinkCompetencies: kompetenzen/projektmanagement
-    blockTitle: High-Tech-Teile aus Kunststoff.
+    blockTitle: High-Tech-Teile aus Kunststoff
   - productTitle: Tradition und Präzision.
     productMobileImage: /pfaff-gmbh-miniatur-bruecke-mobil.jpg
     productImage: /pfaff-gmbh-miniatur-bruecke.jpg
@@ -104,7 +104,7 @@ components:
     type: productPreview
     productCtaLink: unternehmen
   - type: cards
-    cardsTitle: Immer informiert.
+    cardsTitle: Immer informiert
     card:
       - cardTitle: Neuigkeiten
         cardText: Bleiben Sie auf dem Laufenden mit aktuellen News, Fachbeiträgen und
