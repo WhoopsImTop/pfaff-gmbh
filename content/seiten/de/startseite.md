@@ -76,7 +76,8 @@ components:
       - blockCategory: Ready To Use
         blockTitle: Komplettlösungen
         blockImage: /pfaff-komplettloesungen.jpg
-        blockLink: kompetenzen
+        blockLink: ""
+        blockLinkCompetencies: kompetenzen/komplettlösungen
       - blockCategory: Kleine Auflagen, Prototypen
         blockTitle: Idealer Startup Partner
         blockImage: /pfaff-kleinauflagen.jpg
