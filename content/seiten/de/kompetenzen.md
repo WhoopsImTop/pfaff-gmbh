@@ -27,7 +27,7 @@ components:
     component:
       - type: text
         headline: Vielfältige Materialien für maßgeschneiderte Lösungen.
-        smallHeadline: Spritzguss
+        smallHeadline: ""
         text: Unsere Spritzgussproduktion umfasst eine breite Palette von Materialien,
           darunter technische Thermoplaste wie PMMA, POM, sowie
           Hochleistungskunststoffe wie PEEK oder PPSU. Darüber hinaus sind wir
