@@ -29,6 +29,18 @@ components:
       - type: image
         image: /ab-cp-4.jpg
         imageAltText: ""
+  - type: row
+    component:
+      - type: text
+        text: Bei PFAFF GmbH ist Nachhaltigkeit ein wesentlicher Bestandteil unserer
+          Unternehmensphilosophie. Wir setzen uns aktiv für eine
+          verantwortungsvolle und umweltfreundliche Produktion ein und streben
+          danach, nachhaltige Lösungen zu entwickeln, die unseren ökologischen
+          Fußabdruck reduzieren und zur Sicherung einer lebenswerten Zukunft
+          beitragen.
+        button:
+          buttonText: Mehr zum Thema Nachhaltigkeit
+          buttonLink: https://pfaff-gmbh.netlify.app/kompetenzen/nachhaltigkeit
   - type: cards
     cardsTitle: Immer informiert
     card:
