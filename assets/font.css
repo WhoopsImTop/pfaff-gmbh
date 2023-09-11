@@ -240,6 +240,7 @@ p {
   line-height: 30px;
   font-weight: 400;
   word-wrap: break-word;
+  margin-bottom: 3rem;
 }
 
 .marketing-text,
