@@ -86,7 +86,8 @@ components:
       - blockCategory: Unser Versprechen
         blockTitle: Nachhaltigkeit
         blockImage: /pfaff-nachhaltigkeit.jpg
-        blockLink: unternehmen
+        blockLink: ""
+        blockLinkCompetencies: kompetenzen/projektmanagement
     blockTitle: High-Tech-Teile aus Kunststoff.
   - productTitle: Tradition und Präzision.
     productMobileImage: /pfaff-gmbh-miniatur-bruecke-mobil.jpg
