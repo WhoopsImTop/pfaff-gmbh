@@ -40,15 +40,14 @@ components:
   - type: row
     component:
       - type: cards
+        headline: Schussgewicht von 0,01 g bis 50 g
+        smallHeadline: Spritzguss
         competencies:
           - wo-andere-aufhören-fangen-wir-erst-an
           - umspritzen-von-sensiblen-bauteilen
           - unsere-jahrelange-stärke
           - farben-materialienmix
         showText: true
-      - type: text
-        headline: Schussgewicht von 0,01 g bis 50 g
-        smallHeadline: Spritzguss
   - type: competenciesBlocks
     competencies:
       - komplettlösungen

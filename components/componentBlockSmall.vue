@@ -1,5 +1,13 @@
 <template>
   <div>
+    <span
+      v-if="component.smallHeadline"
+      class="smallHeadline"
+      style="min-height: 30px"
+      >{{ component.smallHeadline }}</span
+    >
+    <h2 v-if="component.headline" style="min-height: 45px">{{ component.headline }}</h2>
+    <p v-if="component.text" v-html="$md.render(component.text ?? '')"></p>
     <div class="small-card-container">
       <nuxt-link
         :to="'kompetenzen/' + card.slug"
@@ -8,7 +16,12 @@
         class="pf-card-sm"
       >
         <div v-if="card.competenceImage" class="small-card-image">
-          <img :src="card.competenceImage" :alt="card.competenceName" :title="card.competenceName" loading="lazy" />
+          <img
+            :src="card.competenceImage"
+            :alt="card.competenceName"
+            :title="card.competenceName"
+            loading="lazy"
+          />
         </div>
         <div class="card-content">
           <span class="product-category">{{ card.competenceName }}</span>
@@ -83,6 +96,6 @@ export default {
 @media (max-width: 900px) {
   .small-card-container {
     grid-template-columns: 1fr;
-  }  
+  }
 }
 </style>

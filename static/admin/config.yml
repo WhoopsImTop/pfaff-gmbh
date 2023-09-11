@@ -509,6 +509,18 @@ collections:
                     name: 'cards'
                     widget: 'object'
                     fields:
+                      - label: 'Kleine Überschrift'
+                        name: 'smallHeadline'
+                        widget: 'string'
+                        required: false
+                      - label: 'Überschrift'
+                        name: 'headline'
+                        widget: 'string'
+                        required: false
+                      - label: 'text'
+                        name: 'cardText'
+                        widget: 'markdown'
+                        required: false
                       - label: 'Kacheln'
                         name: 'competencies'
                         widget: 'relation'
