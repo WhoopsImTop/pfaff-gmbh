@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mobile-margin">
     <div ref="slider" class="landing-slider" style="margin: 0 auto">
       <div
         v-for="(slide, index) in slideData"

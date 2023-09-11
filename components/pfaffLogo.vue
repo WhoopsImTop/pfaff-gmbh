@@ -145,30 +145,23 @@ export default {
     },
   },
   mounted() {
-    if (window.innerWidth > 1230) {
-      this.isMobile = false
-      window.addEventListener('scroll', () => {
-        if (window.scrollY > 100) {
-          this.isMobile = true
-          if (this.timeOut == null) {
-            this.startClock()
-          }
-        } else {
-          this.isMobile = false
-          clearInterval(this.timeOut)
-          this.timeOut = null
+    this.isMobile = false
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 100) {
+        this.isMobile = true
+        if (this.timeOut == null) {
+          this.startClock()
         }
-      })
-    } else {
-      this.isMobile = true
-      if (this.timeOut == null) {
-        this.startClock()
+      } else {
+        this.isMobile = false
+        clearInterval(this.timeOut)
+        this.timeOut = null
       }
-    }
+    })
   },
   methods: {
     stopClock() {
-      if(this.isMobile) return
+      if (this.isMobile) return
       clearInterval(this.timeOut)
       this.timeOut = null
       this.isMobile = false
@@ -285,5 +278,11 @@ export default {
   top: -220%;
   left: 50%;
   transform: translateX(-53%);
+}
+
+@media (max-width: 1000px) {
+  .desktop-logo {
+    height: 90px
+  }
 }
 </style>
