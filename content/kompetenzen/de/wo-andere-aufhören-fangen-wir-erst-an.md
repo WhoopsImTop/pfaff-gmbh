@@ -1,7 +1,4 @@
 ---
-competenceName: Filigrane Teilegeometrien
-competencePosition: 9
-competenceTitle: Wo andere aufhören, fangen wir erst an
 competenceShortText: "Das Spritzgießen filigraner Teilegeometrien ist unsere
   Spezialdisziplin. Von Beginn an suchte Firmengründer Adolf Pfaff die
   Herausforderung in Produkten, deren Herstellung aus Kunststoff fraglich waren
@@ -10,6 +7,13 @@ competenceShortText: "Das Spritzgießen filigraner Teilegeometrien ist unsere
   mit dem Spritzgießen aufhören, fangen wir erst an. Ob Dentalinstrumente mit
   filigranen Schneiden und Durchbrüchen oder dünnwandige Gehäuse mit aufwändiger
   Trennung, wir lieben die Herausforderung."
+shortText: Die präzise Herstellung von filigranen Teilegeometrien stellt
+  besondere Anforderungen an den Spritzguss. Dank unserer fortschrittlichen
+  Technik und unseres Expertenteams können wir auch in diesem Bereich
+  hervorragende Ergebnisse erzielen.
+competenceName: Filigrane Teilegeometrien
+competencePosition: 9
+competenceTitle: Wo andere aufhören, fangen wir erst an
 competenceDescription: >-
   ### Innovatives Design und Präzisionsfertigung
 
@@ -36,10 +40,7 @@ competenceDescription: >-
 
 
   Vertrauen Sie auf unsere Expertise, wenn es um die Fertigung anspruchsvoller, filigraner Kunststoffteile geht. Wir nehmen die Herausforderung an und setzen Ihre Ideen in die Realität um - mit Präzision, Innovation und Leidenschaft.
-shortText: Die präzise Herstellung von filigranen Teilegeometrien stellt
-  besondere Anforderungen an den Spritzguss. Dank unserer fortschrittlichen
-  Technik und unseres Expertenteams können wir auch in diesem Bereich
-  hervorragende Ergebnisse erzielen.
 competenceImage: /sensorgehaeuse-2k_pfaff.jpg
 competenceImageDescription: Sensorgehäuse für unterschiedliche Anwendungen
+featuredCompetence: false
 ---
