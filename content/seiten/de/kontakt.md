@@ -37,14 +37,14 @@ components:
         email: a.buff@pfaffgmbh.com
         phone: 07681-49397-15
       - name: Sabrina Kaul
-        position: Assistenz/Vertieb
+        position: Assistenz/Vertrieb
         email: s.kaul@pfaffgmbh.com
-        phone: 07681-49397-12
+        phone: 07681-49397-0
         image: /pfaff-gmbh-assistenz-vertrieb-sabrina-kaul.jpg
       - name: Christine Biehler
         position: Assistenz/Buchhaltung
         email: c.biehler@pfaffgmbh.com
-        phone: 07681-49397-17
+        phone: 07681-49397-0
         image: /pfaff-gmbh-assistenz-buchhaltung-christine-biehler.jpg
       - name: Harald Seifried
         position: QMB/Leiter Validierung
