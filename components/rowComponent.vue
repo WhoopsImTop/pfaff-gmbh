@@ -21,7 +21,7 @@
           class="button"
           v-if="block.button"
           :href="block.button.buttonDownloadLink || block.button.buttonLink"
-          :download="block.button.buttonDownloadLink ? true : false"
+          :target="block.button.buttonDownloadLink ? '_blank' : ''"
           >{{ block.button.buttonText }}</a
         >
       </div>
