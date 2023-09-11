@@ -393,9 +393,9 @@ collections:
                 widget: 'relation'
                 required: false
                 i18n: true
-                collection: 'category'
+                collection: 'blogkategorien'
                 multiple: true
-                value_field: '{{slug}}'
+                value_field: '{{categoryTitle}}'
                 search_fields: ['categoryTitle']
                 display_fields: ['categoryTitle']
 
