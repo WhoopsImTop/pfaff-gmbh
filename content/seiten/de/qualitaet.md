@@ -107,7 +107,7 @@ components:
 
           * Die Verwendung neuester Fertigungstechnologien in Verbindung mit einer hohen Flexibilität und kurzen Kommunikationswegen sind entscheidende Grundlagen für den Erfolg unseres Unternehmens.
 
-          * Jeder von uns setzt seine ganze Arbeitskraft dafür ein, die vereinbarten Anforderungen unserer Kunden immer richtig zu erfüllen.
+          * Jeder von uns setzt seine ganze Arbeitskraft dafür ein, die vereinbarten Anforderungen unserer Kunden immer richtig zu erfüllen. 
 
           * Wir praktizieren dabei Fairness, Respekt, Disziplin, Toleranz und Angemessenheit im Umgang miteinander nach innen und außen zum Wohle unserer Kunden, Lieferanten, Mitarbeiter und unseres Unternehmens.
 
@@ -118,11 +118,9 @@ components:
           * Wir verpflichten uns zur Einhaltung der zur Produktion unserer Produkte anwendbaren nationalen oder regionalen Bestimmungen und relevanten internationalen Normen. Verfügbare Informationen wie der allgemeine Stand der Technik und bekannte Vorbehalte der Beteiligten werden berücksichtigt.
 
           * Die Grundregeln, mit denen wir unsere Arbeitsprozesse reibungslos durchführen und ständig verbessern sind:
-
-            * Wir definieren Qualität als Übereinstimmung mit den Anforderungen
-            * Unser System zur Qualitätssicherung ist Vorbeugung
-            * Unsere Philosophie ist „Null Fehler“
-
+            - Wir definieren Qualität als Übereinstimmung mit den Anforderungen
+            - Unser System zur Qualitätssicherung ist Vorbeugung
+            - Unsere Philosophie ist „Null Fehler“ 
           * Der Qualitätsmanagementbeauftragte unseres Unternehmens ist direkt der Geschäftsführung unterstellt. Er ist beauftragt, unser QM-System zu überwachen und weiterzuentwickeln.
 id: 30fd5a65-6f3f-40cc-bdff-517c6e554d35
 ---
