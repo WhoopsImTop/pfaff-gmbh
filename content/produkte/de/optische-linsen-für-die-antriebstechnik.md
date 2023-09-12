@@ -41,8 +41,7 @@ productDescription: >-
   Vertrauen Sie auf unsere Fachkompetenz und Erfahrung, wenn es um die Fertigung hochpräziser optischer Linsen für die Antriebstechnik geht. Unsere Präzision und unser Streben nach Exzellenz machen uns zu einem verlässlichen Partner für optimale Antriebslösungen.
 productImage: /optische-linsen_pc_pfaff.jpg
 productCategories:
-  - Linsen
-  - Optische Teile
+  - Linsen + Optische Teile
 productFeatures:
   - featureTitle: "Fertigung:"
     featureText: Arburg 370 A

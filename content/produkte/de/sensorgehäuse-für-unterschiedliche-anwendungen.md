@@ -5,7 +5,5 @@ productImage: /sensorgehaeuse-2k_pfaff-1.jpg
 featuredProduct: true
 productCategories:
   - Mehrkomponenten
-  - Messen
-  - Steuern
-  - Regeln
+  - Messen, Steuern, Regeln
 ---

@@ -40,8 +40,7 @@ productDescription: >-
   Vertrauen Sie auf unsere Fachkompetenz und Erfahrung, wenn es um die Fertigung von optischen Teilen und innovativen Lichtleitern für die Automotive-Branche geht. Unsere Präzision und unser Streben nach Spitzenleistungen machen uns zu einem verlässlichen Partner für optische Lösungen in der Automobilindustrie.
 productImage: /lichtleiter-1k-2k-klimabedienung_pfaff.jpg
 productCategories:
-  - Optische Teile
-  - Linsen
+  - Linsen + Optische Teile
   - Mehrkomponenten
 productFeatures:
   - featureTitle: Fertigung

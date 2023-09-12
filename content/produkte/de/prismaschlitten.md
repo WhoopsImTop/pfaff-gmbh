@@ -34,9 +34,7 @@ productDescription: >-
   Vertrauen Sie auf unsere Fachkompetenz und Erfahrung, wenn es um die Fertigung hochpräziser Prismaschlitten geht. Unsere Präzision und unser Streben nach Spitzenleistungen machen uns zu einem verlässlichen Partner für Ihre individuellen Anforderungen im Bereich "Messen, Steuern und Regeln".
 productImage: /prismaschlitten-pfaff-gmbh.jpeg
 productCategories:
-  - Messen
-  - Steuern
-  - Regeln
+  - Messen, Steuern, Regeln
 productFeatures:
   - featureTitle: "Fertigung:"
     featureText: Arburg 370A

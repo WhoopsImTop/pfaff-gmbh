@@ -37,10 +37,9 @@ productDescription: >-
   Vertrauen Sie auf unsere Fachkompetenz und Erfahrung, wenn es um die präzise Umspritzung von Getriebekappen und anderen Insertteilen aus PPS geht. Unser Engagement für Qualität und unsere kontinuierliche Weiterentwicklung machen uns zu einem verlässlichen Partner für Ihre individuellen Fertigungsanforderungen.
 productImage: /getriebekappe-motorensteuerung-sensor.jpeg
 productCategories:
-  - Messen
-  - Steuern
-  - Regeln
+  - Messen, Steuern, Regeln
   - Insertteile
+  - Sensortechnik
 productFeatures:
   - featureTitle: "Fertigung:"
     featureText: Arburg 470C

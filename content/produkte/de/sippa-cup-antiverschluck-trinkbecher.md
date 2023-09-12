@@ -35,8 +35,7 @@ productDescription: >-
   Vertrauen Sie auf unsere Fachkompetenz und Erfahrung in der Herstellung von Medizinprodukten. Der Sippa-Cup Antiverschluck Trinkbecher ist ein Ergebnis unserer kontinuierlichen Forschung und Entwicklung, um die bestmöglichen Lösungen für die Dentaltechnik und Medizin zu bieten. Ihre Zufriedenheit und das Wohlbefinden Ihrer Patienten sind unser höchstes Ziel.
 productImage: /pfaff-gmbh_sippa-startnext.jpg
 productCategories:
-  - Medizin
-  - Dentaltechnik
+  - Medizin- + Dentaltechnik
 productFeatures:
   - featureTitle: "Fertigung:"
     featureText: Arburg 320 C & Arburg 420 C

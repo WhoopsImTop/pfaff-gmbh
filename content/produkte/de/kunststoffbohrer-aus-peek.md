@@ -36,8 +36,7 @@ productDescription: >-
 productImage: /selbstlimitierender-dentalbohrer_peek_pfaff-1200x969-1.jpg
 featuredProduct: true
 productCategories:
-  - Medizin
-  - Dentaltechnik
+  - Medizin- + Dentaltechnik
 productFeatures:
   - featureTitle: "Gefertigt auf:"
     featureText: Arburg 370 A

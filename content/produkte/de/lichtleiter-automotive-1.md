@@ -42,8 +42,7 @@ productDescription: >-
 productImage: /lichtleiter-1k-2k-automotive_pfaff.jpg
 productCategories:
   - Mehrkomponenten
-  - Linsen
-  - Optische Teile
+  - Linsen + Optische Teile
 productFeatures:
   - featureTitle: "Fertigung:"
     featureText: Arburg 470 C

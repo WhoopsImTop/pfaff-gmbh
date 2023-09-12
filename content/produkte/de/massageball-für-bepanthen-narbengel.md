@@ -37,7 +37,7 @@ productDescription: >-
   [F﻿achbeitrag Kunststoff Magazin 2016](/news-medien/fachbeitraege/kunststoff-magazin-2k-kunststoffteile-medizintechnik)
 productImage: /massageball-bepanthen_pfaff-2.jpg
 productCategories:
-  - Medizin
+  - Medizin- + Dentaltechnik
   - Mehrkomponenten
 productFeatures:
   - featureTitle: "Fertigung:"
