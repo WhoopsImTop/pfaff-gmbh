@@ -6,4 +6,5 @@ featuredProduct: true
 productCategories:
   - Mehrkomponenten
   - Messen, Steuern, Regeln
+  - Sensortechnik
 ---
