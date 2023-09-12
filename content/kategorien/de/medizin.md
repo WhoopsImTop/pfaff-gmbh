@@ -1,3 +1,3 @@
 ---
-productCategoryTitle: Medizin
+productCategoryTitle: Medizintechnik
 ---
