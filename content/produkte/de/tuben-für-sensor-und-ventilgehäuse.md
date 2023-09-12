@@ -37,6 +37,7 @@ productImage: /tuben-sensor-ventil-gehaeuse_pfaff.jpg
 featuredProduct: true
 productCategories:
   - Messen, Steuern, Regeln
+  - Sensortechnik
 productFeatures:
   - featureTitle: "Fertigung:"
     featureText: Arburg 320 C
