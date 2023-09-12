@@ -34,9 +34,7 @@ productDescription: >-
   Vertrauen Sie auf unsere Fachkompetenz und langjährige Erfahrung, wenn es um die Fertigung präziser Dichtringe und Abstandsbolzen für die Antriebstechnik geht. Unsere hohe Präzision und unser Streben nach Qualität machen uns zu einem zuverlässigen Partner für Ihre anspruchsvollen Antriebslösungen.
 productImage: /dichtring-abstandsbolzen-pfaff-waldkirch.jpg
 productCategories:
-  - Messen
-  - Steuern
-  - Regeln
+  - Messen, Steuern, Regeln
 productFeatures:
   - featureTitle: "Fertigung:"
     featureText: Babyplast
