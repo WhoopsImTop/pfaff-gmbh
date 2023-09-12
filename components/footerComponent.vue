@@ -26,7 +26,7 @@
           <strong>Produkte und Lösungen</strong><br />
           <nuxt-link to="/produktbeispiele">Produktbeispiele</nuxt-link><br />
           <nuxt-link to="/kompetenzen">Kompetenzen</nuxt-link><br />
-          <nuxt-link to="/qualität">Qualität</nuxt-link>
+          <nuxt-link to="/qualitaet">Qualität</nuxt-link>
         </p>
       </div>
       <div class="footer-content">
