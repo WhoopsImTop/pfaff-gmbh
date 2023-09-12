@@ -1,3 +1,3 @@
 ---
-productCategoryTitle: Linsen
+productCategoryTitle: Linsen + Optische Teile
 ---
