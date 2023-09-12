@@ -40,7 +40,7 @@ productDescription: >-
   Vertrauen Sie auf unsere Fachkompetenz und Erfahrung in der Fertigung von umgespritzten Stimulationssonden und Nadelelektroden für die Neurochirurgie. Unsere Präzision und Innovationskraft machen uns zu einem verlässlichen Partner für lebenswichtige Anwendungen in der Medizin und Dentaltechnik. Mit diesen Instrumenten können Neurochirurgen präzise Untersuchungen durchführen und gezielte Therapien entwickeln, um die Gesundheit und Lebensqualität ihrer Patienten zu verbessern.
 productImage: /sonden-elektroden-bohrer_pfaff-874x969-1.jpg
 productCategories:
-  - Medizin- + Dentaltechnik
+  - Medizin + Dentaltechnik
   - Insertteile
 productFeatures:
   - featureTitle: "Fertigung:"

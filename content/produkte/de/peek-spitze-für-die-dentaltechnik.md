@@ -36,7 +36,7 @@ productDescription: >-
   Vertrauen Sie auf unsere Fachkompetenz und Erfahrung, wenn es um die PEEK-Spitzen für die Dentaltechnik geht. Unsere Präzision, Qualität und unser Streben nach Spitzenleistungen machen uns zu einem verlässlichen Partner in der medizinischen Fertigungsbranche.
 productImage: /polymer-pin_peek_pfaff-1260x969-1.jpg
 productCategories:
-  - Medizin- + Dentaltechnik
+  - Medizin + Dentaltechnik
 productFeatures:
   - featureTitle: "Fertigung:"
     featureText: Arburg 370 A

@@ -34,7 +34,7 @@ productDescription: >-
   Vertrauen Sie auf unsere Fachkompetenz und Erfahrung, wenn es um den Puncture Cube für die Rückenpunktion geht. Unsere Präzision, Qualität und unser Streben nach Spitzenleistungen machen uns zu einem verlässlichen Partner in der medizinischen Fertigungsbranche.
 productImage: /puncture-cube_pp_pfaff.jpg
 productCategories:
-  - Medizin- + Dentaltechnik
+  - Medizin + Dentaltechnik
 productFeatures:
   - featureTitle: "Fertigung:"
     featureText: Arburg 370 A

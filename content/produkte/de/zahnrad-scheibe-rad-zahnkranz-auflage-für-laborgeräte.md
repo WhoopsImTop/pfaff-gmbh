@@ -38,7 +38,7 @@ productDescription: >-
   Mit unserer langjährigen Erfahrung und unserem technischen Know-how sind wir stolz darauf, hochwertige Zahnrad-, Scheiben-, Rad-, Zahnkranz- und Auflage-Komponenten für Laborgeräte herzustellen. Unsere Präzision und unser Engagement für Qualität machen uns zu einem verlässlichen Partner für die medizinische und dentale Industrie. Verlassen Sie sich auf unsere Fachkompetenz, um die Leistung und Genauigkeit Ihrer Laborgeräte zu verbessern.
 productImage: /zahnrad-scheibe-rad-zahnradkranz-auflage-laborgeraete.jpg
 productCategories:
-  - Medizin- + Dentaltechnik
+  - Medizin + Dentaltechnik
 productFeatures:
   - featureTitle: "Fertigung:"
     featureText: Arburg 320 C

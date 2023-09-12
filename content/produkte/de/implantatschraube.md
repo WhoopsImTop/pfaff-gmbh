@@ -44,7 +44,7 @@ productDescription: >-
   **Anwendung:** Die Implantatschraube verschließt das Implantat während des Heilungsprozesses, bis der Zahn aufgeschraubt werden kann.
 productImage: /implantatschraube-dentaltechnik-pfaff.jpeg
 productCategories:
-  - Medizin- + Dentaltechnik
+  - Medizin + Dentaltechnik
 productFeatures:
   - featureTitle: "Fertigung:"
     featureText: Arburg 370 A

@@ -41,7 +41,7 @@ productDescription: >-
   Verlassen Sie sich auf unsere Kompetenz und Erfahrung, wenn es um die Fertigung hochpräziser medizinischer Geräte geht. Das Einführungssystem für periphere Gefäßprothesen ist ein Beispiel für unser Engagement für Spitzenleistungen und unsere Verpflichtung zur Qualität in der Medizin- und Dentaltechnik.
 productImage: /einfuehrsystem-periphere-gefaess-prothese.jpg
 productCategories:
-  - Medizin- + Dentaltechnik
+  - Medizin + Dentaltechnik
 productFeatures:
   - featureTitle: "Fertigung:"
     featureText: Arburg 370 A
