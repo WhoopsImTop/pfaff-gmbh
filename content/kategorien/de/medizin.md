@@ -1,3 +1,3 @@
 ---
-productCategoryTitle: Medizintechnik
+productCategoryTitle: Medizin- + Dentaltechnik
 ---
