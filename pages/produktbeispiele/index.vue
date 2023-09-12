@@ -185,6 +185,7 @@ export default {
   outline: none;
   cursor: pointer;
   margin-right: 5px;
+  margin-bottom: 5px;
   border-radius: 2px;
 }
 
