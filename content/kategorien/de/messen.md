@@ -1,3 +1,3 @@
 ---
-productCategoryTitle: Messen, Steuern & Regeln
+productCategoryTitle: Messen, Steuern, Regeln
 ---
