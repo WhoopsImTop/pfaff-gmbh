@@ -140,7 +140,7 @@ export default {
   color: var(--primary-red-color) !important;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1440px) {
   .productRow,
   .competenciesRow {
     display: none;
