@@ -21,7 +21,7 @@ components:
           Zeiss-Koordinatenmessgerät investiert, mit welchem unsere
           Spritzgussteile optisch oder wahlweise taktil vermessen werden können.
       - type: image
-        image: /iso-9001-13485_teaser.jpeg
+        image: /zertifikate.png
   - type: row
     component:
       - type: text
