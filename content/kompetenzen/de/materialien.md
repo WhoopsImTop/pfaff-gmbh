@@ -2,79 +2,62 @@
 competenceName: Materialien
 competencePosition: 6
 competenceTitle: Thermoplaste und Hochleistungskunststoffe
-competenceShortText: >-
-  Eine hervorragende Qualität der Materialien ist die Grundvoraussetzung für
-  qualitativ hochwertige Kunststoff-Produkte. Bei PFAFF GmbH arbeiten wir mit
-  einer Vielzahl von Materialien, um den unterschiedlichen Anforderungen unserer
-  Kunden gerecht zu werden. Neben den Standardmaterialien wie PE oder PP setzen
-  wir vor allem auf Hochleistungs-Kunststoffe und technische Thermoplaste.
+competenceShortText: Eine hervorragende Qualität der Materialien ist die
+  Grundvoraussetzung für qualitativ hochwertige Kunststoffprodukte. Bei der
+  PFAFF GmbH arbeiten wir mit einer Vielzahl von Materialien, um den
+  unterschiedlichen Anforderungen unserer Kunden gerecht zu werden. Neben den
+  Standardmaterialien wie PE oder PP setzen wir vor allem auf
+  Hochleistungs-Kunststoffe und technische Thermoplaste.
 competenceDescription: >-
   ### Hochleistungskunststoffe
 
 
-  Wir sind spezialisiert auf die Verarbeitung von Hochleistungs-Kunststoffen, die besondere Eigenschaften und herausragende Leistung bieten. Zu unseren bevorzugten Hochleistungskunststoffen gehören:
+  Wir verfügen über einen großen Erfahrungsschatz in der Verarbeitung von Hochleistungs-Kunststoffen. Aufgrund ihrer herausragenden mechanischen, thermischen, chemischen und elektrischen Eigenschaften setzen wir diese gerne in anspruchsvollen Anwendungen ein. Hierzu zählen:
 
+  * LCP
 
-  * LCP (Flüssigkristalline Polymere)
+  * PEEK
 
-  * PEEK (Polyetheretherketon)
+  * PPS
 
-  * PPS (Polyphenylensulfid)
-
-  * PPSU (Polyphenylensulfon)
+  * PPSU
 
 
   ### Technische Thermoplaste
 
 
-  Des Weiteren arbeiten wir mit technischen Thermoplasten, die eine hohe Stabilität und Vielseitigkeit aufweisen. Zu diesen gehören:
+  Des Weiteren arbeiten wir mit zahlreichen technischen Thermoplasten, die eine hohe Stabilität und Vielseitigkeit aufweisen. Zu diesen gehören:
 
+  * ABS
 
-  * PA 6 (Polyamid 6)
+  * PA
 
-  * PA 6.6 (Polyamid 6.6)
+  * PBT
 
-  * PA 12 (Polyamid 12)
+  * PC
 
-  * PA/ABS
+  * PE
 
-  * PC (Polycarbonat)
+  * PMMA
 
-  * PC/ABS
+  * POM
 
-  * PMMA (Polymethylmethacrylat)
+  * PP
 
-  * POM (Polyoxymethylen)
+  * PS
 
-  * PBT (Polybutylenterephthalat)
+  * PUR
 
+  * TPE
 
-  ### Standardmaterialien und weitere Optionen
+  * TPU
 
-
-  Darüber hinaus bieten wir auch eine breite Auswahl an Standardmaterialien sowie weitere Möglichkeiten, um Ihren individuellen Anforderungen gerecht zu werden. Dazu gehören:
-
-
-  * PE (Polyethylen)
-
-  * PP (Polypropylen)
-
-  * PS (Polystyrol)
-
-  * ABS (Acrylnitril-Butadien-Styrol)
-
-  * PUR (Polyurethan)
-
-  * TPE (Thermoplastisches Elastomer)
-
-  * TPU (Thermoplastisches Polyurethan)
-
-  * TPV (Thermoplastisches Vulkanisat)
+  * TPV
 
   * Silikon-Elastomer
 
 
-  Unser umfangreiches Wissen über die Eigenschaften und Verarbeitungsmöglichkeiten dieser Materialien ermöglicht es uns, Ihnen die bestmöglichen Lösungen für Ihre Projekte anzubieten. Vertrauen Sie auf PFAFF GmbH als Ihren Experten für die Verarbeitung von Thermoplasten und Hochleistungskunststoffen.
+  Unser umfangreiches Wissen über die Eigenschaften und Verarbeitungsmöglichkeiten dieser Materialien ermöglicht es uns, Ihnen die bestmöglichen Lösungen für Ihre Projekte anzubieten. Vertrauen Sie auf uns als Ihren Experten für die Verarbeitung von Thermoplasten und Hochleistungskunststoffen.
 competenceButtonFile: /pfaff-gmbh_materialien_web.pdf
 competenceSideInfo:
   - image: /granulatberg-768x524-1.jpeg

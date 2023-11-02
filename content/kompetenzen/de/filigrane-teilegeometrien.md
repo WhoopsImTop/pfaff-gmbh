@@ -1,12 +1,9 @@
 ---
-competenceShortText: "Das Spritzgießen filigraner Teilegeometrien ist unsere
-  Spezialdisziplin. Von Beginn an suchte Firmengründer Adolf Pfaff die
-  Herausforderung in Produkten, deren Herstellung aus Kunststoff fraglich waren
-  und nur mit einem gewissen Knowhow und manchmal auch einer Portion Mut
-  umgesetzt werden konnten – mit Erfolg! Bis heute ist unsere Devise: wo andere
-  mit dem Spritzgießen aufhören, fangen wir erst an. Ob Dentalinstrumente mit
-  filigranen Schneiden und Durchbrüchen oder dünnwandige Gehäuse mit aufwändiger
-  Trennung, wir lieben die Herausforderung."
+competenceShortText: “Sandkastenschaufeln spritzen wir nicht”, war schon vor
+  über 30 Jahren das Statement von Firmengründer Adolf Pfaff. Diesem Motto sind
+  wir treu geblieben, denn wo andere mit dem Spritzgießen aufhören, fangen wir
+  erst an. Ob Dentalinstrumente mit filigranen Schneiden und Durchbrüchen oder
+  dünnwandige Gehäuse mit aufwändiger Trennung, wir lieben die Herausforderung.
 shortText: Die präzise Herstellung von filigranen Teilegeometrien stellt
   besondere Anforderungen an den Spritzguss. Dank unserer fortschrittlichen
   Technik und unseres Expertenteams können wir auch in diesem Bereich
@@ -14,32 +11,57 @@ shortText: Die präzise Herstellung von filigranen Teilegeometrien stellt
 competenceName: Filigrane Teilegeometrien
 competencePosition: 9
 competenceTitle: Wo andere aufhören, fangen wir erst an
-competenceDescription: >-
-  ### Innovatives Design und Präzisionsfertigung
+competenceDescription: "### Innovatives Design und Präzisionsfertigung\r
+
+  Bei der Herstellung von filigranen Spritzgussteilen liegen die
+  Herausforderungen zum einen in der Beherrschung des Fertigungsprozesses und
+  zum anderen an der richtigen Materialauswahl und dem passenden Werkzeugdesign.
+  Wir wissen, welche Materialien über eine gute Fließfähigkeit und eine
+  ausreichende Festigkeit verfügen, wie Lufteinschlüsse vermieden werden, wie
+  eine Werkzeugform am besten gekühlt und die Temperatur präzise gesteuert wird.
+  Dieses Fachwissen und unsere langjährige Erfahrung bringen wir bereits in der
+  Entwicklungsphase bei unseren Kunden ein.
 
 
-  Unsere Begeisterung für die Herausforderung treibt uns an, filigrane Teilegeometrien mit höchster Präzision und Qualität herzustellen. Dank modernster Technologie und einem erfahrenen Team meistern wir die Fertigung von anspruchsvollen Geometrien und hauchdünnen Wandstärken.
+  \r
+
+  ### Materialvielfalt für anspruchsvolle Lösungen\r
+
+  Unsere Kunststoffprodukte kommen in vielen unterschiedlichen
+  Industriebranchen zum Einsatz und jede Branche bringt andere Anforderungen mit
+  sich. Deshalb verfügen wir über eine umfangreiche Auswahl an technischen
+  Thermoplasten und Hochleistungskunststoffen. Ob ABS, POM, PEEK oder PPSU - wir
+  finden den passenden Werkstoff für Sie und Ihr Produkt und unterstützen Sie
+  bereits in der Entwicklungsphase.
 
 
-  ### Materialvielfalt für anspruchsvolle Lösungen
+  \r
+
+  ### Qualitätskontrolle und Nachbearbeitung\r
+
+  Produkte mit filigranen Geometrien erfordern eine sorgfältige
+  Qualitätskontrolle. Unser erfahrenes Team überwacht den gesamten
+  Fertigungsprozess und stellt sicher, dass jedes Teil unseren hohen Standards
+  entspricht. Wenn nötig, führen wir auch zusätzliche Nachbearbeitungsschritte
+  (stanzen, bedrucken, montieren…) durch, um den Anforderungen unserer Kunden
+  gerecht zu werden.
 
 
-  Wir bieten eine umfangreiche Auswahl an technischen Thermoplasten und Hochleistungskunststoffen, die es uns ermöglicht, die optimalen Materialien für die jeweilige Anwendung auszuwählen. Von PMMA über POM bis hin zu PEEK oder PPSU - wir finden die passende Lösung für filigrane Teilegeometrien mit den gewünschten Eigenschaften.
+  \r
 
+  ### Kundenspezifische Lösungen\r
 
-  ### Qualitätskontrolle und Nachbearbeitung
+  Unsere langjährige Erfahrung und unser technisches Know-how ermöglichen es
+  uns, maßgeschneiderte Lösungen für filigrane Teilegeometrien zu entwickeln und
+  umzusetzen. Wir stehen Ihnen zur Seite, um Ihre individuellen Anforderungen zu
+  verstehen und anspruchsvolle Produkte zu verwirklichen.
 
+  \r
 
-  Die Herstellung filigraner Teilegeometrien erfordert eine sorgfältige Qualitätskontrolle. Unser erfahrenes Team überwacht den gesamten Fertigungsprozess und stellt sicher, dass jedes Teil unseren hohen Standards entspricht. Wenn nötig, führen wir auch zusätzliche Nachbearbeitungsschritte, wie das Stanzen oder Bedrucken der Teile, durch, um den Anforderungen unserer Kunden gerecht zu werden.
-
-
-  ### Kundenspezifische Lösungen
-
-
-  Unsere langjährige Erfahrung und unser technisches Know-how ermöglichen es uns, maßgeschneiderte Lösungen für filigrane Teilegeometrien zu entwickeln und umzusetzen. Wir stehen unseren Kunden zur Seite, um ihre individuellen Anforderungen zu verstehen und anspruchsvolle Produkte zu verwirklichen.
-
-
-  Vertrauen Sie auf unsere Expertise, wenn es um die Fertigung anspruchsvoller, filigraner Kunststoffteile geht. Wir nehmen die Herausforderung an und setzen Ihre Ideen in die Realität um - mit Präzision, Innovation und Leidenschaft.
+  Vertrauen Sie auf unsere Expertise, wenn es um die Fertigung
+  anspruchsvoller, filigraner Kunststoffteile geht. Wir nehmen die
+  Herausforderung an und setzen Ihre Ideen in die Realität um - mit Präzision,
+  Innovation und Leidenschaft.\r\n"
 competenceImage: /sensorgehaeuse-2k_pfaff.jpg
 competenceImageDescription: Sensorgehäuse für unterschiedliche Anwendungen
 featuredCompetence: false

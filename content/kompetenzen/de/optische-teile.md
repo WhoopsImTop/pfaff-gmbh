@@ -1,24 +1,26 @@
 ---
-competenceShortText: Unsere langjährige Erfahrung im Spritzguss von optischen
-  Teilen garantiert eine erstklassige Qualität und makellose Oberflächen. Wir
-  setzen auf modernste Technologien und Verfahren, um die höchsten Ansprüche
-  unserer Kunden zu erfüllen.
+competenceShortText: Ob technische Linsen für die Sensortechnik, transparente
+  Zahnräder für den Maschinenbau oder Lichtleiter für den Automotive-Bereich –
+  mit dem Spritzguss von Linsen & optischen Teilen kennen wir uns aus und das
+  bereits seit vielen Jahren.
 shortText: Unsere langjährige Erfahrung im Spritzguss von optischen Teilen
   garantiert eine erstklassige Qualität und makellose Oberflächen. Wir setzen
   auf modernste Technologien und Verfahren, um die höchsten Ansprüche unserer
   Kunden zu erfüllen.
-competenceName: Optische Teile
+competenceName: Linsen & optische Teile
 competencePosition: 11
 competenceTitle: Unsere jahrelange Stärke
-competenceDescription: Das Spritzgießen von optischen und transparenten Teilen
-  ist bereits seit mehreren Jahren eine unserer Stärken. Vor allen Dingen Linsen
-  und transparente Zahnräder für die Antriebstechnik oder Lichtsteine für
-  renommierte Automobilzulieferer gehören zu unserem Portfolio. Bei der
-  Fertigung von optischen Teilen muss es absolut „sauber“ zugehen. Dies
-  erreichen wir durch Reinraumboxen, die direkt an den Maschinen adaptiert sind.
-  Auch die Verpackung erfolgt teilweise unter Reinraumbedingungen, überwiegend
-  in Blister oder Spezialverpackungen. So sind die Teile auf dem Transportweg
-  optimal geschützt.
+competenceDescription: Das Spritzgießen von Linsen und optischen Teilen bringt
+  zahlreiche Herausforderungen mit sich. Um die gewünschten optischen
+  Eigenschaften der Produkte zu erreichen, ist eine hohe Oberflächenqualität
+  gefordert. Das Werkzeugdesign und die Auswahl des richtigen
+  Kunststoffmaterials sind dabei entscheidend. Auch eine exakte Prozesssteuerung
+  und die Umgebungsbedingungen, wie z. B. eine geringe Partikelbelastung sind
+  wichtige Einflussfaktoren. All diese Dinge werden von der Pfaff GmbH durch
+  einen hohen technischen Fertigungsstandard und bestens ausgebildete Fachleute
+  beherrscht. Zu unserem Portfolio im Bereich Linsen & optische Teile zählen
+  außerdem eine präzise Qualitätskontrolle, eine evtl. Nachbearbeitung der Teile
+  und die Auswahl des perfekten Verpackungsmaterials.
 competenceImage: /lichtleiter-1k-2k-automotive_pfaff.jpg
 competenceImageDescription: Lichtleiter Automotive
 featuredCompetence: true
