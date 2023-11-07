@@ -30,7 +30,7 @@
             :key="index"
           >
             <strong>{{ info.featureTitle }}</strong>
-            <p>{{ info.featureText }}</p>
+            <p v-html="$md.render(info.featureText)"></p>
           </div>
         </div>
       </div>

@@ -3,10 +3,14 @@
     <h1 style="margin-bottom: 10px">{{ news[0].title }}</h1>
     <div class="article-informations">
       <span class="article-information" v-if="kategorie">{{
-        kategorie ? kategorie[0].categoryTitle : ''
+        kategorie.length > 0 ? kategorie[0].categoryTitle : ''
       }}</span>
     </div>
-    <img v-if="news[0].image" :src="news[0].image" style="width: 100%; margin-bottom: 20px" />
+    <img
+      v-if="news[0].image"
+      :src="news[0].image"
+      style="width: 100%; margin-bottom: 20px"
+    />
     <nuxt-content class="blog-content" :document="news[0]" />
   </div>
 </template>
@@ -19,10 +23,16 @@ export default {
     const news = await $content('blog/' + app.i18n.locale)
       .where({ slug: params.slug })
       .fetch()
-    const kategorie = await $content('blogkategorien/' + app.i18n.locale)
-      .where({ slug: news[0].category })
-      .fetch()
-    return { news, kategorie }
+
+    console.log(news)
+    if (news[0].category) {
+      const kategorie = await $content('blogkategorien/' + app.i18n.locale)
+        .where({ slug: news[0].category })
+        .fetch()
+      return { news, kategorie }
+    } else {
+      return { news }
+    }
   },
 
   head() {
@@ -92,5 +102,4 @@ export default {
 }
 </script>
 
-<style>
-</style>
+<style></style>

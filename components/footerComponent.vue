@@ -60,7 +60,7 @@
       <div class="footer-links">
         <nuxt-link to="/impressum">Impressum</nuxt-link>
         <nuxt-link to="/datenschutz">Datenschutzerklärung</nuxt-link>
-        <nuxt-link to="/agbs">AGB's</nuxt-link>
+        <nuxt-link to="/agb">AGB</nuxt-link>
         <a href="javascript:UC_UI.showSecondLayer();">Cookie-Einstellungen</a>
       </div>
       <div class="copyright">

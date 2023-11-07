@@ -1,10 +1,9 @@
-
-<p>title: K-Profi Kleine Größe zum großen Plus ausbauen</p>
-<p>slug: K-Profi Kleine Größe zum großen Plus ausbauen</p>
-<p>date: Sat Oct 01 2016 16:25:00 GMT+0200 (Mitteleuropäische Sommerzeit)</p>
-<p>category: presseartikel</p>
-
-
+---
+title: K-Profi Kleine Größe zum großen Plus ausbauen
+slug: k-profi-kleine-groesse-zum-groessen-plus-ausbauen
+date: Sat Oct 01 2016 16:25:00 GMT+0200 (Mitteleuropäische Sommerzeit)
+category: presseartikel
+---
 
 <p><strong>Wie der 2K-Spezialist Pfaff als flexibles Familienunternehmen den Generationenwechsel schafft.</strong></p>
 

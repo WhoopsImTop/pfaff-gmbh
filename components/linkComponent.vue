@@ -5,9 +5,9 @@
     </nuxt-link>
     <div v-if="component.featuredProducts" class="productRow">
       <nuxt-link
-        class="product-link"
         v-for="produkt in component.featuredProducts"
         :key="produkt.productTitle"
+        class="product-link"
         :to="'/produktbeispiele/' + produkt.slug"
       >
         <div class="product-link-image">
