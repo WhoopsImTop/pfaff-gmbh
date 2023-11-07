@@ -33,6 +33,7 @@
         </div>
         <div class="slide-content-container" :class="slide.landingProducts ? 'slide-with-products' : ''">
           <h1
+            v-if="currentSlide === index"
             class="slide-title"
             :class="slide.landingTitlePosition"
             v-html="slide.landingTitle"
@@ -303,6 +304,22 @@ export default {
 .slide-leave-to {
   opacity: 0;
   transform: translateX(30px);
+}
+
+.slide-title {
+  width: max-content;
+  padding: 10px;
+}
+
+.slide-title::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0px;
+  background-color: #ffffff80;
+  z-index: -1
 }
 
 @media (max-width: 1000px) {
