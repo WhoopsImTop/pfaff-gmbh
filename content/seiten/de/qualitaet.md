@@ -14,12 +14,10 @@ components:
         text: Hervorragende Qualität bei wirtschaftlicher Produktion verstehen wir als
           Selbstverständlichkeit. Seit 2006 sind wir nach der ISO-Norm 9001
           zertifiziert. Seit 2011 bieten wir unseren Kunden im Medizinbereich
-          zusätzlich eine Qualitätssicherung nach ISO 13485. Von 17 Mitarbeitern
-          kümmern sich zwei ausschließlich um ein funktionierendes
-          Qualitätsmanagement. Zur Sicherung der Qualität setzen wir außerdem
-          auf modernste Technik. Erst 2016 wurde in ein neues
-          Zeiss-Koordinatenmessgerät investiert, mit welchem unsere
-          Spritzgussteile optisch oder wahlweise taktil vermessen werden können.
+          zusätzlich eine Qualitätssicherung nach ISO 13485. Zur Sicherung der
+          Qualität setzen wir außerdem auf modernste Technik. Mit einem
+          Zeiss-Koordinatenmessgerät der neuesten Generation können unsere
+          Spritzgussteile optisch oder wahlweise taktil vermessen werden.
       - type: image
         image: /zertifikate.png
   - type: row
@@ -27,7 +25,7 @@ components:
       - type: text
         smallHeadline: Zertifikat
         headline: ISO 9001
-        text: "**Die ISO 9001** legt die Mindestanforderungen an ein
+        text: "**Die ISO 9001** legt die Mindestanforderungen an ein
           Qualitätsmanagementsystem fest, die uns zu genügen hat, um Produkte
           und Dienstleistungen bereitstellen zu können, welche die
           Kundenerwartungen sowie allfällige behördliche Anforderungen erfüllen.
@@ -50,32 +48,53 @@ components:
       - type: text
         smallHeadline: Ihre Vorteile
         headline: Zertifikat nach ISO 13485:2016
-        text: >-
-          Die ISO 13485:2016 beschreibt ein Qualitätsmanagementsystem mit
-          höchsten Anforderungen an Entwicklung, Produktion, Vertrieb und
-          Service Ihres Medizinproduktes. Nur wenn Sie diese Norm nachweisen
-          können, dürfen Sie Ihr Produkt mit dem CE-Kennzeichen versehen und auf
-          dem europäischen Markt vertreiben. Das System muss aber auch für
+        text: "Die ISO 13485 beschreibt ein Qualitätsmanagementsystem mit höchsten
+          Anforderungen an Entwicklung, Produktion, Vertrieb und Service Ihres
+          Medizinproduktes. Nur wenn Sie diese Norm nachweisen können, dürfen
+          Sie Ihr Produkt mit dem CE-Kennzeichen versehen und auf dem
+          europäischen Markt vertreiben. Das System muss aber auch für
           diejenigen Teile gesichert sein, die durch externe Firmen wie die
-          Pfaff GmbH zugeliefert werden. Da wir selbst mit ISO 13485:2016
-          zertifiziert sind, profitieren Sie gleich von mehreren Vorteilen:
+          Pfaff GmbH zugeliefert werden. Da wir selbst mit ISO 13485
+          zertifiziert sind, profitieren Sie gleich von mehreren Vorteilen:\r
 
+          \r
 
-          * Wir weisen durch externe Audits kontinuierlich nach, dass wir mit den Anforderungen der Norm bestens vertraut sind.
+          • Wir weisen durch externe Audits kontinuierlich nach, dass
+          wir mit den Anforderungen der Norm bestens vertraut sind.\r
 
-          * Unsere Prozesse sind validiert.
+          \r
 
-          * Unsere Produkte können bis zum eingesetzten Kunststoffgranulat zurückverfolgt werden.
+          • Unsere Prozesse sind validiert.\r
 
-          * Unsere Produkte werden nach zuvor von Ihnen festgelegten Vorgaben getestet, bevor wir sie ausliefern.
+          \r
 
-          * Ihr eigenes Audit beschränkt sich auf die Prüfung der Dokumente
+          • Unsere Produkte können bis zum eingesetzten
+          Kunststoffgranulat zurückverfolgt werden.\r
 
-          * Sie sparen deshalb massiv Kosten & Zeit.
+          \r
 
-          * Sie haben die Sicherheit, dass normkonforme Prozesse bereits durch uns umgesetzt werden.
+          • Unsere Produkte werden nach zuvor von Ihnen festgelegten
+          Vorgaben getestet, bevor wir sie ausliefern.\r
 
-          * Darüber hinaus wird die Sicherheit Ihres Medizinproduktes durch das laut Norm geforderte, systematische Lieferantenmanagementsystem gewährleistet.
+          \r
+
+          • Ihr eigenes Audit beschränkt sich auf die Prüfung der
+          Dokumente\r
+
+          \r
+
+          • Sie sparen deshalb massiv Kosten & Zeit.\r
+
+          \r
+
+          • Sie haben die Sicherheit, dass normkonforme Prozesse
+          bereits durch uns umgesetzt werden.\r
+
+          \r
+
+          • Darüber hinaus wird die Sicherheit Ihres Medizinproduktes
+          durch das laut Norm geforderte, systematische
+          Lieferantenmanagementsystem gewährleistet."
       - type: image
         image: /iso134852016.png
   - type: row
@@ -107,7 +126,7 @@ components:
 
           * Die Verwendung neuester Fertigungstechnologien in Verbindung mit einer hohen Flexibilität und kurzen Kommunikationswegen sind entscheidende Grundlagen für den Erfolg unseres Unternehmens.
 
-          * Jeder von uns setzt seine ganze Arbeitskraft dafür ein, die vereinbarten Anforderungen unserer Kunden immer richtig zu erfüllen. 
+          * Jeder von uns setzt seine ganze Arbeitskraft dafür ein, die vereinbarten Anforderungen unserer Kunden immer richtig zu erfüllen.
 
           * Wir praktizieren dabei Fairness, Respekt, Disziplin, Toleranz und Angemessenheit im Umgang miteinander nach innen und außen zum Wohle unserer Kunden, Lieferanten, Mitarbeiter und unseres Unternehmens.
 
@@ -118,9 +137,9 @@ components:
           * Wir verpflichten uns zur Einhaltung der zur Produktion unserer Produkte anwendbaren nationalen oder regionalen Bestimmungen und relevanten internationalen Normen. Verfügbare Informationen wie der allgemeine Stand der Technik und bekannte Vorbehalte der Beteiligten werden berücksichtigt.
 
           * Die Grundregeln, mit denen wir unsere Arbeitsprozesse reibungslos durchführen und ständig verbessern sind:
-            - Wir definieren Qualität als Übereinstimmung mit den Anforderungen
-            - Unser System zur Qualitätssicherung ist Vorbeugung
-            - Unsere Philosophie ist „Null Fehler“ 
+            * Wir definieren Qualität als Übereinstimmung mit den Anforderungen
+            * Unser System zur Qualitätssicherung ist Vorbeugung
+            * Unsere Philosophie ist „Null Fehler“
           * Der Qualitätsmanagementbeauftragte unseres Unternehmens ist direkt der Geschäftsführung unterstellt. Er ist beauftragt, unser QM-System zu überwachen und weiterzuentwickeln.
 id: 30fd5a65-6f3f-40cc-bdff-517c6e554d35
 ---

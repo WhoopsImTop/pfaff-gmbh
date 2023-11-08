@@ -11,33 +11,41 @@ components:
       - type: text
         smallHeadline: Das Unternehmen
         headline: Kurzporträt
-        text: >-
-          Die Pfaff GmbH mit Sitz in Waldkirch bei Freiburg wurde 1991 von Herrn
-          Adolf Pfaff gegründet und ist ein inhabergeführtes Unternehmen. 2018
-          wurde die Geschäftsführung von Tochter Corinna Pfaff übernommen. Ihr
-          Ehemann Andreas Buff ist technischer Leiter des Betriebs, Prokurist
-          und der kreative Kopf des Unternehmens.
+        text: "Die Pfaff GmbH Spritzgießtechnik mit Sitz in Waldkirch ist ein
+          inhabergeführtes Familienunternehmen, das sich auf die Herstellung
+          hochwertiger, technischer Kunststoffprodukte durch Spritzgussverfahren
+          spezialisiert hat. Das Unternehmen wurde 1991 gegründet und hat sich
+          seitdem kontinuierlich weiterentwickelt.\r
 
+          \r
 
-          Eine übersichtliche Betriebsgröße und ein Team von Fachleuten garantieren schnelle und direkte Kommunikationswege sowie ein großes Maß an Flexibilität. Modernste Konstruktions- und Herstellungstechnik versetzt uns in die Lage, besonders hohen Ansprüchen an Material, Werkzeugen und Maschinen gerecht zu werden. Moderne Fertigung, qualifiziertes Personal und ein nach ISO 9001 und ISO 13485 zertifiziertes Qualitätsmanagement gewährleisten unseren Kunden eine hervorragende Qualität bei wirtschaftlicher Herstellung.
+          Die anspruchsvollen Kunststoffprodukte, die im Ein- oder
+          Mehrkomponentenspritzguss bei uns entstehen, finden in zahlreichen
+          Branchen Anwendung. Von sensiblen Bauteilen für die Medizintechnik bis
+          hin zu Präzisionsteilen für die Sensorik – wir bieten eine breite
+          Palette von Spritzgusslösungen an.\r
 
+          \r
 
-          Im Zuge unserer Expansion haben wir in den vergangenen Jahren kontinuierlich in unseren modernen Maschinenpark sowie in qualifizierte Mitarbeiter investiert. Wir beschäftigen heute 17 Mitarbeiter und produzieren im Eineinhalb-Schicht-Betrieb auf einer Fläche von 700 Quadratmetern.
-
-
-          Als traditionsbewusstes Unternehmen sind wir stets darauf bedacht, unsere Erfolgsgeschichte weiterzuführen und uns gleichzeitig neuen Herausforderungen zu stellen. Entdecken Sie unsere hochwertigen Produkte und erfahren Sie mehr über unsere Leidenschaft für Qualität und Innovation. Wir laden Sie herzlich ein, uns näher kennenzulernen und Teil unserer Erfolgsgeschichte zu werden. Kontaktieren Sie uns gerne für weitere Informationen.
+          Dabei legen wir höchsten Wert auf Qualität. Modernste
+          Produktionsanlagen, ein qualifiziertes Team von Fachkräften und ein
+          nach ISO 9001 und ISO 13485 zertifiziertes Qualitätsmanagementsystem
+          sorgen dafür, dass unsere Produkte stets den höchsten
+          Qualitätsstandards entsprechen."
       - type: image
         image: /ab-cp-4.jpg
         imageAltText: ""
   - type: row
     component:
       - type: text
-        text: Bei PFAFF GmbH ist Nachhaltigkeit ein wesentlicher Bestandteil unserer
-          Unternehmensphilosophie. Wir setzen uns aktiv für eine
-          verantwortungsvolle und umweltfreundliche Produktion ein und streben
-          danach, nachhaltige Lösungen zu entwickeln, die unseren ökologischen
-          Fußabdruck reduzieren und zur Sicherung einer lebenswerten Zukunft
-          beitragen.
+        text: Nachhaltigkeit ist neben Innovation, Qualität und Kundenzufriedenheit ein
+          wesentlicher Bestandteil unserer Unternehmensphilosophie. Ein
+          verantwortungsvoller Umgang mit Ressourcen ist für uns
+          selbstverständlich. Was wir in diesem Zusammenhang bereits umgesetzt
+          haben, finden Sie [hier](/kompetenzen/nachhaltigkeit). Auch in Zukunft
+          werden wir an nachhaltigen Lösungen arbeiten, die unseren ökologischen
+          Fußabdruck reduzieren und so zur Sicherung einer lebenswerten Zukunft
+          beitragen können.
         button:
           buttonText: Mehr zum Thema Nachhaltigkeit
           buttonLink: https://pfaff-gmbh.netlify.app/kompetenzen/nachhaltigkeit
@@ -45,6 +53,25 @@ components:
         smallHeadline: Nachhaltigkeit
       - type: image
         image: /pfaff-nachhaltigkeit.jpg
+  - type: row
+    component:
+      - type: text
+        smallHeadline: ""
+        headline: Kundenorientierung
+        text: "Wir pflegen langjährige Beziehungen zu unseren Kunden und bieten einen
+          umfassenden Service: von der Unterstützung bei der Produktentwicklung,
+          über eine wirtschaftliche Produktion bis hin zu einer reibungslosen
+          Logistik. Die Zufriedenheit unserer Kunden steht bei uns an oberster
+          Stelle."
+      - type: text
+        text: Als traditionsbewusstes Unternehmen sind wir stets darauf bedacht, unsere
+          Erfolgsgeschichte weiterzuführen und uns gleichzeitig neuen
+          Herausforderungen zu stellen. Entdecken Sie unsere hochwertigen
+          Produkte und erfahren Sie mehr über unsere Leidenschaft für Qualität
+          und Innovation. Wir laden Sie herzlich ein, uns näher kennenzulernen
+          und Teil unserer Erfolgsgeschichte zu werden. Kontaktieren Sie uns
+          gerne für weitere Informationen.
+        headline: Zusammenarbeit
   - type: cards
     cardsTitle: Immer informiert
     card:

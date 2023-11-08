@@ -12,14 +12,14 @@ components:
       - type: text
         headline: Präzision und Vielseitigkeit
         smallHeadline: Kernkompetenzen
-        text: Bei PFAFF GmbH ist der Spritzguss eine unserer fachlichen
-          Hauptkompetenzen. Durch enge Zusammenarbeit mit führenden
-          Maschinenherstellern aus der Region aktualisieren wir kontinuierlich
-          unseren Maschinenpark, um stets den neuesten technologischen Standards
-          in der Spritzgießtechnik gerecht zu werden. Mit unseren hochmodernen
-          vollelektrischen 1K- und 2K-Spritzanlagen, die unter Reinraumklasse 7
-          arbeiten, können wir ein Schussgewicht von 0,01 g bis 50 g präzise
-          verarbeiten.
+        text: Wir treiben es auf die Spitze, wenn es um allerhöchste Präzision, Qualität
+          und Zuverlässigkeit geht und fertigen aus verschiedensten
+          Kunststoffmaterialien chirurgische Instrumente, Linsen, Ventilgehäuse
+          und vieles mehr für unterschiedlichste Industriebranchen. Mit unserem
+          hochmodernen Maschinenpark können wir Spritzgussteile von 0,01 g bis
+          50 g unter Reinraumbedingungen verwirklichen. Unsere Prozesse werden
+          gestützt durch ein nach ISO 9001 und ISO 13485 zertifiziertes
+          Qualitätsmanagementsystem.
       - type: image
         imageAltText: Ü﻿bergreifendes Knowhow.
         image: /pfaff-kompetenzen_teaser.jpeg
@@ -29,7 +29,7 @@ components:
         headline: Vielfältige Materialien für maßgeschneiderte Lösungen
         smallHeadline: ""
         text: Unsere Spritzgussproduktion umfasst eine breite Palette von Materialien,
-          darunter technische Thermoplaste wie PMMA, POM, sowie
+          darunter technische Thermoplaste wie PC, PMMA oder POM, sowie
           Hochleistungskunststoffe wie PEEK oder PPSU. Darüber hinaus sind wir
           in der Lage, Produkte aus Sondermaterialien wie PUR, TPU und
           Silikon-Elastomer herzustellen. Diese Materialvielfalt ermöglicht es

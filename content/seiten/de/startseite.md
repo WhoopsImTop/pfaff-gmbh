@@ -40,21 +40,22 @@ components:
     contentText: >-
       Seit 1991 sind wir Experten für hochwertige Kunststoffartikel in den
       Branchen **Medizin- und Dentaltechnik**, **Mess- und Regelungstechnik**,
-      **Ventil- und Fluidtechnik** sowie **Sensorik**. Mit innovativen
-      Technologien und **Hochleistungskunststoffen** wie **Peek** und **PPS**
-      garantieren wir herausragende Qualität und wirtschaftliche Herstellung.
-      Als inhabergeführtes Unternehmen bieten wir direkte Kommunikation,
-      flexible Lösungen, kurze Lieferzeiten und faire Preise.
+      **Ventil- und Fluidtechnik** sowie **Sensorik und weitere
+      Industriebranchen.** Mit innovativen Technologien und
+      Hochleistungskunststoffen garantieren wir herausragende Qualität und
+      wirtschaftliche Herstellung. Als inhabergeführtes Familienunternehmen
+      bieten wir flexible Lösungen, schnelle & transparente Kommunikation, kurze
+      Lieferzeiten und faire Preise.
 
 
-      Vertrauen, Respekt und Nachhaltigkeit prägen unsere Zusammenarbeit mit Kunden, Lieferanten und Mitarbeitern. Entdecken Sie unsere Möglichkeiten und kontaktieren Sie uns für langfristige Partnerschaften.
+      Vertrauen, Respekt und Nachhaltigkeit prägen unsere Zusammenarbeit mit Kunden, Lieferanten und Mitarbeitern. Entdecken Sie unsere Möglichkeiten und kontaktieren Sie uns gerne für langfristige Partnerschaften.
 
 
       **Wir freuen uns darauf, Ihre Anforderungen zu erfüllen.**
-    contentImage: /pfaff-gmbh-ceo-technische-leitung.jpg
+    contentImage: /ab-cp-1.jpg
     contentTextUnderImage: >-
-      #### "SCHNELLE UND TRANSPARENTE KOMMUNIKATION SOWIE MASSGESCHNEIDERTE
-      LÖSUNGEN SIND UNSERE STÄRKEN."
+      #### "INDIVIDUELLE LÖSUNGEN, HÖCHSTE QUALITÄT & EINE VERTRAUENSVOLLE
+      ZUSAMMENARBEIT SIND UNSERE STÄRKEN."
 
 
       *Corinna Pfaff, CEO*
@@ -88,14 +89,15 @@ components:
         blockImage: /pfaff-nachhaltigkeit.jpg
         blockLink: ""
         blockLinkCompetencies: kompetenzen/nachhaltigkeit
-    blockTitle: High-Tech-Teile aus Kunststoff
+    blockTitle: Pfaff GmbH
   - productTitle: Tradition und Präzision
     productMobileImage: /pfaff-gmbh-miniatur-bruecke-mobil.jpg
     productImage: /pfaff-gmbh-miniatur-bruecke.jpg
     productQuote: Corinna Pfaff, CEO
     productDescription: „Seit über 30 Jahren entwickeln wir in unserem
-      Familienbetrieb im Schwarzwald ausschließlich mit modernen Materialien,
-      innovativer Technik und garantieren höchste Qualität.“
+      Familienbetrieb im Schwarzwald ausschließlich mit
+      Hochleistungs-Materialien, innovativer Technik und garantieren höchste
+      Qualität“
     productCtaText: zum Unternehmen
     productImageMarkerPosition:
       bottom: 20
