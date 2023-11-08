@@ -57,40 +57,24 @@ components:
           Pfaff GmbH zugeliefert werden. Da wir selbst mit ISO 13485
           zertifiziert sind, profitieren Sie gleich von mehreren Vorteilen:\r
 
-          \r
-
           • Wir weisen durch externe Audits kontinuierlich nach, dass
           wir mit den Anforderungen der Norm bestens vertraut sind.\r
 
-          \r
-
           • Unsere Prozesse sind validiert.\r
-
-          \r
 
           • Unsere Produkte können bis zum eingesetzten
           Kunststoffgranulat zurückverfolgt werden.\r
 
-          \r
-
           • Unsere Produkte werden nach zuvor von Ihnen festgelegten
           Vorgaben getestet, bevor wir sie ausliefern.\r
-
-          \r
 
           • Ihr eigenes Audit beschränkt sich auf die Prüfung der
           Dokumente\r
 
-          \r
-
           • Sie sparen deshalb massiv Kosten & Zeit.\r
-
-          \r
 
           • Sie haben die Sicherheit, dass normkonforme Prozesse
           bereits durch uns umgesetzt werden.\r
-
-          \r
 
           • Darüber hinaus wird die Sicherheit Ihres Medizinproduktes
           durch das laut Norm geforderte, systematische
