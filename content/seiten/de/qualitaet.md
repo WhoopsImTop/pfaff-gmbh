@@ -32,7 +32,7 @@ components:
           Die ISO 9001 praktizieren wir seit 2006."
         button:
           buttonText: PDF ISO 9001 ZERTIFIKAT
-          buttonDownloadLink: /328302-qm15-2020-11-19-deutsch.pdf
+          buttonDownloadLink: /9001-2015_deutsch-2023-11-19.pdf
       - type: text
         text: "**Die ISO 13485** ist eine ISO-Norm, die die Erfordernisse für ein
           umfassendes Managementsystem für das Design und die Herstellung von
@@ -40,7 +40,7 @@ components:
           seit Januar 2011 ausgezeichnet."
         button:
           buttonText: PDF ISO 13485 ZERTIFIKAT
-          buttonDownloadLink: /328302-mp2016-2021-08-13-deutsch.pdf
+          buttonDownloadLink: /13485-2016_deutsch-2023-11-19.pdf
         headline: ISO 13485
         smallHeadline: Zertifikat
   - type: row
