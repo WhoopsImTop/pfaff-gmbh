@@ -33,6 +33,7 @@ productDescription: >-
 
 
   Vertrauen Sie auf unsere Fachkompetenz und Erfahrung in der Fertigung von hochpräzisen Modulbaugruppen aus POM. Ihre Zufriedenheit und der Erfolg Ihrer Produkte sind unser höchstes Ziel.
+productImage: /kundenspezifische_modulbaugruppe-1-.png
 featuredProduct: false
 productCategories:
   - Messen, Steuern, Regeln

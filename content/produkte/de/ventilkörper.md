@@ -34,6 +34,7 @@ productDescription: >-
 
 
   Vertrauen Sie auf unsere Fachkompetenz und Erfahrung in der Fertigung von hochpräzisen Ventilkörpern. Ihre Zufriedenheit und der Erfolg Ihrer Produkte sind unser höchstes Ziel.
+productImage: /ventil.png
 featuredProduct: false
 productCategories:
   - Messen, Steuern, Regeln
