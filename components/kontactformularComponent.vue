@@ -40,7 +40,6 @@
           v-model="telefon"
           type="text"
           placeholder="Telefon"
-          required
         ></b-form-input>
       </div>
     </div>
@@ -56,23 +55,77 @@
         ></b-form-textarea>
       </div>
     </div>
-    <button type="submit" class="button mt-4">Kontakt aufnehmen</button>
+    <button @click="sendForm()" class="button mt-4">
+      {{ contactFormButton }}
+    </button>
   </form>
 </template>
 
 <script>
+import axios from 'axios'
 export default {
   data() {
     return {
-        nachname: '',
-        firma: '',
-        email: '',
-        telefon: '',
-        nachricht: '',
+      nachname: '',
+      firma: '',
+      email: '',
+      telefon: '',
+      nachricht: '',
+      contactFormButton: 'Kontakt aufnehmen',
     }
+  },
+  methods: {
+    sendForm() {
+      if (
+        this.nachname === '' ||
+        this.firma === '' ||
+        this.email === '' ||
+        this.nachricht === ''
+      ) {
+        this.contactFormButton = 'Bitte füllen Sie alle Felder aus'
+        setTimeout(() => {
+          this.contactFormButton = 'Kontakt aufnehmen'
+        }, 5000)
+        return
+      }
+      event.preventDefault()
+      const formData = new FormData()
+      formData.append('name', this.nachname)
+      formData.append('firm', this.firma)
+      formData.append('email', this.email)
+      formData.append('phone', this.telefon)
+      formData.append('message', this.nachricht)
+
+      axios
+        .post('/mail.php', formData, {
+          headers: {
+            'Content-Type': 'multipart/form-data',
+          },
+        })
+        .then(
+          (response) => {
+            console.log(response)
+            this.nachname = ''
+            this.firma = ''
+            this.email = ''
+            this.telefon = ''
+            this.nachricht = ''
+            this.contactFormButton = 'Vielen Dank für Ihre Anfrage'
+            setTimeout(() => {
+              this.contactFormButton = 'Kontakt aufnehmen'
+            }, 10000)
+          },
+          (error) => {
+            console.log(error)
+            this.contactFormButton = 'Fehler beim Senden der Anfrage'
+            setTimeout(() => {
+              this.contactFormButton = 'Kontakt aufnehmen'
+            }, 10000)
+          }
+        )
+    },
   },
 }
 </script>
 
-<style>
-</style>
+<style></style>
