@@ -1,5 +1,6 @@
 ---
 productTitle: Lichtleiter Automotive
+productPosition: 9999
 productDescription: >-
   Unsere Expertise in der Fertigung von optischen Teilen, insbesondere
   Lichtleitern für die Automotive-Branche, ist eine unserer herausragenden
@@ -11,7 +12,7 @@ productDescription: >-
   ### Präzise Verarbeitung für effiziente Lichtführung
 
 
-  Die Fertigung von optischen Teilen erfordert höchste Präzision, um eine exzellente Lichtführung und effiziente Lichtleiter für die Automotive-Branche zu gewährleisten. Unsere leistungsstarke Arburg 470 C Fertigungsmaschine ermöglicht eine präzise 2K-Anwendung mit Angusstrennung mittels Schneidstation. Dieser Prozess garantiert eine reibungslose Herstellung von hochwertigen optischen Teilen.
+  Die Fertigung von optischen Teilen erfordert höchste Präzision und eine minimale Partikelbelastung, um den hohen Anforderungen gerecht zu werden. Unsere leistungsstarke Arburg 470 C Spritzugussmaschine ermöglicht eine präzise 2K-Anwendung mit Angusstrennung mittels Schneidstation. Dieser Prozess garantiert eine reibungslose Herstellung von hochwertigen optischen Teilen.
 
 
   ### Materialauswahl für optimale Lichtdurchlässigkeit
@@ -20,10 +21,10 @@ productDescription: >-
   Bei der Fertigung von optischen Teilen verwenden wir ausgewählte Materialien, die für ihre hervorragende Lichtdurchlässigkeit und optischen Eigenschaften bekannt sind. Die gewählten Materialien gewährleisten eine effiziente Lichtführung und ermöglichen so eine optimale Leistung der Lichtleiter in den Fahrzeugen.
 
 
-  ### Automatisierte Ablage für effiziente Produktion
+  ### Automatisierter Entnahme-Prozess für effiziente Produktion
 
 
-  Unsere Fertigung von optischen Teilen umfasst eine automatisierte Ablage mittels Handling. Dieser automatisierte Schritt in der Produktion gewährleistet eine effiziente und zuverlässige Weiterverarbeitung der gefertigten Komponenten.
+  Unsere Fertigung von optischen Teilen umfasst eine Entnahme mittels Arburg-Handling, Zuführung in eine Schneidstation und Ablage der Komponenten. Dieser automatisierte Schritt in der Produktion gewährleistet eine effiziente und zuverlässige Weiterverarbeitung der gefertigten Komponenten.
 
 
   ### Kundenspezifische Lösungen für innovative Anwendungen
@@ -35,10 +36,10 @@ productDescription: >-
   ### Qualitätssicherung für herausragende Performance
 
 
-  Die Qualität unserer optischen Teile ist von zentraler Bedeutung für ihre Performance und Zuverlässigkeit. Jede Linse und jeder Lichtleiter unterliegt einer gründlichen Qualitätskontrolle, um sicherzustellen, dass sie den hohen Standards der Automotive-Branche entsprechen. Wir setzen alles daran, Produkte von höchster Qualität zu liefern.
+  Die Qualität unserer optischen Teile ist von zentraler Bedeutung für ihre Performance und Zuverlässigkeit. Alle Lichtleiter unterliegen einer gründlichen Qualitätskontrolle, um sicherzustellen, dass sie den hohen Standards der Automotive-Branche entsprechen. Wir setzen alles daran, Produkte von höchster Qualität zu liefern.
 
 
-  Vertrauen Sie auf unsere Fachkompetenz und Erfahrung, wenn es um die Fertigung von optischen Teilen und innovativen Lichtleitern für die Automotive-Branche geht. Unsere Präzision und unser Streben nach Spitzenleistungen machen uns zu einem verlässlichen Partner für optische Lösungen in der Automobilindustrie.
+  Vertrauen Sie auf unsere Fachkompetenz und Erfahrung, wenn es um die Fertigung von optischen Teilen und innovativen Lichtleitern für die Automotive-Branche geht. Unsere Präzision und unser Streben nach Spitzenleistungen machen uns zu einem verlässlichen Partner für Lösungen in der Automobilindustrie.
 productImage: /lichtleiter-1k-2k_pfaff.jpg
 productCategories:
   - Linsen + Optische Teile
@@ -48,8 +49,8 @@ productFeatures:
     featureText: Arburg 470 C
   - featureTitle: "Angustrennung:"
     featureText: Schneidstation
-  - featureTitle: "Ablage:"
-    featureText: Handling
-  - featureTitle: "Material:"
-    featureText: 2K Anwendung
+  - featureTitle: "Entnehme:"
+    featureText: Arburg-Handling
+  - featureTitle: "Anwendung:"
+    featureText: 2K
 ---

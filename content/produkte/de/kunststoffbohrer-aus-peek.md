@@ -1,17 +1,17 @@
 ---
 productTitle: Kunststoffbohrer aus Peek
+productPosition: 9999
 productDescription: >-
   Unsere Kunststoffbohrer aus PEEK sind speziell für den Einsatz in der Medizin-
-  und Dentaltechnik entwickelt und gefertigt. Das Material PEEK
-  (Polyetheretherketon) zeichnet sich durch seine außergewöhnlichen
-  Eigenschaften aus und eignet sich besonders gut für anspruchsvolle Anwendungen
-  in der Medizintechnik.
+  und Dentaltechnik entwickelt und gefertigt. Es handelt sich dabei um ein
+  selbstlimitierendes Instrument, welches das weiche, kranke Dentin entfernt und
+  bei Kontakt mit hartem, gesundem Dentin abstumpft.
 
 
   ### Präzision trifft Qualität
 
 
-  Die Kunststoffbohrer werden auf unserer hochmodernen Arburg 370 A Spritzgießmaschine gefertigt, die für ihre Präzision und Effizienz bekannt ist. Die Entnahme der geformten Teile erfolgt mittels eines KUKA-Roboters, um eine gleichbleibende Qualität sicherzustellen.
+  Die Kunststoffbohrer werden auf unserer hochmodernen Arburg 370 A Spritzgießmaschine gefertigt, die für ihre Präzision und Effizienz bekannt ist. Die Entnahme der geformten Teile erfolgt mittels KUKA-Robot, um eine gleichbleibende Qualität sicherzustellen.
 
 
   ### Hygienische Fertigung in Reinraumklasse 7
@@ -29,10 +29,10 @@ productDescription: >-
   ### Vielseitigkeit für anspruchsvolle Anwendungen
 
 
-  Dank der hervorragenden Eigenschaften von PEEK sind unsere Kunststoffbohrer für vielfältige Anwendungen in der Medizintechnik und Dentaltechnik geeignet. Das Material ist besonders leicht, chemikalienbeständig und biokompatibel, was es zu einer optimalen Wahl für den Einsatz in medizinischen Instrumenten und Geräten macht.
+  Dank der hervorragenden Eigenschaften von PEEK sind unsere Kunststoffbohrer für vielfältige Anwendungen in der Dentaltechnik geeignet. Das Material ist besonders leicht, chemikalienbeständig und biokompatibel, was es zu einer optimalen Wahl für den Einsatz in medizinischen Instrumenten und Geräten macht.
 
 
-  Vertrauen Sie auf die Präzision und Qualität unserer Kunststoffbohrer aus PEEK, die für höchste Ansprüche in der Medizintechnik und Dentaltechnik entwickelt wurden. Unser Engagement für exzellente Produktionsstandards und anspruchsvolle Materialauswahl steht im Mittelpunkt unserer medizinischen Produkte.
+  Vertrauen Sie auf unsere Fachkompetenz und Erfahrung, wenn es um die Fertigung hochwertiger Dentalbohrer geht. Unsere Präzision und unser Streben nach Spitzenleistungen machen uns zu einem verlässlichen Partner in der medizinischen Fertigungsbranche.
 productImage: /selbstlimitierender-dentalbohrer_peek_pfaff-1200x969-1.jpg
 featuredProduct: true
 productCategories:

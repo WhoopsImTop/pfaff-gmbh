@@ -877,6 +877,13 @@ collections:
           widget: 'string',
           i18n: true,
         }
+      - {
+          label: 'Produktposition',
+          name: 'productPosition',
+          widget: 'number',
+          i18n: true,
+          default: -1,
+        }
       - { label: 'Permalink', name: 'slug', widget: 'string', i18n: true, hint: 'Link unter dem der Beitrag aufrufbar sein soll (z.B. mein-beitrag)', required: false}
       - {
           label: 'Produktbeschreibung',

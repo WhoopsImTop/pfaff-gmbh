@@ -12,7 +12,7 @@ export const state = () => ({
 
 export const mutations = {
   setProdukte(state, produkte) {
-    state.produkte = produkte
+    state.produkte = produkte.sort((a, b) => (a.productPosition > b.productPosition ? 1 : -1))
     state.featuredProdukte = produkte.filter((p) => p.featuredProduct)
   },
   setSeiten(state, seiten) {

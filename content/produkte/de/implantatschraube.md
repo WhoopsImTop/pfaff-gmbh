@@ -1,29 +1,25 @@
 ---
 productTitle: Implantatschraube
+productPosition: 9999
 productDescription: >-
-  Die Fertigung hochwertiger Implantatschrauben aus PEEK (Polyetheretherketon)
-  ist eine unserer herausragenden Kernkompetenzen im Bereich Dentaltechnik. Mit
-  einem klaren Fokus auf Präzision und Qualität stellen wir Implantatschrauben
-  her, die den höchsten Ansprüchen in der medizinischen Chirurgie gerecht
-  werden.
-
-
-  ### Präzise Verarbeitung für optimale Ergebnisse
-
-
-  Unsere modernen Fertigungsanlagen, darunter die leistungsstarke Arburg 370 A, ermöglichen es uns, die Implantatschrauben mit höchster Präzision und Sorgfalt herzustellen. Jeder Schritt in der Fertigung wird sorgfältig überwacht und kontrolliert, um eine konstant hohe Qualität zu gewährleisten.
+  Die Fertigung hochwertiger Implantatschrauben aus PEEK ist eine unserer
+  herausragenden Kernkompetenzen im Bereich Dentaltechnik. Implantatschrauben
+  verschließen das Implantat während des Heilungsprozesses, bis der Zahn
+  aufgeschraubt werden kann. Auf unseren modernen Fertigungsanlagen entstehen
+  Abdeckungsschrauben in verschiedenen Größen und Formen, die den höchsten
+  Ansprüchen in der medizinischen Dentalchirurgie gerecht werden. 
 
 
   ### Materialauswahl für biokompatible Lösungen
 
 
-  PEEK als thermoplastisches Polymer bietet ideale Eigenschaften für medizinische Implantate. Wir verwenden hochwertiges PEEK-Material mit einer Verarbeitungstemperatur von 360° - 400°C, das eine optimale Biokompatibilität gewährleistet und sich hervorragend mit dem umgebenden Gewebe verträgt. Dies ist entscheidend für eine erfolgreiche Integration des Implantats und eine schnelle Genesung des Patienten.
+  PEEK als thermoplastischer Hochleistungskunststoff bietet ideale Eigenschaften für medizinische Anwendungen. Das Material verfügt über sehr gute mechanische Eigenschaften mit hervorragender chemischer und thermischer Beständigkeit. Zudem ist es gegenüber Röntgen- und Gammastrahlen beständig und biokompatibel.
 
 
   ### Hygienische Fertigung und Verpackung in Reinraumklasse 7
 
 
-  Die Fertigung der Implantatschrauben sowie die Verpackung erfolgen unter strengen Reinraumbedingungen der Klasse 7. In unserer kontrollierten und sauberen Umgebung stellen wir sicher, dass die Implantate frei von Partikeln und Verunreinigungen sind, um eine sichere Anwendung im medizinischen Bereich zu gewährleisten. Die fertigen Implantatschrauben werden automatisch entnommen und in Folienbeutel verpackt, um eine effiziente und hygienische Handhabung der Produkte zu gewährleisten. und sind somit "ready to use"
+  Die Fertigung der Implantatschrauben auf unserer leistungsstarken Arburg 370 A sowie die Verpackung erfolgen unter strengen Reinraumbedingungen der Klasse ISO 7. In unserer kontrollierten und sauberen Umgebung stellen wir sicher, dass die Abdeckungsschrauben frei von Partikeln und Verunreinigungen sind, um eine sichere Anwendung im medizinischen Bereich zu gewährleisten.
 
 
   ### Qualitätssicherung für Spitzenleistungen
@@ -39,9 +35,6 @@ productDescription: >-
 
 
   Vertrauen Sie auf unsere Fachkompetenz und Erfahrung, wenn es um die Fertigung hochwertiger Implantatschrauben geht. Unsere Präzision und unser Streben nach Spitzenleistungen machen uns zu einem verlässlichen Partner in der medizinischen Fertigungsbranche.
-
-
-  **Anwendung:** Die Implantatschraube verschließt das Implantat während des Heilungsprozesses, bis der Zahn aufgeschraubt werden kann.
 productImage: /implantatschraube-dentaltechnik-pfaff.jpeg
 productCategories:
   - Medizin + Dentaltechnik
