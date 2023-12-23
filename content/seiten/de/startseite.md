@@ -5,7 +5,7 @@ hideInMenu: true
 components:
   - type: slider
     slide:
-      - landingTitle: Schwarzwälder Präzision <br> trifft High-Tech.
+      - landingTitle: Schwarz&shy;wälder Präzi&shy;sion <br> trifft High-Tech.
         landingImage: /pfaff-gmbh-kunststoff-sensoren-messen-steuern-regeln.jpg
         landingProducts:
           - getriebekappe-fuer-motorensteuerungssensor
@@ -14,7 +14,7 @@ components:
           - bottom: 36
             left: 24
         landingImageMobile: /pfaff-miniatur-guckloch-1-mobile.jpg
-      - landingTitle: Wir bringen Sie vertrauensvoll <br> zu Ihrem Kunststoffgipfel.
+      - landingTitle: Wir bringen Sie vertrauens&shy;voll <br> zu Ihrem Kunststoff&shy;gipfel.
         landingTitlePosition: top-right
         landingImage: /pfaff-gmbh-kunststoff-bepanthen-narbengel.jpg
         landingProducts:
@@ -23,7 +23,7 @@ components:
         landingProductMarkerPosition:
           - bottom: 45
             left: 37
-      - landingTitle: Ihre Kunststoff&shy;produkte. <br> Präzise und sofort einsatzbereit.
+      - landingTitle: Ihre Kunststoff&shy;produkte. <br> Präzise und sofort einsatz&shy;bereit.
         landingTitlePosition: top-left
         landingImage: /pfaff-gmbh-kunststoff-medizin-dental.jpg
         landingProducts:

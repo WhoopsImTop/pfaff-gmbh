@@ -336,6 +336,7 @@ export default {
 
   .slide-title {
     position: relative;
+    width: 100%;
   }
 
   .landing-slider {
