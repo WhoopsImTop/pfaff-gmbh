@@ -121,9 +121,13 @@ components:
           * Wir verpflichten uns zur Einhaltung der zur Produktion unserer Produkte anwendbaren nationalen oder regionalen Bestimmungen und relevanten internationalen Normen. Verfügbare Informationen wie der allgemeine Stand der Technik und bekannte Vorbehalte der Beteiligten werden berücksichtigt.
 
           * Die Grundregeln, mit denen wir unsere Arbeitsprozesse reibungslos durchführen und ständig verbessern sind:
+
             * Wir definieren Qualität als Übereinstimmung mit den Anforderungen
             * Unser System zur Qualitätssicherung ist Vorbeugung
             * Unsere Philosophie ist „Null Fehler“
-          * Der Qualitätsmanagementbeauftragte unseres Unternehmens ist direkt der Geschäftsführung unterstellt. Er ist beauftragt, unser QM-System zu überwachen und weiterzuentwickeln.
+          * Unser Qualitätsmanagementsystem wird durch DIN EN ISO 9001 und DIN EN ISO 13485 gestützt und gesichert
+
+
+          Das Qualitätsmanagementsystem wird durch die oberste Leitung mitentwickelt und aufrechterhalten. Die Wirksamkeit wird im Managementreview geprüft und bewertet.
 id: 30fd5a65-6f3f-40cc-bdff-517c6e554d35
 ---
