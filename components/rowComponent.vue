@@ -6,7 +6,7 @@
     <div
       v-for="(block, index) in component.component"
       :key="index"
-      :class="component.component.length > 1 ? 'col-lg-6' : 'col p-0'"
+      :class="component.component.length > 1 ? 'col-lg-6 mb-5' : 'col p-0'"
     >
       <div v-if="block.type === 'text'">
         <span
