@@ -112,7 +112,7 @@ components:
 
           * Jeder von uns setzt seine ganze Arbeitskraft dafür ein, die vereinbarten Anforderungen unserer Kunden immer richtig zu erfüllen.
 
-          * Wir praktizieren dabei Fairness, Respekt, Disziplin, Toleranz und Angemessenheit im Umgang miteinander nach innen und außen zum Wohle unserer Kunden, Lieferanten, Mitarbeiter und unseres Unternehmens.
+          * Wir praktizieren dabei Fairness, Respekt, Disziplin, Toleranz und Angemessenheit im Umgang miteinander nach innen und außen zum Wohle unserer Kunden, Lieferanten, Mitarbeiter und unseres Unternehmens
 
           * Unsere Mitarbeiter haben langjährige Erfahrung in ihren Aufgabenbereichen. Durch angemessene Aus- und Weiterbildung wird die Innovationsfähigkeit ständig aufrechterhalten.
 
