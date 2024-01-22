@@ -23,10 +23,10 @@ jobs:
         npm run generate
             
     - name: 📂 Sync Files
-      uses: SamKirkland/web-deploy@v1
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        target-server: ssh.strato.de
-        remote-user: khri8@pfaffgmbh.com
-        private-ssh-key: ${{ secrets.passord }}
-        destination-path: ~/pfaff-web-2023-nuxt/
-        source-path: ./dist/
+        server: ssh.strato.de
+        username: khri8@pfaffgmbh.com
+        password: ${{ secrets.passord }}
+        server-dir: pfaff-web-2023-nuxt/
+        local-dir: ./dist/
