@@ -27,7 +27,7 @@ jobs:
       with:
         server: ssh.strato.de
         username: khri8@pfaffgmbh.com
-        password: ${{ secrets.passord }}
+        password: ${{ secrets.password }}
         server-dir: pfaff-web-2023-nuxt/
         local-dir: ./dist/
         protocol: ftps
