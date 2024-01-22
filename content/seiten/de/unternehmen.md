@@ -48,7 +48,7 @@ components:
           beitragen können.
         button:
           buttonText: Mehr zum Thema Nachhaltigkeit
-          buttonLink: https://pfaff-gmbh.netlify.app/kompetenzen/nachhaltigkeit
+          buttonLink: /kompetenzen/nachhaltigkeit
         headline: Unser Versprechen
         smallHeadline: Nachhaltigkeit
       - type: image
