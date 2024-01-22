@@ -1,44 +1,32 @@
-name: ci
-
 on:
   push:
     branches:
       - main
-      - master
-  pull_request:
-    branches:
-      - main
-      - master
-
+      
+name: 🚀 Deploy website on push
 jobs:
-  ci:
-    runs-on: ${{ matrix.os }}
-
-    strategy:
-      matrix:
-        os: [ubuntu-latest]
-        node: [lts/*]
-
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
     steps:
-      - name: Checkout 🛎
-        uses: actions/checkout@master
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v2
 
-      - name: Setup node env 🏗
-        uses: actions/setup-node@v3.0.0
-        with:
-          node-version: ${{ matrix.node }}
-          check-latest: true
-
-      - name: Cache node_modules 📦
-        uses: actions/cache@v2.1.7
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
-
-      - name: Install dependencies 👨🏻‍💻
-        run: npm ci --prefer-offline --no-audit
-
-      - name: Run linter 👀
-        run: npm run lint
+    - name: Use Node.js 16
+      uses: actions/setup-node@v2
+      with:
+        node-version: '16'
+      
+    - name: 🔨 Build Project
+      run: |
+        npm install
+        npm run generate
+            
+    - name: 📂 Sync Files
+      uses: SamKirkland/web-deploy@v1
+      with:
+        target-server: ssh.strato.de
+        remote-user: khri8@pfaffgmbh.com
+        private-ssh-key: ${{ secrets.passord }}
+        destination-path: ~/pfaff-web-2023-nuxt/
+        source-path: ./dist/

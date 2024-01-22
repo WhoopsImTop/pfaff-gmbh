@@ -67,11 +67,11 @@
         © 2023 PFAFF GMBH |
         <img
           src="/ideenlabor-logo-bildmarke-weiss.svg"
-          width="25px"
+          height="20"
           alt="ideenlabor"
-          style="margin: 0 2px"
+          style="margin: 0 2px 5px 2px"
         />
-        von Ideenlabor Agentur
+        <a href="https://khri8.com" title="khri8! more playgrounds." style="color: #ffffff">khri8! more playgrounds.</a>
       </div>
     </div>
   </div>

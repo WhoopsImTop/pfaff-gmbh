@@ -243,6 +243,10 @@ p {
   margin-bottom: 3rem;
 }
 
+li p {
+  margin-bottom: 10px;
+}
+
 .marketing-text,
 .marketing-text p {
   font-size: 22px;
