@@ -31,4 +31,4 @@ jobs:
         server-dir: pfaff-web-2023-nuxt/
         local-dir: ./dist/
         protocol: ftps-legacy
-        port: 21
+        port: 22
