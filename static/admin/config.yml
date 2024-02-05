@@ -993,7 +993,7 @@ collections:
     extension: 'md'
     folder: 'content/blog'
     slug: '{{fields.title}}'
-    preview_path: news-medien/{{fields.categoryTitle}}/{{slug}}
+    preview_path: news-medien/{{category}}/{{slug}}
     create: true
     view_groups:
       - label: Jahren
