@@ -14,11 +14,15 @@ export default {
   components: { componentRenderer },
   layout: 'default',
 
-  async asyncData({ $content, app, store: { dispatch }, params }) {
+  async asyncData({ $content, app, store: { dispatch }, params, error }) {
     const landing = await $content('seiten/' + app.i18n.locale)
       .where({ slug: params.slug })
       .fetch()
 
+    if (landing.length === 0) {
+      error({ statusCode: 404, message: 'Page not found' })
+    }
+    
     await dispatch('nuxtServerInit')
     return { landing }
   },
