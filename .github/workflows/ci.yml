@@ -25,10 +25,10 @@ jobs:
     - name: 📂 Sync Files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: ssh.strato.de
-        username: khri8@pfaffgmbh.com
+        server: ${{ secrets.server }}
+        username: ${{ secrets.username }}
         password: ${{ secrets.password }}
         server-dir: pfaff-web-2023-nuxt/
         local-dir: ./dist/
-        protocol: ftps
-        port: 22
+        protocol: ftp
+        port: 21
