@@ -1,6 +1,6 @@
 <template>
   <div class="article-column">
-    <div class="yearBlock" v-for="(entry, index) in news" :key="index">
+    <div v-for="(entry, index) in news" :key="index" class="yearBlock" >
       <h2 class="year-identifier">{{ entry.year }}</h2>
       <nuxt-link
         v-for="(article, index) in entry.children"
@@ -35,6 +35,43 @@ export default {
   layout: 'news',
   async asyncData({ $content, app, store: { dispatch } }) {
     await dispatch('nuxtServerInit')
+  },
+  head() {
+    return {
+      title: 'News & Medien',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'News & Medien',
+        },
+        {
+          hid: 'keywords',
+          name: 'keywords',
+          content: 'News & Medien',
+        },
+        {
+          property: 'og:title',
+          content: 'News & Medien',
+        },
+        {
+          property: 'og:description',
+          content: 'News & Medien',
+        },
+        {
+          property: 'og:image',
+          content: 'https://pfaffgmbh.com/news-medien.jpg',
+        },
+        {
+          property: 'og:url',
+          content: 'https://pfaffgmbh.com/news-medien',
+        },
+        {
+          property: 'og:type',
+          content: 'website',
+        },
+      ],
+    }
   },
   computed: {
     news() {

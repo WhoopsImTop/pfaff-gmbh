@@ -808,7 +808,20 @@
 </template>
 
 <script>
-export default {}
+export default {
+  head() {
+    return {
+      title: 'Datenschutzerklärung',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Datenschutzerklärung der Pfaff GmbH in Waldkirch',
+        },
+      ],
+    }
+  },
+}
 </script>
 
 <style>

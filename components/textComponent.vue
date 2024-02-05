@@ -6,10 +6,10 @@
           component.smallHeadline
         }}</span>
         <h2>{{ component.contentTitle }}</h2>
-        <p
+        <div
           class="marketing-text"
           v-html="textRenderer(component.contentText)"
-        ></p>
+        ></div>
       </div>
       <div class="col-lg-6">
         <img
@@ -18,7 +18,7 @@
           style="margin-bottom: 20px"
           alt="content image"
         />
-        <p v-if="component.contentTextUnderImage" v-html="textRenderer(component.contentTextUnderImage)"></p>
+        <div v-if="component.contentTextUnderImage" v-html="textRenderer(component.contentTextUnderImage)"></div>
       </div>
     </div>
     <div v-else>
@@ -26,19 +26,17 @@
         component.smallHeadline
       }}</span>
       <h2>{{ component.contentTitle }}</h2>
-      <p class="marketing-text" v-html="textRenderer(component.contentText)"></p>
+      <div class="marketing-text" v-html="textRenderer(component.contentText)"></div>
     </div>
   </div>
 </template>
 
 <script>
-import { gsap } from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
 export default {
   props: ['component'],
   mounted() {
-    gsap.registerPlugin(ScrollTrigger)
-    gsap.fromTo(
+    window.gsap.registerPlugin(window.ScrollTrigger)
+    window.gsap.fromTo(
       '.text-container',
       {
         opacity: 0,

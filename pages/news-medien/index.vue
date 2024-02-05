@@ -1,16 +1,11 @@
 <template>
   <div class="article-column">
-    <div class="yearBlock" v-for="(entry, index) in news" :key="index">
+    <div v-for="(entry, index) in news" :key="index" class="yearBlock">
       <h2 class="year-identifier">{{ entry.year }}</h2>
       <nuxt-link
         v-for="(article, index) in entry.children"
         :key="index"
-        :to="
-          '/news-medien/' +
-          article.category +
-          '/' +
-          article.slug
-        "
+        :to="'/news-medien/' + article.category + '/' + article.slug"
         class="article"
       >
         <div v-if="article.image" class="article-image">
@@ -19,11 +14,9 @@
         <div class="article-content">
           <h4 v-html="article.title"></h4>
           <div class="article-informations">
-            <span
-              class="article-information"
-              v-if="article.category"
-              >{{ article.category }}</span
-            >
+            <span class="article-information" v-if="article.category">{{
+              article.category
+            }}</span>
           </div>
           <p v-if="article.shortText">{{ article.shortText }}</p>
           <p v-else>
@@ -69,7 +62,7 @@ export default {
 
   head() {
     return {
-      title: 'Pfaff GmbH | News & Medien',
+      title: 'News & Medien',
       meta: [
         {
           hid: 'description',
@@ -85,7 +78,7 @@ export default {
         },
         {
           property: 'og:title',
-          content: 'Pfaff GmbH | News & Medien',
+          content: 'News & Medien',
         },
         {
           property: 'og:description',

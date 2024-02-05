@@ -342,7 +342,20 @@
 </template>
 
 <script>
-export default {}
+export default {
+  head() {
+    return {
+      title: 'Allgemeine Geschäftsbedingungen',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Allgemeine Geschäftsbedingungen der Pfaff GmbH in Waldkirch',
+        },
+      ],
+    }
+  },
+}
 </script>
 
 <style></style>

@@ -4,10 +4,6 @@
     :to="'produktbeispiele/' + product.slug"
     class="product"
   >
-    <!-- <div class="pulseMarker">
-      <div class="marker-inner"></div>
-      <div class="marker-outer"></div>
-    </div> -->
     <div
       class="product-image"
       :style="'background-image: url(' + product.productImage + ')'"

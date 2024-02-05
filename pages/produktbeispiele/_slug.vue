@@ -19,7 +19,7 @@
           >
         </div>
         <h1>{{ seite.productTitle }}</h1>
-        <p v-html="$md.render(seite.productDescription)"></p>
+        <div v-html="$md.render(seite.productDescription)"></div>
       </div>
       <div class="zusatzinformationen">
         <h3>Zusatzinformationen</h3>
@@ -30,7 +30,7 @@
             :key="index"
           >
             <strong>{{ info.featureTitle }}</strong>
-            <p v-html="$md.render(info.featureText)"></p>
+            <div v-html="$md.render(info.featureText)"></div>
           </div>
         </div>
       </div>
@@ -96,7 +96,7 @@ export default {
 
   head() {
     return {
-      title: 'Pfaff GmbH | Produktbeispiel | ' + this.seite.productTitle,
+      title: 'Produktbeispiel | ' + this.seite.productTitle,
       meta: [
         {
           hid: 'description',
@@ -111,7 +111,7 @@ export default {
         },
         {
           property: 'og:title',
-          content: 'Pfaff GmbH | Produktbeispiel | ' + this.seite.productTitle,
+          content: 'Produktbeispiel | ' + this.seite.productTitle,
         },
         {
           property: 'og:description',

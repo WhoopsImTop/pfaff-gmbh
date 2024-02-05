@@ -14,7 +14,8 @@ components:
           - bottom: 36
             left: 24
         landingImageMobile: /pfaff-miniatur-guckloch-1-mobile.jpg
-      - landingTitle: Wir bringen Sie vertrauens&shy;voll <br> zu Ihrem Kunststoff&shy;gipfel.
+      - landingTitle: Wir bringen Sie vertrauens&shy;voll <br> zu Ihrem
+          Kunststoff&shy;gipfel.
         landingTitlePosition: top-right
         landingImage: /pfaff-gmbh-kunststoff-bepanthen-narbengel.jpg
         landingProducts:
@@ -23,7 +24,8 @@ components:
         landingProductMarkerPosition:
           - bottom: 45
             left: 37
-      - landingTitle: Ihre Kunststoff&shy;produkte. <br> Präzise und sofort einsatz&shy;bereit.
+      - landingTitle: Ihre Kunststoff&shy;produkte. <br> Präzise und sofort
+          einsatz&shy;bereit.
         landingTitlePosition: top-left
         landingImage: /pfaff-gmbh-kunststoff-medizin-dental.jpg
         landingProducts:
@@ -38,20 +40,23 @@ components:
   - type: contentblock
     contentTitle: Wo Kunststoff Karriere macht
     contentText: >-
-      Seit 1991 sind wir Experten für hochwertige Kunststoffartikel in den
-      Branchen **Medizin- und Dentaltechnik**, **Mess- und Regelungstechnik**,
-      **Ventil- und Fluidtechnik** sowie **Sensorik und weitere
-      Industriebranchen.** Mit innovativen Technologien und
-      Hochleistungskunststoffen garantieren wir herausragende Qualität und
-      wirtschaftliche Herstellung. Als inhabergeführtes Familienunternehmen
-      bieten wir flexible Lösungen, schnelle & transparente Kommunikation, kurze
-      Lieferzeiten und faire Preise.
+      Seit 1991 spezialisiert sich Pfaff GmbH auf hochwertige Kunststoffartikel
+      in Branchen wie **Medizintechnik, Dentaltechnik, Mess- und
+      Regelungstechnik**, sowie weitere Industriezweige. Unsere Stärke liegt in
+      **innovativen Technologien** und **Hochleistungskunststoffen**, die
+      **erstklassige Qualität** und **effiziente Fertigung** gewährleisten. Als
+      familiengeführtes Unternehmen bieten wir **flexible Lösungen, schnelle
+      Kommunikation und faire Preise.**
 
 
-      Vertrauen, Respekt und Nachhaltigkeit prägen unsere Zusammenarbeit mit Kunden, Lieferanten und Mitarbeitern. Entdecken Sie unsere Möglichkeiten und kontaktieren Sie uns gerne für langfristige Partnerschaften.
 
 
-      **Wir freuen uns darauf, Ihre Anforderungen zu erfüllen.**
+      **Vertrauen, Respekt** und **Nachhaltigkeit** sind unsere Grundwerte in der Zusammenarbeit mit Partnern und Kunden. Kontaktieren Sie uns für maßgeschneiderte Lösungen und verlässliche Partnerschaften.
+
+
+
+
+      **Wir sind bereit, Ihre Anforderungen zu erfüllen und freuen uns auf eine erfolgreiche Zusammenarbeit.**
     contentImage: /ab-cp-1.jpg
     contentTextUnderImage: >-
       #### "INDIVIDUELLE LÖSUNGEN, HÖCHSTE QUALITÄT & EINE VERTRAUENSVOLLE
@@ -110,16 +115,17 @@ components:
     card:
       - cardTitle: Neuigkeiten
         cardText: Bleiben Sie auf dem Laufenden mit aktuellen News, Fachbeiträgen und
-          Presseartikeln.
+          Presseartikeln der Pfaff GmbH.
         cardLink: news-medien
         cardImage: /pfaff-neuigkeiten.jpg
       - cardTitle: Karriere
-        cardText: Entdecken Sie unsere Stellenangebote und Möglichkeiten für
-          Initiativbewerbungen.
+        cardText: Bei der Pfaff GmbH erwarten Sie attraktive Stellenangebote und die
+          Möglichkeit, sich initiativ zu bewerben.
         cardLink: news-medien/stellenausschreibungen
         cardImage: /pfaff-karriere.jpg
       - cardTitle: Meilensteine
-        cardText: Erfahren Sie mehr über unsere Geschichte und wichtige Stationen.
+        cardText: Erfahren Sie mehr über die Geschichte der Pfaff GmbH und unsere
+          wichtigsten Stationen.
         cardLink: news-medien/meilensteine
         cardImage: /pfaff-historie.jpg
   - type: news

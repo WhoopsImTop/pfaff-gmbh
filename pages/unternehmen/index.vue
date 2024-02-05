@@ -7,12 +7,11 @@
     />
   </div>
 </template>
-  
-  <script>
+
+<script>
 import componentRenderer from '~/components/componentRenderer.vue'
 export default {
   components: { componentRenderer },
-  name: 'IndexPage',
   layout: 'default',
 
   async asyncData({ $content, app, store: { dispatch } }) {
@@ -23,9 +22,13 @@ export default {
     return { landing }
   },
 
+  data() {
+    return {}
+  },
+
   head() {
     return {
-      title: 'Pfaff GmbH | Unternehmen',
+      title: 'Unternehmen',
       meta: [
         {
           hid: 'description',
@@ -41,13 +44,12 @@ export default {
         },
         {
           property: 'og:title',
-          content:
-            'Pfaff GmbH | Unternehmen',
+          content: 'Pfaff GmbH | Unternehmen',
         },
         {
           property: 'og:description',
           content:
-          'Die Pfaff GmbH mit Sitz in Waldkirch bei Freiburg wurde 1992 von Herrn Adolf Pfaff gegründet und ist ein inhabergeführtes Unternehmen. 2018 wurde die Geschäftsführung von Tochter Corinna Pfaff übernommen.',
+            'Die Pfaff GmbH mit Sitz in Waldkirch bei Freiburg wurde 1992 von Herrn Adolf Pfaff gegründet und ist ein inhabergeführtes Unternehmen. 2018 wurde die Geschäftsführung von Tochter Corinna Pfaff übernommen.',
         },
         {
           property: 'og:image',
@@ -83,7 +85,7 @@ export default {
         '@type': 'PostalAddress',
         addressLocality: 'Waldkirch, Deutschland',
         postalCode: '79183',
-        streetAddress: "Spinnereistraße  4-6",
+        streetAddress: 'Spinnereistraße  4-6',
       },
       email: 'info@pfaffgmbh.com',
       member: [
@@ -109,10 +111,5 @@ export default {
       telephone: '+ (49) 7681 49397-0',
     }
   },
-
-  data() {
-    return {}
-  },
 }
 </script>
-  

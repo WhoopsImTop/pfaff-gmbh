@@ -146,4 +146,11 @@ export default {
     display: none;
   }
 }
+
+@media (max-height: 950px) {
+  .link-container.content-container {
+    overflow-y: scroll;
+    min-height: 1000px;
+  }
+}
 </style>

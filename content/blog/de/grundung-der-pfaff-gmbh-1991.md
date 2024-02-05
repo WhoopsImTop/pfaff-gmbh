@@ -1,7 +1,8 @@
 ---
-title: Gründung der Pfaff GmbH 1992
-slug: grundung-der-pfaff-gmbh-1992
-shortText: Adolf Pfaff, Werkzeugmacher-Meister und Konstrukteur von Spritz­gießmaschen, gründet die Pfaff GmbH in Waldkirch.
+title: Gründung der Pfaff GmbH 1991
+slug: grundung-der-pfaff-gmbh-1991
+shortText: Adolf Pfaff, Werkzeugmacher-Meister und Konstrukteur von
+  Spritz­gießmaschen, gründet die Pfaff GmbH in Waldkirch.
 date: Mon Mar 02 1992 14:18:00 GMT+0100 (Mitteleuropäische Normalzeit)
 category: meilensteine
 ---

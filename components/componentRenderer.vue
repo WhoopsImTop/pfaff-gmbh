@@ -13,17 +13,22 @@
       :blocks="component.block"
       :title="component.blockTitle"
     />
-    <product-preview
-      v-if="component.type == 'productPreview'"
-      :components="component"
-    />
+    <client-only>
+      <product-preview
+        v-if="component.type == 'productPreview'"
+        :components="component"
+    /></client-only>
     <article-component v-if="component.type == 'news'" :component="component" />
     <card-component v-if="component.type == 'cards'" :component="component" />
     <component-blocks
       v-if="component.type == 'competenciesBlocks'"
       :component="component"
     />
-    <row-component v-if="component.type == 'row'" :component="component" :inComponent="inComponent"/>
+    <row-component
+      v-if="component.type == 'row'"
+      :component="component"
+      :inComponent="inComponent"
+    />
     <team-component v-if="component.type == 'team'" :component="component" />
   </div>
 </template>
@@ -34,5 +39,4 @@ export default {
 }
 </script>
 
-<style>
-</style>
+<style></style>

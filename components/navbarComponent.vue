@@ -10,20 +10,26 @@
         class="link-container-background"
         :class="burgerActive ? 'burger-active' : ''"
       >
-        <div class="link-container content-container">
-          <linkComponent
-            v-for="link in $store.state.menu.links"
-            :key="link.siteTitle"
-            :component="link"
-          >
-          </linkComponent>
-          <a href="https://www.linkedin.com/company/pfaff-gmbh/" target="_blank"><img src="/linked_in_logo_blue.svg" alt="linked in" width="100" /></a>
+        <div class="scrollable-container">
+          <div class="link-container content-container">
+            <linkComponent
+              v-for="link in $store.state.menu.links"
+              :key="link.siteTitle"
+              :component="link"
+            >
+            </linkComponent>
+            <a
+              href="https://www.linkedin.com/company/pfaff-gmbh/"
+              target="_blank"
+              ><img src="/linked_in_logo_blue.svg" alt="linked in" width="100"
+            /></a>
+          </div>
         </div>
       </div>
       <div
         class="burger"
         :class="burgerActive ? 'burger-active' : ''"
-        @click="burgerActive = !burgerActive"
+        @click="setBurgerActive"
       >
         <div class="burger-line"></div>
         <div class="burger-line"></div>
@@ -47,12 +53,20 @@ export default {
       this.burgerActive = false
     },
   },
-  mounted() {
-    console.log(this.$store.state.menu)
-    console.log(this.$store.state.produkte)
+  methods: {
+    setBurgerActive() {
+      this.burgerActive = !this.burgerActive
+      this.$store.commit('setBurgerActive', this.burgerActive)
+    },
   },
 }
 </script>
 
 <style>
+.scrollable-container {
+  margin: 0 auto;
+  overflow-y: auto;
+  max-height: 100vh;
+  width: 100%;
+}
 </style>

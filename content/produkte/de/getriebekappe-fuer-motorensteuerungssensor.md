@@ -43,7 +43,7 @@ productImage: /getriebekappe-motorensteuerung-sensor.jpeg
 productCategories:
   - Messen, Steuern, Regeln
   - Insertteile
-  - Sensortechnik
+  - Sensorik
 productFeatures:
   - featureTitle: "Fertigung:"
     featureText: Arburg 470C

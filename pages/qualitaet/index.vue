@@ -7,12 +7,11 @@
     />
   </div>
 </template>
-  
-  <script>
+
+<script>
 import componentRenderer from '~/components/componentRenderer.vue'
 export default {
   components: { componentRenderer },
-  name: 'IndexPage',
   layout: 'default',
 
   async asyncData({ $content, app, store: { dispatch } }) {
@@ -23,9 +22,13 @@ export default {
     return { landing }
   },
 
+  data() {
+    return {}
+  },
+
   head() {
     return {
-      title: 'Pfaff GmbH | Qualität',
+      title: 'Qualität',
       meta: [
         {
           hid: 'description',
@@ -45,7 +48,8 @@ export default {
         },
         {
           property: 'og:description',
-          content: "Hervorragende Qualität bei wirtschaftlicher Produktion verstehen wir als Selbstverständlichkeit. Seit 2006 sind wir nach der ISO-Norm 9001 zertifiziert. Seit 2011 bieten wir unseren Kunden im Medizinbereich zusätzlich eine Qualitätssicherung nach ISO 13485.",
+          content:
+            'Hervorragende Qualität bei wirtschaftlicher Produktion verstehen wir als Selbstverständlichkeit. Seit 2006 sind wir nach der ISO-Norm 9001 zertifiziert. Seit 2011 bieten wir unseren Kunden im Medizinbereich zusätzlich eine Qualitätssicherung nach ISO 13485.',
         },
         {
           property: 'og:image',
@@ -81,7 +85,7 @@ export default {
         '@type': 'PostalAddress',
         addressLocality: 'Waldkirch, Deutschland',
         postalCode: '79183',
-        streetAddress: "Spinnereistraße  4-6",
+        streetAddress: 'Spinnereistraße  4-6',
       },
       email: 'info@pfaffgmbh.com',
       member: [
@@ -107,10 +111,5 @@ export default {
       telephone: '+ (49) 7681 49397-0',
     }
   },
-
-  data() {
-    return {}
-  },
 }
 </script>
-  

@@ -12,7 +12,6 @@
 import componentRenderer from '~/components/componentRenderer.vue'
 export default {
   components: { componentRenderer },
-  name: 'IndexPage',
   layout: 'default',
 
   async asyncData({ $content, app, store: { dispatch } }) {
@@ -22,10 +21,13 @@ export default {
     await dispatch('nuxtServerInit')
     return { landing }
   },
+  data() {
+    return {}
+  },
 
   head() {
     return {
-      title: 'Pfaff GmbH - Wo Kunststoff Karriere macht. - ISO zertifiziert',
+      title: 'Schwarzwälder Präzisition',
       meta: [
         {
           hid: 'description',
@@ -83,7 +85,7 @@ export default {
         '@type': 'PostalAddress',
         addressLocality: 'Waldkirch, Deutschland',
         postalCode: '79183',
-        streetAddress: "Spinnereistraße  4-6",
+        streetAddress: 'Spinnereistraße  4-6',
       },
       email: 'info@pfaffgmbh.com',
       member: [
@@ -108,10 +110,6 @@ export default {
       url: 'https://pfaffgmbh.com/',
       telephone: '+ (49) 7681 49397-0',
     }
-  },
-
-  data() {
-    return {}
   },
 }
 </script>

@@ -8,6 +8,7 @@ export const state = () => ({
   featuredProdukte: [],
   featuredCompetence: [],
   menu: [],
+  menuActive: false,
 })
 
 export const mutations = {
@@ -37,6 +38,9 @@ export const mutations = {
   setMenu(state, menu) {
     state.menu = menu[0]
   },
+  setBurgerActive(state, payload) {
+    state.menuActive = payload
+  }
 }
 
 export const actions = {

@@ -25,20 +25,21 @@
 </template>
 
 <script>
-import { gsap } from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
 export default {
-  props: ['blocks', 'title'],
-  /* beforeMount() {
-    this.blocks.forEach((block) => {
-      if (block.blockLinkCompetencies) {
-        block.blockLink = block.blockLinkCompetencies
-      }
-    })
-  }, */
+  props: {
+    blocks: {
+      type: Array,
+      required: true,
+    },
+    title: {
+      type: String,
+      required: false,
+      default: '',
+    },
+  },
   mounted() {
-    gsap.registerPlugin(ScrollTrigger)
-    gsap.fromTo(
+    window.gsap.registerPlugin(window.ScrollTrigger)
+    window.gsap.fromTo(
       '.product-card',
       {
         opacity: 0,
@@ -59,5 +60,4 @@ export default {
 }
 </script>
 
-<style>
-</style>
+<style></style>

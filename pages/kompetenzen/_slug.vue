@@ -4,7 +4,7 @@
       <div class="col-lg-6">
         <span class="smallHeadline">{{ seite.competenceName }}</span>
         <h1>{{ seite.competenceTitle }}</h1>
-        <p v-html="$md.render(seite.competenceShortText ?? '')"></p>
+        <div v-html="$md.render(seite.competenceShortText ?? '')"></div>
       </div>
       <div class="competence-image-container col-lg-6">
         <img
@@ -17,27 +17,35 @@
     </div>
     <div class="competence-single">
       <div class="content competence-text-container" style="margin-top: 50px">
-        <p v-html="$md.render(seite.competenceDescription)"></p>
+        <div v-html="$md.render(seite.competenceDescription)"></div>
       </div>
     </div>
     <component-renderer
       v-for="(component, index) in seite.pageContent"
       :key="index"
       :component="component"
-      :inComponent=true
+      :inComponent="true"
     />
     <component-blocks
       :component="{
         title: 'Weitere Kompetenzen',
         competencies: competencies,
       }"
-      :inComponent=true
+      :inComponent="true"
     />
   </div>
 </template>
-  
-  <script>
+
+<script>
 export default {
+  async asyncData({ $content, app, store: { dispatch }, params }) {
+    const seite = await $content(
+      'kompetenzen/' + app.i18n.locale + '/' + params.slug
+    ).fetch()
+    await dispatch('nuxtServerInit')
+    return { seite }
+  },
+
   data() {
     return {
       competencies: [
@@ -53,15 +61,21 @@ export default {
         'filigrane-teilegeometrien',
         'mehrkomponententechnik',
         'optische-teile',
-      ]
+      ],
     }
   },
-  async asyncData({ $content, app, store: { dispatch }, params }) {
-    const seite = await $content(
-      'kompetenzen/' + app.i18n.locale + '/' + params.slug
-    ).fetch()
-    await dispatch('nuxtServerInit')
-    return { seite }
+
+  head() {
+    return {
+      title: this.seite.competenceName,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.seite.competenceDescription,
+        },
+      ],
+    }
   },
 
   beforeMount() {
@@ -71,20 +85,6 @@ export default {
       this.competenciesToPush.forEach((competence) => {
         this.competencies.push(competence)
       })
-    }
-    console.log(this.competencies.length)
-  },
-
-  head() {
-    return {
-      title: 'Pfaff GmbH - ' + this.seite.competenceName,
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content: this.seite.competenceDescription,
-        },
-      ],
     }
   },
 
@@ -124,7 +124,7 @@ export default {
   },
 }
 </script>
-  
+
 <style>
 .competence-single.content-container {
   margin-top: 50px;

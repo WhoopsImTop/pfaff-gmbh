@@ -38,7 +38,7 @@ featuredProduct: true
 productCategories:
   - Mehrkomponenten
   - Messen, Steuern, Regeln
-  - Sensortechnik
+  - Sensorik
 productFeatures:
   - featureTitle: "Fertigung:"
     featureText: Arburg 470 A

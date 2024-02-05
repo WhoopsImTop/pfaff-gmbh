@@ -60,8 +60,20 @@
 </template>
 
 <script>
-export default {}
+export default {
+  head() {
+    return {
+      title: 'Impressum',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Impressum der Pfaff GmbH in Waldkirch',
+        },
+      ],
+    }
+  },
+}
 </script>
 
-<style>
-</style>
+<style></style>

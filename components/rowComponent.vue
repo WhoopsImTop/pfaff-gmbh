@@ -16,7 +16,7 @@
           >{{ block.smallHeadline }}</span
         >
         <h2 style="min-height: 45px">{{ block.headline }}</h2>
-        <p v-html="$md.render(block.text ?? '')"></p>
+        <div v-html="$md.render(block.text ?? '')"></div>
         <a
           class="button"
           v-if="block.button"

@@ -7,12 +7,11 @@
     />
   </div>
 </template>
-  
-  <script>
+
+<script>
 import componentRenderer from '~/components/componentRenderer.vue'
 export default {
   components: { componentRenderer },
-  name: 'IndexPage',
   layout: 'default',
 
   async asyncData({ $content, app, store: { dispatch } }) {
@@ -22,10 +21,14 @@ export default {
     await dispatch('nuxtServerInit')
     return { landing }
   },
+  
+  data() {
+    return {}
+  },
 
   head() {
     return {
-      title: 'Pfaff GmbH | Kontakt',
+      title: 'Kontakt',
       meta: [
         {
           hid: 'description',
@@ -41,7 +44,7 @@ export default {
         },
         {
           property: 'og:title',
-          content: 'Pfaff GmbH | Kontakt',
+          content: 'Kontakt',
         },
         {
           property: 'og:description',
@@ -82,7 +85,7 @@ export default {
         '@type': 'PostalAddress',
         addressLocality: 'Waldkirch, Deutschland',
         postalCode: '79183',
-        streetAddress: "Spinnereistraße  4-6",
+        streetAddress: 'Spinnereistraße  4-6',
       },
       email: 'info@pfaffgmbh.com',
       member: [
@@ -108,10 +111,5 @@ export default {
       telephone: '+ (49) 7681 49397-0',
     }
   },
-
-  data() {
-    return {}
-  },
 }
 </script>
-  

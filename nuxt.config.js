@@ -1,13 +1,14 @@
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
-  ssr: false,
+  ssr: true,
 
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Pfaff GmbH - Wo Kunststoff Karriere macht. - ISO zertifiziert',
+    title: 'Schwarzwälder Präzision',
+    titleTemplate: '%s | Pfaff GmbH - Wo Kunststoff Karriere macht.',
     htmlAttrs: {
       lang: 'de',
     },
@@ -18,7 +19,13 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'High-Tech-Kunststoff-Teile. Pfaff entwickelt mit modernen Materialien, innovativer Technik und garantieren zertifizierte Qualität unter Reinraumbedingungen.',
+          'Die Pfaff GmbH entwickelt mit modernen Materialien, innovativer Technik und garantieren zertifizierte Qualität unter Reinraumbedingungen Kunststoffteile in Waldkirch, Schwarzwald.',
+      },
+      {
+        hid: 'keywords',
+        name: 'keywords',
+        content:
+          'Pfaff GmbH, Kunststoffteile aus dem Schwarzwald, Schwarzwälder präzisions Kunststoffteile, Spritzguss Waldkirch, Pfaff GmbH Waldkirch, Kunststoffteile Waldkirch, Kunststoff Prototypen in kleinauflage, Medizinische Kunstoffteile bestellen',
       },
       { name: 'format-detection', content: 'telephone=no' },
     ],
@@ -40,10 +47,6 @@ export default {
     ],
 
     script: [
-      {
-        type: 'application/javascript',
-        src: 'https://sdp.eu.usercentrics.eu/latest/uc-block.bundle.js',
-      },
       {
         id: 'usercentrics-cmp',
         async: true,
@@ -94,7 +97,7 @@ export default {
   ],
 
   i18n: {
-    locales: ['de', 'en'],
+    locales: ['de'],
     defaultLocale: 'de',
     strategy: 'prefix_except_default',
     detectBrowserLanguage: false,
@@ -129,9 +132,13 @@ export default {
     '@nuxt/content',
     '@nuxtjs/markdownit',
     '@nuxtjs/i18n',
+    '@nuxtjs/sitemap',
   ],
 
-  plugins: ['~/plugins/jsonld'],
+  plugins: [
+    { src: '~/plugins/jsonld', mode: 'client' },
+    { src: '~/plugins/gsap.client.js', mode: 'client' },
+  ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
@@ -151,81 +158,13 @@ export default {
     middleware: 'redirect',
   },
 
+  sitemap: {
+    hostname: 'https://pfaffgmbh.com',
+    gzip: true,
+    exclude: ['/admin/**'],
+  },
+
   generate: {
     fallback: true,
-    routes: [
-      '/',
-      '/impressum',
-      '/datenschutz',
-      '/agbs',
-      '/produktbeispiele',
-      '/kompetenzen',
-      '/qualität',
-      '/news-medien',
-      '/news-medien/allgemeine-news',
-      '/news-medien/fachbeiträge',
-      '/news-medien/meilensteine',
-      '/news-medien/presseartikel',
-      '/news-medien/stellenausschreibungen',
-      'news-medien/allgemeine-news/in-der-jugend-liegt-die-zukunft',
-      'news-medien/stellenausschreibungen/azubi-oder-mitarbeiter-werden',
-      'news-medien/allgemeine-news/girls-day-2023-wir-machen-mit',
-      'news-medien/stellenausschreibungen/stellenausschreibung-projektmanagement',
-      'news-medien/stellenausschreibungen/ausbildungsplatz-verfahrensmechanikerin',
-      'news-medien/presseartikel/kraft-and-energie-tanken-furs-business',
-      'news-medien/presseartikel/pfaff-around-the-world',
-      'news-medien/allgemeine-news/treue-seelen-bei-pfaff',
-      'news-medien/presseartikel/genormte-individualitaet',
-      'news-medien/fachbeitraege/ein-normenkonformes-medizinprodukt-viel-mehr-als-ein-trinkbecher',
-      'news-medien/allgemeine-news/pfaff-bei-der-i-e-messe-2019',
-      'news-medien/allgemeine-news/supporten-sie-sippa',
-      'news-medien/meilensteine/fabrikhalle-erhaelt-einen-anbau-2018',
-      'news-medien/allgemeine-news/fasnet-kummt-nicht-ohne-spenden-aus',
-      'news-medien/fachbeitr%C3%A4ge/kunststoffxtra-auf-den-punkt',
-      'news-medien/allgemeine-news/die-pfaff-gmbh-bei-den-3d-tagen-in-st-georgen-im-schwarzwald',
-      'news-medien/presseartikel/med-engineering-optische-und-taktile-messung-von-praezisionsteilen',
-      'news-medien/allgemeine-news/i-e-messe-2017',
-      'news-medien/allgemeine-news/auch-2017-bilden-wir-wieder-aus',
-      'news-medien/allgemeine-news/i-e-2017-review',
-      'news-medien/presseartikel/netzwerk-suedbaden-umfrage-an-unternehmerinnen',
-      'news-medien/presseartikel/die-aussichten-der-geschaeftsfuehrerin-corinna-pfaff-fuer-2017',
-      'news-medien/fachbeitraege/kunststoffxtra-qualitaetskontroller-reicht-nicht',
-      'news-medien/fachbeitr%C3%A4ge/devicemed-pfaffs-peek-rosenbohrer',
-      'news-medien/meilensteine/neue-bueroraeume-zum-25-jaehrigen',
-      'news-medien/presseartikel/ausbildungslotsen-der-wabe-begleiten-schueler-bei-betriebsbesichtigungen',
-      'news-medien/allgemeine-news/25-jahr-feier',
-      'news-medien/presseartikel/statement-der-geschaftsfuhrerin-corinna-pfaff-im-netzwerk-sudbaden',
-      'news-medien/meilensteine/das-unternehmen-wachst-2016',
-      'news-medien/allgemeine-news/weihnachtsspende-fuer-drive-to-help',
-      'news-medien/fachbeitraege/medizin-andamp-technik-ersatz-klingt-zu-einfach',
-      'news-medien/fachbeitraege/kunststoffxtra-optische-und-taktile-messung-von-prazisionsteilen',
-      'news-medien/fachbeitraege/kunststoff-magazin-2k-kunststoffteile-fuer-die-medizintechnik',
-      'news-medien/fachbeitraege/devicemed-peek-definiert-die-grenze-fur-selbstlimierende-instrumente',
-      'news-medien/presseartikel/k-profi-kleine-groesse-zum-groessen-plus-ausbauen',
-      'news-medien/allgemeine-news/betriebsausflug-2016',
-      'news-medien/fachbeitraege/medengineering-medizintechnik-aus-den-fokusregionen-deutschland',
-      'news-medien/allgemeine-news/teambuilding-bei-der-weber-grill-akademie',
-      'news-medien/allgemeine-news/20-jahre-helga-schneider',
-      'news-medien/presseartikel/pfaff-gmbh-im-netzwerk-sudbaden',
-      'news-medien/allgemeine-news/munsterbauwettbewerb-2013',
-      'news-medien/meilensteine/erwerb-eines-grundstucks-2013',
-      'news-medien/presseartikel/kanule-wurzelstift-und-hahnbank-20-jahre-prazision',
-      'news-medien/meilensteine/20-jaehriges-bestehen',
-      'news-medien/fachbeitraege/arburg-today-keine-angst-vorm-bohren',
-      'news-medien/meilensteine/zertifizierung-nach-der-qualitatsmanagement-norm-fur-medizin%C2%ADprodukte-2011',
-      'news-medien/meilensteine/erweiterung-des-portfolios-2010',
-      'news-medien/fachbeitraege/biookonomie-kunststoff-in-klinischer-bestform',
-      'news-medien/meilensteine/corinna-pfaff-tritt-in-das-familienunternehmen-als-geschaftsfuhrerin-ein-2007',
-      'news-medien/presseartikel/preise-die-belohnen-und-ermuntern',
-      'news-medien/meilensteine/meilensteine-2006',
-      'news-medien/meilensteine/freiburger-innovationspreis-2004',
-      'news-medien/meilensteine/erste-teilnahme-an-der-ie-messe-2003',
-      'news-medien/meilensteine/pfaff-gmbh-wird-zum-ausbildungsbetrieb-2001',
-      'news-medien/meilensteine/fire-of-creation-award-1997',
-      'news-medien/meilensteine/entwicklungsauftrag-fur-das-gehause-einer-elektrischen-zahnburste-1996',
-      'news-medien/meilensteine/erweiterung-des-produktportfolios-1995',
-      'news-medien/meilensteine/grundung-der-pfaff-gmbh-1992',
-      '/kontakt',
-    ],
   },
 }

@@ -76,7 +76,7 @@ export default {
 
   head() {
     return {
-      title: 'Pfaff GmbH | Produktbeispiele',
+      title: 'Produktbeispiele',
       meta: [
         {
           hid: 'description',
@@ -92,7 +92,7 @@ export default {
         },
         {
           property: 'og:title',
-          content: 'Pfaff GmbH | Produktbeispiele',
+          content: 'Produktbeispiele',
         },
         {
           property: 'og:description',

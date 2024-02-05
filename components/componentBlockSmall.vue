@@ -7,7 +7,7 @@
       >{{ component.smallHeadline }}</span
     >
     <h2 v-if="component.headline" style="min-height: 45px">{{ component.headline }}</h2>
-    <p v-if="component.text" v-html="$md.render(component.text ?? '')"></p>
+    <div v-if="component.text" v-html="$md.render(component.text ?? '')"></div>
     <div class="small-card-container">
       <nuxt-link
         :to="generateLink('kompetenzen/', card.slug)"

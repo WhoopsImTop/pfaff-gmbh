@@ -7,28 +7,29 @@
     />
   </div>
 </template>
-  
-  <script>
+
+<script>
 import componentRenderer from '~/components/componentRenderer.vue'
 export default {
   components: { componentRenderer },
-  name: 'IndexPage',
   layout: 'default',
 
   async asyncData({ $content, app, store: { dispatch }, params }) {
-    console.log(params.slug)
     const landing = await $content('seiten/' + app.i18n.locale)
       .where({ slug: params.slug })
       .fetch()
 
-    console.log(landing)
     await dispatch('nuxtServerInit')
     return { landing }
   },
 
+  data() {
+    return {}
+  },
+
   head() {
     return {
-      title: 'Pfaff GmbH - ' + this.landing.siteTitle,
+      title: this.landing.siteTitle,
       meta: [
         {
           hid: 'description',
@@ -63,10 +64,5 @@ export default {
       ],
     }
   },
-
-  data() {
-    return {}
-  },
 }
 </script>
-  

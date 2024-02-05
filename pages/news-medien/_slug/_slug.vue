@@ -2,7 +2,7 @@
   <div class="article-column article-background">
     <h1 style="margin-bottom: 10px">{{ news[0].title }}</h1>
     <div class="article-informations">
-      <span class="article-information" v-if="kategorie">{{
+      <span v-if="kategorie" class="article-information">{{
         kategorie.length > 0 ? kategorie[0].categoryTitle : ''
       }}</span>
     </div>
@@ -24,8 +24,7 @@ export default {
       .where({ slug: params.slug })
       .fetch()
 
-    console.log(news)
-    if (news[0].category) {
+    if (news[0] && news[0].category) {
       const kategorie = await $content('blogkategorien/' + app.i18n.locale)
         .where({ slug: news[0].category })
         .fetch()
@@ -37,7 +36,7 @@ export default {
 
   head() {
     return {
-      title: 'Pfaff GmbH | ' + this.news[0].title,
+      title: this.news[0].title,
       meta: [
         {
           hid: 'description',
@@ -52,7 +51,7 @@ export default {
         },
         {
           property: 'og:title',
-          content: 'Pfaff GmbH | ' + this.news[0].title,
+          content: this.news[0].title,
         },
         {
           property: 'og:description',

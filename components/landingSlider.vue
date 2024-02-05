@@ -44,25 +44,12 @@
             :productSlugProp="slide.landingProducts"
           />
         </div>
-
-        <!-- <div class="slide-image">
-          <div
-            v-for="(marker, i) in slide.landingProductMarkerPosition"
-            :key="i"
-            class="pulseMarker-relative"
-            :style="'bottom:' + marker.bottom + '%; left:' + marker.left + '%'"
-          >
-            <div class="marker-inner"></div>
-            <div class="marker-outer"></div>
-          </div>
-        </div> -->
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import { gsap } from 'gsap'
 import productSlider from './productSlider.vue'
 export default {
   components: { productSlider },
@@ -102,7 +89,7 @@ export default {
         }, 8000)
       }
     }
-    const tl = gsap.timeline()
+    const tl = window.gsap.timeline()
     tl.from('.slide-title', {
       duration: 1,
       y: 100,
