@@ -30,6 +30,9 @@ public_folder: /
 
 publish_mode: editorial_workflow
 
+site_url: https://pfaff-gmbh.netlify.app
+show_preview_links: true
+
 collections:
   - name: 'seiten'
     label: 'Seiten'
@@ -990,6 +993,7 @@ collections:
     extension: 'md'
     folder: 'content/blog'
     slug: '{{fields.title}}'
+    preview_path: news-medien/{{slug}}
     create: true
     view_groups:
       - label: Jahren
