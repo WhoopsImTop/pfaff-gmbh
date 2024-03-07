@@ -175,7 +175,19 @@ export default {
       // Durchlaufe jede Kategorie und sammle die dynamischen Pfade
       for (const category of categories) {
         const categoryRoutes = await $content(`${category}/de`).fetch();
-        dynamicRoutes = dynamicRoutes.concat(categoryRoutes.map((page) => `/${category}/de${page.path}`));
+        if(category === 'blog') {
+          categoryRoutes.forEach((route) => {
+            dynamicRoutes.push(`/news-medien/${route.category}/${route.slug}/`);
+          });
+        } else if (category === 'produkte') {
+          categoryRoutes.forEach((route) => {
+            dynamicRoutes.push(`/produktbeispiele/${route.slug}/`);
+          });
+        } else if (category === 'kompetenzen') {
+          categoryRoutes.forEach((route) => {
+            dynamicRoutes.push(`/kompetenzen/${route.slug}/`);
+          });
+        }
       }
 
       return dynamicRoutes;
