@@ -159,9 +159,27 @@ export default {
   },
 
   sitemap: {
+    path: '/sitemap.xml',
     hostname: 'https://pfaffgmbh.com',
     gzip: true,
     exclude: ['/admin/**'],
+    routes: async () => {
+      const { $content } = require('@nuxt/content');
+
+      // Erstelle eine Liste aller Kategorien
+      const categories = ['blog', 'kompetenzen', 'produkte'];
+
+      // Initialisiere ein leeres Array für alle dynamischen Pfade
+      let dynamicRoutes = [];
+
+      // Durchlaufe jede Kategorie und sammle die dynamischen Pfade
+      for (const category of categories) {
+        const categoryRoutes = await $content(`${category}/de`).fetch();
+        dynamicRoutes = dynamicRoutes.concat(categoryRoutes.map((page) => `/${category}/de${page.path}`));
+      }
+
+      return dynamicRoutes;
+    },
   },
 
   generate: {
