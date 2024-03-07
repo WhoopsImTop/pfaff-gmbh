@@ -97,11 +97,13 @@ collections:
                     widget: image
                     required: false
                     i18n: true
+                    hint: 'Bis Max 1MB'
                   - label: Bild/er Mobil
                     name: landingImageMobile
                     widget: image
                     required: false
                     i18n: true
+                    hint: 'Bis Max 1MB'
                   - label: 'Verknüpfte Produkte'
                     name: 'landingProducts'
                     widget: 'relation'
@@ -166,6 +168,7 @@ collections:
                   widget: 'image',
                   required: false,
                   i18n: true,
+                  hint: 'Bis Max 1MB'
                 }
               - {
                   label: 'Text unter Bild',
@@ -214,6 +217,7 @@ collections:
                     widget: 'image'
                     required: false
                     i18n: true
+                    hint: 'Bis Max 1MB'
                   - label: 'Link'
                     name: 'blockLink'
                     widget: 'relation'
@@ -278,11 +282,13 @@ collections:
                 widget: 'image'
                 required: false
                 i18n: true
+                hint: 'Bis Max 1MB'
               - label: 'Bild/er Mobil'
                 name: 'productMobileImage'
                 widget: 'image'
                 required: false
                 i18n: true
+                hint: 'Bis Max 1MB'
               - label: 'Marker'
                 name: 'productImageMarkerPosition'
                 widget: 'object'
@@ -371,6 +377,7 @@ collections:
                     widget: 'image'
                     required: false
                     i18n: true
+                    hint: 'Bis Max 1MB'
                   - label: 'Link'
                     name: 'cardLink'
                     widget: 'string'
@@ -441,6 +448,7 @@ collections:
                       widget: 'image',
                       required: false,
                       i18n: true,
+                      hint: 'Bis Max 1MB'
                     }
                   - {
                       label: 'E-Mail',
@@ -478,6 +486,7 @@ collections:
                           widget: 'image',
                           requried: false,
                           i18n: true,
+                          hint: 'Bis Max 1MB'
                         }
                       - {
                           label: 'Bildunterschrift',
@@ -665,6 +674,7 @@ collections:
           widget: 'image',
           required: false,
           i18n: true,
+          hint: 'Bis Max 1MB'
         }
       - {
           label: 'Bildunterschrift',
@@ -733,6 +743,7 @@ collections:
                   - label: 'Bild'
                     name: 'image'
                     widget: 'object'
+                    hint: 'Bis Max 1MB'
                     fields:
                       - {
                           label: 'Bild',
@@ -740,6 +751,7 @@ collections:
                           widget: 'image',
                           requried: false,
                           i18n: true,
+                          hint: 'Bis Max 1MB'
                         }
                       - {
                           label: 'Bildunterschrift',
@@ -844,6 +856,7 @@ collections:
             widget: 'image'
             required: false
             i18n: true
+            hint: 'Bis Max 1MB'
           - label: 'Button Text'
             name: 'qualityButtonText'
             widget: 'string'
@@ -902,6 +915,7 @@ collections:
           widget: 'image',
           required: false,
           i18n: true,
+          hint: 'Bis Max 1MB'
         }
       - {
           label: 'Produkt featuren',
@@ -953,6 +967,7 @@ collections:
             widget: 'image'
             required: false
             i18n: true
+            hint: 'Bis Max 1MB'
           - {
               label: 'Bildunterschrift',
               name: 'productGalleryCaption',
@@ -1039,6 +1054,7 @@ collections:
           widget: 'image',
           required: false,
           i18n: true,
+          hint: 'Bis Max 1MB'
         }
       - {
           label: 'Inhalt',
@@ -1179,6 +1195,7 @@ collections:
                     widget: 'image'
                     required: false
                     i18n: true
+                    hint: 'Bis Max 1MB'
                   - label: 'Link'
                     name: 'cardLink'
                     widget: 'string'
