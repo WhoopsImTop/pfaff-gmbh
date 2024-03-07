@@ -1,6 +1,6 @@
 ---
 productTitle: Optische Linsen für die Antriebstechnik
-productPosition: 9999
+productPosition: 1
 productDescription: >-
   Unsere Fertigung von optischen Linsen für die Antriebstechnik ist eine
   herausragende Kompetenz, bei der wir uns auf höchste Präzision und exzellente
