@@ -1,6 +1,6 @@
 ---
 productTitle: Optische Zahnräder für die Antriebstechnik
-productPosition: 9999
+productPosition: 2
 productDescription: >-
   Unsere Fertigung von transparenten Zahnrädern für die Antriebstechnik ist eine
   herausragende Kompetenz, bei der wir uns auf höchste Präzision und exzellente
