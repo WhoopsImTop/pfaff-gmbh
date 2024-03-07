@@ -1,6 +1,6 @@
 ---
 productTitle: Lichtleiter Automotive
-productPosition: 9999
+productPosition: 3
 productDescription: >-
   Unsere Expertise in der Fertigung von optischen Teilen, insbesondere
   Lichtleitern für die Automotive-Branche, ist eine unserer herausragenden
