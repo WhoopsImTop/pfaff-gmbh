@@ -33,7 +33,7 @@ jobs:
     - name: Cache Nuxt.js build
       uses: actions/cache@v2
       with:
-        path: .nuxt
+        path: ~/.nuxt
         key: ${{ runner.os }}-nuxt-${{ hashFiles('**/nuxt.config.js') }}
         restore-keys: |
           ${{ runner.os }}-nuxt-
