@@ -1,6 +1,6 @@
 ---
 productTitle: Prismaschlitten
-productPosition: 0
+productPosition: 7
 productDescription: >-
   Unsere Prismaschlitten sind ein Beispiel für unsere hochpräzise Fertigung von
   Klarsichtteilen mit anschließender Montage.
