@@ -12,36 +12,6 @@ jobs:
     - name: 🚚 Get latest code
       uses: actions/checkout@v2
 
-    - name: Cache node modules
-      uses: actions/cache@v2
-      with:
-        path: ~/.npm
-        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-        restore-keys: |
-          ${{ runner.os }}-node-
-
-    - name: Cache Nuxt.js build
-      uses: actions/cache@v2
-      with:
-        path: .nuxt
-        key: ${{ runner.os }}-nuxt-${{ hashFiles('**/nuxt.config.js') }}
-        restore-keys: |
-          ${{ runner.os }}-nuxt-
-
-    - name: Debug Cache Keys
-      run: |
-        echo "Nuxt.js Cache Key:"
-        echo ${{ runner.os }}-nuxt-${{ hashFiles('**/nuxt.config.js') }}
-        echo "Node.js Cache Key:"
-        echo ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          
-    - name: Debug Cache Contents
-      run: |
-        echo "Nuxt.js Cache Contents:"
-        ls -R .nuxt
-        echo "Node.js Cache Contents:"
-        ls -R ~/.npm
-
     - name: Use Node.js 16
       uses: actions/setup-node@v2
       with:
@@ -51,6 +21,36 @@ jobs:
       run: |
         npm install
         npm run generate
+
+    - name: Cache node modules
+      uses: actions/cache@v2
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-node-
+  
+    - name: Cache Nuxt.js build
+      uses: actions/cache@v2
+      with:
+        path: .nuxt
+        key: ${{ runner.os }}-nuxt-${{ hashFiles('**/nuxt.config.js') }}
+        restore-keys: |
+          ${{ runner.os }}-nuxt-
+  
+    - name: Debug Cache Keys
+      run: |
+        echo "Nuxt.js Cache Key:"
+        echo ${{ runner.os }}-nuxt-${{ hashFiles('**/nuxt.config.js') }}
+        echo "Node.js Cache Key:"
+        echo ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+            
+    - name: Debug Cache Contents
+      run: |
+        echo "Nuxt.js Cache Contents:"
+        ls -R .nuxt
+        echo "Node.js Cache Contents:"
+        ls -R ~/.npm
 
     - name: 📂 Sync Files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
