@@ -2,7 +2,7 @@ on:
   push:
     branches:
       - main
-      
+
 name: 🚀 Deploy website on push
 jobs:
   web-deploy:
@@ -11,6 +11,22 @@ jobs:
     steps:
     - name: 🚚 Get latest code
       uses: actions/checkout@v2
+
+    - name: Cache node modules
+      uses: actions/cache@v2
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-node-
+
+    - name: Cache Nuxt.js build
+      uses: actions/cache@v2
+      with:
+        path: .nuxt
+        key: ${{ runner.os }}-nuxt-${{ hashFiles('**/nuxt.config.js') }}
+        restore-keys: |
+          ${{ runner.os }}-nuxt-
 
     - name: Use Node.js 16
       uses: actions/setup-node@v2
@@ -21,7 +37,7 @@ jobs:
       run: |
         npm install
         npm run generate
-            
+
     - name: 📂 Sync Files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:

@@ -75,7 +75,7 @@ export default {
   },
   computed: {
     news() {
-      let slug = this.$route.params.slug.toLowerCase().split(' ').join('-')
+      let slug = this.$route.params.category.toLowerCase().split(' ').join('-')
       slug = slug.replace(/ä/g, 'ae')
       slug = slug.replace(/ü/g, 'ue')
       slug = slug.replace(/ö/g, 'oe')
