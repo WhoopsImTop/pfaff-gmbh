@@ -32,7 +32,7 @@ competenceDescription: >-
   Wir nutzen die Chancen der Nachhaltigkeit auch für nachhaltige Investitionen in die Zukunft. Ein Großteil unserer Maschinen verfügen bereits über ein sogenanntes Effizienzpaket, welches auf servoelektrische Antriebe und leistungsangepasste Pumpen setzt, um hohe Energieeffizienz zu gewährleisten. Zudem haben wir eine Photovoltaik-Anlage installiert, die 100% selbstgenutzte Energie erzeugt und bis zu 41 Tonnen CO2 pro Jahr einspart. Energie, die zusätzlich noch eingekauft werden muss, entsteht ausschließlich aus regenerativen Energien.
 
 
-  ![e-optimum](/logo-oekostromplus-1024x196.jpg "e-optimum Logo")
+  <img src="/logo-oekostromplus-1024x196.jpg" alt="e-optimum Logo" style="max-width: 500px; margin-bottom: 30px"/>
 
 
   <a href="/ökostromzertifikat_svk_aid-371159_20240304_79183-.pdf" class="button">e-optimum Zertifikat</a>
