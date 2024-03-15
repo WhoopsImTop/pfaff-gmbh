@@ -1,9 +1,12 @@
 ---
-title: TEST-NEWS
-excerpt: Das sind die Test-News der Pfaff GmbH.
+title: Girls'Day - wir sind wieder dabei!
+excerpt: >-
+  Am **25.04.2024** findet der nächste **Girls'Day** statt.
+
+
+  Zwei Mädchen können an diesem Tag den Beruf der **Kunststofftechnologin** mit allen Sinnen erleben.
 date: 2024-03-07T08:12:36.226Z
 author: Stefan Pfaff
-image: /2k-beleuchtung-porsche_pfaff-1200x969-1.jpg
-category: presseartikel
+image: /22159_ced1ee8d0525300.jpg
+category: allgemeine-news
 ---
-Das ist ein Testbeitrag für die neue Pfaff Seite.
