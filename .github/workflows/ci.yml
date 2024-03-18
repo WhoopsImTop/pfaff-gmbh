@@ -21,14 +21,14 @@ jobs:
       run: |
         npm install
         npm run generate
-            
-    - name: 📂 Sync Files
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+
+    - uses: actions/checkout@v4
+    - name: copy file via ssh password
+      uses: appleboy/scp-action@v0.1.7
       with:
-        server: ${{ secrets.server }}
-        username: ${{ secrets.username }}
-        password: ${{ secrets.password }}
-        server-dir: pfaff-web-2023-nuxt/
-        local-dir: ./dist/
-        protocol: ftp
-        port: 21
+        host: ${{ secrets.TESTHOST }}
+        username: ${{ secrets.TESTUSERNAME }}
+        password: ${{ secrets.TESTPASSWORD }}
+        port: ${{ secrets.TESTPORT }}
+        source: "./dist/*"
+        target: pfaff-web-2023-nuxt/
