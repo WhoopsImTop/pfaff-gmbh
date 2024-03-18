@@ -24,16 +24,16 @@ jobs:
 
     - name: 📦 Zip files
       run: |
-        zip -r website.zip dist/
+        zip -r zipped/website.zip dist/
 
     - name: 🚀 Deploy via FTP
-      uses: tomasbkk/action-ftp-upload@v1.0
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        host: ${{ secrets.TESTHOST }}
-        user: ${{ secrets.TESTUSERNAME }}
+        server: ${{ secrets.TESTHOST }}
+        username: ${{ secrets.TESTUSERNAME }}
         password: ${{ secrets.TESTPASSWORD }}
-        src: './website.zip'
-        dest: /
+        local-dir: './zipped/'
+        server-dir: /
 
     - name: 📦 Unzip files on server
       uses: appleboy/ssh-action@master
