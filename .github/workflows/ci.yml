@@ -24,6 +24,7 @@ jobs:
 
     - name: 📦 Zip files
       run: |
+        mkdir zipped
         zip -r zipped/website.zip dist/
 
     - name: 🚀 Deploy via FTP
