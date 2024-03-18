@@ -5,8 +5,8 @@ on:
       
 name: 🚀 Deploy website on push
 jobs:
-  web-deploy:
-    name: 🎉 Deploy
+  build:
+    name: Build ⛏
     runs-on: ubuntu-latest
     steps:
     - name: 🚚 Get latest code
@@ -20,29 +20,33 @@ jobs:
     - name: 🔨 Build Project
       run: |
         npm install
-        npm run generate
+        npm run generate#
 
-    - name: 📦 Zip files
-      run: |
-        mkdir zipped
-        zip -r zipped/website.zip dist/
-
-    - name: 🚀 Deploy via SSH
-      uses: appleboy/ssh-action@master
+    - name: Archive production artifact
+      uses: actions/upload-artifact@main
       with:
-        host: ${{ secrets.TESTHOST }}
-        username: ${{ secrets.TESTUSERNAME }}
-        password: ${{ secrets.TESTPASSWORD }}
-        port: 22
-        script: |
-          sshpass -p ${{ secrets.TESTPASSWORD }} scp -o StrictHostKeyChecking=no zipped/website.zip ${{ secrets.TESTUSERNAME }}@${{ secrets.TESTHOST }}:/pfaff-web-2023-nuxt/
-  
-    - name: 📦 Unzip files on server
-      uses: appleboy/ssh-action@master
-      with:
-        host: ${{ secrets.TESTHOST }}
-        username: ${{ secrets.TESTUSERNAME }}
-        password: ${{ secrets.TESTPASSWORD }}
-        port: 22
-        script: |
-          sshpass -p ${{ secrets.TESTPASSWORD }} ssh -o StrictHostKeyChecking=no ${{ secrets.TESTUSERNAME }}@${{ secrets.TESTHOST }} "unzip -o /pfaff-web-2023-nuxt/website.zip -d /pfaff-web-2023-nuxt/"
+        name: dist
+        path: dist
+            
+  deploy:
+    name: Deploy 🚀
+    needs: build
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Checkout repository
+        uses: actions/checkout@main
+      - name: Download artifact
+        uses: actions/download-artifact@main
+        with: 
+          name: dist
+          path: dist
+      - name: 📂 Sync Files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.server }}
+          username: ${{ secrets.username }}
+          password: ${{ secrets.password }}
+          server-dir: pfaff-web-2023-nuxt/
+          local-dir: ./dist/
+          protocol: ftp
+          port: 21
