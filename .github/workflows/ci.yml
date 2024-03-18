@@ -20,7 +20,7 @@ jobs:
     - name: 🔨 Build Project
       run: |
         npm install
-        npm run generate#
+        npm run generate
 
     - name: Archive production artifact
       uses: actions/upload-artifact@main
