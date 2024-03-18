@@ -27,13 +27,13 @@ jobs:
         zip -r website.zip dist/
 
     - name: 🚀 Deploy via FTP
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      uses: tomasbkk/action-ftp-upload@v1.0
       with:
-        server: ${{ secrets.TESTHOST }}
-        username: ${{ secrets.TESTUSERNAME }}
+        host: ${{ secrets.TESTHOST }}
+        user: ${{ secrets.TESTUSERNAME }}
         password: ${{ secrets.TESTPASSWORD }}
-        local-dir: './website.zip'
-        server-dir: /
+        src: './website.zip'
+        dest: /
 
     - name: 📦 Unzip files on server
       uses: appleboy/ssh-action@master
