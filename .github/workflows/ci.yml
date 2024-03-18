@@ -23,12 +23,4 @@ jobs:
         npm run generate
 
     - name: copy file via ssh password
-      uses: appleboy/scp-action@v0.1.7
-      with:
-        host: ${{ secrets.TESTHOST }}
-        username: ${{ secrets.TESTUSERNAME }}
-        password: ${{ secrets.TESTPASSWORD }}
-        port: ${{ secrets.TESTPORT }}
-        source: ./dist/*
-        target: /pfaff_test/pfaff-web-2023-nuxt/
-        debug: true
+      run: rsync -avz --delete ./dist/ ${{ secrets.TESTUSERNAME }}@${{ secrets.TESTHOST }}:pfaff-web-2023-nuxt/
