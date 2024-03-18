@@ -22,5 +22,24 @@ jobs:
         npm install
         npm run generate
 
-    - name: copy file via ssh password
-      run: rsync -avz --delete ./dist/ ${{ secrets.TESTUSERNAME }}@${{ secrets.TESTHOST }}:pfaff-web-2023-nuxt/
+    - name: 📦 Zip files
+      run: |
+        zip -r website.zip dist/
+
+    - name: 🚀 Deploy via FTP
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: ${{ secrets.TESTHOST }}
+        username: ${{ secrets.TESTUSERNAME }}
+        password: ${{ secrets.TESTPASSWORD }}
+        local-dir: './website.zip'
+        server-dir: /
+
+    - name: 📦 Unzip files on server
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.TESTHOST }}
+        username: ${{ secrets.TESTUSERNAME }}
+        password: ${{ secrets.TESTPASSWORD }}
+        script: |
+          unzip -o website.zip -d /pfaff-web-2023-nuxt/
