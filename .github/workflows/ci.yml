@@ -31,3 +31,4 @@ jobs:
         port: ${{ secrets.TESTPORT }}
         source: ./dist/*
         target: /pfaff-web-2023-nuxt/
+        debug: true
