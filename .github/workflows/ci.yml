@@ -27,15 +27,15 @@ jobs:
         mkdir zipped
         zip -r zipped/website.zip dist/
 
-        - name: 🚀 Deploy via SSH
-        uses: appleboy/ssh-action@master
-        with:
-          host: ${{ secrets.TESTHOST }}
-          username: ${{ secrets.TESTUSERNAME }}
-          password: ${{ secrets.TESTPASSWORD }}
-          port: 22
-          script: |
-            sshpass -p ${{ secrets.TESTPASSWORD }} scp -o StrictHostKeyChecking=no zipped/website.zip ${{ secrets.TESTUSERNAME }}@${{ secrets.TESTHOST }}:/pfaff-web-2023-nuxt/
+    - name: 🚀 Deploy via SSH
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.TESTHOST }}
+        username: ${{ secrets.TESTUSERNAME }}
+        password: ${{ secrets.TESTPASSWORD }}
+        port: 22
+        script: |
+          sshpass -p ${{ secrets.TESTPASSWORD }} scp -o StrictHostKeyChecking=no zipped/website.zip ${{ secrets.TESTUSERNAME }}@${{ secrets.TESTHOST }}:/pfaff-web-2023-nuxt/
   
     - name: 📦 Unzip files on server
       uses: appleboy/ssh-action@master
