@@ -2,7 +2,7 @@
 title: Die Revolution der Kunststofflinsen
 excerpt: "**Über Innovationen und Vorteile von Linsen und optischen Teilen. Ein
   Interview mit dem technischen Leiter der Pfaff GmbH, Herr Andreas Buff.**"
-date: 2024-04-22T11:14:00.000Z
+date: 2024-04-15T13:14:00.000Z
 author: Das Interview führte Stefan Pfaff
 image: /optische-linsen_pc_pfaff.jpg
 category: presseartikel
