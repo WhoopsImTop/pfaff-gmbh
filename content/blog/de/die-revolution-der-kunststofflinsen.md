@@ -1,12 +1,13 @@
 ---
 title: Die Revolution der Kunststofflinsen
-excerpt: "**Über Innovationen und Vorteile von Linsen und optischen Teilen. Ein
-  Interview mit dem technischen Leiter der Pfaff GmbH, Herr Andreas Buff.**"
+excerpt: ""
 date: 2024-04-15T13:14:00.000Z
 author: Das Interview führte Stefan Pfaff
 image: /optische-linsen_pc_pfaff.jpg
 category: presseartikel
 ---
+**Über Innovationen und Vorteile von Linsen und optischen Teilen. Ein Interview mit dem technischen Leiter der Pfaff GmbH, Herr Andreas Buff.**
+
 *Frage: Herr Buff, könnten Sie uns einen Überblick über die vielfältigen Vorteile hochwertiger Kunststofflinsen und optischer Teile geben, die von der Pfaff GmbH hergestellt werden?*
 
 Andreas Buff: Unsere hochwertigen Kunststofflinsen zeichnen sich durch ihre brillante Optik und profilformgenaue Herstellung aus. Wir bieten eine breite Produktpalette von sphärischen und asphärischen Linsen bis hin zu Tripel-Elementen. Diese Vielfalt ermöglicht es uns, individuelle Lösungen für verschiedene Anwendungen anzubieten, sei es als Lichtleiter in beleuchteten Displays, technische Linsen in optischen Sensorbaugruppen, in Laserscannern oder Reflektoren.
