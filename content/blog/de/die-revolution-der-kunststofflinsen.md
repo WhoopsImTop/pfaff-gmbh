@@ -1,7 +1,7 @@
 ---
 title: Die Revolution der Kunststofflinsen
 excerpt: ""
-date: 2024-04-15T13:14:00.000Z
+date: 2024-04-08T15:14:00.000Z
 author: Das Interview führte Stefan Pfaff
 image: /optische-linsen_pc_pfaff.jpg
 category: presseartikel
