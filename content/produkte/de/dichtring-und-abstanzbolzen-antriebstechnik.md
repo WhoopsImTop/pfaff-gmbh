@@ -1,5 +1,5 @@
 ---
-productTitle: Dichtring und Abstanzbolzen Antriebstechnik
+productTitle: Dichtring und Abstandsbolzen Antriebstechnik
 productPosition: 9999
 productDescription: >-
   Unsere Fertigung von Dichtringen und Abstandsbolzen für die Antriebstechnik
