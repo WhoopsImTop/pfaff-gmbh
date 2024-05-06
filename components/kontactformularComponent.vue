@@ -55,6 +55,21 @@
         ></b-form-textarea>
       </div>
     </div>
+
+    <div style="display: none">
+      <input v-model="website" type="text" name="website" />
+    </div>
+
+    <div class="row mt-4">
+      <div class="col-lg-6">
+        <label for="captcha">Sicherheitsfrage: {{ firstNumber }} + {{ secondNumber }} = ?</label>
+        <b-form-input type="text" id="captcha-input" v-model="captchaInput" required />
+        <p v-if="showCaptchaError" class="text-danger">
+          Bitte lösen Sie die Aufgabe korrekt.
+        </p>
+      </div>
+    </div>
+
     <button @click="sendForm()" class="button mt-4">
       {{ contactFormButton }}
     </button>
@@ -71,10 +86,19 @@ export default {
       email: '',
       telefon: '',
       nachricht: '',
+      website: '',
       contactFormButton: 'Kontakt aufnehmen',
+      firstNumber: Math.floor(Math.random() * 10) + 1,
+      secondNumber: Math.floor(Math.random() * 10) + 1,
+      captchaInput: '',
+      showCaptchaError: false,
     }
   },
   methods: {
+    emailValidation(email) {
+      const re = /\S+@\S+\.\S+/
+      return re.test(email)
+    },
     sendForm() {
       if (
         this.nachname === '' ||
@@ -88,6 +112,28 @@ export default {
         }, 5000)
         return
       }
+
+      if (!this.emailValidation(this.email)) {
+        this.contactFormButton =
+          'Bitte geben Sie eine gültige E-Mail-Adresse ein'
+        setTimeout(() => {
+          this.contactFormButton = 'Kontakt aufnehmen'
+        }, 5000)
+        return
+      }
+
+      if (
+        parseInt(this.captchaInput) !==
+        this.firstNumber + this.secondNumber
+      ) {
+        this.showCaptchaError = true
+        return
+      }
+
+      if (this.website !== '') {
+        return
+      }
+
       event.preventDefault()
       const formData = new FormData()
       formData.append('name', this.nachname)
@@ -124,6 +170,10 @@ export default {
           }
         )
     },
+  },
+  created() {
+    this.firstNumber = Math.floor(Math.random() * 10) + 1
+    this.secondNumber = Math.floor(Math.random() * 10) + 1
   },
 }
 </script>
