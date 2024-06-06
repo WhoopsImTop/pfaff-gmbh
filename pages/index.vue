@@ -27,7 +27,7 @@ export default {
 
   head() {
     return {
-      title: 'Schwarzwälder Präzisition',
+      title: 'Schwarzwälder Präzision',
       meta: [
         {
           hid: 'description',

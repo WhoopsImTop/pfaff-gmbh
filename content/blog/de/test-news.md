@@ -1,6 +1,6 @@
 ---
 title: Girls'Day - wir sind wieder dabei!
-excerpt: >-
+shortText: >-
   Am **25.04.2024** findet der nächste **Girls'Day** statt.
 
 

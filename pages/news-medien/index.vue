@@ -18,10 +18,7 @@
               article.category
             }}</span>
           </div>
-          <p v-if="article.shortText">{{ article.shortText }}</p>
-          <p v-else>
-            <nuxt-content :document="{ body: article.excerpt }" />
-          </p>
+          <div v-if="article.shortText" v-html="article.shortText ? $md.render(article.shortText) : ''"></div>
         </div>
       </nuxt-link>
     </div>

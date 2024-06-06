@@ -11,10 +11,10 @@
         <div class="card-content">
           <span class="article-date">{{ translateStatus(card.category) }}</span>
           <h3 v-html="card.title"></h3>
-          <p v-if="card.shortText">{{ card.shortText }}</p>
-          <p v-else>
-            <nuxt-content :document="{ body: card.excerpt }" />
-          </p>
+          <div
+            v-if="card.shortText"
+            v-html="card.shortText ? $md.render(card.shortText) : ''"
+          ></div>
         </div>
       </nuxt-link>
     </div>
