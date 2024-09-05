@@ -1,7 +1,7 @@
 ---
 title: KunststoffXtra Optische und taktile Messung von Präzisionsteilen
 slug: kunststoffxtra-optische-und-taktile-messung-von-prazisionsteilen
-date: Sun May 01 2016 16:22:00 GMT+0200 (Mitteleuropäische Sommerzeit)
+date: 2016-05-01T14:22:00.000Z
 category: fachbeitraege
 shortText: Zahntechnische Instrumente. Aus Hochleistungspolymeren wie PEEK lassen sich Instrumententeile herstellen, deren Eigenschaften wenig von aus Metall gefertigten Produkten abweichen. Das erfordert allerdings besonderes Fertigungs-Know-how, wie …
 ---

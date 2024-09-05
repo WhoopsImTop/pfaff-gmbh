@@ -1,6 +1,6 @@
 ---
 title: medizin &amp; technik „Ersatz“ klingt zu einfach
-date: Sun May 15 2016 16:29:00 GMT+0200 (Mitteleuropäische Sommerzeit)
+date: 2016-05-15T14:29:00.000Z
 category: fachbeitraege
 slug: medizin-andamp-technik-ersatz-klingt-zu-einfach
 shortText: Zahntechnische Instrumente. Aus Hochleistungspolymeren wie PEEK lassen sich Instrumententeile herstellen, deren Eigenschaften wenig von aus Metall gefertigten Produkten abweichen.

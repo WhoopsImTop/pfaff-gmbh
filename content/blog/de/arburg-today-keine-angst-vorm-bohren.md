@@ -1,7 +1,7 @@
 ---
 title: Arburg today Keine Angst vorm Bohren
 slug: arburg-today-keine-angst-vorm-bohren
-date: Sat Dec 01 2012 15:39:00 GMT+0100 (Mitteleuropäische Normalzeit)
+date: 2012-12-01T14:39:00.000Z
 category: fachbeitraege
 shortText: Neuer Kunststoffbohrer rückt gezielt Karies zu Leibe. Wer schon einmal beim Zahnarzt war weiß Bohren macht keinen Spaß, denn es kann schmerzen. Das muss nicht …
 ---

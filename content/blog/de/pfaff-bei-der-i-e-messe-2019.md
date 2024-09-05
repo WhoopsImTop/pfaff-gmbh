@@ -2,7 +2,7 @@
 title: Pfaff bei der i+e 2019!
 slug: pfaff-bei-der-i-e-messe-2019
 shortText: Gehen Sie mit uns bei der i+e Messe von 30.01. bis 01.02.2019 auf digitale Höhentour! Wir möchten Sie zu unserem neu gestalteten Stand mit der Nummer M111 in der Halle 2 herzlich einladen. Wir rüsten Sie dort für Ihr Höhenglück aus.
-date: Fri Jan 11 2019 13:37:41 GMT+0100 (Mitteleuropäische Normalzeit)
+date: 2019-01-11T13:37:41.000Z
 image: /ie2019_pfaff-gmbh-300x250.jpeg
 categories: allgemeine-news
 category: allgemeine-news

@@ -1,6 +1,6 @@
 ---
 title: Mitarbeiter*in Projektmanagement m/w/d ab sofort
-date: Wed Aug 10 2022 10:47:42 GMT+0200 (Mitteleuropäische Sommerzeit)
+date: 2022-08-10T10:47:42.000Z
 category: stellenausschreibungen
 slug: stellenausschreibung-projektmanagement
 shortText: Wir bieten Ihnen ein vielseitiges, verantwortungsvolles Aufgabengebiet in einem familiären Team, wo Menschlichkeit, Toleranz und Nachhaltigkeit nicht nur Floskeln sind. Wir freuen uns auf Ihre Bewerbung.

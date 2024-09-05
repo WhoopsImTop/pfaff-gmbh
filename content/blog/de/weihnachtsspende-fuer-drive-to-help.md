@@ -2,7 +2,7 @@
 title: Weihnachtsspende für „Drive To Help“
 slug: weihnachtsspende-fuer-drive-to-help
 shortText: Pfaff GmbH unzerstützt eine Klinik in Gambia. Drive-To-Help ist ein gemeinnütziger Verein und das vorrangige Ziel ist die Unterstützung der ASB Health Clinic in Serrekunda, …
-date: Thu Dec 22 2016 15:21:00 GMT+0100 (Mitteleuropäische Normalzeit)
+date: 2016-12-22T15:21:00.000Z
 image: /Drive_To_Help.jpg
 categories: allgemeine-news
 category: allgemeine-news

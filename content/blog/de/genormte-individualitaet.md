@@ -1,6 +1,6 @@
 ---
 title: Genormte Individualität
-date: Wed Feb 06 2019 12:10:14 GMT+0100 (Mitteleuropäische Normalzeit)
+date: 2019-02-06T11:10:14.000Z
 category: presseartikel
 content: Pressemitteilung in der WVIB-Beilage der i+e-Messe 2019.
 slug: genormte-individualitaet

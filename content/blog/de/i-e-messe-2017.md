@@ -1,7 +1,7 @@
 ---
 title: i+e Messe 2017
 slug: i-e-messe-2017
-date: Tue Jan 10 2017 15:20:00 GMT+0100 (Mitteleuropäische Normalzeit)
+date: 2017-01-10T14:20:00.000Z
 category: allgemeine-news
 shortText: Wir freuen uns auf Ihren Besuch! Auch 2017 sind wir wieder mit einem Stand auf der i+e Messe in Freiburg im Breisgau vertreten. Sie finden …
 image: /i_e_2017.jpg

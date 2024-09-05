@@ -1,6 +1,6 @@
 ---
 title: Ein normenkonformes Medizinprodukt – viel mehr als ein Trinkbecher
-date: Thu Oct 10 2019 17:15:48 GMT+0200 (Mitteleuropäische Sommerzeit)
+date: 2019-10-10T15:15:48.000Z
 category: fachbeitraege
 slug: ein-normenkonformes-medizinprodukt-viel-mehr-als-ein-trinkbecher
 shortText: Dass ein Trinkbecher neu erfunden werden muss, mag merkwürdig klingen.

@@ -4,7 +4,7 @@ slug: erweiterung-des-produktportfolios-1995
 shortText: Ausweitung des Produktportfolios auf den Bereich
   Opto-Elektronik/Sensorik. Es werden erstmals Gehäuse und Druckknöpfe für
   Lichtschranken produziert.
-date: Wed Feb 01 1995 14:20:05 GMT+0100 (Mitteleuropäische Normalzeit)
+date: 1995-02-01T13:20:05.000Z
 category: meilensteine
 ---
 Ausweitung des Produktportfolios auf den Bereich Opto-Elektronik/Sensorik. Es werden erstmals Gehäuse und Druckknöpfe für Lichtschranken produziert.

@@ -1,6 +1,6 @@
 ---
 title: i+e 2017 Review
-date: Thu Mar 23 2017 15:15:00 GMT+0100 (Mitteleuropäische Normalzeit)
+date: 2017-03-23T14:15:00.000Z
 category: allgemeine-news
 slug: i-e-2017-review
 shortText: Die i+e 2017 – ein voller Erfolg. Wir konnten uns mit unserem neu designten Stand bei potentiellen Kunden hervorragend als professionelles und familiäres Schwarzwälder Unternehmen …

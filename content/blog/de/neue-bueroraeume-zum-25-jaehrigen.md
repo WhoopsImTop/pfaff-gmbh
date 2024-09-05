@@ -1,7 +1,7 @@
 ---
 title: Neue Büroräume zum 25-Jährigen
 slug: neue-bueroraeume-zum-25-jaehrigen
-date: Fri Nov 03 2017 14:59:21 GMT+0100 (Mitteleuropäische Normalzeit)
+date: 2017-11-03T14:59:21.000Z
 image: /25_Jahre_Buero-pfaff-kollnau.jpg
 categories: pressemitteilungen
 category: meilensteine

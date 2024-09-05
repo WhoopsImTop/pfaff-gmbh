@@ -2,7 +2,7 @@
 title: Supporten Sie sippa!
 slug: supporten-sie-sippa
 shortText: Viele Menschen leben in schwierigen Situationen, in denen alltägliche Abläufe und Gewohnheiten, wie das Trinken zu einer großen Herausforderung werden.
-date: Fri Feb 01 2019 13:36:00 GMT+0100 (Mitteleuropäische Normalzeit)
+date: 2019-02-01T13:36:00.000Z
 image: /pfaff-gmbh_sippa-startnext-1024x683.jpg
 categories: allgemeine-news
 category: allgemeine-news

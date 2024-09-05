@@ -1,7 +1,7 @@
 ---
 title: Pfaff around the world
 slug: pfaff-around-the-world
-date: Thu Mar 11 2021 13:12:58 GMT+0100 (Mitteleuropäische Normalzeit)
+date: 2021-03-11T13:12:58.000Z
 category: presseartikel
 shortText: Erfahren Sie in diesem WVIB-Beitrag, wie Pfaff als lokales
   Schwarzwälder Unternehmen rund um den Globus aktiv ist. Das Know-how in der

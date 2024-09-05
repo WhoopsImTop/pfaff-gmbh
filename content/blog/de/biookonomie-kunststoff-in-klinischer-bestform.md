@@ -1,7 +1,7 @@
 ---
 title: Bioökonomie Kunststoff in klinischer Bestform
 slug: biookonomie-kunststoff-in-klinischer-bestform
-date: Mon Sep 29 2008 16:44:00 GMT+0200 (Mitteleuropäische Sommerzeit)
+date: 2008-09-29T14:44:00.000Z
 category: fachbeitraege
 shortText: Kunststoff in klinischer Bestform. Die medizinischen Anwendungsbereiche für Kunststoffe sind mannigfaltig. Spritzen, selbstabbaubare Gelenkschrauben oder Kanülen für Katheter – Kliniken möchten möglichst hochwertige Produkte, die ...
 ---

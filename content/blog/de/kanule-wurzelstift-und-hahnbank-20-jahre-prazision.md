@@ -1,7 +1,7 @@
 ---
 title: Kanüle, Wurzelstift und Hahnbank – 20 Jahre Präzision
 slug: kanule-wurzelstift-und-hahnbank-20-jahre-prazision
-date: Tue Oct 09 2012 16:41:00 GMT+0200 (Mitteleuropäische Sommerzeit)
+date: 2012-10-09T14:41:00.000Z
 category: presseartikel
 shortText: Badische Zeitung. Zum 20jährigen Jubiläum der Pfaff GmbH im September
   2012 gibts einen Artikel in der Badischen Zeitung. Ein Bericht über Präzision,

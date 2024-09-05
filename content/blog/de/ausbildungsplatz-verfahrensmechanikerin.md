@@ -1,6 +1,6 @@
 ---
 title: Ausbildungsplatz zur/zum Verfahrensmechaniker*in für Kunststoff- und Kautschuktechnik
-date: Wed Aug 10 2022 10:40:33 GMT+0200 (Mitteleuropäische Sommerzeit)
+date: 2022-08-10T08:40:33.000Z
 category: stellenausschreibungen
 slug: ausbildungsplatz-verfahrensmechanikerin
 shortText: Du suchst eine Ausbildung, bei der du die technische Arbeit eines Mechanikers mit den raffinierten Rezepten eines Kochs vereinen kannst? Dann bewirb dich jetzt.

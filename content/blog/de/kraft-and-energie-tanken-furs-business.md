@@ -1,7 +1,7 @@
 ---
 title: Kraft & Energie tanken fürs Business
 slug: kraft-and-energie-tanken-furs-business
-date: Wed Aug 25 2021 11:10:30 GMT+0200 (Mitteleuropäische Sommerzeit)
+date: 2021-08-25T09:10:30.000Z
 image: /cp2.jpg
 category: presseartikel
 shortText: Woher schöpfen Geschäftsführerinnen wie Corinna Pfaff eigentlich ihre

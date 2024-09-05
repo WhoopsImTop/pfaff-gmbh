@@ -1,7 +1,7 @@
 ---
 title: 20 Jahre Helga Schneider!
 slug: 20-jahre-helga-schneider
-date: Tue Sep 15 2015 16:35:00 GMT+0200 (Mitteleuropäische Sommerzeit)
+date: 2015-09-15T14:35:00.000Z
 image: /helga-schneider-20-jahre.jpg
 category: allgemeine-news
 shortText: Sie ist neben dem Geschäftsführer Adolf Pfaff und seiner Frau Anita Pfaff die treueste Seele der Pfaff GmbH Helga Schneider.

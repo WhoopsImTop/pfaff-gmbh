@@ -1,6 +1,6 @@
 ---
 title: DeviceMed PEEK definiert die Grenze für selbstlimierende Instrumente
-date: Sat Oct 01 2016 16:26:00 GMT+0200 (Mitteleuropäische Sommerzeit)
+date: 2016-10-01T14:26:00.000Z
 category: fachbeitraege
 slug: devicemed-peek-definiert-die-grenze-fur-selbstlimierende-instrumente
 shortText: Hochleistungskunststoffe werden schon seit einiger Zeit für Einsätze in der Dentaltechnik getestet.

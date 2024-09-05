@@ -2,7 +2,7 @@
 title: Münsterbauwettbewerb 2013
 slug: munsterbauwettbewerb-2013
 shortText: Kunststoff-Recycling mal anders. Die Klasse 6d des Geschwister-Scholl-Gymnasiums in Waldkirch nahm am Münsterbauwettbewerb teil. Die engagierten Schüler bauten das Freiburger Münster aus den Kunststoff-Abfällen unserer …
-date: Tue Jul 30 2013 16:38:00 GMT+0200 (Mitteleuropäische Sommerzeit)
+date: 2013-07-30T14:38:00.000Z
 image: /Muensterbauwettbewerb_2013-07-22_11-1024x768-1.jpg
 categories: allgemeine-news
 category: allgemeine-news

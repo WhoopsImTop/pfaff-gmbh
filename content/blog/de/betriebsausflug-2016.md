@@ -1,6 +1,6 @@
 ---
 title: Betriebsausflug 2016
-date: Mon Jul 18 2016 16:27:00 GMT+0200 (Mitteleuropäische Sommerzeit)
+date: 2016-07-18T14:27:00.000Z
 category: allgemeine-news
 content: Ab in die Natur. Auf dem Brotweg in Yach mit Natur- und Wanderführer Sigi.
 slug: betriebsausflug-2016

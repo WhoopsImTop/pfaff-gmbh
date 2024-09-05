@@ -1,7 +1,7 @@
 ---
 title: K-Profi Kleine Größe zum großen Plus ausbauen
 slug: k-profi-kleine-groesse-zum-groessen-plus-ausbauen
-date: Sat Oct 01 2016 16:25:00 GMT+0200 (Mitteleuropäische Sommerzeit)
+date: 2016-10-01T14:25:00.000Z
 category: presseartikel
 ---
 

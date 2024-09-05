@@ -1,6 +1,6 @@
 ---
 title: Treue Seelen bei Pfaff
-date: Thu Sep 17 2020 14:13:25 GMT+0200 (Mitteleuropäische Sommerzeit)
+date: 2020-09-17T14:13:25.000Z
 category: allgemeine-news
 slug: treue-seelen-bei-pfaff
 shortText: Was kann einem Unternehmen Schöneres passieren als wundervolle Mitarbeiterinnen zu beschäftigen, die großartige Arbeit leisten und der Firma über viele Jahre treu bleiben? Ulrike Saalmann …

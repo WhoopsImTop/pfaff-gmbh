@@ -1,6 +1,6 @@
 ---
 title: Wir waren auf der Last Minute Börse in Freiburg
-date: Fri Jul 29 2022 14:44:00 GMT+0200 (Mitteleuropäische Sommerzeit)
+date: 2022-07-29T14:44:00.000Z
 category: stellenausschreibungen
 slug: wir-waren-auf-der-last-minute-boerse-in-freiburg
 shortText: Ihr konntet uns auf der Last Minute Börse am 29.07.2022 von 13:00 Uhr bis 15:30 Uhr persönlich antreffen.
