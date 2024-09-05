@@ -1,6 +1,6 @@
 ---
-title: Gründung der Pfaff GmbH 1992
-date: 1992-01-01T13:00:00.000Z
+title: Gründung der Pfaff GmbH 1991
+date: 1991-01-01T13:00:00.000Z
 shortText: Adolf Pfaff, Werkzeugmacher-Meister und Konstrukteur von
   Spritz­gießmaschen, gründet die Pfaff GmbH in Waldkirch. Es ist das erste
   Unternehmen, das auf das Gelände der ehemaligen Kollnauer Spinnerei und
