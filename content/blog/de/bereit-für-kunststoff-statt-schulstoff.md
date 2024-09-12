@@ -14,9 +14,7 @@ Hast du schon mal von einem Beruf gehört, bei dem man die **technische Arbeit e
 
 Bei uns lernst du, wie man Spritzgussmaschinen bedient, Anlagen und Roboter programmiert und die Stoffe der Zukunft mischt, um Menschen auf der ganzen Welt mit wichtigen Medizinprodukten zu versorgen.
 
-Bereichere unser Team und beginne deine Ausbildung zum 01.09.2024 als **Kunststofftechnologe (m/w/d)**.
-
-
+Bereichere unser Team und beginne deine Ausbildung zum 01.09.2025 als **Kunststofftechnologe (m/w/d)**.
 
 Die Pfaff GmbH in Waldkirch-Kollnau beschäftigt derzeit 20 Mitarbeiter*innen und fertigt Kunststoffspritzgussteile für unterschiedlichste Industriebranchen, vor allem aber für die Medizintechnik. Deshalb geht es bei uns auch sehr "sauber" zu.\
 **Wir bewerten dich nicht aufgrund deiner Schulnoten**, aber die Schulfächer Technik, Mathematik und Chemie sollten dir  eher liegen und kein Kopfzerbrechen bereiten.\
