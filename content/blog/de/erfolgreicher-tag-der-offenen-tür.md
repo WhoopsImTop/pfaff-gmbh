@@ -1,6 +1,6 @@
 ---
 title: Erfolgreicher Tag der offenen Tür
-shortText: Vor vier Wochen haben wir unser 33jähriges Jubiläums im Rahmen eines
+shortText: Vor vier Wochen haben wir unser 33jähriges Jubiläum im Rahmen eines
   Tags der offenen Tür gefeiert.
 date: 2024-10-28T00:00:00.000Z
 image: /28.-sept-2024-33-jahre-pfaff-familienfoto.jpg
