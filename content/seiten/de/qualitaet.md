@@ -108,26 +108,33 @@ components:
           festgelegt:
 
 
-          * Die Verwendung neuester Fertigungstechnologien in Verbindung mit einer hohen Flexibilität und kurzen Kommunikationswegen sind entscheidende Grundlagen für den Erfolg unseres Unternehmens.
+          * Die Qualitätspolitik und Unternehmensphilosophie wird durch die Geschäftsleitung der Pfaff GmbH entwickelt, festgelegt und bei Bedarf aktualisiert. Die Wirksamkeit wird im Managementreview geprüft und bewertet.
 
-          * Jeder von uns setzt seine ganze Arbeitskraft dafür ein, die vereinbarten Anforderungen unserer Kunden immer richtig zu erfüllen.
+          * Diese Festlegung sichert die **Erwartungen und Erfordernisse unserer Kunden** ab. Oberstes Ziel ist die Kundenzufriedenheit.
 
-          * Wir praktizieren dabei Fairness, Respekt, Disziplin, Toleranz und Angemessenheit im Umgang miteinander nach innen und außen zum Wohle unserer Kunden, Lieferanten, Mitarbeiter und unseres Unternehmens
+          * Wir verfolgen als Ziel eine **0-Fehler-Quote**.
 
-          * Unsere Mitarbeiter haben langjährige Erfahrung in ihren Aufgabenbereichen. Durch angemessene Aus- und Weiterbildung wird die Innovationsfähigkeit ständig aufrechterhalten.
+          * Jeder Mitarbeiter ist unabhängig von Funktion und Aufgabe **zu Qualität, aktivem Umweltschutz und energiesparendem Verhalten verpflichtet**.
 
-          * Sowohl eine ständige Verbesserung wie auch die Vermeidung von Fehlern, sehen wir in allen Bereichen unseres Unternehmens als unsere Pflicht an.
+          * Alle Mitarbeiter sind zur Erreichung der Unternehmenspolitik aufgefordert, positive und konstruktive Kritik zu üben. **Einsatzbereitschaft, Flexibilität, geistige und gestalterische Kreativität**, sowie **qualifizierte Aus- und Weiterbildung** sollen dazu beitragen, dass unsere **Prozesse und Produkte fortwährend verbessert werden** und durch **Innovationen unsere Wettbewerbsposition** im Markt gestärkt wird.
 
-          * Wir verpflichten uns zur Einhaltung der zur Produktion unserer Produkte anwendbaren nationalen oder regionalen Bestimmungen und relevanten internationalen Normen. Verfügbare Informationen wie der allgemeine Stand der Technik und bekannte Vorbehalte der Beteiligten werden berücksichtigt.
+          * Unser Unternehmen beachtet bestehende Gesetze und Verordnungen, sowie Auflagen aus Genehmigungen.
 
-          * Die Grundregeln, mit denen wir unsere Arbeitsprozesse reibungslos durchführen und ständig verbessern sind:
+          * Wir sehen es als unsere Aufgabe an, Rohstoffe, Produkte und Dienstleistungen unter den Gesichts-punkten der Ressourcenschonung, Energieeffizienz sowie Kosteneinsparung zu erwerben und ein-zusetzen. Dies sehen wir als Verantwortung der Umwelt und Natur gegenüber.
 
-            * Wir definieren Qualität als Übereinstimmung mit den Anforderungen
-            * Unser System zur Qualitätssicherung ist Vorbeugung
-            * Unsere Philosophie ist „Null Fehler“
-          * Unser Qualitätsmanagementsystem wird durch DIN EN ISO 9001 und DIN EN ISO 13485 gestützt und gesichert
+          * Die Umweltauswirkungen, die sich aus den Tätigkeiten unseres Unternehmens ergeben, werden kontinuierlich betrachtet. Es ist hierbei eines der wichtigsten Unternehmensziele, den Zustand einer **abfall-, abwasser-, emissionsarmen und energieeffizienten Produktion** zu gewährleisten. Weiterhin werden wir Energieeinsatz und Energieverbrauch stetig verbessern.
+
+          * Durch eine kontinuierliche Verbesserung von Qualität, Umwelt, Energieverbrauch, Service und Technologie werden wir unsere Leistungsfähigkeit erhöhen und unser Management ständig weiter-entwickeln. **Die Fehlervermeidung hat oberste Priorität vor der Fehlerentdeckung**.
+
+          * Die Pfaff GmbH fördert das Qualitäts-, Umwelt- und Energiebewusstsein der Mitarbeiter/-innen.
+
+          * Die strategischen und operativen Unternehmensziele werden festgelegt, umgesetzt und überprüft. Dafür notwendige Ressourcen werden zur Verfügung gestellt. Ebenfalls werden Maßnahmen zur Erreichung der Ziele für alle Mitarbeiter kommuniziert, dokumentiert und bei Bedarf aktualisiert.
+
+          * Wir respektieren die Menschen, die mit uns arbeiten. Minderheiten, Behinderten, ethnischen und religiösen Gruppen begegnen wir gleichberechtigt. Jede Form von Mobbing, Diskriminierung oder Gewalt und Gewaltverherrlichung wird von uns nicht akzeptiert.
+
+          * Investitionen werden auf der Basis einer nachhaltigen gesunden Entwicklung des Unternehmens getätigt. **Wir wollen unabhängig, stetig wachsend und dabei flexibel bleiben**.
 
 
-          Das Qualitätsmanagementsystem wird durch die oberste Leitung mitentwickelt und aufrechterhalten. Die Wirksamkeit wird im Managementreview geprüft und bewertet.
+          Unser Qualitätsmanagementsystem wird durch DIN EN ISO 9001 und DIN EN ISO 13485 gestützt und gesichert.
 id: 30fd5a65-6f3f-40cc-bdff-517c6e554d35
 ---
