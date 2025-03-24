@@ -32,7 +32,6 @@ export default {
     } else {
       return { news }
     }
-
   },
 
   head() {
@@ -102,4 +101,9 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+.blog-content iframe {
+  width: 100%;
+  min-height: 500px;
+}
+</style>
