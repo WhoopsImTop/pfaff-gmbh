@@ -51,11 +51,6 @@ components:
         image: /pfaff-gmbh-qmb-leiter-validierung-harald-seifried.jpg
         email: h.seifried@pfaffgmbh.com
         phone: 07681-49397-18
-      - name: Urban Winterer
-        position: Produktionsleiter Spritzguss
-        image: /pfaff-gmbh-produktionsleiter-spritzguss-urban-winterer.jpg
-        email: u.winterer@pfaffgmbh.com
-        phone: 07681-49397-25
       - name: Oliver Salvat
         position: Werkzeug- & Projektmanagement
         image: /pfaff-gmbh-werkzeug-projektmanagement-oliver-salvat.jpg
