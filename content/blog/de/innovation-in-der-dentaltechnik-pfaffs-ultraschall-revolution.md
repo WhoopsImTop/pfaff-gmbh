@@ -5,6 +5,7 @@ shortText: Interview mit Andreas Buff, Technischer Leiter der Pfaff GmbH, über
   die Entwicklung einer hochpräzisen Ultraschallspitze für die Dentaltechnik
 date: 2025-04-22T12:23:00.000Z
 author: Stefan Pfaff
+image: /ab2.jpg
 category: allgemeine-news
 ---
 **Frage**: Herr Buff, die Pfaff GmbH hat kürzlich eine bemerkenswerte Ultraschallspitze für die Dentaltechnik entwickelt. Können Sie uns mehr über dieses Produkt erzählen?
