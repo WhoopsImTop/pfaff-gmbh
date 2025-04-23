@@ -1,3 +1,5 @@
+name: 🚀 Deploy website via ZIP and SSH on push (main)
+
 on:
   push:
     branches:
@@ -52,7 +54,7 @@ jobs:
           username: ${{ secrets.username }}
           password: ${{ secrets.password }}
           server-dir: pfaff-web-2023-nuxt-test/ # Zielverzeichnis für das ZIP-Archiv
-          local-dir: ./deploy.zip
+          local-dir: .
           protocol: ftp
           port: 21
           remote-file: deploy.zip
