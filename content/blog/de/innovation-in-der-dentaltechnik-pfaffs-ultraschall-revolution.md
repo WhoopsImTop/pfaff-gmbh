@@ -3,7 +3,7 @@ title: "Innovation in der Dentaltechnik: Pfaffs Ultraschall-Revolution"
 slug: interview-ultraschall
 shortText: Interview mit Andreas Buff, Technischer Leiter der Pfaff GmbH, über
   die Entwicklung einer hochpräzisen Ultraschallspitze für die Dentaltechnik
-date: 2025-04-23T10:23:00.000Z
+date: 2025-04-22T12:23:00.000Z
 author: Stefan Pfaff
 category: allgemeine-news
 ---
