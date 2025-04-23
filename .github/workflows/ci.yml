@@ -2,8 +2,9 @@ on:
   push:
     branches:
       - main
-      
-name: 🚀 Deploy website on push
+
+name: 🚀 Deploy website via ZIP and SSH on push (main)
+
 jobs:
   build:
     name: Build ⛏
@@ -16,37 +17,53 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: '16'
-      
+
     - name: 🔨 Build Project
       run: |
         npm install
         npm run generate
 
-    - name: Archive production artifact
+    - name: 📦 Create ZIP Archive
+      run: |
+        cd dist
+        zip -r deploy.zip *
+
+    - name: Archive ZIP artifact
       uses: actions/upload-artifact@main
       with:
-        name: dist
-        path: dist
-            
+        name: deploy-zip
+        path: dist/deploy.zip
+
   deploy:
     name: Deploy 🚀
     needs: build
     runs-on: ubuntu-latest
-    steps: 
-      - name: Checkout repository
-        uses: actions/checkout@main
-      - name: Download artifact
+    steps:
+      - name: Download ZIP artifact
         uses: actions/download-artifact@main
-        with: 
-          name: dist
-          path: dist
-      - name: 📂 Sync Files
+        with:
+          name: deploy-zip
+          path: .
+
+      - name: 📂 Upload ZIP via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ${{ secrets.server }}
           username: ${{ secrets.username }}
           password: ${{ secrets.password }}
-          server-dir: pfaff-web-2023-nuxt/
-          local-dir: ./dist/
+          server-dir: pfaff-web-2023-nuxt-test/ # Zielverzeichnis für das ZIP-Archiv
+          local-dir: ./deploy.zip
           protocol: ftp
           port: 21
+          remote-file: deploy.zip
+
+      - name: 🔓 Connect to Server via SSH and Unzip
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.server }}
+          username: ${{ secrets.username }}
+          password: ${{ secrets.password }}
+          script: |
+            cd /pfaff-web-2023-nuxt-test/ # Navigiere in das Verzeichnis, in dem die ZIP-Datei liegt
+            unzip -o deploy.zip # Entpacke die ZIP-Datei (-o überschreibt existierende Dateien)
+            rm deploy.zip # Optional: Lösche die ZIP-Datei nach dem Entpacken
