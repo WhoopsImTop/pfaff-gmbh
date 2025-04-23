@@ -1,40 +1,4 @@
-name: 🚀 Deploy website via ZIP and SSH on push (main)
-
-on:
-  push:
-    branches:
-      - test
-
-jobs:
-  build:
-    name: Build ⛏
-    runs-on: ubuntu-latest
-    steps:
-    - name: 🚚 Get latest code
-      uses: actions/checkout@v2
-
-    - name: Use Node.js 16
-      uses: actions/setup-node@v2
-      with:
-        node-version: '16'
-
-    - name: 🔨 Build Project
-      run: |
-        npm install
-        npm run generate
-
-    - name: 📦 Create ZIP Archive
-      run: |
-        cd dist
-        zip -r deploy.zip *
-
-    - name: Archive ZIP artifact
-      uses: actions/upload-artifact@main
-      with:
-        name: deploy-zip
-        path: dist/deploy.zip
-
-  deploy:
+deploy:
     name: Deploy 🚀
     needs: build
     runs-on: ubuntu-latest
@@ -45,17 +9,23 @@ jobs:
           name: deploy-zip
           path: .
 
-      - name: 📂 Upload ZIP via FTP
+      - name: 📂 Create deploy directory
+        run: mkdir deploy
+
+      - name: 📦 Move ZIP to deploy directory
+        run: mv deploy.zip deploy/
+
+      - name: ⬆️ Upload deploy directory via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ${{ secrets.server }}
           username: ${{ secrets.username }}
           password: ${{ secrets.password }}
           server-dir: pfaff-web-2023-nuxt-test/ # Zielverzeichnis für das ZIP-Archiv
-          local-dir: .
+          local-dir: ./deploy/
           protocol: ftp
           port: 21
-          remote-file: deploy.zip
+          remote-file: deploy.zip # Der Dateiname auf dem Server bleibt deploy.zip
 
       - name: 🔓 Connect to Server via SSH and Unzip
         uses: appleboy/ssh-action@master
