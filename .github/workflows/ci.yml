@@ -1,4 +1,40 @@
-deploy:
+name: 🚀 Deploy website via ZIP and SSH on push (main)
+
+on:
+  push:
+    branches:
+      - test
+
+jobs:
+  build:
+    name: Build ⛏
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v2
+
+      - name: Use Node.js 16
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+
+      - name: 🔨 Build Project
+        run: |
+          npm install
+          npm run generate
+
+      - name: 📦 Create ZIP Archive
+        run: |
+          cd dist
+          zip -r deploy.zip *
+
+      - name: Archive ZIP artifact
+        uses: actions/upload-artifact@main
+        with:
+          name: deploy-zip
+          path: dist/deploy.zip
+
+  deploy:
     name: Deploy 🚀
     needs: build
     runs-on: ubuntu-latest
