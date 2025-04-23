@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - main
+      - test
 
 name: 🚀 Deploy website via ZIP and SSH on push (main)
 
