@@ -1,6 +1,6 @@
 ---
 title: Dentaltechnik zu wettbewerbsfähigen Preisen
-slug: ""
+slug: dentaltechnik-zu-wettbewerbsfaehigen-preisen
 shortText: |-
   \#dentalinstrumente ready to use und made in Germany.
 
