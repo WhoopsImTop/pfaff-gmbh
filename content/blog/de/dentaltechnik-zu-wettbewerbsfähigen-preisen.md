@@ -12,6 +12,7 @@ shortText: >-
 
 
   https://www.linkedin.com/feed/update/urn:li:activity:7359238546353758210
+date: 2025-08-12T10:55:00.000+02:00
 image: /pfaff_dentaltechnik.jpg
 category: allgemeine-news
 ---
