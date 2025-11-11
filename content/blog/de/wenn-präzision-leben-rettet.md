@@ -1,5 +1,6 @@
 ---
 title: Wenn Präzision Leben rettet
+date: 2025-10-11T12:00:00.000+02:00
 image: /sonden-elektroden-bohrer_pfaff-874x969-1-1-.jpg
 category: fachbeiträge
 ---
