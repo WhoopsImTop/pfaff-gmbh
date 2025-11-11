@@ -13,6 +13,7 @@ shortText: >-
 
 
   Durch die Kombination aus Werkstoffkompetenz, modernster Spritzgießtechnik und validierten Prozessen stellen wir sicher, dass jedes Bauteil höchsten Qualitätsstandards entspricht – für eine erfolgreiche und sichere Implantatversorgung.
+date: 2025-11-11T11:43:00.000+01:00
 image: /implantatschraube-dentaltechnik-pfaff.jpeg
 category: fachbeiträge
 ---
