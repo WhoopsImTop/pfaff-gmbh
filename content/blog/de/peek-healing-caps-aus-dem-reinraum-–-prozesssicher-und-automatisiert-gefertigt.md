@@ -9,6 +9,6 @@ In der Dentaltechnik zählt jedes Detail: Wenn Healing-Caps nach dem Setzen eine
 
 Wie wir bei Pfaff GmbH diese Anforderungen durch automatisierte Spritzgießprozesse, Echtzeitüberwachung und Reinraumfertigung nach ISO-Klasse 7 erfüllen, zeigt der aktuelle Artikel in Medizin & Technik:\
 
-👉 [PEEK-Healing-Caps aus dem Reinraum – prozesssicher und automatisiert gefertigt](<>)
+👉 [PEEK-Healing-Caps aus dem Reinraum – prozesssicher und automatisiert gefertigt](<https://pfaffgmbh.com/produktbeispiele/peek-spitze-f%C3%BCr-die-dentaltechnik>)
 
 Durch die Kombination aus Werkstoffkompetenz, modernster Spritzgießtechnik und validierten Prozessen stellen wir sicher, dass jedes Bauteil höchsten Qualitätsstandards entspricht – für eine erfolgreiche und sichere Implantatversorgung.
