@@ -29,6 +29,7 @@ shortText: >-
   📍 KSW-Gelände, Kollnau
    🗓 **25. April**
    🕙 **10:00 – 17:00 Uhr**
+date: 2026-03-20T10:45:00.000+01:00
 image: /anzeige_linkedin_quadratisch.png
 category: allgemeine-news
 ---
