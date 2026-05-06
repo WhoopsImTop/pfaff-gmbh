@@ -1,5 +1,10 @@
 ---
 title: "Tag der offenen KSW: Kreativität, Technik und 1.000 € für den Schwarzwaldzoo"
+shortText: "Ein erfolgreicher Tag voller Kreativität, Technik und Begeisterung:
+  Zahlreiche Besucherinnen und Besucher erkundeten unsere
+  Kunst(stoff)ausstellung, wurden selbst kreativ und verfolgten die spannende
+  Versteigerung unseres Kunst(stoff)werks zugunsten des Schwarzwaldzoos
+  Waldkirch."
 date: 2026-04-27T09:34:00.000+02:00
 image: /whatsapp-image-2026-04-26-at-10.09.39-1-.jpeg
 category: allgemeine-news
