@@ -1,10 +1,10 @@
 ---
 siteTitle: Qualität
+slug: qualitaet
 menuOrder: 3
 hideInMenu: false
 contentblock:
   - news: false
-slug: qualitaet
 components:
   - type: row
     component:
@@ -18,6 +18,9 @@ components:
           Qualität setzen wir außerdem auf modernste Technik. Mit einem
           Zeiss-Koordinatenmessgerät der neuesten Generation können unsere
           Spritzgussteile optisch oder wahlweise taktil vermessen werden.
+        buttons:
+          - buttonText: Qualitätspolitik (PDF)
+            buttonDownloadLink: /qualitätspolitik.pdf
       - type: image
         image: /zertifikate.png
   - type: row
@@ -30,17 +33,17 @@ components:
           und Dienstleistungen bereitstellen zu können, welche die
           Kundenerwartungen sowie allfällige behördliche Anforderungen erfüllen.
           Die ISO 9001 praktizieren wir seit 2006."
-        button:
-          buttonText: PDF ISO 9001 ZERTIFIKAT
-          buttonDownloadLink: /9001-2015_deutsch-2023-11-19.pdf
+        buttons:
+          - buttonText: PDF ISO 9001 ZERTIFIKAT
+            buttonDownloadLink: /9001-2015_deutsch-2023-11-19.pdf
       - type: text
         text: "**Die ISO 13485** ist eine ISO-Norm, die die Erfordernisse für ein
           umfassendes Managementsystem für das Design und die Herstellung von
           unseren Medizinprodukten repräsentiert. Wir sind mit der ISO 13485
           seit Januar 2011 ausgezeichnet."
-        button:
-          buttonText: PDF ISO 13485 ZERTIFIKAT
-          buttonDownloadLink: /13485-2016_deutsch-2023-11-19.pdf
+        buttons:
+          - buttonText: PDF ISO 13485 ZERTIFIKAT
+            buttonDownloadLink: /13485-2016_deutsch-2023-11-19.pdf
         headline: ISO 13485
         smallHeadline: Zertifikat
   - type: row

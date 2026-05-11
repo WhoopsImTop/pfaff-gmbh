@@ -1,77 +1,74 @@
 ---
 siteTitle: Unternehmen
+slug: unternehmen
 menuOrder: 4
 hideInMenu: false
 contentblock:
   - news: false
-slug: unternehmen
 components:
   - type: row
     component:
       - type: text
         smallHeadline: Das Unternehmen
-        headline: Kurzporträt
-        text: "Die Pfaff GmbH Spritzgießtechnik mit Sitz in Waldkirch ist ein
-          inhabergeführtes Familienunternehmen, das sich auf die Herstellung
-          hochwertiger, technischer Kunststoffprodukte durch Spritzgussverfahren
-          spezialisiert hat. Das Unternehmen wurde 1991 gegründet und hat sich
-          seitdem kontinuierlich weiterentwickelt.\r
+        headline: Unsere Mission
+        text: >-
+          **Mikropräzision. Premiumqualität. Verantwortung in jedem Detail.**
 
-          \r
+          Wir entwickeln und produzieren hochpräzise Kunststoffspritzgusslösungen für anspruchsvolle Anwendungen in der Medizin- und Dentaltechnik, der Sensorik sowie in der Mess-, Regel-, Fluid- und Ventiltechnik.
 
-          Die anspruchsvollen Kunststoffprodukte, die im Ein- oder
-          Mehrkomponentenspritzguss bei uns entstehen, finden in zahlreichen
-          Branchen Anwendung. Von sensiblen Bauteilen für die Medizintechnik bis
-          hin zu Präzisionsteilen für die Sensorik – wir bieten eine breite
-          Palette von Spritzgusslösungen an.\r
 
-          \r
+          Mit ausgeprägter Innovationskraft, Flexibilität und höchsten Qualitätsstandards – zertifiziert nach ISO 9001 und ISO 13485 – realisieren wir Klein- und Mittelserien von 0,01g bis 50 g.
 
-          Dabei legen wir höchsten Wert auf Qualität. Modernste
-          Produktionsanlagen, ein qualifiziertes Team von Fachkräften und ein
-          nach ISO 9001 und ISO 13485 zertifiziertes Qualitätsmanagementsystem
-          sorgen dafür, dass unsere Produkte stets den höchsten
-          Qualitätsstandards entsprechen."
+
+          Durch verantwortungsbewusstes Handeln, bedarfsgerechte Reinraumfertigung und enge regionale Partnerschaften schaffen wir zuverlässige und nachhaltige Lösungen für unsere international tätigen Kunden.
+
+
+          ## Unsere Vision
+
+
+          **Hightech & made in Germany smart umgesetzt**\
+
+          Wir bieten auch in Zukunft innovative Kunststofflösungen an, die Präzision, Qualität und technologische Exzellenz vereinen – entwickelt und gefertigt in Deutschland.
+
+
+          Dabei denken wir smart: Unsere Prozesse & Fertigungskonzepte sind effizient, wirtschaftlich und flexibel, ohne Kompromisse bei den hohen Qualitätsstandards unserer Kunden.
+
+
+          Wir realisieren Automatisierungslösungen und integrieren KI-Anwendungen, um komplexe Anforderungen intelligent und zuverlässig zu meistern.
+
+
+          ## Unsere Werte
+
+
+          Als Familienunternehmen stehen wir für **Leidenschaft, Präzision, Verlässlichkeit** und eine **partnerschaftliche Zusammenarbeit**.
+        buttons:
+          - buttonText: Unsere Unternehmenswerte (PDF)
+            buttonDownloadLink: /unternehmenswerte_04.pdf
       - type: image
         image: /ab-cp-4.jpg
         imageAltText: ""
   - type: row
     component:
       - type: text
-        text: Nachhaltigkeit ist neben Innovation, Qualität und Kundenzufriedenheit ein
-          wesentlicher Bestandteil unserer Unternehmensphilosophie. Ein
-          verantwortungsvoller Umgang mit Ressourcen ist für uns
-          selbstverständlich. Was wir in diesem Zusammenhang bereits umgesetzt
-          haben, finden Sie [hier](/kompetenzen/nachhaltigkeit). Auch in Zukunft
-          werden wir an nachhaltigen Lösungen arbeiten, die unseren ökologischen
-          Fußabdruck reduzieren und so zur Sicherung einer lebenswerten Zukunft
-          beitragen können.
-        button:
-          buttonText: Mehr zum Thema Nachhaltigkeit
-          buttonLink: /kompetenzen/nachhaltigkeit
+        smallHeadline: Qualitätspolitik
         headline: Unser Versprechen
-        smallHeadline: Nachhaltigkeit
-      - type: image
-        image: /pfaff-nachhaltigkeit.jpg
-  - type: row
-    component:
+        text: Die Qualität unserer Produkte und Prozesse ist die Grundlage unseres
+          unternehmerischen Erfolgs. Unser Ziel ist es, die Erwartungen unserer
+          Kunden stets zuverlässig zu erfüllen und langfristige Partnerschaften
+          aufzubauen.
+        buttons:
+          - buttonText: Schaubild Nachhaltigkeit (PDF)
+            buttonDownloadLink: /nachhaltigkeit.pdf
       - type: text
-        smallHeadline: ""
-        headline: Kundenorientierung
-        text: "Wir pflegen langjährige Beziehungen zu unseren Kunden und bieten einen
-          umfassenden Service: von der Unterstützung bei der Produktentwicklung,
-          über eine wirtschaftliche Produktion bis hin zu einer reibungslosen
-          Logistik. Die Zufriedenheit unserer Kunden steht bei uns an oberster
-          Stelle."
-      - type: text
-        text: Als traditionsbewusstes Unternehmen sind wir stets darauf bedacht, unsere
-          Erfolgsgeschichte weiterzuführen und uns gleichzeitig neuen
-          Herausforderungen zu stellen. Entdecken Sie unsere hochwertigen
-          Produkte und erfahren Sie mehr über unsere Leidenschaft für Qualität
-          und Innovation. Wir laden Sie herzlich ein, uns näher kennenzulernen
-          und Teil unserer Erfolgsgeschichte zu werden. Kontaktieren Sie uns
-          gerne für weitere Informationen.
-        headline: Zusammenarbeit
+        smallHeadline: Umweltpolitik & Nachhaltigkeit
+        headline: Unsere Verantwortung
+        text: Wir sind uns unserer Verantwortung für die Umwelt und zukünftige
+          Generationen bewusst. Unsere Produktionsprozesse gestalten wir so,
+          dass negative Auswirkungen auf die Umwelt minimiert werden, ohne die
+          Qualität und Zuverlässigkeit unserer Produkte zu beeinträchtigen.
+        buttons:
+          - buttonText: Umweltpolitik (PDF)
+            buttonDownloadLink: /umweltpolitik.pdf
   - type: cards
     cardsTitle: Immer informiert
     card:
@@ -89,5 +86,8 @@ components:
         cardText: Erfahren Sie mehr über unsere Geschichte und wichtige Stationen.
         cardLink: news-medien/meilensteine
         cardImage: /pfaff-historie.jpg
+  - contentText: >-
+      
+      Als Familienunternehmen stehen wir für **Leidenschaft, Präzision, Verlässlichkeit** und eine **partnerschaftliche Zusammenarbeit**.
 id: f768f98b-fcb5-4305-b731-838d75613174
 ---

@@ -240,7 +240,7 @@ p {
   line-height: 30px;
   font-weight: 400;
   word-wrap: break-word;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 li {
@@ -305,7 +305,7 @@ h2 {
   font-weight: 600;
   color: var(--primary-color);
   text-transform: uppercase;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 h3 {

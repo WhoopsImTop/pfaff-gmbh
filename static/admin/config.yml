@@ -484,7 +484,7 @@ collections:
                           label: 'Bild',
                           name: 'image',
                           widget: 'image',
-                          requried: false,
+                          required: false,
                           i18n: true,
                           hint: 'Bis Max 1MB'
                         }
@@ -575,9 +575,12 @@ collections:
                           i18n: true,
                           required: false,
                         }
-                      - label: 'Button'
-                        name: 'button'
-                        widget: 'object'
+                      - label: 'Buttons'
+                        name: 'buttons'
+                        widget: 'list'
+                        required: false
+                        i18n: true
+                        hint: 'Mehrere Buttons; Desktop nebeneinander, Mobil untereinander. Pro Eintrag entweder Link oder Download-Datei.'
                         fields:
                           - {
                               label: 'Button Text',
@@ -622,7 +625,11 @@ collections:
                           i18n: true,
                           required: false,
                         }
-      - { label: 'ID', name: 'id', widget: 'uuid' }
+      - label: "ID"
+        name: "id"
+        widget: "hidden"
+        default: "{{uuid}}"
+        i18n: duplicate
 
   - name: 'kompetenzen'
     label: 'Kompetenzen'
@@ -802,6 +809,34 @@ collections:
                           i18n: true,
                           required: false,
                         }
+                      - label: 'Buttons'
+                        name: 'buttons'
+                        widget: 'list'
+                        required: false
+                        i18n: true
+                        hint: 'Mehrere Buttons; Desktop nebeneinander, Mobil untereinander. Pro Eintrag entweder Link oder Download-Datei.'
+                        fields:
+                          - {
+                              label: 'Button Text',
+                              name: 'buttonText',
+                              widget: 'string',
+                              required: false,
+                              i18n: true,
+                            }
+                          - {
+                              label: 'Button Link',
+                              name: 'buttonLink',
+                              widget: 'string',
+                              required: false,
+                              i18n: true,
+                            }
+                          - {
+                              label: 'Button Download',
+                              name: 'buttonDownloadLink',
+                              widget: 'file',
+                              required: false,
+                              i18n: true,
+                            }
                   - label: 'Kooparationsformular'
                     name: 'cooperationForm'
                     widget: 'object'
@@ -1126,7 +1161,7 @@ collections:
             widget: 'relation'
             required: false
             collection: 'seiten'
-            value_field: 'slug'
+            value_field: '{{slug}}'
             search_fields: ['siteTitle']
             display_fields: ['siteTitle']
           - name: 'subLinks'

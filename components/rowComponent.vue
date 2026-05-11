@@ -16,14 +16,20 @@
           >{{ block.smallHeadline }}</span
         >
         <h2 style="min-height: 45px">{{ block.headline }}</h2>
-        <div v-html="$md.render(block.text ?? '')"></div>
-        <a
-          class="button"
-          v-if="block.button"
-          :href="block.button.buttonDownloadLink || block.button.buttonLink"
-          :target="block.button.buttonDownloadLink ? '_blank' : ''"
-          >{{ block.button.buttonText }}</a
+        <div v-html="$md.render(block.text ?? '')" class="content-block-text"></div>
+        <div
+          v-if="rowTextButtons(block).length"
+          class="row-text-buttons"
         >
+          <a
+            v-for="(btn, btnIndex) in rowTextButtons(block)"
+            :key="btnIndex"
+            class="button"
+            :href="btn.buttonDownloadLink || btn.buttonLink"
+            :target="btn.buttonDownloadLink ? '_blank' : ''"
+            >{{ btn.buttonText }}</a
+          >
+        </div>
       </div>
       <div class="content-image-container" v-if="block.type === 'image'">
         <img
@@ -56,8 +62,52 @@
 <script>
 export default {
   props: ['component', 'inComponent'],
+  methods: {
+    rowTextButtons(block) {
+      if (!block || block.type !== 'text') return []
+      const fromList = Array.isArray(block.buttons) ? block.buttons : []
+      return fromList.filter(
+        (b) =>
+          b &&
+          b.buttonText &&
+          (b.buttonLink || b.buttonDownloadLink)
+      )
+    },
+  },
 }
 </script>
 
-<style>
+<style scoped>
+.row-text-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 10px;
+}
+
+@media (min-width: 992px) {
+  .row-text-buttons {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
+
+.row-text-buttons .button {
+  margin-top: 0;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .row-text-buttons .button {
+    text-align: left;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .row-text-buttons .button {
+    display: block;
+    width: 100%;
+  }
+}
 </style>

@@ -7,16 +7,28 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link type="image/svg" href="../favicon.svg" rel="icon" />
     <title>Content Manager</title>
-    <script src="https://ucarecdn.com/libs/widget/3.x/uploadcare.full.min.js"></script>
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script
+      src="https://ucarecdn.com/libs/widget/3.x/uploadcare.full.min.js"></script>
+    <script
+      src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
 
   <body>
     <!-- Include the script that builds the page and powers Netlify CMS -->
     <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
-    <script src="https://unpkg.com/netlify-cms-widget-uuid-v4@^1.0.12/dist/index.js"></script>
-    <script type="text/javascript">
-      CMS.registerWidget('uuid', uuidWidget.UuidControl, uuidWidget.UuidPreview)
-    </script>
+
+    <script
+      src="https://unpkg.com/netlify-cms-widget-uuid-v4@1.0.12/dist/index.js"></script>
+
+    <script>
+  // Sicherstellen, dass das Widget erst registriert wird, wenn alles geladen ist
+  window.addEventListener('DOMContentLoaded', () => {
+    if (typeof uuidWidget !== 'undefined') {
+      CMS.registerWidget('uuid', uuidWidget.UuidControl, uuidWidget.UuidPreview);
+    } else {
+      console.error("UUID Widget konnte nicht geladen werden!");
+    }
+  });
+</script>
   </body>
 </html>
