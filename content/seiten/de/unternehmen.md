@@ -69,6 +69,8 @@ components:
         buttons:
           - buttonText: Umweltpolitik (PDF)
             buttonDownloadLink: /umweltpolitik.pdf
+          - buttonText: Nachhaltigkeitszertifikat (PDF)
+            buttonDownloadLink: /girls-day-2026-zertifikat.pdf
   - type: cards
     cardsTitle: Immer informiert
     card:

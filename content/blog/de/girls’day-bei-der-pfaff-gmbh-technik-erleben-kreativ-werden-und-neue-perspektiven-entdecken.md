@@ -18,3 +18,5 @@ Darüber hinaus wurde auch selbst gestaltet: Mit dem 3D-Stift entstanden eigene 
 Der Girls’Day hat für uns einen hohen Stellenwert. Die Pfaff GmbH zeigt durch Geschäftsführerin Corinna Pfaff jeden Tag, dass Führung, Technik und Industrie längst keine Männerdomänen mehr sind. Genau darum geht es bei diesem Aktionstag: jungen Frauen Perspektiven aufzuzeigen, Interesse für technische Berufe zu wecken und Möglichkeiten erlebbar zu machen.
 
 Wir haben uns sehr über die große Neugier, das Engagement und die vielen kreativen Ideen gefreut. Ein besonderer Dank gilt außerdem Marc Tesche von der Christmann Kunststofftechnik GmbH für den Verleih der Babyplast-Form.
+
+[Nachhaltigkeitszertifikat (PDF)](/girls-day-2026-zertifikat.pdf)
