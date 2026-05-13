@@ -20,7 +20,7 @@ components:
           Spritzgussteile optisch oder wahlweise taktil vermessen werden.
         buttons:
           - buttonText: Qualitätspolitik (PDF)
-            buttonDownloadLink: /qualitätspolitik.pdf
+            buttonDownloadLink: /qualitaetspolitik.pdf
       - type: image
         image: /zertifikate.png
   - type: row

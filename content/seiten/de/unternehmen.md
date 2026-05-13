@@ -58,7 +58,7 @@ components:
           aufzubauen.
         buttons:
           - buttonText: Qualitätspolitik (PDF)
-            buttonDownloadLink: /qualitätspolitik.pdf
+            buttonDownloadLink: /qualitaetspolitik.pdf
       - type: text
         smallHeadline: Umweltpolitik & Nachhaltigkeit
         headline: Unsere Verantwortung
