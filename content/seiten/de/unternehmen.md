@@ -57,8 +57,8 @@ components:
           Kunden stets zuverlässig zu erfüllen und langfristige Partnerschaften
           aufzubauen.
         buttons:
-          - buttonText: Schaubild Nachhaltigkeit (PDF)
-            buttonDownloadLink: /nachhaltigkeit.pdf
+          - buttonText: Qualitätspolitik (PDF)
+            buttonDownloadLink: /qualitätspolitik.pdf
       - type: text
         smallHeadline: Umweltpolitik & Nachhaltigkeit
         headline: Unsere Verantwortung
@@ -69,8 +69,8 @@ components:
         buttons:
           - buttonText: Umweltpolitik (PDF)
             buttonDownloadLink: /umweltpolitik.pdf
-          - buttonText: Nachhaltigkeitszertifikat (PDF)
-            buttonDownloadLink: /girls-day-2026-zertifikat.pdf
+          - buttonText: Schaubild Nachhaltigkeit (PDF)
+            buttonDownloadLink: /nachhaltigkeit.pdf
   - type: cards
     cardsTitle: Immer informiert
     card:
