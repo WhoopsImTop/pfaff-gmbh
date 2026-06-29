@@ -6,6 +6,7 @@ content: Pressemitteilung in der WVIB-Beilage der i+e-Messe 2019.
 slug: genormte-individualitaet
 shortText: Pressemitteilung in der WVIB-Beilage der i+e-Messe 2019.
 image: /pfaff-neuigkeiten.jpg
+excerpt: "Pressemitteilung in der WVIB-Beilage der i+e-Messe 2019."
 ---
 Pressemitteilung in der WVIB-Beilage der i+e-Messe 2019.
 

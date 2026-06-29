@@ -4,6 +4,7 @@ date: 2016-05-15T14:29:00.000Z
 category: fachbeitraege
 slug: medizin-andamp-technik-ersatz-klingt-zu-einfach
 shortText: Zahntechnische Instrumente. Aus Hochleistungspolymeren wie PEEK lassen sich Instrumententeile herstellen, deren Eigenschaften wenig von aus Metall gefertigten Produkten abweichen.
+excerpt: "Zahntechnische Instrumente. Aus Hochleistungspolymeren wie PEEK lassen sich Instrumententeile herstellen, deren Eigenschaften wenig von aus Metall geferti…"
 ---
 
 <p><strong>Zahntechnische Instrumente.</strong></p>

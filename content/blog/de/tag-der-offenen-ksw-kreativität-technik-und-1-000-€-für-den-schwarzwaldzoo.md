@@ -8,6 +8,7 @@ shortText: "Ein erfolgreicher Tag voller Kreativität, Technik und Begeisterung:
 date: 2026-04-27T09:34:00.000+02:00
 image: /whatsapp-image-2026-04-26-at-10.09.39-1-.jpeg
 category: allgemeine-news
+excerpt: "Ein erfolgreicher Tag voller Kreativität, Technik und Begeisterung:"
 ---
 Der Tag der offenen KSW auf dem Gelände der Kollnauer Spinnweberei war für die Pfaff GmbH ein voller Erfolg. Zahlreiche Besucherinnen und Besucher nutzten die Gelegenheit, einen Blick hinter die Kulissen zu werfen und die Verbindung von Kunststofftechnik, Kreativität und Handwerk hautnah zu erleben.
 

@@ -1,5 +1,6 @@
 <template>
   <div class="content-margin">
+    <breadcrumbs-component :items="breadcrumbItems" />
     <component-renderer
       v-for="(component, index) in landing.components"
       :key="index"
@@ -10,6 +11,13 @@
 
 <script>
 import componentRenderer from '~/components/componentRenderer.vue'
+import {
+  breadcrumbSchema,
+  buildSeoHead,
+  localBusinessSchema,
+  organizationSchema,
+} from '~/utils/seo'
+
 export default {
   components: { componentRenderer },
   layout: 'default',
@@ -21,95 +29,43 @@ export default {
     await dispatch('nuxtServerInit')
     return { landing }
   },
-  
+
   data() {
-    return {}
+    return {
+      breadcrumbItems: [
+        { name: 'Startseite', path: '/' },
+        { name: 'Kontakt' },
+      ],
+    }
   },
 
   head() {
-    return {
-      title: 'Kontakt',
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content:
-            'Sie haben Fragen zu unseren Produkten oder Dienstleistungen? Wir freuen uns auf Ihre Kontaktaufnahme.',
-        },
-        {
-          hid: 'keywords',
-          name: 'keywords',
-          content:
-            'Pfaff, Kunststoff, Kunststoffverarbeitung, Spritzguss, Spritzgussteile',
-        },
-        {
-          property: 'og:title',
-          content: 'Kontakt',
-        },
-        {
-          property: 'og:description',
-          content:
-            'Sie haben Fragen zu unseren Produkten oder Dienstleistungen? Wir freuen uns auf Ihre Kontaktaufnahme.',
-        },
-        {
-          property: 'og:image',
-          content: 'https://pfaffgmbh.com/pfaff-historie.jpg',
-        },
-        {
-          property: 'og:url',
-          content: 'https://pfaffgmbh.com/kontakt',
-        },
-        {
-          property: 'og:type',
-          content: 'website',
-        },
-        {
-          property: 'og:locale',
-          content: 'de_DE',
-        },
-      ],
-      link: [
-        {
-          rel: 'canonical',
-          href: 'https://pfaffgmbh.com/kontakt',
-        },
-      ],
-    }
+    const isEn = this.$i18n.locale === 'en'
+    return buildSeoHead({
+      title: isEn
+        ? 'Contact | Pfaff GmbH Injection Molding Waldkirch'
+        : 'Kontakt Spritzguss Waldkirch | Pfaff GmbH',
+      description: isEn
+        ? 'Contact Pfaff GmbH in Waldkirch, Germany for injection molding, medical technology and dental components. Your partner for precision plastic parts.'
+        : 'Kontaktieren Sie Pfaff GmbH in Waldkirch bei Freiburg für Spritzguss, Medizintechnik und Dentaltechnik. Ihr Partner für Präzisions-Kunststoffteile im Breisgau.',
+      path: isEn ? '/en/kontakt' : '/kontakt',
+      keywords: isEn
+        ? 'injection molding Germany contact, Pfaff GmbH Waldkirch'
+        : 'Spritzguss Waldkirch, Kunststofffertigung Freiburg, Pfaff GmbH Kontakt, Spritzgießerei Schwarzwald',
+      locale: isEn ? 'en_US' : 'de_DE',
+      alternateLocales: { de: '/kontakt', en: '/en/kontakt' },
+    })
   },
 
   jsonld() {
-    return {
-      '@context': 'https://schema.org',
-      '@type': 'Organization',
-      address: {
-        '@type': 'PostalAddress',
-        addressLocality: 'Waldkirch, Deutschland',
-        postalCode: '79183',
-        streetAddress: 'Spinnereistraße  4-6',
-      },
-      email: 'info@pfaffgmbh.com',
-      member: [
-        {
-          '@type': 'Organization',
-        },
-        {
-          '@type': 'Organization',
-        },
-      ],
-      alumni: [
-        {
-          '@type': 'Person',
-          name: 'Corinna Pfaff',
-        },
-        {
-          '@type': 'Person',
-          name: 'Andreas Buff',
-        },
-      ],
-      name: 'Pfaff GmbH | Kontakt',
-      url: 'https://pfaffgmbh.com/kontakt',
-      telephone: '+ (49) 7681 49397-0',
-    }
+    return [
+      localBusinessSchema({ url: 'https://pfaffgmbh.com/kontakt' }),
+      organizationSchema({
+        name: 'Pfaff GmbH | Kontakt',
+        url: 'https://pfaffgmbh.com/kontakt',
+      }),
+      breadcrumbSchema(this.breadcrumbItems),
+    ]
   },
 }
 </script>

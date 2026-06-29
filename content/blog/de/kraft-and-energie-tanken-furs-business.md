@@ -7,6 +7,7 @@ category: presseartikel
 shortText: Woher schöpfen Geschäftsführerinnen wie Corinna Pfaff eigentlich ihre
   Kraft, um das Unternehmen voranzubringen? Gerade in Krisenzeiten wie diesen
   keine leichte Aufgabe, und dennoch möglich.
+excerpt: "Woher schöpfen Geschäftsführerinnen wie Corinna Pfaff eigentlich ihre"
 ---
 
 Woher schöpfen Geschäftsführerinnen wie Corinna Pfaff eigentlich ihre Kraft, um das Unternehmen voranzubringen? Gerade in Krisenzeiten wie diesen keine leichte Aufgabe, und dennoch möglich. Vor allem Familie und Natur geben so viel zurück, dass auch schwierigste Herausforderungen gemeistert werden können. Überzeugen Sie sich selbst im Artikel von Netzwerk Südbaden ([www.netzwerk-suedbaden.de](http://www.netzwerk-suedbaden.de/)).

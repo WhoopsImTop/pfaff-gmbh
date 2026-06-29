@@ -1,13 +1,15 @@
 ---
 title: Dentaltechnik zu wettbewerbsfähigen Preisen
 slug: dentaltechnik-zu-wettbewerbsfaehigen-preisen
-shortText: |-
-  \#dentalinstrumente ready to use und made in Germany.
-
-  Unbezahlbar? Im Gegenteil!
+shortText: >-
+  Dentalinstrumente ready to use und made in Germany – durch vollautomatisierte
+  Fertigung zu wettbewerbsfähigen Preisen bei Pfaff GmbH.
 date: 2025-08-12T10:55:00.000+02:00
 image: /pfaff_dentaltechnik.jpg
 category: allgemeine-news
+excerpt: >-
+  Dentalinstrumente ready to use und made in Germany – durch vollautomatisierte
+  Fertigung zu wettbewerbsfähigen Preisen bei Pfaff GmbH.
 ---
 
 Durch einen vollautomatisierten Fertigungsprozess können wir diese Aktivierungsspitzen für unseren Kunden aus der Dentaltechnik zu einem mehr als wettbewerbsfähigen Preis anbieten.

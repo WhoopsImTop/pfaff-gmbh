@@ -43,38 +43,63 @@ export const mutations = {
   }
 }
 
+async function fetchWithLocaleFallback($content, basePath, locale) {
+  const localized = await $content(`${basePath}/${locale}`).fetch()
+  if (localized.length > 0 || locale === 'de') {
+    return localized
+  }
+  return $content(`${basePath}/de`).fetch()
+}
+
 export const actions = {
-  async nuxtServerInit({ commit }, callback) {
-    const produkte = await this.$content(
-      'produkte/' + this.$i18n.locale
-    ).fetch()
-    const seiten = await this.$content('seiten/' + this.$i18n.locale).fetch()
-    const kategorien = await this.$content(
-      'kategorien/' + this.$i18n.locale
-    ).fetch()
-    const kompetenzen = await this.$content(
-      'kompetenzen/' + this.$i18n.locale
-    ).fetch()
-    const blogKategorien = await this.$content(
-      'blogkategorien/' + this.$i18n.locale
-    ).fetch()
-    const news = await this.$content('blog/' + this.$i18n.locale).fetch()
-    const menu = await this.$content('menu/' + this.$i18n.locale).fetch()
+  async nuxtServerInit({ commit, state }) {
+    if (state.news.length) return
+
+    const locale = this.$i18n.locale
+    const produkte = await fetchWithLocaleFallback(
+      this.$content,
+      'produkte',
+      locale
+    )
+    const seiten = await fetchWithLocaleFallback(
+      this.$content,
+      'seiten',
+      locale
+    )
+    const kategorien = await fetchWithLocaleFallback(
+      this.$content,
+      'kategorien',
+      locale
+    )
+    const kompetenzen = await fetchWithLocaleFallback(
+      this.$content,
+      'kompetenzen',
+      locale
+    )
+    const blogKategorien = await fetchWithLocaleFallback(
+      this.$content,
+      'blogkategorien',
+      locale
+    )
+    const news = await fetchWithLocaleFallback(this.$content, 'blog', locale)
+    const menu = await fetchWithLocaleFallback(this.$content, 'menu', locale)
     const produkteLinks = []
     const kompetenzenLinks = []
-    menu[0].links.forEach((entry) => {
-      if (entry.featuredProducts) {
-        entry.featuredProducts.forEach((slug) => {
-          produkteLinks.push(produkte.find((p) => p.slug === slug))
-        })
-        entry.featuredProducts = produkteLinks
-      } else if (entry.featuredCompetencies) {
-        entry.featuredCompetencies.forEach((slug) => {
-          kompetenzenLinks.push(kompetenzen.find((k) => k.slug === slug))
-        })
-        entry.featuredCompetencies = kompetenzenLinks
-      }
-    })
+    if (menu[0] && menu[0].links) {
+      menu[0].links.forEach((entry) => {
+        if (entry.featuredProducts) {
+          entry.featuredProducts.forEach((slug) => {
+            produkteLinks.push(produkte.find((p) => p.slug === slug))
+          })
+          entry.featuredProducts = produkteLinks
+        } else if (entry.featuredCompetencies) {
+          entry.featuredCompetencies.forEach((slug) => {
+            kompetenzenLinks.push(kompetenzen.find((k) => k.slug === slug))
+          })
+          entry.featuredCompetencies = kompetenzenLinks
+        }
+      })
+    }
     commit('setProdukte', produkte)
     commit('setSeiten', seiten)
     commit('setKategorien', kategorien)

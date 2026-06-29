@@ -1,5 +1,6 @@
 <template>
   <div class="content-margin">
+    <breadcrumbs-component :items="breadcrumbItems" />
     <component-renderer
       v-for="(component, index) in landing.components"
       :key="index"
@@ -10,6 +11,12 @@
 
 <script>
 import componentRenderer from '~/components/componentRenderer.vue'
+import {
+  breadcrumbSchema,
+  buildSeoHead,
+  organizationSchema,
+} from '~/utils/seo'
+
 export default {
   components: { componentRenderer },
   layout: 'default',
@@ -23,93 +30,40 @@ export default {
   },
 
   data() {
-    return {}
+    return {
+      breadcrumbItems: [
+        { name: 'Startseite', path: '/' },
+        { name: 'Qualität' },
+      ],
+    }
   },
 
   head() {
-    return {
-      title: 'Qualität',
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content:
-            'Hervorragende Qualität bei wirtschaftlicher Produktion verstehen wir als Selbstverständlichkeit. Seit 2006 sind wir nach der ISO-Norm 9001 zertifiziert. Seit 2011 bieten wir unseren Kunden im Medizinbereich zusätzlich eine Qualitätssicherung nach ISO 13485.',
-        },
-        {
-          hid: 'keywords',
-          name: 'keywords',
-          content:
-            'Pfaff, Kunststoff, Kunststoffverarbeitung, Spritzguss, Spritzgussteile',
-        },
-        {
-          property: 'og:title',
-          content: 'Pfaff GmbH | Qualität',
-        },
-        {
-          property: 'og:description',
-          content:
-            'Hervorragende Qualität bei wirtschaftlicher Produktion verstehen wir als Selbstverständlichkeit. Seit 2006 sind wir nach der ISO-Norm 9001 zertifiziert. Seit 2011 bieten wir unseren Kunden im Medizinbereich zusätzlich eine Qualitätssicherung nach ISO 13485.',
-        },
-        {
-          property: 'og:image',
-          content: 'https://pfaffgmbh.com/pfaff-historie.jpg',
-        },
-        {
-          property: 'og:url',
-          content: 'https://pfaffgmbh.com/qualität',
-        },
-        {
-          property: 'og:type',
-          content: 'website',
-        },
-        {
-          property: 'og:locale',
-          content: 'de_DE',
-        },
-      ],
-      link: [
-        {
-          rel: 'canonical',
-          href: 'https://pfaffgmbh.com/qualität',
-        },
-      ],
-    }
+    const isEn = this.$i18n.locale === 'en'
+    return buildSeoHead({
+      title: isEn
+        ? 'ISO 13485 Injection Molding | Quality Management'
+        : 'ISO 13485 Spritzguss | Qualitätsmanagement Medizintechnik',
+      description: isEn
+        ? 'ISO 9001 since 2006 and ISO 13485 for medical technology. Certified quality assurance and injection molding at Pfaff GmbH Waldkirch.'
+        : 'ISO 9001 seit 2006 und ISO 13485 für Medizintechnik. Qualitätssicherung, Validierungen und zertifizierte Spritzgussfertigung bei Pfaff GmbH Waldkirch.',
+      path: isEn ? '/en/qualitaet' : '/qualitaet',
+      keywords: isEn
+        ? 'ISO 13485 injection molding, medical device quality management'
+        : 'ISO 13485 Spritzguss, ISO 9001 Kunststoff, Qualitätsmanagement Medizintechnik, Spritzguss Waldkirch',
+      locale: isEn ? 'en_US' : 'de_DE',
+      alternateLocales: { de: '/qualitaet', en: '/en/qualitaet' },
+    })
   },
 
   jsonld() {
-    return {
-      '@context': 'https://schema.org',
-      '@type': 'Organization',
-      address: {
-        '@type': 'PostalAddress',
-        addressLocality: 'Waldkirch, Deutschland',
-        postalCode: '79183',
-        streetAddress: 'Spinnereistraße  4-6',
-      },
-      email: 'info@pfaffgmbh.com',
-      member: [
-        {
-          '@type': 'Organization',
-        },
-        {
-          '@type': 'Organization',
-        },
-      ],
-      alumni: [
-        {
-          '@type': 'Person',
-          name: 'Corinna Pfaff',
-        },
-        {
-          '@type': 'Person',
-          name: 'Andreas Buff',
-        },
-      ],
-      name: 'Pfaff GmbH | Qualität',
-      url: 'https://pfaffgmbh.com/qualität',
-      telephone: '+ (49) 7681 49397-0',
-    }
+    return [
+      organizationSchema({
+        name: 'Pfaff GmbH | Qualität',
+        url: 'https://pfaffgmbh.com/qualitaet',
+      }),
+      breadcrumbSchema(this.breadcrumbItems),
+    ]
   },
 }
 </script>

@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /anmeldung/
+
+Sitemap: https://pfaffgmbh.com/sitemap.xml

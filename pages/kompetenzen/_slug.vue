@@ -1,5 +1,6 @@
 <template>
   <div class="content-margin content-container">
+    <breadcrumbs-component :items="breadcrumbItems" />
     <div class="row">
       <div class="col-lg-6">
         <span class="smallHeadline">{{ seite.competenceName }}</span>
@@ -37,6 +38,31 @@
 </template>
 
 <script>
+import {
+  breadcrumbSchema,
+  buildSeoHead,
+  organizationSchema,
+  resolveDescription,
+} from '~/utils/seo'
+
+const COMPETENCE_KEYWORDS = {
+  raumfertigung:
+    'Reinraumfertigung ISO 7, Reinraum Spritzguss, Medizintechnik Reinraum',
+  'kleine-auflagen':
+    'Prototypen Spritzguss, Kleinserie Kunststoff, StartUp Spritzguss Partner',
+  insertteile: 'Insert-Molding, Umspritzen Kunststoff, Insertteile Spritzguss',
+  'filigrane-teilegeometrien':
+    'Mikrospritzguss, Kleinstteile Spritzguss, filigrane Kunststoffteile',
+  mehrkomponententechnik:
+    'Mehrkomponentenspritzguss, 2K Spritzguss, Mehrkomponententechnik Medizintechnik',
+  'optische-teile':
+    'optische Spritzgussteile, Linsen Spritzguss, Lichtleiter Fertigung',
+  materialien: 'PEEK Spritzguss, PPSU Kunststoff, Hochleistungskunststoffe',
+  maschinenpark: 'Arburg Spritzguss, vollelektrisch Spritzgussmaschine',
+  komplettlösungen: 'Komplettlösungen Spritzguss, Baugruppen Kunststoff',
+  nachhaltigkeit: 'nachhaltiger Spritzguss, umweltbewusste Kunststoffverarbeitung',
+}
+
 export default {
   async asyncData({ $content, app, store: { dispatch }, params }) {
     const seite = await $content(
@@ -65,17 +91,36 @@ export default {
     }
   },
 
+  computed: {
+    competencePath() {
+      return `/kompetenzen/${this.seite.slug}`
+    },
+    breadcrumbItems() {
+      return [
+        { name: 'Startseite', path: '/' },
+        { name: 'Kompetenzen', path: '/kompetenzen' },
+        { name: this.seite.competenceName },
+      ]
+    },
+    competenceDescription() {
+      return resolveDescription(
+        this.seite.seoDescription,
+        this.seite.competenceShortText,
+        this.seite.competenceDescription
+      )
+    },
+  },
+
   head() {
-    return {
-      title: this.seite.competenceName,
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content: this.seite.competenceDescription,
-        },
-      ],
-    }
+    return buildSeoHead({
+      title: this.seite.seoTitle || this.seite.competenceName,
+      description: this.competenceDescription,
+      path: this.competencePath,
+      image: this.seite.competenceImage,
+      keywords:
+        COMPETENCE_KEYWORDS[this.seite.slug] ||
+        `Spritzguss, ${this.seite.competenceName}, Pfaff GmbH`,
+    })
   },
 
   beforeMount() {
@@ -89,38 +134,13 @@ export default {
   },
 
   jsonld() {
-    return {
-      '@context': 'https://schema.org',
-      '@type': 'Organization',
-      address: {
-        '@type': 'PostalAddress',
-        addressLocality: 'Waldkirch, Deutschland',
-        postalCode: '79183',
-        streetAddress: 'Spinnereistraße  4-6',
-      },
-      email: 'info@pfaffgmbh.com',
-      member: [
-        {
-          '@type': 'Organization',
-        },
-        {
-          '@type': 'Organization',
-        },
-      ],
-      alumni: [
-        {
-          '@type': 'Person',
-          name: 'Corinna Pfaff',
-        },
-        {
-          '@type': 'Person',
-          name: 'Andreas Buff',
-        },
-      ],
-      name: 'Pfaff GmbH | ' + this.seite.competenceTitle,
-      url: 'https://pfaffgmbh.com/kompetenzen/' + this.seite.slug,
-      telephone: '+ (49) 7681 49397-0',
-    }
+    return [
+      organizationSchema({
+        name: `Pfaff GmbH | ${this.seite.competenceTitle}`,
+        url: `https://pfaffgmbh.com${this.competencePath}`,
+      }),
+      breadcrumbSchema(this.breadcrumbItems),
+    ]
   },
 }
 </script>

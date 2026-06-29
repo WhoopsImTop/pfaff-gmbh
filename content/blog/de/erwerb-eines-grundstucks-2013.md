@@ -4,6 +4,7 @@ slug: erwerb-eines-grundstucks-2013
 shortText: Erwerb eines Grundstücks im Waldkircher Gewerbegebiet „Am Bruckwald“.
 date: 2013-03-01T13:30:50.000Z
 category: meilensteine
+excerpt: "Erwerb eines Grundstücks im Waldkircher Gewerbegebiet „Am Bruckwald“."
 ---
 
 Erwerb eines Grundstücks im Waldkircher Gewerbegebiet „Am Bruckwald“.

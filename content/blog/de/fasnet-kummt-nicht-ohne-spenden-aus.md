@@ -6,6 +6,7 @@ content: Heimattage in Waldkirch.    Im Rahmen der Waldkircher Heimattage haben 
 slug: fasnet-kummt-nicht-ohne-spenden-aus
 shortText: Heimattage in Waldkirch. Im Rahmen der Waldkircher Heimattage haben wir dem Kindergarten St. Josef Fasnetmalbücher gespendet.
 image: /heimattage-waldkirch.jpg
+excerpt: "Heimattage in Waldkirch. Im Rahmen der Waldkircher Heimattage haben wir dem Kindergarten St. Josef Fasnetmalbücher gespendet."
 ---
 
 <strong>Heimattage in Waldkirch.</strong></p>

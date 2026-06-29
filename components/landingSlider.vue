@@ -8,6 +8,8 @@
           sliderStyles + '; background-image: url(' + (isMobile ? (slide.landingImageMobile ? slide.landingImageMobile : slide.landingImage) : slide.landingImage) + ');'
         "
         class="slide"
+        role="img"
+        :aria-label="slide.landingTitle ? stripHtml(slide.landingTitle) : 'Pfaff GmbH'"
       >
         <div class="slide-actions" v-if="slideData.length > 1">
           <div class="arrow-left" @click="slideLeft">
@@ -118,6 +120,9 @@ export default {
     })
   },
   methods: {
+    stripHtml(text = '') {
+      return String(text).replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim()
+    },
     slideLeft() {
       if (this.currentSlide > 0) {
         this.currentSlide--

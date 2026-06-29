@@ -1,0 +1,34 @@
+{
+  "titel": "Menu",
+  "links": [
+    {
+      "siteTitle": "Product Examples",
+      "siteLink": "produktbeispiele",
+      "featuredProducts": [
+        "ventilkörper",
+        "kundenspezifische-modulbaugruppe-für-dialysegeräte"
+      ]
+    },
+    {
+      "siteTitle": "Core Competencies",
+      "siteLink": "kompetenzen",
+      "featuredCompetencies": ["nachhaltigkeit"]
+    },
+    {
+      "siteTitle": "News & Media",
+      "siteLink": "news-medien"
+    },
+    {
+      "siteTitle": "Quality Management",
+      "siteLink": "qualitaet"
+    },
+    {
+      "siteTitle": "Company",
+      "siteLink": "unternehmen"
+    },
+    {
+      "siteTitle": "Contact",
+      "siteLink": "kontakt"
+    }
+  ]
+}

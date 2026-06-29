@@ -5,6 +5,7 @@ date: 2015-09-15T14:35:00.000Z
 image: /helga-schneider-20-jahre.jpg
 category: allgemeine-news
 shortText: Sie ist neben dem Geschäftsführer Adolf Pfaff und seiner Frau Anita Pfaff die treueste Seele der Pfaff GmbH Helga Schneider.
+excerpt: "Sie ist neben dem Geschäftsführer Adolf Pfaff und seiner Frau Anita Pfaff die treueste Seele der Pfaff GmbH Helga Schneider."
 ---
 
 <strong>HERZLICHEN GLÜCKWUNSCH!</strong></p>

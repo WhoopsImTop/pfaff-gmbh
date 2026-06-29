@@ -5,6 +5,7 @@ category: stellenausschreibungen
 slug: ausbildungsplatz-verfahrensmechanikerin
 shortText: Du suchst eine Ausbildung, bei der du die technische Arbeit eines Mechanikers mit den raffinierten Rezepten eines Kochs vereinen kannst? Dann bewirb dich jetzt.
 image: /pfaff_gmbh-karriere-job-bewerbung-683x1024.jpg
+excerpt: "Du suchst eine Ausbildung, bei der du die technische Arbeit eines Mechanikers mit den raffinierten Rezepten eines Kochs vereinen kannst? Dann bewirb dich…"
 ---
 
 Du suchst eine Ausbildung, bei der du die <strong>technische Arbeit eines Mechanikers</strong> mit den <strong>raffinierten Rezepten eines Kochs</strong> vereinen kannst?</p>

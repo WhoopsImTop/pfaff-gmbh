@@ -1,5 +1,6 @@
 <template>
   <div class="content-margin">
+    <breadcrumbs-component :items="breadcrumbItems" />
     <component-renderer
       v-for="(component, index) in landing.components"
       :key="index"
@@ -10,6 +11,8 @@
 
 <script>
 import componentRenderer from '~/components/componentRenderer.vue'
+import { breadcrumbSchema, buildSeoHead, organizationSchema } from '~/utils/seo'
+
 export default {
   components: { componentRenderer },
   name: 'IndexPage',
@@ -24,56 +27,33 @@ export default {
   },
 
   data() {
-    return {}
+    return {
+      breadcrumbItems: [
+        { name: 'Startseite', path: '/' },
+        { name: 'Kompetenzen' },
+      ],
+    }
   },
 
   head() {
-    return {
-      title: 'Kompetenzen',
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content:
-            'Pfaff entwickelt mit modernen Materialien, innovativer Technik und garantieren zertifizierte Qualität unter Reinraumbedingungen.',
-        },
-      ],
-    }
+    return buildSeoHead({
+      title: 'Kernkompetenzen Spritzguss | Reinraum & Mehrkomponenten',
+      description:
+        'Spritzguss-Kompetenzen von Pfaff: Reinraumfertigung ISO 7, Mehrkomponententechnik, Mikrospritzguss, Insertteile und optische Teile für Medizintechnik.',
+      path: '/kompetenzen',
+      keywords:
+        'Reinraum Spritzguss, Mehrkomponentenspritzguss, Mikrospritzguss, Insert-Molding, optische Spritzgussteile',
+    })
   },
 
   jsonld() {
-    return {
-      '@context': 'https://schema.org',
-      '@type': 'Organization',
-      address: {
-        '@type': 'PostalAddress',
-        addressLocality: 'Waldkirch, Deutschland',
-        postalCode: '79183',
-        streetAddress: 'Spinnereistraße  4-6',
-      },
-      email: 'info@pfaffgmbh.com',
-      member: [
-        {
-          '@type': 'Organization',
-        },
-        {
-          '@type': 'Organization',
-        },
-      ],
-      alumni: [
-        {
-          '@type': 'Person',
-          name: 'Corinna Pfaff',
-        },
-        {
-          '@type': 'Person',
-          name: 'Andreas Buff',
-        },
-      ],
-      name: 'Pfaff GmbH | Kompetenzen',
-      url: 'https://pfaffgmbh.com/kompetenzen',
-      telephone: '+ (49) 7681 49397-0',
-    }
+    return [
+      organizationSchema({
+        name: 'Pfaff GmbH | Kompetenzen',
+        url: 'https://pfaffgmbh.com/kompetenzen',
+      }),
+      breadcrumbSchema(this.breadcrumbItems),
+    ]
   },
 }
 </script>

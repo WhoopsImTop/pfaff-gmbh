@@ -8,6 +8,7 @@ date: 2015-10-06T16:34:00.000Z
 image: /Pfaff_Netzwerk_Suedbaden.jpg
 categories: pressemitteilungen
 category: presseartikel
+excerpt: "Artikel und Anzeige in der Zeitschrift „Netzwerk Südbaden“. In der"
 ---
 
 <strong>Artikel und Anzeige in der Zeitschrift „Netzwerk Südbaden“.&nbsp;</strong></p>

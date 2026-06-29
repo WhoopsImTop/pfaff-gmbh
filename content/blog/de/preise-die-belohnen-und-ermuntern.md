@@ -7,6 +7,7 @@ shortText: Innovationspreise. Die Wirtschaftsregion Freiburg vergibt den
   Zahn-Wurzelstift.
 categories: pressemitteilungen
 slug: preise-die-belohnen-und-ermuntern
+excerpt: "Innovationspreise. Die Wirtschaftsregion Freiburg vergibt den"
 ---
 
 <strong>Innovationspreise.</strong></p>

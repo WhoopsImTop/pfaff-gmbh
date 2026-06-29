@@ -2,8 +2,15 @@
 title: Kunststoff Magazin 2K-Kunststoffteile für die Medizintechnik
 slug: kunststoff-magazin-2k-kunststoffteile-medizintechnik
 date: 2016-10-15T14:23:00.000Z
-category: fachbeiträge
-shortText: Voll integrierter Prozess einschließlich komplexem Handling. Eine kleine Kunststoffkugel, regelmäßige kleine Noppen auf der Oberfläche, eine kleine Achse im Zentrum, um die sie sich drehen kann.
+category: fachbeitraege
+shortText: >-
+  Voll integrierter Prozess einschließlich komplexem Handling. Eine kleine
+  Kunststoffkugel, regelmäßige kleine Noppen auf der Oberfläche, eine kleine
+  Achse im Zentrum, um die sie sich drehen kann.
+excerpt: >-
+  Voll integrierter Prozess einschließlich komplexem Handling. Eine kleine
+  Kunststoffkugel, regelmäßige kleine Noppen auf der Oberfläche, eine kleine
+  Achse…
 ---
 
 <p><strong>Voll integrierter Prozess einschließlich komplexem Handling</strong>.</p>

@@ -9,6 +9,7 @@ shortText: >-
 date: 2024-03-08T07:54:00.000Z
 image: /frauen1.jpg
 category: allgemeine-news
+excerpt: "Unsere Mitarbeiterinnen wurden heute am internationalen Weltfrauentag mit"
 ---
 Unsere Mitarbeiterinnen wurden heute am internationalen Weltfrauentag mit einem kleinen Strauß Blumen überrascht. Die Freude war riesengroß 😍
 

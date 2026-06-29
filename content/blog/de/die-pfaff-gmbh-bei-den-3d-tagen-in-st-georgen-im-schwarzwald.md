@@ -4,6 +4,7 @@ slug: die-pfaff-gmbh-bei-den-3d-tagen-in-st-georgen-im-schwarzwald
 date: 2018-06-08T13:53:00.000Z
 category: allgemeine-news
 shortText: 3D Tage. Wir sind Teilnehmer der Fachmesse [3D-Tage](https://3d-labs.de/) in St. Georgen im Schwarzwald.
+excerpt: "3D Tage. Wir sind Teilnehmer der Fachmesse 3D-Tage(https://3d-labs.de/) in St. Georgen im Schwarzwald."
 ---
 
 <p><strong>3D Tage.</strong></p>

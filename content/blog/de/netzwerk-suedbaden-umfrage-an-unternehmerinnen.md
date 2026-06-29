@@ -8,6 +8,7 @@ date: 2017-07-13T14:03:00.000Z
 image: /Netzwerk_Suedbaden_1707-940x679-1.jpg
 categories: pressemitteilungen
 category: presseartikel
+excerpt: "Vier Fragen an vier bekannte Unternehmerinnen aus der Region. Lesen"
 ---
 
 <strong>Vier Fragen an vier bekannte Unternehmerinnen aus der Region.&nbsp;</strong></p>

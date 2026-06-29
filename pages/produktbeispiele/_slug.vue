@@ -1,5 +1,6 @@
 <template>
   <div class="content-margin">
+    <breadcrumbs-component :items="breadcrumbItems" />
     <div class="image-container">
       <img
         :src="seite.productImage"
@@ -69,6 +70,14 @@
 </template>
 
 <script>
+import {
+  absoluteUrl,
+  breadcrumbSchema,
+  buildSeoHead,
+  productSchema,
+  resolveDescription,
+} from '~/utils/seo'
+
 export default {
   async asyncData({ $content, app, store: { dispatch }, params }) {
     const seite = await $content(
@@ -94,88 +103,51 @@ export default {
     return { seite, relatedProducts }
   },
 
+  computed: {
+    productPath() {
+      return `/produktbeispiele/${this.seite.slug}`
+    },
+    breadcrumbItems() {
+      return [
+        { name: 'Startseite', path: '/' },
+        { name: 'Produktbeispiele', path: '/produktbeispiele' },
+        { name: this.seite.productTitle },
+      ]
+    },
+    productDescription() {
+      return resolveDescription(
+        this.seite.seoDescription,
+        this.seite.productDescription,
+        this.seite.productTitle
+      )
+    },
+    productKeywords() {
+      const categories = (this.seite.productCategories || []).join(', ')
+      return `${this.seite.productTitle}, Spritzguss, ${categories}, Pfaff GmbH`
+    },
+  },
+
   head() {
-    return {
-      title: 'Produktbeispiel | ' + this.seite.productTitle,
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content: this.seite.productDescription,
-        },
-        {
-          hid: 'keywords',
-          name: 'keywords',
-          content:
-            'Pfaff, Kunststoff, Kunststoffverarbeitung, Spritzguss, Spritzgussteile',
-        },
-        {
-          property: 'og:title',
-          content: 'Produktbeispiel | ' + this.seite.productTitle,
-        },
-        {
-          property: 'og:description',
-          content: this.seite.productDescription,
-        },
-        {
-          property: 'og:image',
-          content: this.seite.productImage,
-        },
-        {
-          property: 'og:url',
-          content: 'https://pfaffgmbh.com/produktbeispiele/' + this.seite.slug,
-        },
-        {
-          property: 'og:type',
-          content: 'website',
-        },
-        {
-          property: 'og:locale',
-          content: 'de_DE',
-        },
-      ],
-      link: [
-        {
-          rel: 'canonical',
-          href: 'https://pfaffgmbh.com/produktbeispiele/' + this.seite.slug,
-        },
-      ],
-    }
+    return buildSeoHead({
+      title: this.seite.seoTitle || `Produktbeispiel | ${this.seite.productTitle}`,
+      description: this.productDescription,
+      path: this.productPath,
+      image: this.seite.productImage,
+      keywords: this.productKeywords,
+    })
   },
 
   jsonld() {
-    return {
-      '@context': 'https://schema.org',
-      '@type': 'Organization',
-      address: {
-        '@type': 'PostalAddress',
-        addressLocality: 'Waldkirch, Deutschland',
-        postalCode: '79183',
-        streetAddress: 'Spinnereistraße  4-6',
-      },
-      email: 'info@pfaffgmbh.com',
-      member: [
-        {
-          '@type': 'Organization',
-        },
-        {
-          '@type': 'Organization',
-        },
-      ],
-      alumni: [
-        {
-          '@type': 'Person',
-          name: 'Corinna Pfaff',
-        },
-        {
-          '@type': 'Person',
-          name: 'Andreas Buff',
-        },
-      ],
-      name: 'Pfaff GmbH | Produktbeispiel | ' + this.seite.productTitle,
-      url: 'https://pfaffgmbh.com/produktbeispiele/' + this.seite.slug,
-      telephone: '+ (49) 7681 49397-0',
-    }
+    const url = absoluteUrl(this.productPath)
+    return [
+      productSchema({
+        name: this.seite.productTitle,
+        description: this.productDescription,
+        url,
+        image: this.seite.productImage,
+      }),
+      breadcrumbSchema(this.breadcrumbItems),
+    ]
   },
 }
 </script>

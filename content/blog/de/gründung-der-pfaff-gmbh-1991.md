@@ -10,6 +10,7 @@ shortText: Adolf Pfaff, Werkzeugmacher-Meister und Konstrukteur von
   in den ersten Jahren sind Mehr­komponententeile für die Trinkwasser­technik,
   Abdeckungen für Bewegungsmelder und Komponenten für ­Laut­sprechersysteme.
 category: meilensteine
+excerpt: "Adolf Pfaff, Werkzeugmacher-Meister und Konstrukteur von"
 ---
 
 <p>Adolf Pfaff, Werkzeugmacher-Meister und Konstrukteur von

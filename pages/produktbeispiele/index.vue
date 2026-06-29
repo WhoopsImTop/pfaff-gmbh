@@ -59,6 +59,8 @@
 </template>
 
 <script>
+import { breadcrumbSchema, buildSeoHead, organizationSchema } from '~/utils/seo'
+
 export default {
   async asyncData({ $content, app, store: { dispatch } }) {
     const seite = await $content(
@@ -71,93 +73,32 @@ export default {
   data() {
     return {
       activeFilterBtn: 'alle',
+      breadcrumbItems: [
+        { name: 'Startseite', path: '/' },
+        { name: 'Produktbeispiele' },
+      ],
     }
   },
 
   head() {
-    return {
-      title: 'Produktbeispiele',
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content:
-            'Produktbeispiele der Pfaff GmbH. Wir entwickeln mit modernen Materialien, innovativer Technik und garantieren zertifizierte Qualität unter Reinraumbedingungen.',
-        },
-        {
-          hid: 'keywords',
-          name: 'keywords',
-          content:
-            'Pfaff, Kunststoff, Kunststoffverarbeitung, Spritzguss, Spritzgussteile',
-        },
-        {
-          property: 'og:title',
-          content: 'Produktbeispiele',
-        },
-        {
-          property: 'og:description',
-          content:
-            'Produktbeispiele der Pfaff GmbH. Wir entwickeln mit modernen Materialien, innovativer Technik und garantieren zertifizierte Qualität unter Reinraumbedingungen.',
-        },
-        {
-          property: 'og:image',
-          content: 'https://pfaffgmbh.com/pfaff-historie.jpg',
-        },
-        {
-          property: 'og:url',
-          content: 'https://pfaffgmbh.com/produktbeispiele',
-        },
-        {
-          property: 'og:type',
-          content: 'website',
-        },
-        {
-          property: 'og:locale',
-          content: 'de_DE',
-        },
-      ],
-      link: [
-        {
-          rel: 'canonical',
-          href: 'https://pfaffgmbh.com/produktbeispiele',
-        },
-      ],
-    }
+    return buildSeoHead({
+      title: 'Spritzgussteile Medizintechnik & Dental | Referenzen',
+      description:
+        'Produktbeispiele von Pfaff GmbH: PEEK-Teile, Medizintechnik, Dentaltechnik, Sensorik und optische Komponenten. ISO 13485 zertifizierte Spritzgussfertigung.',
+      path: '/produktbeispiele',
+      keywords:
+        'Medizintechnik Kunststoffteile, PEEK Spritzguss, Dentaltechnik Kunststoff, Spritzgussteile Referenzen',
+    })
   },
 
   jsonld() {
-    return {
-      '@context': 'https://schema.org',
-      '@type': 'Organization',
-      address: {
-        '@type': 'PostalAddress',
-        addressLocality: 'Waldkirch, Deutschland',
-        postalCode: '79183',
-        streetAddress: 'Spinnereistraße  4-6',
-      },
-      email: 'info@pfaffgmbh.com',
-      member: [
-        {
-          '@type': 'Organization',
-        },
-        {
-          '@type': 'Organization',
-        },
-      ],
-      alumni: [
-        {
-          '@type': 'Person',
-          name: 'Corinna Pfaff',
-        },
-        {
-          '@type': 'Person',
-          name: 'Andreas Buff',
-        },
-      ],
-      name: 'Pfaff GmbH | Produktbeispiele',
-      url: 'https://pfaffgmbh.com/produktbeispiele',
-      telephone: '+ (49) 7681 49397-0',
-    }
+    return [
+      organizationSchema({
+        name: 'Pfaff GmbH | Produktbeispiele',
+        url: 'https://pfaffgmbh.com/produktbeispiele',
+      }),
+      breadcrumbSchema(this.breadcrumbItems),
+    ]
   },
 
   computed: {

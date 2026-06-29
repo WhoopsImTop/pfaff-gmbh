@@ -7,6 +7,7 @@ shortText: Badische Zeitung. Zum 20jährigen Jubiläum der Pfaff GmbH im Septemb
   2012 gibts einen Artikel in der Badischen Zeitung. Ein Bericht über Präzision,
   Medizin und die …
 image: /pfaff-gmbh-fertigung-1024x683.jpg
+excerpt: "Badische Zeitung. Zum 20jährigen Jubiläum der Pfaff GmbH im September"
 ---
 
 <figure class="wp-block-image size-large"><img loading="lazy"   src="/pfaff-gmbh-fertigung-1024x683.jpg" alt="" class="wp-image-728"   /></figure>

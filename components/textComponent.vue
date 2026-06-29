@@ -16,7 +16,7 @@
           :src="component.contentImage"
           width="100%"
           style="margin-bottom: 20px"
-          alt="content image"
+          :alt="component.contentImageAlt || component.contentTitle || 'Pfaff GmbH'"
         />
         <div v-if="component.contentTextUnderImage" v-html="textRenderer(component.contentTextUnderImage)"></div>
       </div>

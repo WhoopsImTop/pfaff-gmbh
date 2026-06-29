@@ -1,5 +1,6 @@
 <template>
   <div class="article-column article-background">
+    <breadcrumbs-component :items="breadcrumbItems" />
     <h1 style="margin-bottom: 10px">{{ news[0].title }}</h1>
     <div class="article-informations">
       <span v-if="kategorie" class="article-information">{{
@@ -9,6 +10,7 @@
     <img
       v-if="news[0].image"
       :src="news[0].image"
+      :alt="news[0].title"
       style="width: 100%; margin-bottom: 20px"
     />
     <nuxt-content class="blog-content" :document="news[0]" />
@@ -16,6 +18,15 @@
 </template>
 
 <script>
+import {
+  absoluteUrl,
+  articleSchema,
+  breadcrumbSchema,
+  buildSeoHead,
+  jobPostingSchema,
+  resolveDescription,
+} from '~/utils/seo'
+
 export default {
   layout: 'news',
   async asyncData({ $content, app, params, store: { dispatch } }) {
@@ -34,69 +45,72 @@ export default {
     }
   },
 
+  computed: {
+    articlePath() {
+      return `/news-medien/${this.news[0].category}/${this.news[0].slug}`
+    },
+    articleDescription() {
+      return resolveDescription(
+        this.news[0].excerpt,
+        this.news[0].shortText,
+        this.news[0].title
+      )
+    },
+    breadcrumbItems() {
+      const categoryTitle =
+        this.kategorie && this.kategorie.length > 0
+          ? this.kategorie[0].categoryTitle
+          : 'News'
+      return [
+        { name: 'Startseite', path: '/' },
+        { name: 'News & Medien', path: '/news-medien' },
+        {
+          name: categoryTitle,
+          path: `/news-medien/${this.news[0].category}`,
+        },
+        { name: this.news[0].title },
+      ]
+    },
+    isJobPosting() {
+      return this.news[0].category === 'stellenausschreibungen'
+    },
+  },
+
   head() {
-    return {
+    return buildSeoHead({
       title: this.news[0].title,
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content: this.news[0].excerpt,
-        },
-        {
-          hid: 'keywords',
-          name: 'keywords',
-          content:
-            'Pfaff, Kunststoff, Kunststoffverarbeitung, Spritzguss, Spritzgussteile',
-        },
-        {
-          property: 'og:title',
-          content: this.news[0].title,
-        },
-        {
-          property: 'og:description',
-          content: this.news[0].excerpt,
-        },
-        {
-          property: 'og:image',
-          content: 'https://pfaffgmbh.com/pfaff-historie.jpg',
-        },
-        {
-          property: 'og:url',
-          content: 'https://pfaffgmbh.com/news-medien/' + this.news[0].slug,
-        },
-        {
-          property: 'og:type',
-          content: 'website',
-        },
-        {
-          property: 'og:locale',
-          content: 'de_DE',
-        },
-      ],
-      link: [
-        {
-          rel: 'canonical',
-          href: 'https://pfaffgmbh.com/news-medien/' + this.news[0].slug,
-        },
-      ],
-    }
+      description: this.articleDescription,
+      path: this.articlePath,
+      image: this.news[0].image,
+      type: 'article',
+    })
   },
 
   jsonld() {
-    return {
-      '@context': 'https://schema.org',
-      '@type': 'Organization',
-      name: 'Pfaff GmbH | ' + this.news[0].title,
-      url: 'https://pfaffgmbh.com/news-medien/' + this.news[0].slug,
-      contactPoint: [
-        {
-          '@type': 'ContactPoint',
-          telephone: '+(49) 7681-49397-0',
-          contactType: 'customer service',
-        },
-      ],
+    const url = absoluteUrl(this.articlePath)
+    const schemas = [
+      articleSchema({
+        title: this.news[0].title,
+        description: this.articleDescription,
+        url,
+        image: this.news[0].image,
+        datePublished: this.news[0].date,
+      }),
+      breadcrumbSchema(this.breadcrumbItems.filter((item) => item.path)),
+    ]
+
+    if (this.isJobPosting) {
+      schemas.push(
+        jobPostingSchema({
+          title: this.news[0].title,
+          description: this.articleDescription,
+          url,
+          datePosted: this.news[0].date,
+        })
+      )
     }
+
+    return schemas
   },
 }
 </script>

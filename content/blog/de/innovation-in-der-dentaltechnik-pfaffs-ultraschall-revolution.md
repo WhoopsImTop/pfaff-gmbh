@@ -7,6 +7,7 @@ date: 2025-04-22T12:23:00.000Z
 author: Stefan Pfaff
 image: /ab2.jpg
 category: allgemeine-news
+excerpt: "Interview mit Andreas Buff, Technischer Leiter der Pfaff GmbH, über"
 ---
 **Frage**: Herr Buff, die Pfaff GmbH hat kürzlich eine bemerkenswerte Ultraschallspitze für die Dentaltechnik entwickelt. Können Sie uns mehr über dieses Produkt erzählen?
 

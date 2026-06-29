@@ -10,6 +10,8 @@
 
 <script>
 import componentRenderer from '~/components/componentRenderer.vue'
+import { buildSeoHead, localBusinessSchema, organizationSchema } from '~/utils/seo'
+
 export default {
   components: { componentRenderer },
   layout: 'default',
@@ -21,95 +23,27 @@ export default {
     await dispatch('nuxtServerInit')
     return { landing }
   },
-  data() {
-    return {}
-  },
 
   head() {
-    return {
-      title: 'Schwarzwälder Präzision',
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content:
-            'High-Tech-Kunststoff-Teile. Pfaff entwickelt mit modernen Materialien, innovativer Technik und garantieren zertifizierte Qualität unter Reinraumbedingungen.',
-        },
-        {
-          hid: 'keywords',
-          name: 'keywords',
-          content:
-            'Pfaff, Kunststoff, Kunststoffverarbeitung, Spritzguss, Spritzgussteile',
-        },
-        {
-          property: 'og:title',
-          content:
-            'Pfaff GmbH - Wo Kunststoff Karriere macht. - ISO zertifiziert',
-        },
-        {
-          property: 'og:description',
-          content:
-            'High-Tech-Kunststoff-Teile. Pfaff entwickelt mit modernen Materialien, innovativer Technik und garantieren zertifizierte Qualität unter Reinraumbedingungen.',
-        },
-        {
-          property: 'og:image',
-          content: 'https://pfaffgmbh.com/pfaff-historie.jpg',
-        },
-        {
-          property: 'og:url',
-          content: 'https://pfaffgmbh.com/',
-        },
-        {
-          property: 'og:type',
-          content: 'website',
-        },
-        {
-          property: 'og:locale',
-          content: 'de_DE',
-        },
-      ],
-      link: [
-        {
-          rel: 'canonical',
-          href: 'https://pfaffgmbh.com/',
-        },
-      ],
-    }
+    const isEn = this.$i18n.locale === 'en'
+    return buildSeoHead({
+      title: isEn
+        ? 'Medical Injection Molding Germany | Pfaff GmbH'
+        : 'Kunststoff-Spritzguss Waldkirch | Medizintechnik & Dental',
+      description: isEn
+        ? 'Precision injection molding from the Black Forest: medical technology, dental technology and high-tech plastic parts. ISO 13485 certified clean room manufacturing.'
+        : 'Präzisions-Spritzguss aus dem Schwarzwald: Medizintechnik, Dentaltechnik und High-Tech-Kunststoffteile. ISO 13485 zertifiziert, Reinraumfertigung ISO 7.',
+      path: isEn ? '/en' : '/',
+      keywords: isEn
+        ? 'medical injection molding Germany, ISO 13485 injection molding, precision plastic parts'
+        : 'Spritzguss Waldkirch, Kunststoffteile Schwarzwald, Medizintechnik Spritzguss, ISO 13485 Kunststoff',
+      locale: isEn ? 'en_US' : 'de_DE',
+      alternateLocales: { de: '/', en: '/en' },
+    })
   },
 
   jsonld() {
-    return {
-      '@context': 'https://schema.org',
-      '@type': 'Organization',
-      address: {
-        '@type': 'PostalAddress',
-        addressLocality: 'Waldkirch, Deutschland',
-        postalCode: '79183',
-        streetAddress: 'Spinnereistraße  4-6',
-      },
-      email: 'info@pfaffgmbh.com',
-      member: [
-        {
-          '@type': 'Organization',
-        },
-        {
-          '@type': 'Organization',
-        },
-      ],
-      alumni: [
-        {
-          '@type': 'Person',
-          name: 'Corinna Pfaff',
-        },
-        {
-          '@type': 'Person',
-          name: 'Andreas Buff',
-        },
-      ],
-      name: 'Pfaff GmbH',
-      url: 'https://pfaffgmbh.com/',
-      telephone: '+ (49) 7681 49397-0',
-    }
+    return [organizationSchema(), localBusinessSchema()]
   },
 }
 </script>

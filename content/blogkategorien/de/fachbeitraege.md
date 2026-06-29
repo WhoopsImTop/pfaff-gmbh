@@ -1,3 +1,4 @@
 ---
 categoryTitle: Fachbeiträge
+slug: fachbeitraege
 ---

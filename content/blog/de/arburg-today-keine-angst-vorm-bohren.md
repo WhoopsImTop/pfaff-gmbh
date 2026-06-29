@@ -4,6 +4,7 @@ slug: arburg-today-keine-angst-vorm-bohren
 date: 2012-12-01T14:39:00.000Z
 category: fachbeitraege
 shortText: Neuer Kunststoffbohrer rückt gezielt Karies zu Leibe. Wer schon einmal beim Zahnarzt war weiß Bohren macht keinen Spaß, denn es kann schmerzen. Das muss nicht …
+excerpt: "Neuer Kunststoffbohrer rückt gezielt Karies zu Leibe. Wer schon einmal beim Zahnarzt war weiß Bohren macht keinen Spaß, denn es kann schmerzen. Das muss n…"
 ---
 
 <p><strong>Neuer Kunststoffbohrer rückt gezielt Karies zu Leibe.</strong></p>

@@ -1,5 +1,5 @@
 ---
-productTitle: Lichtleiter Automotive
+productTitle: Lichtleiter Automotive – Signallicht
 productPosition: 4
 productDescription: >-
   Unsere Expertise in der Fertigung von optischen Teilen, insbesondere

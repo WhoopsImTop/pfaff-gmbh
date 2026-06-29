@@ -4,7 +4,8 @@ slug: girls-day-2023-wir-machen-mit
 date: 2023-03-13T10:20:54
 image: /22159_ced1ee8d0525300.jpg
 category: allgemeine-news
-shortText: Zwei Mädchen bekommen beim GirlsDay am 27.04.2023 die Chance, bei uns in den Beruf der Verfahrensmechanikerin einzutauchen. 
+shortText: Zwei Mädchen bekommen beim GirlsDay am 27.04.2023 die Chance, bei uns in den Beruf der Verfahrensmechanikerin einzutauchen.
+excerpt: "Zwei Mädchen bekommen beim GirlsDay am 27.04.2023 die Chance, bei uns in den Beruf der Verfahrensmechanikerin einzutauchen."
 ---
 **Wir machen mit!**\
 Zwei Mädchen bekommen beim GirlsDay am 27.04.2023 die Chance, bei uns in den Beruf der Verfahrensmechanikerin einzutauchen. 

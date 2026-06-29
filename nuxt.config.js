@@ -55,10 +55,6 @@ export default {
         src: 'https://app.eu.usercentrics.eu/browser-ui/latest/loader.js',
       },
       {
-        async: true,
-        src: 'https://www.googletagmanager.com/gtag/js?id=G-9LBLH36M5N',
-      },
-      {
         type: 'text/plain',
         'data-usercentrics': 'Google Analytics',
         async: true,
@@ -97,10 +93,17 @@ export default {
   ],
 
   i18n: {
-    locales: ['de'],
+    locales: [
+      { code: 'de', iso: 'de-DE', name: 'Deutsch' },
+      { code: 'en', iso: 'en-US', name: 'English' },
+    ],
     defaultLocale: 'de',
     strategy: 'prefix_except_default',
-    detectBrowserLanguage: false,
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'i18n_redirected',
+      onlyOnRoot: true,
+    },
     vueI18nLoader: true,
     skipSettingLocaleOnNavigate: true,
   },
@@ -136,7 +139,7 @@ export default {
   ],
 
   plugins: [
-    { src: '~/plugins/jsonld', mode: 'client' },
+    { src: '~/plugins/jsonld' },
     { src: '~/plugins/gsap.client.js', mode: 'client' },
   ],
 
@@ -167,7 +170,7 @@ export default {
       const { $content } = require('@nuxt/content');
 
       // Erstelle eine Liste aller Kategorien
-      const categories = ['blog', 'kompetenzen', 'produkte'];
+      const categories = ['blog', 'kompetenzen', 'produkte', 'branchen'];
 
       // Initialisiere ein leeres Array für alle dynamischen Pfade
       let dynamicRoutes = [];
@@ -177,15 +180,19 @@ export default {
         const categoryRoutes = await $content(`${category}/de`).fetch();
         if(category === 'blog') {
           categoryRoutes.forEach((route) => {
-            dynamicRoutes.push(`/news-medien/${route.category}/${route.slug}/`);
+            dynamicRoutes.push(`/news-medien/${route.category}/${route.slug}`);
           });
         } else if (category === 'produkte') {
           categoryRoutes.forEach((route) => {
-            dynamicRoutes.push(`/produktbeispiele/${route.slug}/`);
+            dynamicRoutes.push(`/produktbeispiele/${route.slug}`);
           });
         } else if (category === 'kompetenzen') {
           categoryRoutes.forEach((route) => {
-            dynamicRoutes.push(`/kompetenzen/${route.slug}/`);
+            dynamicRoutes.push(`/kompetenzen/${route.slug}`);
+          });
+        } else if (category === 'branchen') {
+          categoryRoutes.forEach((route) => {
+            dynamicRoutes.push(`/branchen/${route.slug}`);
           });
         }
       }

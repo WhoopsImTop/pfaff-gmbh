@@ -7,12 +7,26 @@
 </template>
 
 <script>
+import { buildSeoHead } from '~/utils/seo'
+
 export default {
   props: {
     error: {
       type: Object,
       default: () => {},
     },
+  },
+
+  head() {
+    const is404 = this.error.statusCode === 404
+    return buildSeoHead({
+      title: is404 ? 'Seite nicht gefunden' : 'Fehler',
+      description: is404
+        ? 'Die angeforderte Seite wurde nicht gefunden.'
+        : 'Es ist ein Fehler aufgetreten.',
+      path: this.$route.path,
+      noindex: true,
+    })
   },
 }
 </script>

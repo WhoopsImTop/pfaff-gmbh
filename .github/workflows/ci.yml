@@ -1,52 +1,58 @@
+name: Deploy website on push
+
 on:
   push:
     branches:
       - main
-      
-name: 🚀 Deploy website on push
+
+concurrency:
+  group: deploy-main
+  cancel-in-progress: true
+
 jobs:
-  build:
-    name: Build ⛏
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: 🚚 Get latest code
-      uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
-    - name: Use Node.js 16
-      uses: actions/setup-node@v2
-      with:
-        node-version: '16'
-      
-    - name: 🔨 Build Project
-      run: |
-        npm install
-        npm run generate
-
-    - name: Archive production artifact
-      uses: actions/upload-artifact@main
-      with:
-        name: dist
-        path: dist
-            
-  deploy:
-    name: Deploy 🚀
-    needs: build
-    runs-on: ubuntu-latest
-    steps: 
-      - name: Checkout repository
-        uses: actions/checkout@main
-      - name: Download artifact
-        uses: actions/download-artifact@main
-        with: 
-          name: dist
-          path: dist
-      - name: 📂 Sync Files
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      - uses: actions/setup-node@v4
         with:
-          server: ${{ secrets.server }}
-          username: ${{ secrets.username }}
-          password: ${{ secrets.password }}
-          server-dir: pfaff-web-2023-nuxt/
-          local-dir: ./dist/
-          protocol: ftp
-          port: 21
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Build static site
+        env:
+          NODE_ENV: production
+          ESLINT: 'false'
+        run: |
+          npm ci
+          npm run generate
+
+      - name: Create deployment archive
+        run: |
+          cd dist
+          zip -r ../deploy.zip .
+
+      - name: Deploy to Strato via SSH
+        env:
+          SSH_HOST: ${{ secrets.SSH_HOST }}
+          SSH_USER: ${{ secrets.SSH_USER }}
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          DEPLOY_DIR: pfaff-nuxt-2026-test
+        run: |
+          mkdir -p ~/.ssh
+          echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -p 22 "$SSH_HOST" >> ~/.ssh/known_hosts
+
+          scp -P 22 -i ~/.ssh/id_rsa deploy.zip "${SSH_USER}@${SSH_HOST}:deploy.zip"
+
+          ssh -p 22 -i ~/.ssh/id_rsa "${SSH_USER}@${SSH_HOST}" bash -s << EOF
+            set -e
+            rm -rf ${DEPLOY_DIR}/*
+            mkdir -p ${DEPLOY_DIR}
+            unzip -o deploy.zip -d ${DEPLOY_DIR}
+            rm -f deploy.zip
+          EOF
+
+          rm -f deploy.zip

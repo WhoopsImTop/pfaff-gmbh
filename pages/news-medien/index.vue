@@ -9,7 +9,7 @@
         class="article"
       >
         <div v-if="article.image" class="article-image">
-          <img :src="article.image" />
+          <img :src="article.image" :alt="article.title" />
         </div>
         <div class="article-content">
           <h4 v-html="article.title"></h4>
@@ -18,7 +18,10 @@
               article.category
             }}</span>
           </div>
-          <div v-if="article.shortText" v-html="article.shortText ? $md.render(article.shortText) : ''"></div>
+          <div
+            v-if="article.shortText"
+            v-html="article.shortText ? $md.render(article.shortText) : ''"
+          ></div>
         </div>
       </nuxt-link>
     </div>
@@ -26,11 +29,12 @@
 </template>
 
 <script>
+import { buildSeoHead, organizationSchema } from '~/utils/seo'
+
 export default {
   layout: 'news',
-  async asyncData({ $content, app, store: { dispatch, state } }) {
+  async asyncData({ store: { dispatch, state } }) {
     await dispatch('nuxtServerInit')
-    // group news by year
     const news = state.news
 
     const groupedNews = {}
@@ -48,7 +52,6 @@ export default {
       groupedNews[year].children.push(article)
     })
 
-    // Konvertiere das groupedNews-Objekt in ein Array von Jahresobjekten
     const groupedNewsArray = Object.values(groupedNews)
     groupedNewsArray.sort((a, b) => b.year - a.year)
 
@@ -58,81 +61,21 @@ export default {
   },
 
   head() {
-    return {
-      title: 'News & Medien',
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content:
-            'Hier finden Sie alle Neuigkeiten rund um die Pfaff GmbH. Wir informieren Sie über neue Produkte, Veranstaltungen und vieles mehr.',
-        },
-        {
-          hid: 'keywords',
-          name: 'keywords',
-          content:
-            'Pfaff, Kunststoff, Kunststoffverarbeitung, Spritzguss, Spritzgussteile',
-        },
-        {
-          property: 'og:title',
-          content: 'News & Medien',
-        },
-        {
-          property: 'og:description',
-          content:
-            'Hier finden Sie alle Neuigkeiten rund um die Pfaff GmbH. Wir informieren Sie über neue Produkte, Veranstaltungen und vieles mehr.',
-        },
-        {
-          property: 'og:image',
-          content: 'https://pfaffgmbh.com/pfaff-historie.jpg',
-        },
-        {
-          property: 'og:url',
-          content: 'https://pfaffgmbh.com/news-medien',
-        },
-        {
-          property: 'og:type',
-          content: 'website',
-        },
-        {
-          property: 'og:locale',
-          content: 'de_DE',
-        },
-      ],
-      link: [
-        {
-          rel: 'canonical',
-          href: 'https://pfaffgmbh.com/news-medien',
-        },
-      ],
-    }
+    return buildSeoHead({
+      title: 'News & Medien | Pfaff GmbH Spritzguss',
+      description:
+        'Aktuelle News, Fachbeiträge und Presseartikel der Pfaff GmbH: Medizintechnik, Dentaltechnik, Spritzguss und Firmenentwicklung aus Waldkirch.',
+      path: '/news-medien',
+      keywords:
+        'Pfaff GmbH News, Spritzguss Fachbeiträge, Medizintechnik Presse, Kunststoff News Schwarzwald',
+    })
   },
 
   jsonld() {
-    return {
-      '@context': 'https://schema.org',
-      '@type': 'Organization',
+    return organizationSchema({
       name: 'Pfaff GmbH | News und Medien',
-      url: 'https://pfaffgmbh.com/news-medien/',
-      contactPoint: [
-        {
-          '@type': 'ContactPoint',
-          telephone: '+(49) 7681-49397-0',
-          contactType: 'customer service',
-        },
-      ],
-    }
+      url: 'https://pfaffgmbh.com/news-medien',
+    })
   },
 }
 </script>
-
-<style>
-.year-identifier {
-  position: sticky;
-  top: 80px;
-  background-color: #fff;
-  padding: 1rem;
-  margin: 0;
-  z-index: 2;
-}
-</style>

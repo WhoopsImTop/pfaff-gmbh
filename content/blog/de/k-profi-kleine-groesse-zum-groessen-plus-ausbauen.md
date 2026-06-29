@@ -3,6 +3,8 @@ title: K-Profi Kleine Größe zum großen Plus ausbauen
 slug: k-profi-kleine-groesse-zum-groessen-plus-ausbauen
 date: 2016-10-01T14:25:00.000Z
 category: presseartikel
+excerpt: "<p><strong>Wie der 2K-Spezialist Pfaff als flexibles Familienunternehmen den Generationenwechsel schafft.</strong></p> Ob Entwicklungen mit der Berliner C…"
+shortText: "<p><strong>Wie der 2K-Spezialist Pfaff als flexibles Familienunternehmen den Generationenwechsel schafft.</strong></p> Ob Entwicklungen mit der Berliner C…"
 ---
 
 <p><strong>Wie der 2K-Spezialist Pfaff als flexibles Familienunternehmen den Generationenwechsel schafft.</strong></p>

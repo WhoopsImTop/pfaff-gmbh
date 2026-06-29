@@ -35,8 +35,8 @@
         <img
           class="content-image"
           :src="block.image"
-          :alt="block.alt"
-          :title="block.title"
+          :alt="block.imageAltText || block.alt || block.headline || ''"
+          :title="block.imageAltText || block.title || block.headline || ''"
           loading="lazy"
         />
       </div>

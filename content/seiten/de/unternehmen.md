@@ -46,7 +46,7 @@ components:
             buttonDownloadLink: /unternehmenswerte_04.pdf
       - type: image
         image: /ab-cp-4.jpg
-        imageAltText: ""
+        imageAltText: Pfaff GmbH Team und Produktionsstätte in Waldkirch
   - type: row
     component:
       - type: text
