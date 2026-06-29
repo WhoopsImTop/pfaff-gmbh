@@ -39,7 +39,7 @@ jobs:
         env:
           SSH_HOST: ${{ secrets.SSH_SERVER }}
           SSH_USER: ${{ secrets.SSH_USERNAME }}
-          DEPLOY_DIR: pfaff-nuxt-2026-test
+          DEPLOY_DIR: /mnt/web123/a0/26/51594126/htdocs/pfaff-nuxt-2026-test
         run: |
           mkdir -p ~/.ssh
           cat >> ~/.ssh/config << EOF
