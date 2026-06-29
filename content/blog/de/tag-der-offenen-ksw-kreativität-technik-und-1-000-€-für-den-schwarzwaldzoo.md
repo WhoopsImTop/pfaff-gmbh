@@ -1,5 +1,6 @@
 ---
 title: "Tag der offenen KSW: Kreativität, Technik und 1.000 € für den Schwarzwaldzoo"
+slug: tag-der-offenen-ksw-kreativitaet-technik-und-1-000-eur-fuer-den-schwarzwaldzoo
 shortText: "Ein erfolgreicher Tag voller Kreativität, Technik und Begeisterung:
   Zahlreiche Besucherinnen und Besucher erkundeten unsere
   Kunst(stoff)ausstellung, wurden selbst kreativ und verfolgten die spannende

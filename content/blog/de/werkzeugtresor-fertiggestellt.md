@@ -1,5 +1,6 @@
 ---
 title: Werkzeugtresor fertiggestellt
+slug: werkzeugtresor-fertiggestellt
 shortText: Anfang des Jahres konnten wir unseren neuen Werkzeugtresor beziehen.
   Dieser ermöglicht es uns, die Stahlwerkzeuge unserer Kunden sicher
   aufzubewahren, sofern sie gerade nicht im Einsatz sind. Mit der Freiwilligen

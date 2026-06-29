@@ -1,5 +1,6 @@
 ---
 title: Pfaff investiert in Maschinenpark
+slug: pfaff-investiert-in-maschinenpark
 excerpt: >-
   Eine weitere Arburg 320 C ergänzt den Maschinenpark der Pfaff GmbH.
 

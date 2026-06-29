@@ -1,5 +1,6 @@
 ---
 title: Neue 2K-Maschine angeschafft
+slug: neue-2k-maschine-angeschafft
 excerpt: Unsere neue Arburg 470 A Spritzgießmaschine bietet eine präzise
   Steuerung und ermöglicht eine exakte Umsetzung der komplexen Geometrien und
   Toleranzen sämtlicher 2K-Bauteile, die von unseren Kunden in den

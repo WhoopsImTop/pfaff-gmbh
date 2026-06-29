@@ -1,5 +1,6 @@
 ---
 title: Wertschätzung fängt im Kleinen an
+slug: wertschaetzung-faengt-im-kleinen-an
 shortText: >-
   Unsere Mitarbeiterinnen wurden heute am internationalen Weltfrauentag mit
   einem kleinen Strauß Blumen überrascht. Die Freude war riesengroß 😍

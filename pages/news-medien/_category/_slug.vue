@@ -30,9 +30,17 @@ export default {
   layout: 'news',
   async asyncData({ $content, app, params, store: { dispatch } }) {
     await dispatch('nuxtServerInit')
-    const news = await $content('blog/' + app.i18n.locale)
+
+    let news = await $content('blog/' + app.i18n.locale)
       .where({ slug: params.slug })
       .fetch()
+
+    if (!news.length) {
+      const { toUrlSlug } = require('~/utils/slug')
+      news = await $content('blog/' + app.i18n.locale)
+        .where({ slug: toUrlSlug(decodeURIComponent(params.slug)) })
+        .fetch()
+    }
 
     if (news[0] && news[0].category) {
       const kategorie = await $content('blogkategorien/' + app.i18n.locale)

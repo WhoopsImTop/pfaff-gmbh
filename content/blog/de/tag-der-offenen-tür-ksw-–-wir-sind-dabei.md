@@ -1,5 +1,6 @@
 ---
 title: TAG DER OFFENEN TÜR KSW – Wir sind dabei!
+slug: tag-der-offenen-tuer-ksw-wir-sind-dabei
 shortText: >-
   Am 25. April öffnet das Gelände der KSW Kollnau seine Türen – und wir von der
   Pfaff GmbH freuen uns, Teil dieses besonderen Tages zu sein!
