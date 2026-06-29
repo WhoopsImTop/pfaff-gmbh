@@ -111,7 +111,12 @@ export default {
       return [
         { name: 'Startseite', path: '/' },
         { name: 'Produktbeispiele', path: '/produktbeispiele' },
-        { name: this.seite.productTitle },
+      ]
+    },
+    breadcrumbSchemaItems() {
+      return [
+        ...this.breadcrumbItems,
+        { name: this.seite.productTitle, path: this.productPath },
       ]
     },
     productDescription() {
@@ -146,7 +151,7 @@ export default {
         url,
         image: this.seite.productImage,
       }),
-      breadcrumbSchema(this.breadcrumbItems),
+      breadcrumbSchema(this.breadcrumbSchemaItems),
     ]
   },
 }

@@ -64,11 +64,7 @@ export default {
       return [
         { name: 'Startseite', path: '/' },
         { name: 'News & Medien', path: '/news-medien' },
-        {
-          name: categoryTitle,
-          path: `/news-medien/${this.news[0].category}`,
-        },
-        { name: this.news[0].title },
+        { name: categoryTitle, path: `/news-medien/${this.news[0].category}` },
       ]
     },
     isJobPosting() {
@@ -96,7 +92,10 @@ export default {
         image: this.news[0].image,
         datePublished: this.news[0].date,
       }),
-      breadcrumbSchema(this.breadcrumbItems.filter((item) => item.path)),
+      breadcrumbSchema([
+        ...this.breadcrumbItems,
+        { name: this.news[0].title, path: this.articlePath },
+      ]),
     ]
 
     if (this.isJobPosting) {

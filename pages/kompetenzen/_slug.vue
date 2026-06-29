@@ -99,7 +99,12 @@ export default {
       return [
         { name: 'Startseite', path: '/' },
         { name: 'Kompetenzen', path: '/kompetenzen' },
-        { name: this.seite.competenceName },
+      ]
+    },
+    breadcrumbSchemaItems() {
+      return [
+        ...this.breadcrumbItems,
+        { name: this.seite.competenceName, path: this.competencePath },
       ]
     },
     competenceDescription() {
@@ -139,7 +144,7 @@ export default {
         name: `Pfaff GmbH | ${this.seite.competenceTitle}`,
         url: `https://pfaffgmbh.com${this.competencePath}`,
       }),
-      breadcrumbSchema(this.breadcrumbItems),
+      breadcrumbSchema(this.breadcrumbSchemaItems),
     ]
   },
 }
