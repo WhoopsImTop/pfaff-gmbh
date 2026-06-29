@@ -1,15 +1,11 @@
 # Nuxt static site – Apache (Strato Shared Hosting)
 DirectoryIndex index.html
 
-# SPA-Fallback, falls keine passende Datei gefunden wird
-ErrorDocument 404 /200.html
-
 <IfModule mod_rewrite.c>
   RewriteEngine On
 
   # index.html nicht umschreiben
   RewriteRule ^index\.html$ - [L]
-  RewriteRule ^200\.html$ - [L]
 
   # Vorhandene Dateien und Verzeichnisse direkt ausliefern
   RewriteCond %{REQUEST_FILENAME} -f [OR]

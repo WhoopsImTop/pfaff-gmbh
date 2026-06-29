@@ -1,6 +1,5 @@
 ---
 title: Bereit für Kunststoff statt Schulstoff?
-slug: bereit-fuer-kunststoff-statt-schulstoff
 shortText: >-
   Hast du schon mal von einem Beruf gehört, bei dem man die **technische Arbeit
   einer Mechanikerin** mit den **raffinierten Rezepten eines Kochs** vereinen

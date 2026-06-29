@@ -166,11 +166,42 @@ export default {
     hostname: 'https://pfaffgmbh.com',
     gzip: true,
     exclude: ['/admin/**'],
-    routes: () => require('./utils/generate-routes').fetchGenerateRoutes(),
+    routes: async () => {
+      const { $content } = require('@nuxt/content');
+
+      // Erstelle eine Liste aller Kategorien
+      const categories = ['blog', 'kompetenzen', 'produkte', 'branchen'];
+
+      // Initialisiere ein leeres Array für alle dynamischen Pfade
+      let dynamicRoutes = [];
+
+      // Durchlaufe jede Kategorie und sammle die dynamischen Pfade
+      for (const category of categories) {
+        const categoryRoutes = await $content(`${category}/de`).fetch();
+        if(category === 'blog') {
+          categoryRoutes.forEach((route) => {
+            dynamicRoutes.push(`/news-medien/${route.category}/${route.slug}`);
+          });
+        } else if (category === 'produkte') {
+          categoryRoutes.forEach((route) => {
+            dynamicRoutes.push(`/produktbeispiele/${route.slug}`);
+          });
+        } else if (category === 'kompetenzen') {
+          categoryRoutes.forEach((route) => {
+            dynamicRoutes.push(`/kompetenzen/${route.slug}`);
+          });
+        } else if (category === 'branchen') {
+          categoryRoutes.forEach((route) => {
+            dynamicRoutes.push(`/branchen/${route.slug}`);
+          });
+        }
+      }
+
+      return dynamicRoutes;
+    },
   },
 
   generate: {
     fallback: true,
-    routes: () => require('./utils/generate-routes').fetchGenerateRoutes(),
   },
 }
