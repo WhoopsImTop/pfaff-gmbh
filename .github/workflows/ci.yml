@@ -30,21 +30,31 @@ jobs:
           cd dist
           zip -r ../deploy.zip .
 
+      - name: Setup SSH agent
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
       - name: Deploy to Strato via SSH
         env:
           SSH_HOST: ${{ secrets.SSH_SERVER }}
           SSH_USER: ${{ secrets.SSH_USERNAME }}
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           DEPLOY_DIR: pfaff-nuxt-2026-test
         run: |
           mkdir -p ~/.ssh
-          echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan -p 22 "$SSH_HOST" >> ~/.ssh/known_hosts
+          cat >> ~/.ssh/config << EOF
+          Host strato-deploy
+            HostName ${SSH_HOST}
+            User ${SSH_USER}
+            Port 22
+            IdentitiesOnly yes
+            StrictHostKeyChecking accept-new
+          EOF
+          chmod 600 ~/.ssh/config
 
-          scp -P 22 -i ~/.ssh/id_rsa deploy.zip "${SSH_USER}@${SSH_HOST}:deploy.zip"
+          scp deploy.zip strato-deploy:deploy.zip
 
-          ssh -p 22 -i ~/.ssh/id_rsa "${SSH_USER}@${SSH_HOST}" bash -s << EOF
+          ssh strato-deploy bash -s << EOF
             set -e
             rm -rf ${DEPLOY_DIR}/*
             mkdir -p ${DEPLOY_DIR}
