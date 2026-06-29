@@ -34,7 +34,7 @@ jobs:
         env:
           SSH_HOST: ${{ secrets.SSH_SERVER }}
           SSH_USER: ${{ secrets.SSH_USERNAME }}
-          DEPLOY_DIR: pfaff-nuxt-2026-test
+          DEPLOY_DIR: pfaff-nuxt-2026
         run: |
           mkdir -p ~/.ssh
           chmod 700 ~/.ssh
