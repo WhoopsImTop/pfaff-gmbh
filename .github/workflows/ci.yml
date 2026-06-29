@@ -32,8 +32,8 @@ jobs:
 
       - name: Deploy to Strato via SSH
         env:
-          SSH_HOST: ${{ secrets.SSH_HOST }}
-          SSH_USER: ${{ secrets.SSH_USER }}
+          SSH_HOST: ${{ secrets.SSH_SERVER }}
+          SSH_USER: ${{ secrets.SSH_USERNAME }}
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           DEPLOY_DIR: pfaff-nuxt-2026-test
         run: |
