@@ -1,6 +1,5 @@
 <template>
   <div class="content-margin">
-    <breadcrumbs-component :items="breadcrumbItems" />
     <component-renderer
       v-for="(component, index) in landing.components"
       :key="index"
@@ -26,12 +25,7 @@ export default {
   },
 
   data() {
-    return {
-      breadcrumbItems: [
-        { name: 'Startseite', path: '/' },
-        { name: 'Unternehmen' },
-      ],
-    }
+    return {}
   },
 
   head() {
@@ -58,7 +52,10 @@ export default {
         name: 'Pfaff GmbH | Unternehmen',
         url: 'https://pfaffgmbh.com/unternehmen',
       }),
-      breadcrumbSchema(this.breadcrumbItems),
+      breadcrumbSchema([
+        { name: 'Startseite', path: '/' },
+        { name: 'Unternehmen', path: '/unternehmen' },
+      ]),
     ]
   },
 }

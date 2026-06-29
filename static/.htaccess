@@ -1,0 +1,35 @@
+# Nuxt static site – Apache (Strato Shared Hosting)
+DirectoryIndex index.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # index.html nicht umschreiben
+  RewriteRule ^index\.html$ - [L]
+
+  # Vorhandene Dateien und Verzeichnisse direkt ausliefern
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # /unternehmen → /unternehmen/index.html (URLs ohne .html-Endung)
+  RewriteCond %{REQUEST_FILENAME}/index.html -f
+  RewriteRule ^(.+?)/?$ $1/index.html [L]
+
+  # Fallback für nicht vorgerenderte Routen (nuxt generate: fallback: true → 200.html)
+  RewriteRule . 200.html [L]
+</IfModule>
+
+AddDefaultCharset utf-8
+
+# Cache für statische Assets
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType font/woff2 "access plus 1 year"
+</IfModule>

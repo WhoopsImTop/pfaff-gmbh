@@ -1,6 +1,5 @@
 <template>
   <div class="content-margin content-container">
-    <breadcrumbs-component :items="breadcrumbItems" />
     <div class="row">
       <div class="col-lg-6">
         <span class="smallHeadline">{{ seite.competenceName }}</span>
@@ -95,15 +94,10 @@ export default {
     competencePath() {
       return `/kompetenzen/${this.seite.slug}`
     },
-    breadcrumbItems() {
+    breadcrumbSchemaItems() {
       return [
         { name: 'Startseite', path: '/' },
         { name: 'Kompetenzen', path: '/kompetenzen' },
-      ]
-    },
-    breadcrumbSchemaItems() {
-      return [
-        ...this.breadcrumbItems,
         { name: this.seite.competenceName, path: this.competencePath },
       ]
     },

@@ -1,6 +1,5 @@
 <template>
   <div class="content-margin content-container">
-    <breadcrumbs-component :items="breadcrumbItems" />
     <h1>{{ branche.title }}</h1>
     <p class="branche-intro">{{ branche.intro }}</p>
 
@@ -95,12 +94,6 @@ export default {
     branchePath() {
       return `/branchen/${this.branche.slug}`
     },
-    breadcrumbItems() {
-      return [
-        { name: 'Startseite', path: this.localePath('/') },
-        { name: this.branche.title },
-      ]
-    },
   },
 
   head() {
@@ -121,7 +114,10 @@ export default {
         name: `Pfaff GmbH | ${this.branche.title}`,
         url: absoluteUrl(this.branchePath),
       }),
-      breadcrumbSchema(this.breadcrumbItems),
+      breadcrumbSchema([
+        { name: 'Startseite', path: '/' },
+        { name: this.branche.title, path: this.branchePath },
+      ]),
     ]
   },
 }

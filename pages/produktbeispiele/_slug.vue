@@ -1,6 +1,5 @@
 <template>
   <div class="content-margin">
-    <breadcrumbs-component :items="breadcrumbItems" />
     <div class="image-container">
       <img
         :src="seite.productImage"
@@ -107,15 +106,10 @@ export default {
     productPath() {
       return `/produktbeispiele/${this.seite.slug}`
     },
-    breadcrumbItems() {
+    breadcrumbSchemaItems() {
       return [
         { name: 'Startseite', path: '/' },
         { name: 'Produktbeispiele', path: '/produktbeispiele' },
-      ]
-    },
-    breadcrumbSchemaItems() {
-      return [
-        ...this.breadcrumbItems,
         { name: this.seite.productTitle, path: this.productPath },
       ]
     },

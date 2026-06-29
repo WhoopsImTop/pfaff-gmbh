@@ -73,10 +73,6 @@ export default {
   data() {
     return {
       activeFilterBtn: 'alle',
-      breadcrumbItems: [
-        { name: 'Startseite', path: '/' },
-        { name: 'Produktbeispiele' },
-      ],
     }
   },
 
@@ -97,7 +93,10 @@ export default {
         name: 'Pfaff GmbH | Produktbeispiele',
         url: 'https://pfaffgmbh.com/produktbeispiele',
       }),
-      breadcrumbSchema(this.breadcrumbItems),
+      breadcrumbSchema([
+        { name: 'Startseite', path: '/' },
+        { name: 'Produktbeispiele', path: '/produktbeispiele' },
+      ]),
     ]
   },
 

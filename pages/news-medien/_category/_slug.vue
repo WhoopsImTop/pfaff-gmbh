@@ -1,6 +1,5 @@
 <template>
   <div class="article-column article-background">
-    <breadcrumbs-component :items="breadcrumbItems" />
     <h1 style="margin-bottom: 10px">{{ news[0].title }}</h1>
     <div class="article-informations">
       <span v-if="kategorie" class="article-information">{{
@@ -56,7 +55,10 @@ export default {
         this.news[0].title
       )
     },
-    breadcrumbItems() {
+    isJobPosting() {
+      return this.news[0].category === 'stellenausschreibungen'
+    },
+    breadcrumbSchemaItems() {
       const categoryTitle =
         this.kategorie && this.kategorie.length > 0
           ? this.kategorie[0].categoryTitle
@@ -64,11 +66,12 @@ export default {
       return [
         { name: 'Startseite', path: '/' },
         { name: 'News & Medien', path: '/news-medien' },
-        { name: categoryTitle, path: `/news-medien/${this.news[0].category}` },
+        {
+          name: categoryTitle,
+          path: `/news-medien/${this.news[0].category}`,
+        },
+        { name: this.news[0].title, path: this.articlePath },
       ]
-    },
-    isJobPosting() {
-      return this.news[0].category === 'stellenausschreibungen'
     },
   },
 
@@ -92,10 +95,7 @@ export default {
         image: this.news[0].image,
         datePublished: this.news[0].date,
       }),
-      breadcrumbSchema([
-        ...this.breadcrumbItems,
-        { name: this.news[0].title, path: this.articlePath },
-      ]),
+      breadcrumbSchema(this.breadcrumbSchemaItems),
     ]
 
     if (this.isJobPosting) {

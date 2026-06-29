@@ -1,6 +1,5 @@
 <template>
   <div class="article-column">
-    <breadcrumbs-component :items="breadcrumbItems" />
     <div v-for="(entry, index) in news" :key="index" class="yearBlock">
       <h2 class="year-identifier">{{ entry.year }}</h2>
       <nuxt-link
@@ -93,13 +92,6 @@ export default {
     categoryPath() {
       return `/news-medien/${this.normalizedCategory}`
     },
-    breadcrumbItems() {
-      return [
-        { name: 'Startseite', path: '/' },
-        { name: 'News & Medien', path: '/news-medien' },
-        { name: this.categoryTitle },
-      ]
-    },
     news() {
       const news = this.$store.state.news.filter(
         (item) => item.category === this.normalizedCategory
@@ -140,7 +132,11 @@ export default {
         name: `Pfaff GmbH | ${this.categoryTitle}`,
         url: `https://pfaffgmbh.com${this.categoryPath}`,
       }),
-      breadcrumbSchema(this.breadcrumbItems),
+      breadcrumbSchema([
+        { name: 'Startseite', path: '/' },
+        { name: 'News & Medien', path: '/news-medien' },
+        { name: this.categoryTitle, path: this.categoryPath },
+      ]),
     ]
   },
 }

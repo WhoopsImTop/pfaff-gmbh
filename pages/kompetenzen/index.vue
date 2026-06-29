@@ -1,6 +1,5 @@
 <template>
   <div class="content-margin">
-    <breadcrumbs-component :items="breadcrumbItems" />
     <component-renderer
       v-for="(component, index) in landing.components"
       :key="index"
@@ -26,15 +25,6 @@ export default {
     return { landing }
   },
 
-  data() {
-    return {
-      breadcrumbItems: [
-        { name: 'Startseite', path: '/' },
-        { name: 'Kompetenzen' },
-      ],
-    }
-  },
-
   head() {
     return buildSeoHead({
       title: 'Kernkompetenzen Spritzguss | Reinraum & Mehrkomponenten',
@@ -52,7 +42,10 @@ export default {
         name: 'Pfaff GmbH | Kompetenzen',
         url: 'https://pfaffgmbh.com/kompetenzen',
       }),
-      breadcrumbSchema(this.breadcrumbItems),
+      breadcrumbSchema([
+        { name: 'Startseite', path: '/' },
+        { name: 'Kompetenzen', path: '/kompetenzen' },
+      ]),
     ]
   },
 }

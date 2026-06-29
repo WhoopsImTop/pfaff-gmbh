@@ -1,6 +1,5 @@
 <template>
   <div class="content-margin content-container">
-    <breadcrumbs-component :items="breadcrumbItems" />
     <h1>Karriere bei Pfaff GmbH</h1>
     <p class="karriere-intro">
       Werden Sie Teil unseres Familienunternehmens in Waldkirch. Wir bieten
@@ -67,12 +66,7 @@ export default {
   },
 
   data() {
-    return {
-      breadcrumbItems: [
-        { name: 'Startseite', path: '/' },
-        { name: 'Karriere' },
-      ],
-    }
+    return {}
   },
 
   methods: {
@@ -106,7 +100,10 @@ export default {
   jsonld() {
     const schemas = [
       localBusinessSchema({ url: 'https://pfaffgmbh.com/karriere' }),
-      breadcrumbSchema(this.breadcrumbItems),
+      breadcrumbSchema([
+        { name: 'Startseite', path: '/' },
+        { name: 'Karriere', path: '/karriere' },
+      ]),
     ]
 
     this.jobs.forEach((job) => {
