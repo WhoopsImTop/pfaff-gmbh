@@ -7,7 +7,7 @@ shortText: Corinna Pfaff in Netzwerk Südbaden. Auch 2017 gab die
   2017 im „Netzwerk Südbaden“ preis. Es …
 image: /corinna-pfaff-statement.jpg
 slug: die-aussichten-der-geschaeftsfuehrerin-corinna-pfaff-fuer-2017
-excerpt: "Corinna Pfaff in Netzwerk Südbaden. Auch 2017 gab die"
+excerpt: "corinna-pfaff-in-netzwerk-sudbaden-auch-2017-gab-die"
 ---
 
 <strong>Corinna Pfaff in Netzwerk Südbaden.</strong></p>

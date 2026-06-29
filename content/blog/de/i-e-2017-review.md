@@ -5,7 +5,7 @@ category: allgemeine-news
 slug: i-e-2017-review
 shortText: Die i+e 2017 – ein voller Erfolg. Wir konnten uns mit unserem neu designten Stand bei potentiellen Kunden hervorragend als professionelles und familiäres Schwarzwälder Unternehmen …
 image: /i-e-pfaff-gmbh-2017-768x1024.jpg
-excerpt: "Die i+e 2017 – ein voller Erfolg. Wir konnten uns mit unserem neu designten Stand bei potentiellen Kunden hervorragend als professionelles und familiäres…"
+excerpt: "die-i-e-2017-ein-voller-erfolg-wir-konnten-uns-mit-unserem-neu-designten-stand-bei-potentiellen-kunden-hervorragend-als-professionelles-und-familiares"
 ---
 
 <strong>Die i+e 2017 &#8211; ein voller Erfolg.</strong></p>

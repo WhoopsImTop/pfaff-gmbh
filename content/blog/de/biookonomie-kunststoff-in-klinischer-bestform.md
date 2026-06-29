@@ -4,7 +4,7 @@ slug: biookonomie-kunststoff-in-klinischer-bestform
 date: 2008-09-29T14:44:00.000Z
 category: fachbeitraege
 shortText: Kunststoff in klinischer Bestform. Die medizinischen Anwendungsbereiche für Kunststoffe sind mannigfaltig. Spritzen, selbstabbaubare Gelenkschrauben oder Kanülen für Katheter – Kliniken möchten möglichst hochwertige Produkte, die ...
-excerpt: "Kunststoff in klinischer Bestform. Die medizinischen Anwendungsbereiche für Kunststoffe sind mannigfaltig. Spritzen, selbstabbaubare Gelenkschrauben oder…"
+excerpt: "kunststoff-in-klinischer-bestform-die-medizinischen-anwendungsbereiche-fur-kunststoffe-sind-mannigfaltig-spritzen-selbstabbaubare-gelenkschrauben-oder"
 ---
 
 <p><strong>Kunststoff in klinischer Bestform.</strong></p>
@@ -15,5 +15,5 @@ Die medizinischen Anwendungsbereiche für Kunststoffe sind mannigfaltig. Spritze
 
 
 
-<p><a href="/downloads/Fachbeitrag_Biooekonomie_BW.pdf" target="_blank" rel="noreferrer noopener" aria-label=" (öffnet in neuem Tab)">Der gesamte Artikel aus der Bioökonomie als PDF</a></p>
+<p><a href="/downloads/Fachbeitrag_Biooekonomie_BW.pdf" target="_blank" rel="noreferrer noopener" aria-label="offnet-in-neuem-tab">Der gesamte Artikel aus der Bioökonomie als PDF</a></p>
 

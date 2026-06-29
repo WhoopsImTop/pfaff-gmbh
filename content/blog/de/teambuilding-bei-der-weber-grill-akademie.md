@@ -6,7 +6,7 @@ date: 2015-08-12T16:36:00.000Z
 image: /team-building-pfaff.jpg
 categories: allgemeine-news
 category: allgemeine-news
-excerpt: "Teambuilding wird bei Pfaff groß geschrieben. Deshalb organisiert die Pfaff GmbH für ihre Mitarbeiter mindestens zwei Betriebsausflüge pro Jahr. Der erste…"
+excerpt: "teambuilding-wird-bei-pfaff-gross-geschrieben-deshalb-organisiert-die-pfaff-gmbh-fur-ihre-mitarbeiter-mindestens-zwei-betriebsausfluge-pro-jahr-der-erste"
 ---
 
 <strong>Teambuilding wird bei Pfaff groß geschrieben.</strong></p>

@@ -46,6 +46,6 @@ productFeatures:
     featureText: Klasse 7
   - featureTitle: "Material:"
     featureText: Peek
-  - featureTitle: "Fachbeiträge:"
+  - featureTitle: "fachbeitrage"
     featureText: "Link: F﻿achbeitrag Arburg 2012 Link:F﻿achbeitrag DeviceMed 2016"
 ---

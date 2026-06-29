@@ -64,13 +64,7 @@
       <div class="col-lg-6">
         <label for="captcha">Sicherheitsfrage: {{ firstNumber }} + {{ secondNumber }} = ?</label>
         <b-form-input type="text" id="captcha-input" v-model="captchaInput" required />
-        <p v-if="showCaptchaError" class="text-danger">
-          Bitte lösen Sie die Aufgabe korrekt.
-        </p>
-      </div>
-    </div>
-
-    <button @click="sendForm()" class="button mt-4">
+        <p v-if="showCaptchaError" class="text-danger"bitte-losen-sie-die-aufgabe-korrekt-p-div-div-button-click"sendForm()" class="button mt-4">
       {{ contactFormButton }}
     </button>
   </form>

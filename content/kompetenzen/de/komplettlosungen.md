@@ -12,23 +12,7 @@ shortText: Unsere Fachleute stehen Ihnen von der Konzeption bis zur Fertigung
   einsatzbereites Produkt zu liefern.
 competenceName: Komplettlösungen
 competencePosition: 2
-competenceDescription: "### Alles aus einer Hand\r
-
-  Wir sind stolz darauf, unseren Kunden maßgeschneiderte Lösungen anzubieten,
-  die ihren Anforderungen und Bedürfnissen entsprechen. Unsere Fachleute stehen
-  Ihnen von der Konzeption bis zur Fertigung zur Seite und übernehmen alle
-  erforderlichen Arbeitsschritte, um Ihnen ein einsatzbereites Produkt zu
-  liefern.
-
-
-  \r
-
-  ### Zuverlässige Partnerschaft\r
-
-  Unsere langjährige Erfahrung und Expertise in der Kunststoffbranche
-  ermöglichen es uns, komplexe Herausforderungen zu bewältigen und innovative
-  Lösungen zu finden. Verlassen Sie sich auf uns als zuverlässigen Partner für
-  Komplettlösungen und hochwertige Kunststoffkomponenten.\r\n"
+competenceDescription: "alles-aus-einer-hand-r-wir-sind-stolz-darauf-unseren-kunden-massgeschneiderte-losungen-anzubieten-die-ihren-anforderungen-und-bedurfnissen-entsprechen-unsere-fachleute-stehen-ihnen-von-der-konzeption-bis-zur-fertigung-zur-seite-und-ubernehmen-alle-erforderlichen-arbeitsschritte-um-ihnen-ein-einsatzbereites-produkt-zu-liefern-r-zuverlassige-partnerschaft-r-unsere-langjahrige-erfahrung-und-expertise-in-der-kunststoffbranche-ermoglichen-es-uns-komplexe-herausforderungen-zu-bewaltigen-und-innovative-losungen-zu-finden-verlassen-sie-sich-auf-uns-als-zuverlassigen-partner-fur-komplettlosungen-und-hochwertige-kunststoffkomponenten-r-n"
 competenceImageDescription: Komplettlösungen - Komponenten "Ready To Use"
 competenceSideInfo:
   - image: /selbstlimitierender-dentalbohrer_peek_pfaff-768x733-1.jpeg

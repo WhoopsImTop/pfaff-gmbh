@@ -26,6 +26,7 @@
 
 <script>
 import { breadcrumbSchema, buildSeoHead, organizationSchema } from '~/utils/seo'
+import { slugify } from '~/utils/slugify'
 
 const CATEGORY_META = {
   'allgemeine-news': {
@@ -69,13 +70,7 @@ export default {
 
   computed: {
     normalizedCategory() {
-      let slug = this.$route.params.category.toLowerCase().split(' ').join('-')
-      slug = slug
-        .replace(/ä/g, 'ae')
-        .replace(/ü/g, 'ue')
-        .replace(/ö/g, 'oe')
-        .replace(/ß/g, 'ss')
-      return slug
+      return slugify(this.$route.params.category)
     },
     categoryMeta() {
       return (

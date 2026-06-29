@@ -58,7 +58,7 @@ const COMPETENCE_KEYWORDS = {
     'optische Spritzgussteile, Linsen Spritzguss, Lichtleiter Fertigung',
   materialien: 'PEEK Spritzguss, PPSU Kunststoff, Hochleistungskunststoffe',
   maschinenpark: 'Arburg Spritzguss, vollelektrisch Spritzgussmaschine',
-  komplettlösungen: 'Komplettlösungen Spritzguss, Baugruppen Kunststoff',
+  komplettlosungen: 'Komplettlösungen Spritzguss, Baugruppen Kunststoff',
   nachhaltigkeit: 'nachhaltiger Spritzguss, umweltbewusste Kunststoffverarbeitung',
 }
 
@@ -74,7 +74,7 @@ export default {
   data() {
     return {
       competencies: [
-        'komplettlösungen',
+        'komplettlosungen',
         'nachhaltigkeit',
         'materialien',
         'raumfertigung',

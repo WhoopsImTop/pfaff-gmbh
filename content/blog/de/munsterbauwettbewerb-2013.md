@@ -6,7 +6,7 @@ date: 2013-07-30T14:38:00.000Z
 image: /Muensterbauwettbewerb_2013-07-22_11-1024x768-1.jpg
 categories: allgemeine-news
 category: allgemeine-news
-excerpt: "Kunststoff-Recycling mal anders. Die Klasse 6d des Geschwister-Scholl-Gymnasiums in Waldkirch nahm am Münsterbauwettbewerb teil. Die engagierten Schüler b…"
+excerpt: "kunststoff-recycling-mal-anders-die-klasse-6d-des-geschwister-scholl-gymnasiums-in-waldkirch-nahm-am-munsterbauwettbewerb-teil-die-engagierten-schuler-b"
 ---
 
 <strong>Kunststoff-Recycling mal anders.</strong></p>

@@ -11,57 +11,7 @@ shortText: Die präzise Herstellung von filigranen Teilegeometrien stellt
 competenceName: Filigrane Teilegeometrien
 competencePosition: 9
 competenceTitle: Wo andere aufhören, fangen wir erst an
-competenceDescription: "### Innovatives Design und Präzisionsfertigung\r
-
-  Bei der Herstellung von filigranen Spritzgussteilen liegen die
-  Herausforderungen zum einen in der Beherrschung des Fertigungsprozesses und
-  zum anderen an der richtigen Materialauswahl und dem passenden Werkzeugdesign.
-  Wir wissen, welche Materialien über eine gute Fließfähigkeit und eine
-  ausreichende Festigkeit verfügen, wie Lufteinschlüsse vermieden werden, wie
-  eine Werkzeugform am besten gekühlt und die Temperatur präzise gesteuert wird.
-  Dieses Fachwissen und unsere langjährige Erfahrung bringen wir bereits in der
-  Entwicklungsphase bei unseren Kunden ein.
-
-
-  \r
-
-  ### Materialvielfalt für anspruchsvolle Lösungen\r
-
-  Unsere Kunststoffprodukte kommen in vielen unterschiedlichen
-  Industriebranchen zum Einsatz und jede Branche bringt andere Anforderungen mit
-  sich. Deshalb verfügen wir über eine umfangreiche Auswahl an technischen
-  Thermoplasten und Hochleistungskunststoffen. Ob ABS, POM, PEEK oder PPSU - wir
-  finden den passenden Werkstoff für Sie und Ihr Produkt und unterstützen Sie
-  bereits in der Entwicklungsphase.
-
-
-  \r
-
-  ### Qualitätskontrolle und Nachbearbeitung\r
-
-  Produkte mit filigranen Geometrien erfordern eine sorgfältige
-  Qualitätskontrolle. Unser erfahrenes Team überwacht den gesamten
-  Fertigungsprozess und stellt sicher, dass jedes Teil unseren hohen Standards
-  entspricht. Wenn nötig, führen wir auch zusätzliche Nachbearbeitungsschritte
-  (stanzen, bedrucken, montieren…) durch, um den Anforderungen unserer Kunden
-  gerecht zu werden.
-
-
-  \r
-
-  ### Kundenspezifische Lösungen\r
-
-  Unsere langjährige Erfahrung und unser technisches Know-how ermöglichen es
-  uns, maßgeschneiderte Lösungen für filigrane Teilegeometrien zu entwickeln und
-  umzusetzen. Wir stehen Ihnen zur Seite, um Ihre individuellen Anforderungen zu
-  verstehen und anspruchsvolle Produkte zu verwirklichen.
-
-  \r
-
-  Vertrauen Sie auf unsere Expertise, wenn es um die Fertigung
-  anspruchsvoller, filigraner Kunststoffteile geht. Wir nehmen die
-  Herausforderung an und setzen Ihre Ideen in die Realität um - mit Präzision,
-  Innovation und Leidenschaft.\r\n"
+competenceDescription: "innovatives-design-und-prazisionsfertigung-r-bei-der-herstellung-von-filigranen-spritzgussteilen-liegen-die-herausforderungen-zum-einen-in-der-beherrschung-des-fertigungsprozesses-und-zum-anderen-an-der-richtigen-materialauswahl-und-dem-passenden-werkzeugdesign-wir-wissen-welche-materialien-uber-eine-gute-fliessfahigkeit-und-eine-ausreichende-festigkeit-verfugen-wie-lufteinschlusse-vermieden-werden-wie-eine-werkzeugform-am-besten-gekuhlt-und-die-temperatur-prazise-gesteuert-wird-dieses-fachwissen-und-unsere-langjahrige-erfahrung-bringen-wir-bereits-in-der-entwicklungsphase-bei-unseren-kunden-ein-r-materialvielfalt-fur-anspruchsvolle-losungen-r-unsere-kunststoffprodukte-kommen-in-vielen-unterschiedlichen-industriebranchen-zum-einsatz-und-jede-branche-bringt-andere-anforderungen-mit-sich-deshalb-verfugen-wir-uber-eine-umfangreiche-auswahl-an-technischen-thermoplasten-und-hochleistungskunststoffen-ob-abs-pom-peek-oder-ppsu-wir-finden-den-passenden-werkstoff-fur-sie-und-ihr-produkt-und-unterstutzen-sie-bereits-in-der-entwicklungsphase-r-qualitatskontrolle-und-nachbearbeitung-r-produkte-mit-filigranen-geometrien-erfordern-eine-sorgfaltige-qualitatskontrolle-unser-erfahrenes-team-uberwacht-den-gesamten-fertigungsprozess-und-stellt-sicher-dass-jedes-teil-unseren-hohen-standards-entspricht-wenn-notig-fuhren-wir-auch-zusatzliche-nachbearbeitungsschritte-stanzen-bedrucken-montieren-durch-um-den-anforderungen-unserer-kunden-gerecht-zu-werden-r-kundenspezifische-losungen-r-unsere-langjahrige-erfahrung-und-unser-technisches-know-how-ermoglichen-es-uns-massgeschneiderte-losungen-fur-filigrane-teilegeometrien-zu-entwickeln-und-umzusetzen-wir-stehen-ihnen-zur-seite-um-ihre-individuellen-anforderungen-zu-verstehen-und-anspruchsvolle-produkte-zu-verwirklichen-r-vertrauen-sie-auf-unsere-expertise-wenn-es-um-die-fertigung-anspruchsvoller-filigraner-kunststoffteile-geht-wir-nehmen-die-herausforderung-an-und-setzen-ihre-ideen-in-die-realitat-um-mit-prazision-innovation-und-leidenschaft-r-n"
 competenceImage: /sensorgehaeuse-2k_pfaff.jpg
 competenceImageDescription: Sensorgehäuse für unterschiedliche Anwendungen
 featuredCompetence: false

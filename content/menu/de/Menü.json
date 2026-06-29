@@ -1,12 +1,12 @@
 {
-  "titel": "Menü",
+  "titel": "menu",
   "links": [
     {
       "siteTitle": "Produktbeispiele",
       "siteLink": "produktbeispiele",
       "featuredProducts": [
         "implantatschraube",
-        "massageball-für-bepanthen-narbengel",
+        "massageball-fur-bepanthen-narbengel",
         "sippa-cup-antiverschluck-trinkbecher"
       ]
     },
@@ -15,7 +15,7 @@
       "siteLink": "kompetenzen",
       "featuredCompetencies": [
         "filigrane-teilegeometrien",
-        "komplettlösungen",
+        "komplettlosungen",
         "kleine-auflagen"
       ]
     },
@@ -43,7 +43,7 @@
       }
     },
     {
-      "siteTitle": "Qualitätsmanagement",
+      "siteTitle": "qualitatsmanagement",
       "siteLink": "qualitaet"
     },
     {

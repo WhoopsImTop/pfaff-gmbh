@@ -5,7 +5,7 @@ date: 2023-03-13T10:20:54
 image: /22159_ced1ee8d0525300.jpg
 category: allgemeine-news
 shortText: Zwei Mädchen bekommen beim GirlsDay am 27.04.2023 die Chance, bei uns in den Beruf der Verfahrensmechanikerin einzutauchen.
-excerpt: "Zwei Mädchen bekommen beim GirlsDay am 27.04.2023 die Chance, bei uns in den Beruf der Verfahrensmechanikerin einzutauchen."
+excerpt: "zwei-madchen-bekommen-beim-girlsday-am-27-04-2023-die-chance-bei-uns-in-den-beruf-der-verfahrensmechanikerin-einzutauchen"
 ---
 **Wir machen mit!**\
 Zwei Mädchen bekommen beim GirlsDay am 27.04.2023 die Chance, bei uns in den Beruf der Verfahrensmechanikerin einzutauchen. 

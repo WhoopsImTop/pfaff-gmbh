@@ -14,22 +14,9 @@
           </div>
         </div>
       </div>
-      <div class="footer-content">
-        <p>
-          <strong>Pfaff GmbH</strong> <br />
-          Spinnereistraße 4-6 <br />
-          D-79183 Waldkirch
-        </p>
-      </div>
-      <div class="footer-content">
-        <p>
-          <strong>Produkte und Lösungen</strong><br />
-          <nuxt-link to="/produktbeispiele">Produktbeispiele</nuxt-link><br />
+      <div class="footer-content"p-strong-pfaff-gmbh-strong-br-spinnereistrasse-4-6-br-d-79183-waldkirch-p-div-div-class"footer-content"p-strong-produkte-und-losungen-strong-br-nuxt-link-to"/produktbeispiele">Produktbeispiele</nuxt-link><br />
           <nuxt-link to="/kompetenzen">Kompetenzen</nuxt-link><br />
-          <nuxt-link to="/qualitaet">Qualität</nuxt-link>
-        </p>
-      </div>
-      <div class="footer-content">
+          <nuxt-link to="/qualitaet"qualitat-nuxt-link-p-div-div-class"footer-content">
         <p>
           <strong>Informiert bleiben</strong><br />
           <nuxt-link to="/news-medien">News und Medien</nuxt-link><br />
@@ -59,8 +46,7 @@
     <div class="content-container footer-row">
       <div class="footer-links">
         <nuxt-link to="/impressum">Impressum</nuxt-link>
-        <nuxt-link to="/datenschutz">Datenschutzerklärung</nuxt-link>
-        <nuxt-link to="/agb">AGB</nuxt-link>
+        <nuxt-link to="/datenschutz"datenschutzerklarung-nuxt-link-nuxt-link-to"/agb">AGB</nuxt-link>
         <a href="javascript:UC_UI.showSecondLayer();">Cookie-Einstellungen</a>
       </div>
       <div class="copyright">

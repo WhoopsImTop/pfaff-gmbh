@@ -9,7 +9,7 @@ shortText: >-
 date: 2024-03-26T16:51:18.401Z
 image: /pfaff-gmbh-karriere-jobs-freie-stellen.jpg
 category: stellenausschreibungen
-excerpt: "Hast du schon mal von einem Beruf gehört, bei dem man die technische Arbeit"
+excerpt: "hast-du-schon-mal-von-einem-beruf-gehort-bei-dem-man-die-technische-arbeit"
 ---
 Hast du schon mal von einem Beruf gehört, bei dem man die **technische Arbeit einer Mechanikerin** mit den **raffinierten Rezepten eines Kochs** vereinen kann?
 

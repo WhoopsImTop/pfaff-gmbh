@@ -5,7 +5,7 @@ category: stellenausschreibungen
 slug: stellenausschreibung-projektmanagement
 shortText: Wir bieten Ihnen ein vielseitiges, verantwortungsvolles Aufgabengebiet in einem familiären Team, wo Menschlichkeit, Toleranz und Nachhaltigkeit nicht nur Floskeln sind. Wir freuen uns auf Ihre Bewerbung.
 image: /stellenanzeige-waldkirch-projektmanagement-pfaff-gmbh-1024x565.jpg
-excerpt: "Wir bieten Ihnen ein vielseitiges, verantwortungsvolles Aufgabengebiet in einem familiären Team, wo Menschlichkeit, Toleranz und Nachhaltigkeit nicht nur…"
+excerpt: "wir-bieten-ihnen-ein-vielseitiges-verantwortungsvolles-aufgabengebiet-in-einem-familiaren-team-wo-menschlichkeit-toleranz-und-nachhaltigkeit-nicht-nur"
 ---
 
 <strong>Was Sie erwartet:</strong></p>

@@ -6,7 +6,7 @@ content: Ab in die Natur. Auf dem Brotweg in Yach mit Natur- und Wanderführer S
 slug: betriebsausflug-2016
 shortText: Ab in die Natur. Auf dem Brotweg in Yach mit Natur- und Wanderführer Sigi.
 image: /betriebsausflug-2016-pfaff.jpg
-excerpt: "Ab in die Natur. Auf dem Brotweg in Yach mit Natur- und Wanderführer Sigi."
+excerpt: "ab-in-die-natur-auf-dem-brotweg-in-yach-mit-natur-und-wanderfuhrer-sigi"
 ---
 <strong>Ab in die Natur.</strong></p>
 

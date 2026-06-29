@@ -28,7 +28,7 @@
               width="25px"
               alt="arrow-right"
               style="transform: rotate(90deg)"
-              title="nächste Folie"
+              title="nachste-folie"
               loading="lazy"
             />
           </div>

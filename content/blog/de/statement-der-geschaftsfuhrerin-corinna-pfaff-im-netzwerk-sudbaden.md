@@ -8,7 +8,7 @@ date: 2016-02-02T15:32:00.000Z
 image: /Netzwerk_Suedbaden1.jpg
 categories: pressemitteilungen
 category: presseartikel
-excerpt: "Januar-Ausgabe der „Netzwerk Südbaden“. Geschäftsführerin Corinna"
+excerpt: "januar-ausgabe-der-netzwerk-sudbaden-geschaftsfuhrerin-corinna"
 ---
 
 <strong>Januar-Ausgabe der „Netzwerk Südbaden“.</strong></p>

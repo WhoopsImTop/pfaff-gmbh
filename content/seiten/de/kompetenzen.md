@@ -50,7 +50,7 @@ components:
         showText: true
   - type: competenciesBlocks
     competencies:
-      - komplettlösungen
+      - komplettlosungen
       - nachhaltigkeit
       - materialien
       - raumfertigung

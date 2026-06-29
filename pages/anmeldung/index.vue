@@ -1,8 +1,6 @@
 <template>
   <div class="content-container">
-    <div v-if="!isMailSend">
-      <h1>Anmeldung Tag der offenen Türe</h1>
-      <div class="row mb-4">
+    <div v-if="!isMailSend"h1-anmeldung-tag-der-offenen-ture-h1-div-class"row mb-4">
         <div class="col-lg-6">
           <p style="display: flex; align-items: center; margin-bottom: 10px">
             <img src="/anmeldung/calendar_event.svg" class="img-fluid mr-2" />
@@ -68,13 +66,7 @@
               type="text"
               required
             />
-            <p v-if="showCaptchaError" class="text-danger">
-              Bitte lösen Sie die Aufgabe korrekt.
-            </p>
-          </div>
-        </div>
-
-        <button class="button mt-4" @click="sendForm()">
+            <p v-if="showCaptchaError" class="text-danger"bitte-losen-sie-die-aufgabe-korrekt-p-div-div-button-class"button mt-4" @click="sendForm()">
           {{ contactFormButton }}
         </button>
       </form>

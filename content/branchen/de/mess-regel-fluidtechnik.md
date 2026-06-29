@@ -9,7 +9,7 @@ productCategories:
 competencySlugs:
   - insertteile
   - filigrane-teilegeometrien
-  - komplettlösungen
+  - komplettlosungen
 blogCategories:
   - fachbeitraege
 intro: >-

@@ -19,7 +19,7 @@ components:
         landingTitlePosition: top-right
         landingImage: /pfaff-gmbh-kunststoff-bepanthen-narbengel.jpg
         landingProducts:
-          - massageball-für-bepanthen-narbengel
+          - massageball-fur-bepanthen-narbengel
         landingImageMobile: /pfaff-miniatur-wanderer-1-mobile.jpg
         landingProductMarkerPosition:
           - bottom: 45
@@ -29,7 +29,7 @@ components:
         landingTitlePosition: top-left
         landingImage: /pfaff-gmbh-kunststoff-medizin-dental.jpg
         landingProducts:
-          - peek-spitze-für-die-dentaltechnik
+          - peek-spitze-fur-die-dentaltechnik
           - implantatschraube
         landingProductMarkerPosition:
           - bottom: 41
@@ -83,7 +83,7 @@ components:
         blockTitle: Komplettlösungen
         blockImage: /pfaff-komplettloesungen.jpg
         blockLink: ""
-        blockLinkCompetencies: kompetenzen/komplettlösungen
+        blockLinkCompetencies: kompetenzen/komplettlosungen
       - blockCategory: Kleine Auflagen, Prototypen
         blockTitle: Idealer Startup Partner
         blockImage: /pfaff-kleinauflagen.jpg
@@ -107,7 +107,7 @@ components:
     productImageMarkerPosition:
       bottom: 20
       left: 38
-    product: umspritzte-stimulationssonden-und-nadelelektroden-für-die-neurochirurgie
+    product: umspritzte-stimulationssonden-und-nadelelektroden-fur-die-neurochirurgie
     type: productPreview
     productCtaLink: unternehmen
   - type: cards

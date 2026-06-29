@@ -6,7 +6,7 @@ date: 2016-12-22T15:21:00.000Z
 image: /Drive_To_Help.jpg
 categories: allgemeine-news
 category: allgemeine-news
-excerpt: "Pfaff GmbH unzerstützt eine Klinik in Gambia. Drive-To-Help ist ein gemeinnütziger Verein und das vorrangige Ziel ist die Unterstützung der ASB Health Cli…"
+excerpt: "pfaff-gmbh-unzerstutzt-eine-klinik-in-gambia-drive-to-help-ist-ein-gemeinnutziger-verein-und-das-vorrangige-ziel-ist-die-unterstutzung-der-asb-health-cli"
 ---
 
 <strong>Pfaff GmbH unzerstützt eine Klinik in Gambia.</strong></p>

@@ -6,7 +6,7 @@ image: /25_Jahre_Buero-pfaff-kollnau.jpg
 categories: pressemitteilungen
 category: meilensteine
 shortText: Open Space Büro. Pünktlich zum 25-Jährigen Bestehen der Pfaff GmbH wurde die gesamte Verwaltung des Unternehmens in die Etage über die Maschinenhalle verlegt.
-excerpt: "Open Space Büro. Pünktlich zum 25-Jährigen Bestehen der Pfaff GmbH wurde die gesamte Verwaltung des Unternehmens in die Etage über die Maschinenhalle verl…"
+excerpt: "open-space-buro-punktlich-zum-25-jahrigen-bestehen-der-pfaff-gmbh-wurde-die-gesamte-verwaltung-des-unternehmens-in-die-etage-uber-die-maschinenhalle-verl"
 ---
 
 <strong>Open Space Büro.</strong></p>

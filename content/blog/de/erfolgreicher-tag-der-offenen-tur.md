@@ -5,7 +5,7 @@ shortText: Vor vier Wochen haben wir unser 33jähriges Jubiläum im Rahmen eines
 date: 2024-10-28T00:00:00.000Z
 image: /28.-sept-2024-33-jahre-pfaff-familienfoto.jpg
 category: allgemeine-news
-excerpt: "Vor vier Wochen haben wir unser 33jähriges Jubiläum im Rahmen eines"
+excerpt: "vor-vier-wochen-haben-wir-unser-33jahriges-jubilaum-im-rahmen-eines"
 ---
 Vor vier Wochen haben wir unser 33jähriges Jubiläums im Rahmen eines Tags der offenen Tür gefeiert.
 

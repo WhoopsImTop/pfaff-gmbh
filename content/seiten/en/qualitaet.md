@@ -28,19 +28,12 @@ components:
       - type: text
         smallHeadline: Zertifikat
         headline: ISO 9001
-        text: "**Die ISO 9001** legt die Mindestanforderungen an ein
-          Qualitätsmanagementsystem fest, die uns zu genügen hat, um Produkte
-          und Dienstleistungen bereitstellen zu können, welche die
-          Kundenerwartungen sowie allfällige behördliche Anforderungen erfüllen.
-          Die ISO 9001 praktizieren wir seit 2006."
+        text: "die-iso-9001-legt-die-mindestanforderungen-an-ein-qualitatsmanagementsystem-fest-die-uns-zu-genugen-hat-um-produkte-und-dienstleistungen-bereitstellen-zu-konnen-welche-die-kundenerwartungen-sowie-allfallige-behordliche-anforderungen-erfullen-die-iso-9001-praktizieren-wir-seit-2006"
         buttons:
           - buttonText: PDF ISO 9001 ZERTIFIKAT
             buttonDownloadLink: /9001-2015_deutsch-2023-11-19.pdf
       - type: text
-        text: "**Die ISO 13485** ist eine ISO-Norm, die die Erfordernisse für ein
-          umfassendes Managementsystem für das Design und die Herstellung von
-          unseren Medizinprodukten repräsentiert. Wir sind mit der ISO 13485
-          seit Januar 2011 ausgezeichnet."
+        text: "die-iso-13485-ist-eine-iso-norm-die-die-erfordernisse-fur-ein-umfassendes-managementsystem-fur-das-design-und-die-herstellung-von-unseren-medizinprodukten-reprasentiert-wir-sind-mit-der-iso-13485-seit-januar-2011-ausgezeichnet"
         buttons:
           - buttonText: PDF ISO 13485 ZERTIFIKAT
             buttonDownloadLink: /13485-2016_deutsch-2023-11-19.pdf
@@ -51,37 +44,7 @@ components:
       - type: text
         smallHeadline: Ihre Vorteile
         headline: Zertifikat nach ISO 13485:2016
-        text: "Die ISO 13485 beschreibt ein Qualitätsmanagementsystem mit höchsten
-          Anforderungen an Entwicklung, Produktion, Vertrieb und Service Ihres
-          Medizinproduktes. Nur wenn Sie diese Norm nachweisen können, dürfen
-          Sie Ihr Produkt mit dem CE-Kennzeichen versehen und auf dem
-          europäischen Markt vertreiben. Das System muss aber auch für
-          diejenigen Teile gesichert sein, die durch externe Firmen wie die
-          Pfaff GmbH zugeliefert werden. Da wir selbst mit ISO 13485
-          zertifiziert sind, profitieren Sie gleich von mehreren Vorteilen:\r
-
-          • Wir weisen durch externe Audits kontinuierlich nach, dass
-          wir mit den Anforderungen der Norm bestens vertraut sind.\r
-
-          • Unsere Prozesse sind validiert.\r
-
-          • Unsere Produkte können bis zum eingesetzten
-          Kunststoffgranulat zurückverfolgt werden.\r
-
-          • Unsere Produkte werden nach zuvor von Ihnen festgelegten
-          Vorgaben getestet, bevor wir sie ausliefern.\r
-
-          • Ihr eigenes Audit beschränkt sich auf die Prüfung der
-          Dokumente\r
-
-          • Sie sparen deshalb massiv Kosten & Zeit.\r
-
-          • Sie haben die Sicherheit, dass normkonforme Prozesse
-          bereits durch uns umgesetzt werden.\r
-
-          • Darüber hinaus wird die Sicherheit Ihres Medizinproduktes
-          durch das laut Norm geforderte, systematische
-          Lieferantenmanagementsystem gewährleistet."
+        text: "die-iso-13485-beschreibt-ein-qualitatsmanagementsystem-mit-hochsten-anforderungen-an-entwicklung-produktion-vertrieb-und-service-ihres-medizinproduktes-nur-wenn-sie-diese-norm-nachweisen-konnen-durfen-sie-ihr-produkt-mit-dem-ce-kennzeichen-versehen-und-auf-dem-europaischen-markt-vertreiben-das-system-muss-aber-auch-fur-diejenigen-teile-gesichert-sein-die-durch-externe-firmen-wie-die-pfaff-gmbh-zugeliefert-werden-da-wir-selbst-mit-iso-13485-zertifiziert-sind-profitieren-sie-gleich-von-mehreren-vorteilen-r-wir-weisen-durch-externe-audits-kontinuierlich-nach-dass-wir-mit-den-anforderungen-der-norm-bestens-vertraut-sind-r-unsere-prozesse-sind-validiert-r-unsere-produkte-konnen-bis-zum-eingesetzten-kunststoffgranulat-zuruckverfolgt-werden-r-unsere-produkte-werden-nach-zuvor-von-ihnen-festgelegten-vorgaben-getestet-bevor-wir-sie-ausliefern-r-ihr-eigenes-audit-beschrankt-sich-auf-die-prufung-der-dokumente-r-sie-sparen-deshalb-massiv-kosten-zeit-r-sie-haben-die-sicherheit-dass-normkonforme-prozesse-bereits-durch-uns-umgesetzt-werden-r-daruber-hinaus-wird-die-sicherheit-ihres-medizinproduktes-durch-das-laut-norm-geforderte-systematische-lieferantenmanagementsystem-gewahrleistet"
       - type: image
         image: /iso134852016.png
   - type: row

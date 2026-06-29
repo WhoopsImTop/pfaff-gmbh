@@ -7,40 +7,7 @@ competenceShortText: Neben der Serienfertigung von Kunststoffteilen für
   verstehen die einzigartigen Herausforderungen, vor denen Startups stehen, und
   bieten Ihnen maßgeschneiderte Lösungen, um Ihre innovativen Ideen in die
   Realität umzusetzen.
-competenceDescription: "### Pionierarbeit in der Technologieentwicklung\r
-
-  Durch langjährige Kooperationen mit renommierten Universitäten, darunter die
-  Uni Freiburg und die Charité Berlin, haben wir uns frühzeitig mit der
-  kostengünstigen Herstellung von Vor- und Kleinserien auseinandergesetzt und
-  die Entwicklung additiver Fertigungsverfahren aufmerksam verfolgt. Dies hat
-  uns zu Vorreitern in der Anwendung modernster Technologien gemacht.
-
-
-  \r
-
-  ### Kostengünstige Alternativen für Kleinserien\r
-
-  Unsere umfangreiche Erfahrung im Kleinserienbereich hat gezeigt, dass
-  Kunststoffeinsätze, gefertigt im 3D-Verfahren, eine ausgezeichnete Alternative
-  zum klassischen Spritzguss darstellen. Diese ermöglichen es uns, Ihnen eine
-  echte und kostengünstige Lösung für Ihre individuellen Bedürfnisse anzubieten,
-  ohne dabei Kompromisse bei der Qualität einzugehen.
-
-
-  \r
-
-  ### Engagierte Zusammenarbeit und persönliche Betreuung\r
-
-  Als Ihr idealer Startup-Partner bieten wir Ihnen nicht nur technische
-  Expertise, sondern auch enge Zusammenarbeit und persönliche Betreuung. Unser
-  engagiertes Team steht Ihnen von der Konzeptentwicklung bis zur
-  Serienfertigung zur Seite, um sicherzustellen, dass Ihre Produkte höchsten
-  Standards entsprechen und Ihre Visionen erfolgreich umgesetzt werden.
-
-  \r
-
-  Gemeinsam verwirklichen wir Ihre Ideen und unterstützen Sie dabei, Ihre
-  Produkte schnell und effizient auf den Markt zu bringen.\r\n"
+competenceDescription: "pionierarbeit-in-der-technologieentwicklung-r-durch-langjahrige-kooperationen-mit-renommierten-universitaten-darunter-die-uni-freiburg-und-die-charite-berlin-haben-wir-uns-fruhzeitig-mit-der-kostengunstigen-herstellung-von-vor-und-kleinserien-auseinandergesetzt-und-die-entwicklung-additiver-fertigungsverfahren-aufmerksam-verfolgt-dies-hat-uns-zu-vorreitern-in-der-anwendung-modernster-technologien-gemacht-r-kostengunstige-alternativen-fur-kleinserien-r-unsere-umfangreiche-erfahrung-im-kleinserienbereich-hat-gezeigt-dass-kunststoffeinsatze-gefertigt-im-3d-verfahren-eine-ausgezeichnete-alternative-zum-klassischen-spritzguss-darstellen-diese-ermoglichen-es-uns-ihnen-eine-echte-und-kostengunstige-losung-fur-ihre-individuellen-bedurfnisse-anzubieten-ohne-dabei-kompromisse-bei-der-qualitat-einzugehen-r-engagierte-zusammenarbeit-und-personliche-betreuung-r-als-ihr-idealer-startup-partner-bieten-wir-ihnen-nicht-nur-technische-expertise-sondern-auch-enge-zusammenarbeit-und-personliche-betreuung-unser-engagiertes-team-steht-ihnen-von-der-konzeptentwicklung-bis-zur-serienfertigung-zur-seite-um-sicherzustellen-dass-ihre-produkte-hochsten-standards-entsprechen-und-ihre-visionen-erfolgreich-umgesetzt-werden-r-gemeinsam-verwirklichen-wir-ihre-ideen-und-unterstutzen-sie-dabei-ihre-produkte-schnell-und-effizient-auf-den-markt-zu-bringen-r-n"
 competenceImage: /pfaff-kleinauflagen.jpg
 competenceImageDescription: Kunststoffeinsatz
 ---

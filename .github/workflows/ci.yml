@@ -23,7 +23,7 @@ jobs:
       - name: Build static site
         run: |
           npm ci
-          ESLINT=false NODE_ENV=production npm run generate
+          ESLINT=false NODE_ENV=production npm run generate:optimized
 
       - name: Create deployment archive
         run: |

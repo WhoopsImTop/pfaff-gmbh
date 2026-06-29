@@ -1,7 +1,5 @@
 <template>
-  <div class="content-container">
-    <h1>Allgemeine Geschäfts-, Liefer- und Zahlungsbedingungen (AGB)</h1>
-    <div class="entry-content" itemprop="text">
+  <div class="content-container"h1-allgemeine-geschafts-liefer-und-zahlungsbedingungen-agb-h1-div-class"entry-content" itemprop="text">
       <p>Stand 05.2023</p>
 
       <div class="row" style="margin: 20px 2px 40px 2px">

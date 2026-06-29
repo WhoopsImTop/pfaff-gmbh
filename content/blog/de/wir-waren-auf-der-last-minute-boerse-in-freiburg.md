@@ -5,7 +5,7 @@ category: stellenausschreibungen
 slug: wir-waren-auf-der-last-minute-boerse-in-freiburg
 shortText: Ihr konntet uns auf der Last Minute Börse am 29.07.2022 von 13:00 Uhr bis 15:30 Uhr persönlich antreffen.
 image: /ausbildungsplatz-waldkirch-pfaff-gmbh.jpg
-excerpt: "Ihr konntet uns auf der Last Minute Börse am 29.07.2022 von 13:00 Uhr bis 15:30 Uhr persönlich antreffen."
+excerpt: "ihr-konntet-uns-auf-der-last-minute-borse-am-29-07-2022-von-13-00-uhr-bis-15-30-uhr-personlich-antreffen"
 ---
 
 Wir suchen einen Azubi „Verfahrensmechaniker für Kunststoff- und Kautschuktechnik“ zum 01.09.2022</p>
