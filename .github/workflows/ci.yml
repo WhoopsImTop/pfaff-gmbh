@@ -17,16 +17,13 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: '16'
+          node-version: '18'
           cache: 'npm'
 
       - name: Build static site
-        env:
-          NODE_ENV: production
-          ESLINT: 'false'
         run: |
           npm ci
-          npm run generate
+          ESLINT=false NODE_ENV=production npm run generate
 
       - name: Create deployment archive
         run: |
