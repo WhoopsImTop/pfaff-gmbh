@@ -10,6 +10,7 @@
 
 <script>
 import componentRenderer from '~/components/componentRenderer.vue'
+import { fetchSeitenEntry } from '~/utils/content'
 import { breadcrumbSchema, buildSeoHead, organizationSchema } from '~/utils/seo'
 
 export default {
@@ -18,9 +19,11 @@ export default {
   layout: 'default',
 
   async asyncData({ $content, app, store: { dispatch } }) {
-    const landing = await $content(
-      'seiten/' + app.i18n.locale + '/kompetenzen'
-    ).fetch()
+    const landing = await fetchSeitenEntry(
+      $content,
+      app.i18n.locale,
+      'kompetenzen'
+    )
     await dispatch('nuxtServerInit')
     return { landing }
   },

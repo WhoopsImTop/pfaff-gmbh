@@ -10,14 +10,17 @@
 
 <script>
 import componentRenderer from '~/components/componentRenderer.vue'
+import { fetchSeitenBySlug } from '~/utils/content'
 export default {
   components: { componentRenderer },
   layout: 'default',
 
   async asyncData({ $content, app, store: { dispatch }, params, error }) {
-    const landing = await $content('seiten/' + app.i18n.locale)
-      .where({ slug: params.slug })
-      .fetch()
+    const landing = await fetchSeitenBySlug(
+      $content,
+      app.i18n.locale,
+      params.slug
+    )
 
     if (landing.length === 0) {
       error({ statusCode: 404, message: 'Page not found' })

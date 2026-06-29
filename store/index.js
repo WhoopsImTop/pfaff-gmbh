@@ -9,6 +9,7 @@ export const state = () => ({
   featuredCompetence: [],
   menu: [],
   menuActive: false,
+  contentLocale: null,
 })
 
 export const mutations = {
@@ -40,22 +41,22 @@ export const mutations = {
   },
   setBurgerActive(state, payload) {
     state.menuActive = payload
-  }
+  },
+  setContentLocale(state, locale) {
+    state.contentLocale = locale
+  },
 }
 
 async function fetchWithLocaleFallback($content, basePath, locale) {
-  const localized = await $content(`${basePath}/${locale}`).fetch()
-  if (localized.length > 0 || locale === 'de') {
-    return localized
-  }
-  return $content(`${basePath}/de`).fetch()
+  const { fetchContentWithFallback } = require('../utils/content')
+  return fetchContentWithFallback($content, basePath, locale)
 }
 
 export const actions = {
   async nuxtServerInit({ commit, state }) {
-    if (state.news.length) return
-
     const locale = this.$i18n.locale
+    if (state.contentLocale === locale) return
+
     const produkte = await fetchWithLocaleFallback(
       this.$content,
       'produkte',
@@ -107,6 +108,7 @@ export const actions = {
     commit('setBlogkategorien', blogKategorien)
     commit('setNews', news)
     commit('setMenu', menu)
+    commit('setContentLocale', locale)
   },
 }
 

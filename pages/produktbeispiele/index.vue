@@ -59,13 +59,16 @@
 </template>
 
 <script>
+import { fetchSeitenEntry } from '~/utils/content'
 import { breadcrumbSchema, buildSeoHead, organizationSchema } from '~/utils/seo'
 
 export default {
   async asyncData({ $content, app, store: { dispatch } }) {
-    const seite = await $content(
-      'seiten/' + app.i18n.locale + '/produktbeispiele'
-    ).fetch()
+    const seite = await fetchSeitenEntry(
+      $content,
+      app.i18n.locale,
+      'produktbeispiele'
+    )
     await dispatch('nuxtServerInit')
     return { seite }
   },

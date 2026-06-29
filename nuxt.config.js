@@ -95,15 +95,11 @@ export default {
   i18n: {
     locales: [
       { code: 'de', iso: 'de-DE', name: 'Deutsch' },
-      { code: 'en', iso: 'en-US', name: 'English' },
+      // EN später aktivieren: { code: 'en', iso: 'en-US', name: 'English' },
     ],
     defaultLocale: 'de',
     strategy: 'prefix_except_default',
-    detectBrowserLanguage: {
-      useCookie: true,
-      cookieKey: 'i18n_redirected',
-      onlyOnRoot: true,
-    },
+    detectBrowserLanguage: false,
     vueI18nLoader: true,
     skipSettingLocaleOnNavigate: true,
   },
@@ -165,43 +161,13 @@ export default {
     path: '/sitemap.xml',
     hostname: 'https://pfaffgmbh.com',
     gzip: true,
+    i18n: false,
     exclude: ['/admin/**'],
-    routes: async () => {
-      const { $content } = require('@nuxt/content');
-
-      // Erstelle eine Liste aller Kategorien
-      const categories = ['blog', 'kompetenzen', 'produkte', 'branchen'];
-
-      // Initialisiere ein leeres Array für alle dynamischen Pfade
-      let dynamicRoutes = [];
-
-      // Durchlaufe jede Kategorie und sammle die dynamischen Pfade
-      for (const category of categories) {
-        const categoryRoutes = await $content(`${category}/de`).fetch();
-        if(category === 'blog') {
-          categoryRoutes.forEach((route) => {
-            dynamicRoutes.push(`/news-medien/${route.category}/${route.slug}`);
-          });
-        } else if (category === 'produkte') {
-          categoryRoutes.forEach((route) => {
-            dynamicRoutes.push(`/produktbeispiele/${route.slug}`);
-          });
-        } else if (category === 'kompetenzen') {
-          categoryRoutes.forEach((route) => {
-            dynamicRoutes.push(`/kompetenzen/${route.slug}`);
-          });
-        } else if (category === 'branchen') {
-          categoryRoutes.forEach((route) => {
-            dynamicRoutes.push(`/branchen/${route.slug}`);
-          });
-        }
-      }
-
-      return dynamicRoutes;
-    },
+    routes: () => require('./utils/routes').getAllRoutes(),
   },
 
   generate: {
     fallback: true,
+    routes: () => require('./utils/routes').getAllRoutes(),
   },
 }
