@@ -16,6 +16,10 @@ const REFERENCE_DIRS = [
 
 const REFERENCE_EXTENSIONS = new Set(['.md', '.json', '.vue', '.js', '.yml', '.yaml'])
 
+// JSON/YAML-Felder mit sichtbaren Titeln – keine Slug-Normalisierung
+const DISPLAY_TEXT_FIELD_PATTERN =
+  /"(?:siteTitle|cardTitle|productTitle|competenceName|competenceTitle|title|categoryTitle|titel|headline|smallHeadline|buttonText|featureTitle|seoTitle)":\s*"/
+
 const WRITE = process.argv.includes('--write')
 const CHECK = process.argv.includes('--check')
 const DRY_RUN = !WRITE && !CHECK
@@ -28,6 +32,12 @@ function isSlugCandidate(value) {
   if (!value || value.length > 100) return false
   if (/\s/.test(value)) return false
   return /[äöüÄÖÜß€–—]/.test(value)
+}
+
+function isQuotedDisplayText(content, quoteStartIndex) {
+  const lineStart = content.lastIndexOf('\n', quoteStartIndex) + 1
+  const linePrefix = content.slice(lineStart, quoteStartIndex + 1)
+  return DISPLAY_TEXT_FIELD_PATTERN.test(linePrefix)
 }
 
 function walkMarkdownFiles(dir, files = []) {
@@ -109,13 +119,6 @@ function replaceSlugReferences(text, slugMap) {
       new RegExp(`(^\\s*-\\s+)${escaped}\\s*$`, 'gm'),
       `$1${newSlug}`
     )
-
-    if (isSlugCandidate(oldSlug)) {
-      result = result.replace(
-        new RegExp(`"${escaped}"`, 'g'),
-        `"${newSlug}"`
-      )
-    }
   }
 
   return result
@@ -175,6 +178,7 @@ function augmentSlugMapFromReferences(slugMap, referenceFiles) {
     for (const match of content.matchAll(/"([^"]+)"/g)) {
       const value = match[1]
       if (!isSlugCandidate(value)) continue
+      if (isQuotedDisplayText(content, match.index)) continue
       const normalized = slugify(value)
       if (normalized && normalized !== value) {
         slugMap.set(value, normalized)
