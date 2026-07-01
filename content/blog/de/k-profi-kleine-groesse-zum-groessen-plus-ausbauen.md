@@ -4,5 +4,12 @@ slug: k-profi-kleine-groesse-zum-groessen-plus-ausbauen
 date: 2016-10-01T14:25:00.000Z
 category: presseartikel
 excerpt: "<p><strong>Wie der 2K-Spezialist Pfaff als flexibles Familienunternehmen den Generationenwechsel schafft.</strong></p> Ob Entwicklungen mit der Berliner C…"
-shortText: "<p><strong>Wie der 2K-Spezialist Pfaff als flexibles Familienunternehmen den Generationenwechsel schafft.</strong></p> Ob Entwicklungen mit der Berliner C…"p-strong-wie-der-2k-spezialist-pfaff-als-flexibles-familienunternehmen-den-generationenwechsel-schafft-strong-p-ob-entwicklungen-mit-der-berliner-charite-oder-die-auftragsfertigung-fur-das-automobile-premium-und-luxus-segment-mit-ihren-17-mitarbeitern-hat-sich-die-pfaff-gmbh-waldkirch-einen-namen-als-spezialist-fur-mehrkomponenten-anwendungen-und-kleinstteile-mit-hohem-technischem-anspruch-gemacht-inwiefern-hierbei-gerade-die-uberschaubare-betriebsgrosse-von-vorteil-ist-schildert-geschaftsfuhrerin-corinna-pfaff-gemeinsam-mit-ihrem-vater-und-firmengrunder-adolf-pfaff-sowie-ihrem-ehemann-und-technischen-leiter-andreas-buff-gestaltet-sie-seit-einigen-jahren-nbsp-erfolgreich-den-generationenwechsel-innerhalb-des-fur-seine-innovativen-ideen-ausgezeichneten-unternehmens-p-p-a-href"/downloads/K-PROFI_2016-10_Pfaff_MR.pdf" target="_blank" rel="noreferrer noopener" aria-label="offnet-in-neuem-tab">Der gesamte Artikel aus der K-Profi als PDF</a></p>
+shortText: "<p><strong>Wie der 2K-Spezialist Pfaff als flexibles Familienunternehmen den Generationenwechsel schafft.</strong></p> Ob Entwicklungen mit der Berliner C…"
+---
+
+<p><strong>Wie der 2K-Spezialist Pfaff als flexibles Familienunternehmen den Generationenwechsel schafft.</strong></p>
+
+Ob Entwicklungen mit der Berliner Charité oder die Auftragsfertigung für das automobile Premium- und Luxus-Segment – mit ihren 17 Mitarbeitern hat sich die Pfaff GmbH, Waldkirch, einen Namen als Spezialist für Mehrkomponenten-Anwendungen und Kleinstteile mit hohem technischem Anspruch gemacht. Inwiefern hierbei gerade die überschaubare Betriebsgröße von Vorteil ist, schildert Geschäftsführerin Corinna Pfaff. Gemeinsam mit ihrem Vater und Firmengründer Adolf Pfaff sowie ihrem Ehemann und technischen Leiter Andreas Buff gestaltet sie seit einigen Jahren&nbsp;erfolgreich den Generationenwechsel innerhalb des für seine innovativen Ideen ausgezeichneten Unternehmens.</p>
+
+<p><a href="/downloads/K-PROFI_2016-10_Pfaff_MR.pdf" target="_blank" rel="noreferrer noopener" aria-label=" (öffnet in neuem Tab)">Der gesamte Artikel aus der K-Profi als PDF</a></p>
 

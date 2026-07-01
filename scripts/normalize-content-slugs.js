@@ -262,6 +262,7 @@ function run() {
   )
 
   const referenceUpdates = referenceFiles
+    .filter((filePath) => !filePath.includes(`${path.sep}content${path.sep}`) || !filePath.endsWith('.md'))
     .map((filePath) => {
       const original = fs.readFileSync(filePath, 'utf8')
       const updated = replaceSlugReferences(original, slugMap)

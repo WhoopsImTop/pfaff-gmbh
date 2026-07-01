@@ -1,7 +1,14 @@
 <template>
   <div class="content-margin content-container">
+    <breadcrumbs-component :items="breadcrumbItems" />
     <h1>Karriere bei Pfaff GmbH</h1>
-    <p class="karriere-intro"werden-sie-teil-unseres-familienunternehmens-in-waldkirch-wir-bieten-ausbildungsplatze-im-bereich-kunststofftechnik-verfahrensmechaniker-und-spannende-karrieremoglichkeiten-im-prazisions-spritzguss-p-section-class"karriere-section">
+    <p class="karriere-intro">
+      Werden Sie Teil unseres Familienunternehmens in Waldkirch. Wir bieten
+      Ausbildungsplätze im Bereich Kunststofftechnik, Verfahrensmechaniker und
+      spannende Karrieremöglichkeiten im Präzisions-Spritzguss.
+    </p>
+
+    <section class="karriere-section">
       <h2>Offene Stellen</h2>
       <div v-if="jobs.length === 0">
         <p>
@@ -28,7 +35,12 @@
       </div>
     </section>
 
-    <section class="karriere-section"h2-ausbildung-h2-p-als-zertifizierter-ausbildungsbetrieb-bilden-wir-verfahrensmechaniker-fur-kunststoff-und-kautschuktechnik-aus-erfahren-sie-mehr-in-unseren-nuxt-link-to"localePath('/news-medien/stellenausschreibungen')">
+    <section class="karriere-section">
+      <h2>Ausbildung</h2>
+      <p>
+        Als zertifizierter Ausbildungsbetrieb bilden wir Verfahrensmechaniker
+        für Kunststoff- und Kautschuktechnik aus. Erfahren Sie mehr in unseren
+        <nuxt-link :to="localePath('/news-medien/stellenausschreibungen')">
           Stellenausschreibungen
         </nuxt-link>.
       </p>
@@ -55,7 +67,12 @@ export default {
   },
 
   data() {
-    return {}
+    return {
+      breadcrumbItems: [
+        { name: 'Startseite', path: '/' },
+        { name: 'Karriere' },
+      ],
+    }
   },
 
   methods: {
@@ -89,10 +106,7 @@ export default {
   jsonld() {
     const schemas = [
       localBusinessSchema({ url: 'https://pfaffgmbh.com/karriere' }),
-      breadcrumbSchema([
-        { name: 'Startseite', path: '/' },
-        { name: 'Karriere', path: '/karriere' },
-      ]),
+      breadcrumbSchema(this.breadcrumbItems),
     ]
 
     this.jobs.forEach((job) => {
