@@ -21,4 +21,4 @@ Der Girls’Day hat für uns einen hohen Stellenwert. Die Pfaff GmbH zeigt durch
 
 Wir haben uns sehr über die große Neugier, das Engagement und die vielen kreativen Ideen gefreut. Ein besonderer Dank gilt außerdem Marc Tesche von der Christmann Kunststofftechnik GmbH für den Verleih der Babyplast-Form.
 
-[Nachhaltigkeitszertifikat (PDF)](/girls-day-2026-zertifikat.pdf)
+<a href="/girls-day-2026-zertifikat.pdf" target="_blank">Nachhaltigkeitszertifikat (PDF)</a>
