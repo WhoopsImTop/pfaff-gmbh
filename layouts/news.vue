@@ -23,7 +23,7 @@
                 :key="index"
                 :to="
                   '/news-medien/' +
-                  link.slug ? link.slug.replace(/ /g, '-').toLowerCase() : link.categoryTitle.replace(/ /g, '-').toLowerCase()
+                  link.categorySlug.replace(/ /g, '-').toLowerCase().replace('ä', 'ae')
                 "
                 style="margin-bottom: 10px"
               >
