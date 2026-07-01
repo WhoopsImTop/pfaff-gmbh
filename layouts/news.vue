@@ -23,7 +23,19 @@
                 :key="index"
                 :to="
                   '/news-medien/' +
-                  link.categorySlug.replace(/ /g, '-').toLowerCase().replace('ä', 'ae')
+                  link.categorySlug
+                    .toLowerCase()
+                    .replace(
+                      /[äöüß]/g,
+                      (c) =>
+                        ({
+                          ä: 'ae',
+                          ö: 'oe',
+                          ü: 'ue',
+                          ß: 'ss',
+                        }[c])
+                    )
+                    .replace(/\s+/g, '-')
                 "
                 style="margin-bottom: 10px"
               >
@@ -47,15 +59,15 @@
     <footer-component />
   </div>
 </template>
-  
-  <script>
+
+<script>
 import FooterComponent from '~/components/footerComponent.vue'
 import navbarComponent from '~/components/navbarComponent.vue'
 export default {
   components: { navbarComponent, FooterComponent },
 }
 </script>
-  
+
 <style>
 .light-bg {
   display: flex;
