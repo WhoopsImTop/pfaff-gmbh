@@ -1,15 +1,10 @@
 ---
-title: Bereit für Kunststoff statt Schulstoff?
-shortText: >-
-  Hast du schon mal von einem Beruf gehört, bei dem man die **technische Arbeit
-  einer Mechanikerin** mit den **raffinierten Rezepten eines Kochs** vereinen
-  kann?
-
-  Wir melden uns bei Dir!
+title: "Bereit für Kunststoff statt Schulstoff?"
 date: 2024-03-26T16:51:18.401Z
+shortText: "Hast du schon mal von einem Beruf gehört, bei dem man die **technische Arbeit einer Mechanikerin** mit den **raffinierten Rezepten eines Kochs** vereinen kann? Wir melden uns bei Dir!"
 image: /pfaff-gmbh-karriere-jobs-freie-stellen.jpg
 category: stellenausschreibungen
-excerpt: "hast-du-schon-mal-von-einem-beruf-gehort-bei-dem-man-die-technische-arbeit"
+excerpt: "Hast du schon mal von einem Beruf gehört, bei dem man die technische Arbeit"
 ---
 Hast du schon mal von einem Beruf gehört, bei dem man die **technische Arbeit einer Mechanikerin** mit den **raffinierten Rezepten eines Kochs** vereinen kann?
 

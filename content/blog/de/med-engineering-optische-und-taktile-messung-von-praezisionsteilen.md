@@ -1,14 +1,12 @@
 ---
-title: MED Engineering Optische und taktile Messung von Präzisionsteilen
-slug: med-engineering-optische-und-taktile-messung-von-praezisionsteilen
+title: "MED Engineering Optische und taktile Messung von Präzisionsteilen"
 date: 2017-05-09T14:07:00.000Z
-category: presseartikel
-shortText: MED Elektronik – Messtechnik. Beitrag der Pfaff GmbH in der
-  April-Ausgabe der MED Engineering
+shortText: "MED Elektronik – Messtechnik. Beitrag der Pfaff GmbH in der April-Ausgabe der MED Engineering"
 image: /MED_Engineering_1704-940x528-1.png
-excerpt: "med-elektronik-messtechnik-beitrag-der-pfaff-gmbh-in-der"
+category: presseartikel
+excerpt: "MED Elektronik – Messtechnik. Beitrag der Pfaff GmbH in der"
+slug: med-engineering-optische-und-taktile-messung-von-praezisionsteilen
 ---
-
 <strong>MED Elektronik & Messtechnik.</strong></p>
 
 <p>Beitrag der Pfaff GmbH in der April-Ausgabe der MED Engineering</p>

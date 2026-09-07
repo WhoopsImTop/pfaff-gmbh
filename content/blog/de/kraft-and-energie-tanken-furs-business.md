@@ -1,15 +1,12 @@
 ---
-title: Kraft & Energie tanken fürs Business
-slug: kraft-and-energie-tanken-furs-business
+title: "Kraft & Energie tanken fürs Business"
 date: 2021-08-25T09:10:30.000Z
+shortText: "Woher schöpfen Geschäftsführerinnen wie Corinna Pfaff eigentlich ihre Kraft, um das Unternehmen voranzubringen? Gerade in Krisenzeiten wie diesen keine leichte Aufgabe, und dennoch möglich."
 image: /cp2.jpg
 category: presseartikel
-shortText: Woher schöpfen Geschäftsführerinnen wie Corinna Pfaff eigentlich ihre
-  Kraft, um das Unternehmen voranzubringen? Gerade in Krisenzeiten wie diesen
-  keine leichte Aufgabe, und dennoch möglich.
-excerpt: "woher-schopfen-geschaftsfuhrerinnen-wie-corinna-pfaff-eigentlich-ihre"
+excerpt: "Woher schöpfen Geschäftsführerinnen wie Corinna Pfaff eigentlich ihre"
+slug: kraft-and-energie-tanken-furs-business
 ---
-
 Woher schöpfen Geschäftsführerinnen wie Corinna Pfaff eigentlich ihre Kraft, um das Unternehmen voranzubringen? Gerade in Krisenzeiten wie diesen keine leichte Aufgabe, und dennoch möglich. Vor allem Familie und Natur geben so viel zurück, dass auch schwierigste Herausforderungen gemeistert werden können. Überzeugen Sie sich selbst im Artikel von Netzwerk Südbaden ([www.netzwerk-suedbaden.de](http://www.netzwerk-suedbaden.de/)).
 
 ![](/2021-08-25-2-1-721x1024.png)

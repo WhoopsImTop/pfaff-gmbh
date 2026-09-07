@@ -5,8 +5,8 @@
 function slugify(value) {
   return String(value || '')
     .normalize('NFKD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .replace(/\u00ad/g, '')
+    .replace(/[\u0300-\u036F]/g, '')
+    .replace(/\u00AD/g, '')
     .toLowerCase()
     .replace(/ä/g, 'ae')
     .replace(/ö/g, 'oe')

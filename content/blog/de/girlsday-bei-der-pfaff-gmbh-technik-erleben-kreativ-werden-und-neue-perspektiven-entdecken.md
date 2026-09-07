@@ -1,15 +1,11 @@
 ---
-title: Girl's Day bei der Pfaff GmbH – Technik erleben kreativ werden und neue
-  Perspektiven entdecken
-slug: girlsday-bei-der-pfaff-gmbh-technik-erleben-kreativ-werden-und-neue-perspektiven-entdecken
-shortText: Beim Girls’Day erhielten zwei Teilnehmerinnen spannende Einblicke in
-  die Welt der Kunststofftechnik, lernten industrielle Fertigungsprozesse kennen
-  und gestalteten eigene Werke mit dem 3D-Stift – ein inspirierender Tag rund um
-  Technik, Kreativität und Zukunftsperspektiven.
+title: "Girl's Day bei der Pfaff GmbH – Technik erleben kreativ werden und neue Perspektiven entdecken"
 date: 2026-05-06T09:41:00.000+02:00
+shortText: "Beim Girls’Day erhielten zwei Teilnehmerinnen spannende Einblicke in die Welt der Kunststofftechnik, lernten industrielle Fertigungsprozesse kennen und gestalteten eigene Werke mit dem 3D-Stift – ein inspirierender Tag rund um Technik, Kreativität und Zukunftsperspektiven."
 image: /cfb07fe4-8b86-4ea4-a474-0b6de6065ee8.jpg
 category: allgemeine-news
-excerpt: beim-girlsday-erhielten-zwei-teilnehmerinnen-spannende-einblicke-in
+excerpt: "Beim Girls’Day erhielten zwei Teilnehmerinnen spannende Einblicke in"
+slug: girlsday-bei-der-pfaff-gmbh-technik-erleben-kreativ-werden-und-neue-perspektiven-entdecken
 ---
 „Who run the world? GIRLS!“ – unter diesem Motto durften wir beim diesjährigen Girls’Day zwei junge Teilnehmerinnen bei der Pfaff GmbH begrüßen.
 

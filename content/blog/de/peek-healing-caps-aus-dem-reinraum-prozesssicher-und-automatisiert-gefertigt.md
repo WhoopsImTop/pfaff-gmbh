@@ -1,10 +1,10 @@
 ---
-title: PEEK-Healing-Caps aus dem Reinraum – prozesssicher und automatisiert gefertigt
-shortText: "in-der-dentaltechnik-zahlt-jedes-detail-wenn-healing-caps-nach-dem-setzen-eines-zahnimplantats-den-heilungsprozess-unterstutzen-sind-hochste-anforderung"
+title: "PEEK-Healing-Caps aus dem Reinraum – prozesssicher und automatisiert gefertigt"
 date: 2025-11-11T11:43:00.000+01:00
+shortText: "In der Dentaltechnik zählt jedes Detail: Wenn Healing-Caps nach dem Setzen eines Zahnimplantats den Heilungsprozess unterstützen, sind höchste Anforderung…"
 image: /implantatschraube-dentaltechnik-pfaff.jpeg
 category: fachbeitraege
-excerpt: "in-der-dentaltechnik-zahlt-jedes-detail-wenn-healing-caps-nach-dem-setzen-eines-zahnimplantats-den-heilungsprozess-unterstutzen-sind-hochste-anforderung"
+excerpt: "In der Dentaltechnik zählt jedes Detail: Wenn Healing-Caps nach dem Setzen eines Zahnimplantats den Heilungsprozess unterstützen, sind höchste Anforderung…"
 ---
 In der Dentaltechnik zählt jedes Detail: Wenn Healing-Caps nach dem Setzen eines Zahnimplantats den Heilungsprozess unterstützen, sind höchste Anforderungen an Reinheit, Maßhaltigkeit und Oberflächengüte gefragt.
 

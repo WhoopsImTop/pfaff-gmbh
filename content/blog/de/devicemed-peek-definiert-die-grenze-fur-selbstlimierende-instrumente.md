@@ -1,12 +1,11 @@
 ---
-title: DeviceMed PEEK definiert die Grenze für selbstlimierende Instrumente
+title: "DeviceMed PEEK definiert die Grenze für selbstlimierende Instrumente"
 date: 2016-10-01T14:26:00.000Z
+shortText: "Hochleistungskunststoffe werden schon seit einiger Zeit für Einsätze in der Dentaltechnik getestet."
 category: fachbeitraege
+excerpt: "Hochleistungskunststoffe werden schon seit einiger Zeit für Einsätze in der Dentaltechnik getestet."
 slug: devicemed-peek-definiert-die-grenze-fur-selbstlimierende-instrumente
-shortText: Hochleistungskunststoffe werden schon seit einiger Zeit für Einsätze in der Dentaltechnik getestet.
-excerpt: "hochleistungskunststoffe-werden-schon-seit-einiger-zeit-fur-einsatze-in-der-dentaltechnik-getestet"
 ---
-
 <p>Hochleistungskunststoffe werden schon seit einiger Zeit für Einsätze in der Dentaltechnik getestet. Einer dieser Kunststoffe ist PEEK. Seine mechanischen Eigenschaften ähneln sehr stark denen von Metallen. Allerdings ist die Verarbeitung von PEEK alles andere als banal.</p>
 
 

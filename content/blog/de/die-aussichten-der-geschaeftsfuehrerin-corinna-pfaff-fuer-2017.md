@@ -1,15 +1,12 @@
 ---
-title: Die Aussichten der Geschäftsführerin Corinna Pfaff für 2017
+title: "Die Aussichten der Geschäftsführerin Corinna Pfaff für 2017"
 date: 2017-01-19T14:17:40.000Z
-category: presseartikel
-shortText: Corinna Pfaff in Netzwerk Südbaden. Auch 2017 gab die
-  Geschäftsführerin Corinna Pfaff wieder ihre Aussichten, Pläne und Projekte für
-  2017 im „Netzwerk Südbaden“ preis. Es …
+shortText: "Corinna Pfaff in Netzwerk Südbaden. Auch 2017 gab die Geschäftsführerin Corinna Pfaff wieder ihre Aussichten, Pläne und Projekte für 2017 im „Netzwerk Südbaden“ preis. Es …"
 image: /corinna-pfaff-statement.jpg
+category: presseartikel
+excerpt: "Corinna Pfaff in Netzwerk Südbaden. Auch 2017 gab die"
 slug: die-aussichten-der-geschaeftsfuehrerin-corinna-pfaff-fuer-2017
-excerpt: "corinna-pfaff-in-netzwerk-sudbaden-auch-2017-gab-die"
 ---
-
 <strong>Corinna Pfaff in Netzwerk Südbaden.</strong></p>
 
 

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <label for="email">Ihre E-Mail Adresse*</label>
+    <label for="newsletter-email-input">Ihre E-Mail Adresse*</label>
     <b-form-input
       id="newsletter-email-input"
       v-model="email"
@@ -9,12 +9,22 @@
       required
     ></b-form-input>
     <br />
-    <span style="display: block; margin-bottom: 10px;"die-abgesendeten-daten-werden-nur-zum-zweck-der-bearbeitung-ihres-anliegens-verarbeitet-weitere-informationen-finden-sie-in-unserer-datenschutzerklarung-span-b-form-group-v-slot"{ ariaDescribedby }">
+    <span style="display: block; margin-bottom: 10px">
+      Die abgesendeten Daten werden nur zum Zweck der Bearbeitung Ihres
+      Anliegens verarbeitet. Weitere Informationen finden Sie in unserer
+      Datenschutzerklärung. *
+    </span>
+    <b-form-group v-slot="{ ariaDescribedby }">
       <b-form-radio
         v-model="selected"
         :aria-describedby="ariaDescribedby"
         name="some-radios"
-        value="no-newsletter"ich-mochte-lediglich-die-referenzen-downloaden-und-wunsche-keine-weitere-informationen-b-form-radio-b-form-radio-v-model"selected"
+        value="no-newsletter"
+        >Ich möchte lediglich die Referenzen downloaden und wünsche keine
+        weitere Informationen.
+      </b-form-radio>
+      <b-form-radio
+        v-model="selected"
         :aria-describedby="ariaDescribedby"
         name="some-radios"
         value="newsletter"
@@ -36,11 +46,10 @@ export default {
   },
   methods: {
     submitForm() {
-      console.log("form Submission")
+      console.log('form Submission')
     },
   },
 }
 </script>
 
-<style>
-</style>
+<style></style>

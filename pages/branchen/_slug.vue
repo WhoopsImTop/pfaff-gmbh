@@ -37,7 +37,9 @@
       </ul>
     </section>
 
-    <section v-if="relatedArticles.length" class="branche-section"h2-fachbeitrage-news-h2-ul-class"branche-links">
+    <section v-if="relatedArticles.length" class="branche-section">
+      <h2>Fachbeiträge & News</h2>
+      <ul class="branche-links">
         <li v-for="article in relatedArticles" :key="article.slug">
           <nuxt-link
             :to="

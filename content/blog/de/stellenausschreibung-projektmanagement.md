@@ -1,13 +1,12 @@
 ---
-title: Mitarbeiter*in Projektmanagement m/w/d ab sofort
+title: "Mitarbeiter*in Projektmanagement m/w/d ab sofort"
 date: 2022-08-10T10:47:42.000Z
-category: stellenausschreibungen
-slug: stellenausschreibung-projektmanagement
-shortText: Wir bieten Ihnen ein vielseitiges, verantwortungsvolles Aufgabengebiet in einem familiären Team, wo Menschlichkeit, Toleranz und Nachhaltigkeit nicht nur Floskeln sind. Wir freuen uns auf Ihre Bewerbung.
+shortText: "Wir bieten Ihnen ein vielseitiges, verantwortungsvolles Aufgabengebiet in einem familiären Team, wo Menschlichkeit, Toleranz und Nachhaltigkeit nicht nur Floskeln sind. Wir freuen uns auf Ihre Bewerbung."
 image: /stellenanzeige-waldkirch-projektmanagement-pfaff-gmbh-1024x565.jpg
-excerpt: "wir-bieten-ihnen-ein-vielseitiges-verantwortungsvolles-aufgabengebiet-in-einem-familiaren-team-wo-menschlichkeit-toleranz-und-nachhaltigkeit-nicht-nur"
+category: stellenausschreibungen
+excerpt: "Wir bieten Ihnen ein vielseitiges, verantwortungsvolles Aufgabengebiet in einem familiären Team, wo Menschlichkeit, Toleranz und Nachhaltigkeit nicht nur…"
+slug: stellenausschreibung-projektmanagement
 ---
-
 <strong>Was Sie erwartet:</strong></p>
 
 <p>Ihre Hauptaufgabe ist die Leitung von Serienprojekten einschließlich der internen und externen Kommunikation. Dabei erarbeiten Sie zusammen mit unseren Werkzeugkonstrukteuren CAD-Modelle und Zeichnungen und bewerten eine kunststoffgerechte Umsetzung. Sie unterstützen bei der Erstellung von FMEAS und erstellen kundenspezifische Angebote. Bei den Abmusterungen von Neuwerkzeugen ist Ihre Mitarbeit genauso gefragt, wie bei der Qualifizierung und Validierung von Maschinen und Prozessen, sowie der Durchführung von Maschinenfähigkeits-, Prozessfähigkeits- und Messmittelfähigkeitsuntersuchungen.</p>

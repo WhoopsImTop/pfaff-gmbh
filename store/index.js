@@ -47,7 +47,7 @@ export const mutations = {
   },
 }
 
-async function fetchWithLocaleFallback($content, basePath, locale) {
+function fetchWithLocaleFallback($content, basePath, locale) {
   const { fetchContentWithFallback } = require('../utils/content')
   return fetchContentWithFallback($content, basePath, locale)
 }

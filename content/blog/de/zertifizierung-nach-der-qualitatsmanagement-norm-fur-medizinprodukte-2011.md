@@ -1,10 +1,9 @@
 ---
-title: Zertifizierung nach der Qualitätsmanagement-Norm für Medizin­produkte | 2011
-slug: zertifizierung-nach-der-qualitatsmanagement-norm-fur-medizinprodukte-2011
-shortText: Zertifizierung nach der Qualitätsmanagement-Norm für Medizin­produkte EN ISO 13485:2003 + AC:2009. Erschließung neuer Absatzmärkte im Bereich Medizin- und Dental­technik. Produktion von Kunststoffbohrern „ready-to-use“ für die Zahnmedizin. Es folgen u.a. ER-Cast-Stifte für die Wurzel­behandlung, Polymer-Pins für die Implantat­reinigung sowie Griffstücke von Spiralbohrern für die Chirurgie und ein Massage­ball. Anschaffung einer vollelektrischen 2K-Spritzgießmaschine mit Sechs-AchsRoboter und Verpackungsmaschine in einer Reinraumbox der Klasse 7 für das Handling und die Verpackung der fertig gespritzten Produkte unter Reinraumbedingungen.
+title: "Zertifizierung nach der Qualitätsmanagement-Norm für Medizin­produkte | 2011"
 date: 2011-03-03T14:29:23.000Z
+shortText: "Zertifizierung nach der Qualitätsmanagement-Norm für Medizin­produkte EN ISO 13485:2003 + AC:2009. Erschließung neuer Absatzmärkte im Bereich Medizin- und Dental­technik. Produktion von Kunststoffbohrern „ready-to-use“ für die Zahnmedizin. Es folgen u.a. ER-Cast-Stifte für die Wurzel­behandlung, Polymer-Pins für die Implantat­reinigung sowie Griffstücke von Spiralbohrern für die Chirurgie und ein Massage­ball. Anschaffung einer vollelektrischen 2K-Spritzgießmaschine mit Sechs-AchsRoboter und Verpackungsmaschine in einer Reinraumbox der Klasse 7 für das Handling und die Verpackung der fertig gespritzten Produkte unter Reinraumbedingungen."
 category: meilensteine
-excerpt: "zertifizierung-nach-der-qualitatsmanagement-norm-fur-medizinprodukte-en-iso-13485-2003-ac-2009-erschliessung-neuer-absatzmarkte-im-bereich-medizin-und"
+excerpt: "Zertifizierung nach der Qualitätsmanagement-Norm für Medizin­produkte EN ISO 13485:2003 + AC:2009. Erschließung neuer Absatzmärkte im Bereich Medizin- und…"
+slug: zertifizierung-nach-der-qualitatsmanagement-norm-fur-medizinprodukte-2011
 ---
-
 Zertifizierung nach der Qualitätsmanagement-Norm für Medizin­produkte EN ISO 13485:2003 + AC:2009. Erschließung neuer Absatzmärkte im Bereich Medizin- und Dental­technik. Produktion von Kunststoffbohrern „ready-to-use“ für die Zahnmedizin. Es folgen u.a. ER-Cast-Stifte für die Wurzel­behandlung, Polymer-Pins für die Implantat­reinigung sowie Griffstücke von Spiralbohrern für die Chirurgie und ein Massage­ball. Anschaffung einer vollelektrischen 2K-Spritzgießmaschine mit Sechs-AchsRoboter und Verpackungsmaschine in einer Reinraumbox der Klasse 7 für das Handling und die Verpackung der fertig gespritzten Produkte unter Reinraumbedingungen.

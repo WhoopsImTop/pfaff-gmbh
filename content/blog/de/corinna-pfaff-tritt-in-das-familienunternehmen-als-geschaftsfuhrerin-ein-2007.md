@@ -1,10 +1,9 @@
 ---
-title: Corinna Pfaff tritt in das Familienunternehmen als Geschäftsführerin ein | 2007
-slug: corinna-pfaff-tritt-in-das-familienunternehmen-als-geschaftsfuhrerin-ein-2007
-shortText: Tochter Corinna Pfaff tritt in das Familienunternehmen als Geschäftsführerin und Mitgesellschafterin ein. Der Betrieb beschäftigt in­zwischen sechs Mitarbeiter.
+title: "Corinna Pfaff tritt in das Familienunternehmen als Geschäftsführerin ein | 2007"
 date: 2007-03-01T13:27:18.000Z
+shortText: "Tochter Corinna Pfaff tritt in das Familienunternehmen als Geschäftsführerin und Mitgesellschafterin ein. Der Betrieb beschäftigt in­zwischen sechs Mitarbeiter."
 category: meilensteine
-excerpt: "tochter-corinna-pfaff-tritt-in-das-familienunternehmen-als-geschaftsfuhrerin-und-mitgesellschafterin-ein-der-betrieb-beschaftigt-inzwischen-sechs-mitarb"
+excerpt: "Tochter Corinna Pfaff tritt in das Familienunternehmen als Geschäftsführerin und Mitgesellschafterin ein. Der Betrieb beschäftigt in­zwischen sechs Mitarb…"
+slug: corinna-pfaff-tritt-in-das-familienunternehmen-als-geschaftsfuhrerin-ein-2007
 ---
-
 Tochter Corinna Pfaff tritt in das Familienunternehmen als Geschäftsführerin und Mitgesellschafterin ein. Der Betrieb beschäftigt in­zwischen sechs Mitarbeiter.

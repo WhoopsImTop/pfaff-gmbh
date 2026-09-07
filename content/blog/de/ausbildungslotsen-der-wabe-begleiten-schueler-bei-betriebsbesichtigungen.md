@@ -1,11 +1,9 @@
 ---
-title: Ausbildungslotsen der Wabe begleiten Schüler bei Betriebsbesichtigungen
-slug: ausbildungslotsen-der-wabe-begleiten-schueler-bei-betriebsbesichtigungen
+title: "Ausbildungslotsen der Wabe begleiten Schüler bei Betriebsbesichtigungen"
 date: 2017-06-30T14:05:00.000Z
-category: presseartikel
-content: null
+shortText: "Ausbildungslotsen der Wabe begleiten Schüler bei Betriebsbesichtigungen"
 image: /Ausbildungslotse-1024x768.jpg
-excerpt: "ausbildungslotsen-der-wabe-begleiten-schuler-bei-betriebsbesichtigungen"
-shortText: "ausbildungslotsen-der-wabe-begleiten-schuler-bei-betriebsbesichtigungen"
+category: presseartikel
+excerpt: "Ausbildungslotsen der Wabe begleiten Schüler bei Betriebsbesichtigungen"
+slug: ausbildungslotsen-der-wabe-begleiten-schueler-bei-betriebsbesichtigungen
 ---
-

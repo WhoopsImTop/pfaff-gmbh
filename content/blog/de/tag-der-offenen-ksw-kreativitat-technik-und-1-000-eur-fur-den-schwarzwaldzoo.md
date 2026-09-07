@@ -1,10 +1,10 @@
 ---
-title: "tag-der-offenen-ksw-kreativitat-technik-und-1-000-eur-fur-den-schwarzwaldzoo"
-shortText: "ein-erfolgreicher-tag-voller-kreativitat-technik-und-begeisterung-zahlreiche-besucherinnen-und-besucher-erkundeten-unsere-kunst-stoff-ausstellung-wurden-selbst-kreativ-und-verfolgten-die-spannende-versteigerung-unseres-kunst-stoff-werks-zugunsten-des-schwarzwaldzoos-waldkirch"
+title: "Tag der offenen KSW: Kreativität, Technik und 1.000 € für den Schwarzwaldzoo"
 date: 2026-04-27T09:34:00.000+02:00
+shortText: "Ein erfolgreicher Tag voller Kreativität, Technik und Begeisterung: Zahlreiche Besucherinnen und Besucher erkundeten unsere Kunst(stoff)ausstellung, wurden selbst kreativ und verfolgten die spannende Versteigerung unseres Kunst(stoff)werks zugunsten des Schwarzwaldzoos Waldkirch."
 image: /whatsapp-image-2026-04-26-at-10.09.39-1-.jpeg
 category: allgemeine-news
-excerpt: "ein-erfolgreicher-tag-voller-kreativitat-technik-und-begeisterung"
+excerpt: "Ein erfolgreicher Tag voller Kreativität, Technik und Begeisterung:"
 ---
 Der Tag der offenen KSW auf dem Gelände der Kollnauer Spinnweberei war für die Pfaff GmbH ein voller Erfolg. Zahlreiche Besucherinnen und Besucher nutzten die Gelegenheit, einen Blick hinter die Kulissen zu werfen und die Verbindung von Kunststofftechnik, Kreativität und Handwerk hautnah zu erleben.
 

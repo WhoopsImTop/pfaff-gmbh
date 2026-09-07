@@ -2,7 +2,7 @@
   <form>
     <div class="row">
       <div class="col-lg-6">
-        <label for="email">Nachname*</label>
+        <label for="nachname-input">Nachname*</label>
         <b-form-input
           id="nachname-input"
           v-model="nachname"
@@ -12,7 +12,7 @@
         ></b-form-input>
       </div>
       <div class="col-lg-6">
-        <label for="email">Firma*</label>
+        <label for="firma-input">Firma*</label>
         <b-form-input
           id="firma-input"
           v-model="firma"
@@ -24,7 +24,7 @@
     </div>
     <div class="row mt-4">
       <div class="col-lg-6">
-        <label for="email">E-Mail-Adresse*</label>
+        <label for="email-input">E-Mail-Adresse*</label>
         <b-form-input
           id="email-input"
           v-model="email"
@@ -34,7 +34,7 @@
         ></b-form-input>
       </div>
       <div class="col-lg-6">
-        <label for="email">Telefon</label>
+        <label for="telefon-input">Telefon</label>
         <b-form-input
           id="telefon-input"
           v-model="telefon"
@@ -45,7 +45,7 @@
     </div>
     <div class="row mt-4">
       <div class="col-12">
-        <label for="email">Wie lautet ihre Anfrage?</label>
+        <label for="nachricht-input">Wie lautet ihre Anfrage?</label>
         <b-form-textarea
           id="nachricht-input"
           v-model="nachricht"
@@ -62,11 +62,23 @@
 
     <div class="row mt-4">
       <div class="col-lg-6">
-        <label for="captcha">Sicherheitsfrage: {{ firstNumber }} + {{ secondNumber }} = ?</label>
-        <b-form-input type="text" id="captcha-input" v-model="captchaInput" required />
-        <p v-if="showCaptchaError" class="text-danger"bitte-losen-sie-die-aufgabe-korrekt-p-div-div-button-click"sendForm()" class="button mt-4">
-      {{ contactFormButton }}
-    </button>
+        <label for="captcha-input"
+          >Sicherheitsfrage: {{ firstNumber }} + {{ secondNumber }} = ?</label
+        >
+        <b-form-input
+          id="captcha-input"
+          v-model="captchaInput"
+          type="text"
+          required
+        />
+        <p v-if="showCaptchaError" class="text-danger">
+          Bitte lösen Sie die Aufgabe korrekt
+        </p>
+        <button type="button" class="button mt-4" @click.prevent="sendForm">
+          {{ contactFormButton }}
+        </button>
+      </div>
+    </div>
   </form>
 </template>
 
@@ -87,6 +99,10 @@ export default {
       captchaInput: '',
       showCaptchaError: false,
     }
+  },
+  created() {
+    this.firstNumber = Math.floor(Math.random() * 10) + 1
+    this.secondNumber = Math.floor(Math.random() * 10) + 1
   },
   methods: {
     emailValidation(email) {
@@ -124,11 +140,12 @@ export default {
         return
       }
 
+      this.showCaptchaError = false
+
       if (this.website !== '') {
         return
       }
 
-      event.preventDefault()
       const formData = new FormData()
       formData.append('name', this.nachname)
       formData.append('firm', this.firma)
@@ -150,6 +167,9 @@ export default {
             this.email = ''
             this.telefon = ''
             this.nachricht = ''
+            this.captchaInput = ''
+            this.firstNumber = Math.floor(Math.random() * 10) + 1
+            this.secondNumber = Math.floor(Math.random() * 10) + 1
             this.contactFormButton = 'Vielen Dank für Ihre Anfrage'
             setTimeout(() => {
               this.contactFormButton = 'Kontakt aufnehmen'
@@ -164,10 +184,6 @@ export default {
           }
         )
     },
-  },
-  created() {
-    this.firstNumber = Math.floor(Math.random() * 10) + 1
-    this.secondNumber = Math.floor(Math.random() * 10) + 1
   },
 }
 </script>

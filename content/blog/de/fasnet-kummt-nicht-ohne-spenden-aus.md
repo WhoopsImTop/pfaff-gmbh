@@ -1,14 +1,12 @@
 ---
-title: D’Fasnet kummt – nicht ohne Spenden aus
+title: "D’Fasnet kummt – nicht ohne Spenden aus"
 date: 2018-02-01T13:54:40.000Z
-category: allgemeine-news
-content: Heimattage in Waldkirch.    Im Rahmen der Waldkircher Heimattage haben wir dem Kindergarten St. Josef Fasnetmalbücher gespendet. So können sich die Kleinsten schon auf die kommende fünfte Jahreszeit vorfreuen. Wir wünschen allen viel Spaß dabei!
-slug: fasnet-kummt-nicht-ohne-spenden-aus
-shortText: Heimattage in Waldkirch. Im Rahmen der Waldkircher Heimattage haben wir dem Kindergarten St. Josef Fasnetmalbücher gespendet.
+shortText: "Heimattage in Waldkirch. Im Rahmen der Waldkircher Heimattage haben wir dem Kindergarten St. Josef Fasnetmalbücher gespendet."
 image: /heimattage-waldkirch.jpg
-excerpt: "heimattage-in-waldkirch-im-rahmen-der-waldkircher-heimattage-haben-wir-dem-kindergarten-st-josef-fasnetmalbucher-gespendet"
+category: allgemeine-news
+excerpt: "Heimattage in Waldkirch. Im Rahmen der Waldkircher Heimattage haben wir dem Kindergarten St. Josef Fasnetmalbücher gespendet."
+slug: fasnet-kummt-nicht-ohne-spenden-aus
 ---
-
 <strong>Heimattage in Waldkirch.</strong></p>
 
 <p>Im Rahmen der Waldkircher Heimattage haben wir dem Kindergarten St. Josef Fasnetmalbücher gespendet. So können sich die Kleinsten schon auf die kommende fünfte Jahreszeit vorfreuen. Wir wünschen allen viel Spaß dabei!</p>

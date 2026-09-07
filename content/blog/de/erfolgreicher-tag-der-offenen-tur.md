@@ -1,11 +1,10 @@
 ---
-title: Erfolgreicher Tag der offenen Tür
-shortText: Vor vier Wochen haben wir unser 33jähriges Jubiläum im Rahmen eines
-  Tags der offenen Tür gefeiert.
+title: "Erfolgreicher Tag der offenen Tür"
 date: 2024-10-28T00:00:00.000Z
+shortText: "Vor vier Wochen haben wir unser 33jähriges Jubiläum im Rahmen eines Tags der offenen Tür gefeiert."
 image: /28.-sept-2024-33-jahre-pfaff-familienfoto.jpg
 category: allgemeine-news
-excerpt: "vor-vier-wochen-haben-wir-unser-33jahriges-jubilaum-im-rahmen-eines"
+excerpt: "Vor vier Wochen haben wir unser 33jähriges Jubiläum im Rahmen eines"
 ---
 Vor vier Wochen haben wir unser 33jähriges Jubiläums im Rahmen eines Tags der offenen Tür gefeiert.
 

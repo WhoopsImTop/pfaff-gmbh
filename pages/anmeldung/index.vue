@@ -1,6 +1,7 @@
 <template>
   <div class="content-container">
-    <div v-if="!isMailSend"h1-anmeldung-tag-der-offenen-ture-h1-div-class"row mb-4">
+    <div v-if="!isMailSend">
+      <div class="row mb-4">
         <div class="col-lg-6">
           <p style="display: flex; align-items: center; margin-bottom: 10px">
             <img src="/anmeldung/calendar_event.svg" class="img-fluid mr-2" />
@@ -17,7 +18,7 @@
       <form>
         <div class="row">
           <div class="col-lg-6">
-            <label for="email">Name*</label>
+            <label for="name-input">Name*</label>
             <b-form-input
               id="name-input"
               v-model="name"
@@ -27,7 +28,7 @@
             ></b-form-input>
           </div>
           <div class="col-lg-6">
-            <label for="email">E-Mail-Adresse*</label>
+            <label for="email-input">E-Mail-Adresse*</label>
             <b-form-input
               id="email-input"
               v-model="email"
@@ -39,7 +40,7 @@
         </div>
         <div class="row mt-4">
           <div class="col-12">
-            <label for="email">Anzahl der Personen*</label>
+            <label for="personen-input">Anzahl der Personen*</label>
             <b-form-input
               id="personen-input"
               v-model="personenanzahl"
@@ -56,9 +57,9 @@
 
         <div class="row mt-4">
           <div class="col-lg-6">
-            <label for="captcha"
-              >Sicherheitsfrage: {{ firstNumber }} + {{ secondNumber }} =
-              ?</label
+            <label for="captcha-input"
+              >Sicherheitsfrage: {{ firstNumber }} +
+              {{ secondNumber }} = ?</label
             >
             <b-form-input
               id="captcha-input"
@@ -66,9 +67,14 @@
               type="text"
               required
             />
-            <p v-if="showCaptchaError" class="text-danger"bitte-losen-sie-die-aufgabe-korrekt-p-div-div-button-class"button mt-4" @click="sendForm()">
-          {{ contactFormButton }}
-        </button>
+            <p v-if="showCaptchaError" class="text-danger">
+              bitte lösen Sie die Aufgabe korrekt
+            </p>
+            <button type="button" class="button mt-4" @click.prevent="sendForm">
+              {{ contactFormButton }}
+            </button>
+          </div>
+        </div>
       </form>
     </div>
     <div v-else>
@@ -112,7 +118,7 @@ export default {
       if (this.name === '' || this.email === '' || this.personenanzahl === '') {
         this.contactFormButton = 'Bitte füllen Sie alle Felder aus'
         setTimeout(() => {
-          this.contactFormButton = 'Kontakt aufnehmen'
+          this.contactFormButton = 'Anmeldung absenden'
         }, 5000)
         return
       }
@@ -121,7 +127,7 @@ export default {
         this.contactFormButton =
           'Bitte geben Sie eine gültige E-Mail-Adresse ein'
         setTimeout(() => {
-          this.contactFormButton = 'Kontakt aufnehmen'
+          this.contactFormButton = 'Anmeldung absenden'
         }, 5000)
         return
       }
@@ -134,11 +140,12 @@ export default {
         return
       }
 
+      this.showCaptchaError = false
+
       if (this.website !== '') {
         return
       }
 
-      event.preventDefault()
       const formData = new FormData()
       formData.append('name', this.name)
       formData.append('email', this.email)
@@ -169,7 +176,7 @@ export default {
             console.log(error)
             this.contactFormButton = 'Fehler beim Senden der Anfrage'
             setTimeout(() => {
-              this.contactFormButton = 'Kontakt aufnehmen'
+              this.contactFormButton = 'Anmeldung absenden'
             }, 10000)
           }
         )

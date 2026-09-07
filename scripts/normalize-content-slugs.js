@@ -18,7 +18,7 @@ const REFERENCE_EXTENSIONS = new Set(['.md', '.json', '.vue', '.js', '.yml', '.y
 
 // JSON/YAML-Felder mit sichtbaren Titeln – keine Slug-Normalisierung
 const DISPLAY_TEXT_FIELD_PATTERN =
-  /"(?:siteTitle|cardTitle|productTitle|competenceName|competenceTitle|title|categoryTitle|titel|headline|smallHeadline|buttonText|featureTitle|seoTitle)":\s*"/
+  /"(?:siteTitle|cardTitle|productTitle|competenceName|competenceTitle|title|categoryTitle|titel|headline|smallHeadline|buttonText|featureTitle|seoTitle|shortText|excerpt|description)":\s*"/
 
 const WRITE = process.argv.includes('--write')
 const CHECK = process.argv.includes('--check')
