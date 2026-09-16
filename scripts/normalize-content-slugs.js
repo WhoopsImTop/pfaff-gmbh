@@ -17,8 +17,11 @@ const REFERENCE_DIRS = [
 const REFERENCE_EXTENSIONS = new Set(['.md', '.json', '.vue', '.js', '.yml', '.yaml'])
 
 // JSON/YAML-Felder mit sichtbaren Titeln – keine Slug-Normalisierung
-const DISPLAY_TEXT_FIELD_PATTERN =
-  /"(?:siteTitle|cardTitle|productTitle|competenceName|competenceTitle|title|categoryTitle|titel|headline|smallHeadline|buttonText|featureTitle|seoTitle|shortText|excerpt|description)":\s*"/
+const DISPLAY_TEXT_FIELDS =
+  'siteTitle|cardTitle|productTitle|competenceName|competenceTitle|competenceDescription|title|categoryTitle|titel|headline|smallHeadline|buttonText|featureTitle|seoTitle|shortText|excerpt|description|text'
+const DISPLAY_TEXT_FIELD_PATTERN = new RegExp(
+  `"(?:${DISPLAY_TEXT_FIELDS})":\\s*"|^(?:\\s*)(?:${DISPLAY_TEXT_FIELDS}):\\s*"`
+)
 
 const WRITE = process.argv.includes('--write')
 const CHECK = process.argv.includes('--check')
