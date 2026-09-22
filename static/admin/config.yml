@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: pfaff-gmbh/pfaff-gmbh-content
+  name: git-gateway
   branch: main
 
 local_backend: true
