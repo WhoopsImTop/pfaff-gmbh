@@ -1,11 +1,11 @@
 ---
 title: Bereit für Kunststoff statt Schulstoff?
 shortText: >-
-  **Was haben Roboter, Hightech-Maschinen und ein richtig gutes Rezept
-  gemeinsam?** 🤖🧪
+  Was haben Roboter, Hightech-Maschinen und ein richtig gutes Rezept gemeinsam?
+  🤖🧪
 
 
-  Dich! Zumindest, wenn du Lust hast, Technik mit Köpfchen und einer Prise Experimentierfreude zu verbinden. Bei uns wirst du zum Profi für Kunststoffe, die weltweit etwas bewegen. **Klingt spannend? Dann misch bei uns mit!**
+  Dich! Zumindest, wenn du Lust hast, Technik mit Köpfchen und einer Prise Experimentierfreude zu verbinden. Bei uns wirst du zum Profi für Kunststoffe, die weltweit etwas bewegen. Klingt spannend? Dann misch bei uns mit!
 date: 2026-10-14T11:05:00.000+02:00
 image: /pfaff-gmbh-karriere-jobs-freie-stellen.jpg
 category: stellenausschreibungen
