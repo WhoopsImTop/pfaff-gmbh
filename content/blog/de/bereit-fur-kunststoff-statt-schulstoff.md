@@ -13,7 +13,7 @@ excerpt: Hast du schon mal von einem Beruf gehört, bei dem man die technische A
 ---
 # 🔧 Technikfreak? Rezepttüftlerin? Zukunftsmacher? 🚀
 
-**Dann mach aus deinem Talent einen Beruf und starte dein Karriere mit uns!**
+**Dann mach aus deinem Talent einen Beruf und starte deine Karriere mit uns!**
 
 Deine Zukunft hat bei uns richtig gute Formen: Du stehst auf Technik, findest Roboter cool und willst nicht einfach irgendeinen Job machen, sondern etwas bewegen? Dann haben wir etwas für dich!
 
