@@ -35,7 +35,7 @@ components:
           Die ISO 9001 praktizieren wir seit 2006."
         buttons:
           - buttonText: PDF ISO 9001 ZERTIFIKAT
-            buttonDownloadLink: /9001-2015_deutsch-2023-11-19.pdf
+            buttonDownloadLink: /9001-2015_deutsch-2026-09-13.pdf
       - type: text
         text: "**Die ISO 13485** ist eine ISO-Norm, die die Erfordernisse für ein
           umfassendes Managementsystem für das Design und die Herstellung von
@@ -43,7 +43,7 @@ components:
           seit Januar 2011 ausgezeichnet."
         buttons:
           - buttonText: PDF ISO 13485 ZERTIFIKAT
-            buttonDownloadLink: /13485-2016_deutsch-2023-11-19.pdf
+            buttonDownloadLink: /13485-2016_deutsch-2026-11-19.pdf
         headline: ISO 13485
         smallHeadline: Zertifikat
   - type: row
@@ -51,22 +51,37 @@ components:
       - type: text
         smallHeadline: Ihre Vorteile
         headline: Zertifikat nach ISO 13485:2016
-        text: |-
-          Die ISO 13485 beschreibt ein Qualitätsmanagementsystem mit höchsten Anforderungen an Entwicklung, Produktion, Vertrieb und Service Ihres Medizinproduktes. Nur wenn Sie diese Norm nachweisen können, dürfen Sie Ihr Produkt mit dem CE-Kennzeichen versehen und auf dem europäischen Markt vertreiben. Das System muss aber auch für diejenigen Teile gesichert sein, die durch externe Firmen wie die Pfaff GmbH zugeliefert werden. Da wir selbst mit ISO 13485 zertifiziert sind, profitieren Sie gleich von mehreren Vorteilen:
+        text: >-
+          Die ISO 13485 beschreibt ein Qualitätsmanagementsystem mit höchsten
+          Anforderungen an Entwicklung, Produktion, Vertrieb und Service Ihres
+          Medizinproduktes. Nur wenn Sie diese Norm nachweisen können, dürfen
+          Sie Ihr Produkt mit dem CE-Kennzeichen versehen und auf dem
+          europäischen Markt vertreiben. Das System muss aber auch für
+          diejenigen Teile gesichert sein, die durch externe Firmen wie die
+          Pfaff GmbH zugeliefert werden. Da wir selbst mit ISO 13485
+          zertifiziert sind, profitieren Sie gleich von mehreren Vorteilen:
+
 
           • Wir weisen durch externe Audits kontinuierlich nach, dass wir mit den Anforderungen der Norm bestens vertraut sind.
 
+
           • Unsere Prozesse sind validiert.
+
 
           • Unsere Produkte können bis zum eingesetzten Kunststoffgranulat zurückverfolgt werden.
 
+
           • Unsere Produkte werden nach zuvor von Ihnen festgelegten Vorgaben getestet, bevor wir sie ausliefern.
+
 
           • Ihr eigenes Audit beschränkt sich auf die Prüfung der Dokumente
 
+
           • Sie sparen deshalb massiv Kosten & Zeit.
 
+
           • Sie haben die Sicherheit, dass normkonforme Prozesse bereits durch uns umgesetzt werden.
+
 
           • Darüber hinaus wird die Sicherheit Ihres Medizinproduktes durch das laut Norm geforderte, systematische Lieferantenmanagementsystem gewährleistet.
       - type: image
